@@ -30,15 +30,15 @@
         // shift_ctrl_gui { bindings = <&kp LS(LC(LGUI))>; key-positions = <49 50 53 54>; };
         // shift_ctrl_2   { bindings = <&kp LS(LCTRL)>;    key-positions = <52 51>; };
         // shift_ctrl_alt { bindings = <&kp LS(LC(LALT))>; key-positions = <52 51 55>; };
-    }; 
+    };
     keymap {
         compatible = "zmk,keymap";
         layer_0 { bindings = <
 &kp CARET           &kp PLUS            &kp MINUS           &kp EQUAL           &kp UNDER           &kp GRAVE               &kp POUND           &kp ASTRK           &brcs               &bkts               &kp PRCNT           &kp DLLR
-&kp TAB             &kp P               &kp V               &kp U               &kp Z               &kp W                   &kp Q               &kp COMMA           &kp K               &kp B               &kp SEMI            &pars
-&kp LCTRL           &kp A               &kp O               &kp S               &kp T               &kp G                   &kp F               &kp H               &kp E               &kp L               &kp I               &kp SQT
-&kp LSHFT           &kp Y               &kp X               &kp D               &kp C               &kp R                   &kp N               &kp M               &kp J               &kp DOT             &kp FSLH            &kp BSLH
-                                                            &kp LGUI            &lt 2 SPACE         &kp LCTRL               &mc LALT CAPS       &ls 3 RSHIFT
+&kp TAB             &kp Q               &kp Z               &kp U               &kp P               &kp Y                   &kp B               &kp F               &kp K               &kp L               &kp SEMI            &pars
+&mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp O               &kp I               &kp 
+&kp LSHFT           &kp W               &kp X               &kp C               &kp D               &kp V                   &kp H               &kp J               &kp COMMA           &kp DOT             &kp FSLH            &kp BSLH
+                                                            &kp LGUI            &lt 2 SPACE         &kp LCTRL               &mc LALT CAPS       &ls 4 RSHIFT
                                                                                 &kp LALT            &kp LSHFT               &kp RCTRL >; };
         layer_1 { bindings = < 
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
@@ -49,10 +49,10 @@
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
 &kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
-&kp LALT            &kp HOME            &kp LEFT            &kp UP              &kp PG_UP           &kp INS                 &kp AMPS            &kp N7              &kp N8              &kp N9              &kp AT              &kp LALT
-&kp LCTRL           &lt 4 ESC           &kp BSPC            &kp ENTER           &kp DEL             &kp TAB                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp RCTRL
-&kp LSHFT           &kp END             &kp CAPS            &kp PG_DN           &kp DOWN            &kp RIGHT               &kp PIPE            &kp N4              &kp N5              &kp N6              &kp TILDE           &kp RSHFT
-                                                            &trans              &kp LSHIFT          &trans                  &trans              &kp RSHIFT
+&kp LALT            &kp HOME            &kp LEFT            &kp UP              &kp PG_UP           &kp GRAVE               &kp EQUAL           &kp N7              &kp N8              &kp N9              &kp N0              &kp LALT
+&kp LCTRL           &lt 3 ESC           &kp BSPC            &kp ENTER           &kp DEL             &kp LBKT                &kp RBKT            &kp N1              &kp N2              &kp N3              &kp SQT             &kp RCTRL
+&kp LSHFT           &kp END             &kp TAB             &kp PG_DN           &kp DOWN            &kp RIGHT               &kp MINUS           &kp N4              &kp N5              &kp N6              &kp BSLH            &kp RSHFT
+                                                            &trans              &trans              &trans                  &trans              &mt RSHIFT CAPS
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
 &bootloader         &bt BT_SEL 0        &bt BT_SEL 1       &bt BT_SEL 2         &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &bootloader
