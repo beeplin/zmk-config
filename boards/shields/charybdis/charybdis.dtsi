@@ -38,8 +38,8 @@
         >;
     };
     charybdis_physical_layout: charybdis_physical_layout {
-        display-name = "Default";
         compatible = "zmk,physical-layout";
+        display-name = "Default";
         kscan = <&kscan0>;
         transform = <&transform0>;
         keys  //                     w   h    x    y     rot    rx    ry
