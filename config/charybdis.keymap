@@ -36,7 +36,7 @@
         layer_0 { bindings = <
 &kp CARET           &kp PLUS            &kp MINUS           &kp EQUAL           &kp UNDER           &kp GRAVE               &kp POUND           &kp ASTRK           &brcs               &bkts               &kp PRCNT           &kp DLLR
 &kp TAB             &kp Q               &kp Z               &kp U               &kp P               &kp Y                   &kp B               &kp F               &kp K               &kp L               &kp SEMI            &pars
-&mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp O               &kp I               &kp 
+&mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp O               &kp I               &kp SQT
 &kp LSHFT           &kp W               &kp X               &kp C               &kp D               &kp V                   &kp H               &kp J               &kp COMMA           &kp DOT             &kp FSLH            &kp BSLH
                                                             &kp LGUI            &lt 2 SPACE         &kp LCTRL               &mc LALT CAPS       &ls 4 RSHIFT
                                                                                 &kp LALT            &kp LSHFT               &kp RCTRL >; };
