@@ -9,5 +9,5 @@ features:
   - pointer
   - studio
 siblings:
-  - charybdis_left
-  - charybdis_right
+  - charybdis_nano_left
+  - charybdis_nano_right
