@@ -22,14 +22,14 @@
     };
     combos {
         compatible = "zmk,combos";
-        shift_alt      { bindings = <&kp LS(LALT)>;     key-positions = <49 48>; };
-        shift_alt_gui  { bindings = <&kp LS(LA(LGUI))>; key-positions = <49 48 53>; };
-        shift_ctrl     { bindings = <&kp LS(LCTRL)>;    key-positions = <49 50>; };
-        mo3            { bindings = <&mo 3>;            key-positions = <49 52>; };
-        shift_gui      { bindings = <&kp LS(LGUI)>;     key-positions = <49 53>; };
-        shift_ctrl_gui { bindings = <&kp LS(LC(LGUI))>; key-positions = <49 50 53 54>; };
-        shift_ctrl_2   { bindings = <&kp LS(LCTRL)>;    key-positions = <52 51>; };
-        shift_ctrl_alt { bindings = <&kp LS(LC(LALT))>; key-positions = <52 51 55>; };
+        mo3            { bindings = <&mo 3>;            key-positions = <48 50>; };
+        // shift_alt      { bindings = <&kp LS(LALT)>;     key-positions = <49 48>; };
+        // shift_alt_gui  { bindings = <&kp LS(LA(LGUI))>; key-positions = <49 48 53>; };
+        // shift_ctrl     { bindings = <&kp LS(LCTRL)>;    key-positions = <49 50>; };
+        // shift_gui      { bindings = <&kp LS(LGUI)>;     key-positions = <49 53>; };
+        // shift_ctrl_gui { bindings = <&kp LS(LC(LGUI))>; key-positions = <49 50 53 54>; };
+        // shift_ctrl_2   { bindings = <&kp LS(LCTRL)>;    key-positions = <52 51>; };
+        // shift_ctrl_alt { bindings = <&kp LS(LC(LALT))>; key-positions = <52 51 55>; };
     }; 
     keymap {
         compatible = "zmk,keymap";
@@ -55,7 +55,7 @@
                                                             &trans              &kp LSHIFT          &trans                  &trans              &kp RSHIFT
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
-&bootloader         &bt BT_SEL 0        &bt BT_SEL 1       &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &bootloader
+&bootloader         &bt BT_SEL 0        &bt BT_SEL 1       &bt BT_SEL 2         &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &bootloader
 &trans              &kp LALT            &kp F9              &kp F8              &kp F7              &kp F12                 &kp C_BRI_UP        &kp C_VOL_DN        &kp C_MUTE          &kp C_VOL_UP        &kp LALT            &trans
 &trans              &kp LCTRL           &kp F3              &kp F2              &kp F1              &kp F11                 &kp C_BRI_DN        &mt RCTRL C_PREV    &mt RSHFT C_PP      &mt LALT C_NEXT     &kp RCTRL           &trans
 &trans              &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F10                 &kp K_APP           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp RSHFT           &trans
@@ -67,6 +67,13 @@
 &trans              &kp GRAVE           &kp MINUS           &kp EQUAL           &kp LBRC            &kp RBRC                &kp RPAR            &kp LPAR            &kp DQT             &kp SQT             &kp COLON           &trans
 &trans              &kp TILDE           &kp BSLH            &kp PIPE            &kp LBKT            &kp RBKT                &kp PLUS            &kp UNDER           &kp LT              &kp GT              &kp QMARK           &trans
                                                             &trans              &trans              &trans                  &trans              &trans
+                                                                                &trans              &trans                  &trans >; };
+        layer_5 { bindings = <
+&bootloader         &bt BT_SEL 0        &bt BT_SEL 1       &bt BT_SEL 2         &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &bootloader
+&trans              &kp LALT            &kp F9              &kp F8              &kp F7              &kp F12                 &kp C_BRI_UP        &kp C_VOL_DN        &kp C_MUTE          &kp C_VOL_UP        &kp LALT            &trans
+&trans              &kp LCTRL           &kp F3              &kp F2              &kp F1              &kp F11                 &kp C_BRI_DN        &mt RCTRL C_PREV    &mt RSHFT C_PP      &mt LALT C_NEXT     &kp RCTRL           &trans
+&trans              &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F10                 &kp K_APP           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp RSHFT           &trans
+                                                            &trans              &bootloader         &trans                  &trans              &bootloader
                                                                                 &trans              &trans                  &trans >; };
     };
 };
