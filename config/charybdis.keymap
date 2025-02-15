@@ -22,24 +22,24 @@
     };
     combos {
         compatible = "zmk,combos";
-        mo5            { bindings = <&mo 5>;            key-positions = <48 50>; };
+        mo5       { bindings = <&mo 5>;        key-positions = <48 50>; };
+        shift_alt { bindings = <&kp RS(LALT)>; key-positions = <52 51>; };
         // shift_alt      { bindings = <&kp LS(LALT)>;     key-positions = <49 48>; };
         // shift_alt_gui  { bindings = <&kp LS(LA(LGUI))>; key-positions = <49 48 53>; };
         // shift_ctrl     { bindings = <&kp LS(LCTRL)>;    key-positions = <49 50>; };
         // shift_gui      { bindings = <&kp LS(LGUI)>;     key-positions = <49 53>; };
         // shift_ctrl_gui { bindings = <&kp LS(LC(LGUI))>; key-positions = <49 50 53 54>; };
-        // shift_ctrl_2   { bindings = <&kp LS(LCTRL)>;    key-positions = <52 51>; };
         // shift_ctrl_alt { bindings = <&kp LS(LC(LALT))>; key-positions = <52 51 55>; };
     };
     keymap {
         compatible = "zmk,keymap";
         layer_0 { bindings = <
 &kp PRCNT           &kp GRAVE           &kp LT              &kp GT              &kp LBRC            &kp RBRC                &kp PLUS            &kp MINUS           &kp EQUAL           &kp LBKT            &kp RBKT            &kp BSLH
-&kp TAB             &kp Q               &kp Z               &kp U               &kp P               &kp Y                   &kp B               &kp F               &kp K               &kp L               &kp SEMI            &pars
+&kp TAB             &kp Q               &kp Z               &kp U               &kp P               &kp Y                   &kp B               &kp F               &kp K               &kp L               &kp SEMI            &kp LPAR
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp O               &kp I               &kp SQT
-&kp LSHFT           &kp W               &kp X               &kp C               &kp D               &kp V                   &kp H               &kp J               &kp COMMA           &kp DOT             &kp FSLH            &kp UNDER
-                                                            &kp LGUI            &lt 2 SPACE         &kp LCTRL               &mc LALT CAPS       &ls 4 RSHIFT
-                                                                                &kp LALT            &kp LSHFT               &kp RCTRL >; };
+&kp LSHFT           &kp W               &kp X               &kp C               &kp D               &kp V                   &kp H               &kp J               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
+                                                            &ls 3 LGUI          &lt 2 SPACE         &mt LCTRL TAB           &kp LALT            &ls 4 RSHIFT
+                                                                                &kp LALT            &kp LSHFT               &mt RCTRL UNDER >; };
         layer_1 { bindings = < 
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
@@ -48,31 +48,31 @@
                                                             &trans              &trans              &trans                  &trans              &trans 
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
-&kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
-&kp LALT            &kp HOME            &kp LEFT            &kp UP              &kp PG_UP           &kp GRAVE               &kp EQUAL           &kp N7              &kp N8              &kp N9              &kp N0              &kp LALT
-&kp LCTRL           &lt 3 ESC           &kp BSPC            &kp ENTER           &kp DEL             &kp LBKT                &kp RBKT            &kp N1              &kp N2              &kp N3              &kp SQT             &kp RCTRL
-&kp LSHFT           &kp END             &kp TAB             &kp PG_DN           &kp DOWN            &kp RIGHT               &kp MINUS           &kp N4              &kp N5              &kp N6              &kp BSLH            &kp RSHFT
-                                                            &trans              &trans              &trans                  &trans              &mt RSHIFT CAPS
-                                                                                &trans              &trans                  &trans >; };
+&kp POUND           &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp CARET
+&kp ASTRK           &kp HOME            &kp LEFT            &kp UP              &kp PG_UP           &kp F8                  &kp AMPS            &kp N7              &kp N8              &kp N9              &kp COLON           &kp DLLR
+&mt LCTRL INS       &mt LALT ESC        &kp BSPC            &kp ENTER           &kp DEL             &kp F12                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
+&kp LSHFT           &kp END             &kp CAPS            &kp PG_DN           &kp DOWN            &kp RIGHT               &kp PIPE            &kp N4              &kp N5              &kp N6              &kp QMARK           &kp AT
+                                                            &trans              &trans              &trans                  &trans              &mc RSHIFT 0
+                                                                                &trans              &trans                  &mt RCTRL TILDE >; };
         layer_3 { bindings = <
-&bootloader         &bt BT_SEL 0        &bt BT_SEL 1       &bt BT_SEL 2         &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &bootloader
-&trans              &kp LALT            &kp F9              &kp F8              &kp F7              &kp F12                 &kp C_BRI_UP        &kp C_VOL_DN        &kp C_MUTE          &kp C_VOL_UP        &kp LALT            &trans
-&trans              &kp LCTRL           &kp F3              &kp F2              &kp F1              &kp F11                 &kp C_BRI_DN        &mt RCTRL C_PREV    &mt RSHFT C_PP      &mt LALT C_NEXT     &kp RCTRL           &trans
-&trans              &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F10                 &kp K_APP           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp RSHFT           &trans
+&bootloader         &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &none
+&none               &kp LALT            &kp F9              &kp F8              &kp F7              &kp F12                 &kp C_BRI_UP        &kp C_VOL_DN        &kp C_MUTE          &kp C_VOL_UP        &kp LALT            &none
+&none               &kp LCTRL           &kp F3              &kp F2              &kp F1              &kp F11                 &kp C_BRI_DN        &mt RCTRL C_PREV    &mt RSHFT C_PP      &mt LALT C_NEXT     &kp RCTRL           &none
+&none               &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F10                 &kp K_APP           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp RSHFT           &none
                                                             &trans              &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &trans >; };
         layer_4 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
-&trans              &kp EXCL            &kp AT              &kp POUND           &kp DLLR            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp LPAR            &kp RPAR            &trans
-&trans              &kp GRAVE           &kp MINUS           &kp EQUAL           &kp LBRC            &kp RBRC                &kp RPAR            &kp LPAR            &kp DQT             &kp SQT             &kp COLON           &trans
-&trans              &kp TILDE           &kp BSLH            &kp PIPE            &kp LBKT            &kp RBKT                &kp PLUS            &kp UNDER           &kp LT              &kp GT              &kp QMARK           &trans
+&trans              &kp EXCL            &kp AT              &kp POUND           &kp DLLR            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp LPAR            &kp RPAR            &none
+&trans              &kp GRAVE           &kp MINUS           &kp EQUAL           &kp LBRC            &kp RBRC                &kp RPAR            &kp LPAR            &kp DQT             &kp SQT             &kp COLON           &none
+&trans              &kp TILDE           &kp BSLH            &kp PIPE            &kp LBKT            &kp RBKT                &kp PLUS            &kp UNDER           &kp LT              &kp GT              &kp QMARK           &none
                                                             &trans              &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &trans >; };
         layer_5 { bindings = <
-&bootloader         &bt BT_SEL 0        &bt BT_SEL 1       &bt BT_SEL 2         &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &bootloader
-&trans              &kp LALT            &kp F9              &kp F8              &kp F7              &kp F12                 &kp C_BRI_UP        &kp C_VOL_DN        &kp C_MUTE          &kp C_VOL_UP        &kp LALT            &trans
-&trans              &kp LCTRL           &kp F3              &kp F2              &kp F1              &kp F11                 &kp C_BRI_DN        &mt RCTRL C_PREV    &mt RSHFT C_PP      &mt LALT C_NEXT     &kp RCTRL           &trans
-&trans              &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F10                 &kp K_APP           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp RSHFT           &trans
+&none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
+&none               &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &none
+&none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
+&none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none                                                            &trans              &bootloader         &trans                  &trans              &bootloader
                                                             &trans              &bootloader         &trans                  &trans              &bootloader
                                                                                 &trans              &trans                  &trans >; };
     };
