@@ -15,6 +15,7 @@
 / {
     behaviors {
         ls: layer_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; quick-tap-ms = <200>; bindings = <&mo>, <&sk>; };
+        ms: mod_sticky   { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; quick-tap-ms = <200>; bindings = <&kp>, <&sk>; };
         mc: mod_capsword { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; quick-tap-ms = <200>; bindings = <&kp>, <&caps_word>; };
     };
     combos {
@@ -22,6 +23,7 @@
         mo5       { key-positions = <48 50>; bindings = <&mo 5>; };
         shift_alt { key-positions = <51 52>; bindings = <&kp RS(LALT)>; };
     };
+    td__ls_4_rshift__mt_rshift_capsword__kp_caps: td0 {compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; tapping-term-ms = <200>; bindings = <&ls 4 RSHIFT>, <&mc RSHIFT>, <&kp CAPS>; };
     keymap {
         compatible = "zmk,keymap";
         layer_0 { bindings = <
@@ -29,8 +31,8 @@
 &kp TAB             &kp Q               &kp Z               &kp U               &kp P               &kp Y                   &kp B               &kp F               &kp K               &kp L               &kp SEMI            &kp LPAR
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp O               &kp I               &kp SQT
 &kp LSHFT           &kp W               &kp X               &kp C               &kp D               &kp V                   &kp H               &kp J               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
-                                                            &ls 3 LGUI          &lt 2 SPACE         &mt LCTRL TAB           &kp LALT            &ls 4 RSHIFT
-                                                                                &kp LALT            &kp LSHFT               &mt RCTRL UNDER >; };
+                                                            &ls 3 LGUI          &lt 2 SPACE         &ms LCTRL LCTRL         &kp LALT            &td__ls_4_rshift__mt_rshift_capsword__kp_caps
+                                                                                &ms LALT LALT       &ms LSHIFT LSHFT        &mt RCTRL UNDER >; };
         layer_1 { bindings = < 
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
@@ -41,9 +43,9 @@
         layer_2 { bindings = <
 &kp POUND           &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp CARET
 &kp ASTRK           &kp HOME            &kp LEFT            &kp UP              &kp PG_UP           &kp F8                  &kp AMPS            &kp N7              &kp N8              &kp N9              &kp COLON           &kp DLLR
-&mt LCTRL INS       &mt LALT ESC        &kp BSPC            &kp ENTER           &kp DEL             &kp F12                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
-&kp LSHFT           &kp END             &kp CAPS            &kp PG_DN           &kp DOWN            &kp RIGHT               &kp PIPE            &kp N4              &kp N5              &kp N6              &kp QMARK           &kp AT
-                                                            &trans              &trans              &trans                  &trans              &mc RSHIFT 0
+&mt LCTRL CAPS      &mt LALT ESC        &kp BSPC            &kp ENTER           &kp DEL             &kp F12                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
+&kp LSHFT           &kp END             &kp INS             &kp PG_DN           &kp DOWN            &kp RIGHT               &kp PIPE            &kp N4              &kp N5              &kp N6              &kp QMARK           &kp AT
+                                                            &trans              &trans              &trans                  &trans              &kp RSHIFT
                                                                                 &trans              &trans                  &mt RCTRL TILDE >; };
         layer_3 { bindings = <
 &bootloader         &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &none
@@ -51,7 +53,7 @@
 &none               &kp LCTRL           &kp F3              &kp F2              &kp F1              &kp F11                 &kp C_BRI_DN        &mt RCTRL C_PREV    &mt RSHFT C_PP      &mt LALT C_NEXT     &kp RCTRL           &none
 &none               &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F10                 &kp K_APP           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp RSHFT           &none
                                                             &trans              &trans              &trans                  &trans              &trans
-                                                                                &trans              &trans                  &trans >; };
+                                                                                &trans              &trans                  &kp RCTRL >; };
         layer_4 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &trans              &kp EXCL            &kp AT              &kp POUND           &kp DLLR            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp LPAR            &kp RPAR            &none
