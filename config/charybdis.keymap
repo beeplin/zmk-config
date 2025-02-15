@@ -41,14 +41,14 @@
 &kp ASTRK           &kp HOME            &kp LEFT            &kp UP              &kp PG_UP           &kp F8                  &kp AMPS            &kp N7              &kp N8              &kp N9              &kp COLON           &kp DLLR
 &mt LCTRL INS       &mt LALT ESC        &kp BSPC            &kp ENTER           &kp DEL             &kp F12                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
 &kp LSHFT           &kp END             &kp CAPS            &kp PG_DN           &kp DOWN            &kp RIGHT               &kp PIPE            &kp N4              &kp N5              &kp N6              &kp QMARK           &kp AT
-                                                            &mo 4               &trans              &trans                  &mt LALT TAB        &mc RSHFT 0
+                                                            &mo 4               &trans              &trans                  &mt LALT INS        &mc RSHFT CAPS
                                                                                 &trans              &trans                  &mt RCTRL TILDE >; };
         layer_3 { bindings = <
 &bootloader         &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &none
 &none               &kp LALT            &kp F9              &kp F8              &kp F7              &kp F12                 &kp C_BRI_UP        &kp C_VOL_DN        &kp C_MUTE          &kp C_VOL_UP        &kp LALT            &none
 &none               &kp LCTRL           &kp F3              &kp F2              &kp F1              &kp F11                 &kp C_BRI_DN        &mt RCTRL C_PREV    &mt RSHFT C_PP      &mt LALT C_NEXT     &kp RCTRL           &none
 &none               &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F10                 &kp K_APP           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp RSHFT           &none
-                                                            &trans              &mo 4               &mo 5                   &mt LALT INS        &kp RSHFT
+                                                            &trans              &mo 4               &mo 5                   &kp LALT            &kp RSHFT
                                                                                 &trans              &trans                  &kp RCTRL >; };
         layer_4 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
