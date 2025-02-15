@@ -6,7 +6,7 @@
 
 &lt { flavor = "hold-preferred"; quick-tap-ms = <200>; };
 &mt { quick-tap-ms = <200>; };
-&sk { release-after-ms = <5000>; quick-release; };
+&sk { release-after-ms = <4000>; quick-release; lazy; };
 
 / {
     behaviors {
