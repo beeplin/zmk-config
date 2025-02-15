@@ -25,7 +25,7 @@
 &kp TAB             &kp Q               &kp Z               &kp U               &kp P               &kp Y                   &kp B               &kp F               &kp K               &kp L               &kp SEMI            &kp LPAR
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp O               &kp I               &kp SQT
 &kp LSHFT           &kp W               &kp X               &kp C               &kp D               &kp V                   &kp H               &kp J               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
-                                                            &ls 3 LGUI          &lt 2 SPACE         &ms LCTRL LCTRL         &kp LALT            &ms RSHFT RSHFT
+                                                            &ls 3 LGUI          &lt 2 SPACE         &ms LCTRL LCTRL         &ms LALT LALT       &ms RSHFT RSHFT
                                                                                 &ms LALT LALT       &ms LSHFT LSHFT         &mt RCTRL UNDER >; };
         layer_1 { bindings = < 
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
