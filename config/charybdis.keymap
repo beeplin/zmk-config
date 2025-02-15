@@ -23,7 +23,7 @@
         mo5       { key-positions = <48 50>; bindings = <&mo 5>; };
         shift_alt { key-positions = <51 52>; bindings = <&kp RS(LALT)>; };
     };
-    td__ls_4_rshift__mt_rshift_capsword__kp_caps: td0 {compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; tapping-term-ms = <200>; bindings = <&ls 4 RSHIFT>, <&mc RSHIFT>, <&kp CAPS>; };
+    td_ls_4_RSHIFT_mc_RSHIFT: td_ls_4_RSHIFT_mc_RSHIFT {compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; tapping-term-ms = <200>; bindings = <&ls 4 RSHIFT>, <&mc RSHIFT>; };
     keymap {
         compatible = "zmk,keymap";
         layer_0 { bindings = <
@@ -31,7 +31,7 @@
 &kp TAB             &kp Q               &kp Z               &kp U               &kp P               &kp Y                   &kp B               &kp F               &kp K               &kp L               &kp SEMI            &kp LPAR
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp O               &kp I               &kp SQT
 &kp LSHFT           &kp W               &kp X               &kp C               &kp D               &kp V                   &kp H               &kp J               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
-                                                            &ls 3 LGUI          &lt 2 SPACE         &ms LCTRL LCTRL         &kp LALT            &td__ls_4_rshift__mt_rshift_capsword__kp_caps
+                                                            &ls 3 LGUI          &lt 2 SPACE         &ms LCTRL LCTRL         &kp LALT            &td_ls_4_RSHIFT_mc_RSHIFT
                                                                                 &ms LALT LALT       &ms LSHIFT LSHFT        &mt RCTRL UNDER >; };
         layer_1 { bindings = < 
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
