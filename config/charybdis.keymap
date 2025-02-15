@@ -19,14 +19,8 @@
     };
     combos {
         compatible = "zmk,combos";
-        mo5       { bindings = <&mo 5>;        key-positions = <48 50>; };
-        shift_alt { bindings = <&kp RS(LALT)>; key-positions = <52 51>; };
-        // shift_alt      { bindings = <&kp LS(LALT)>;     key-positions = <49 48>; };
-        // shift_alt_gui  { bindings = <&kp LS(LA(LGUI))>; key-positions = <49 48 53>; };
-        // shift_ctrl     { bindings = <&kp LS(LCTRL)>;    key-positions = <49 50>; };
-        // shift_gui      { bindings = <&kp LS(LGUI)>;     key-positions = <49 53>; };
-        // shift_ctrl_gui { bindings = <&kp LS(LC(LGUI))>; key-positions = <49 50 53 54>; };
-        // shift_ctrl_alt { bindings = <&kp LS(LC(LALT))>; key-positions = <52 51 55>; };
+        mo5       { key-positions = <48 50>; bindings = <&mo 5>; };
+        shift_alt { key-positions = <51 52>; bindings = <&kp RS(LALT)>; };
     };
     keymap {
         compatible = "zmk,keymap";
