@@ -180,10 +180,10 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - '&studio_unlock'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
+  - ''
+  - ''
   - $$mdi:apple-keyboard-option$$
   - F9
   - F8
@@ -194,8 +194,8 @@ layers:
   - SLCK
   - PAUSE BREAK
   - $$mdi:volume-high$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
   - $$mdi:apple-keyboard-control$$
   - F3
   - F2
@@ -206,8 +206,8 @@ layers:
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
   - $$mdi:apple-keyboard-shift$$
   - F6
   - F5
@@ -218,7 +218,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:volume-low$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {type: held}
   - '4'
   - '5'
@@ -228,18 +228,18 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-control$$
   '4':
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -251,7 +251,7 @@ layers:
   - '*'
   - {t: '`', s: '~'}
   - INS
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-control$$
   - {t: '-', s: _}
@@ -263,7 +263,7 @@ layers:
   - '"'
   - {t: '''', s: '"'}
   - ':'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {t: ▽, type: trans}
   - '~'
   - {t: \, s: '|'}
@@ -275,7 +275,7 @@ layers:
   - <
   - '>'
   - '?'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
@@ -285,19 +285,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '5':
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -306,33 +306,33 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - '&studio_unlock'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - $$mdi:progress-download$$
   - {type: held}
