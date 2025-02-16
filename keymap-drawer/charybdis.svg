@@ -612,14 +612,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="346" y="313" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="351" y="317" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
-<text x="360" y="337" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LCTRL</tspan></text>
+<text x="360" y="337" class="combo hold"><tspan style="font-size: 60%">&amp;l2m LCTRL</tspan></text>
 </g>
 <g class="combo combopos-2">
 <path d="M448,308 l-93,0" class="combo"/>
 <path d="M448,308 l93,0" class="combo"/>
 <rect rx="6" ry="6" x="434" y="295" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="439" y="299" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
-<text x="448" y="319" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LSHFT</tspan></text>
+<text x="448" y="319" class="combo hold"><tspan style="font-size: 60%">&amp;l2m LSHFT</tspan></text>
 </g>
 </g>
 </g>
@@ -915,14 +915,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="346" y="313" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="351" y="317" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
-<text x="360" y="337" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LCTRL</tspan></text>
+<text x="360" y="337" class="combo hold"><tspan style="font-size: 60%">&amp;l2m LCTRL</tspan></text>
 </g>
 <g class="combo combopos-2">
 <path d="M448,308 l-93,0" class="combo"/>
 <path d="M448,308 l93,0" class="combo"/>
 <rect rx="6" ry="6" x="434" y="295" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="439" y="299" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
-<text x="448" y="319" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LSHFT</tspan></text>
+<text x="448" y="319" class="combo hold"><tspan style="font-size: 60%">&amp;l2m LSHFT</tspan></text>
 </g>
 </g>
 </g>
@@ -1230,24 +1230,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">~</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="294" y="284" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="299" y="288" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-<a href="#x_x">
-<text x="308" y="308" class="combo hold layer-activator">4</text>
-</a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="346" y="313" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="351" y="317" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
-<text x="360" y="337" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LCTRL</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M448,308 l-93,0" class="combo"/>
-<path d="M448,308 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="434" y="295" width="28" height="26" class="combo"/>
-<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="439" y="299" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
-<text x="448" y="319" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LSHFT</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1463)" class="layer-3">
@@ -1541,24 +1523,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-control"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="294" y="284" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="299" y="288" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-<a href="#x_x">
-<text x="308" y="308" class="combo hold layer-activator">4</text>
-</a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="346" y="313" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="351" y="317" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
-<text x="360" y="337" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LCTRL</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M448,308 l-93,0" class="combo"/>
-<path d="M448,308 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="434" y="295" width="28" height="26" class="combo"/>
-<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="439" y="299" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
-<text x="448" y="319" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LSHFT</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1950)" class="layer-4">
@@ -1831,24 +1795,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <text x="0" y="-4" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="294" y="284" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="299" y="288" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-<a href="#x_x">
-<text x="308" y="308" class="combo hold layer-activator">4</text>
-</a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="346" y="313" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="351" y="317" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
-<text x="360" y="337" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LCTRL</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M448,308 l-93,0" class="combo"/>
-<path d="M448,308 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="434" y="295" width="28" height="26" class="combo"/>
-<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="439" y="299" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
-<text x="448" y="319" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LSHFT</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 2438)" class="layer-5">
@@ -2103,24 +2049,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <text x="0" y="-4" class="key trans tap">▽</text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="294" y="284" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="299" y="288" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-<a href="#x_x">
-<text x="308" y="308" class="combo hold layer-activator">4</text>
-</a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="346" y="313" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="351" y="317" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
-<text x="360" y="337" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LCTRL</tspan></text>
-</g>
-<g class="combo combopos-2">
-<path d="M448,308 l-93,0" class="combo"/>
-<path d="M448,308 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="434" y="295" width="28" height="26" class="combo"/>
-<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="439" y="299" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
-<text x="448" y="319" class="combo hold"><tspan style="font-size: 60%">&amp;lm2 LSHFT</tspan></text>
 </g>
 </g>
 </g>

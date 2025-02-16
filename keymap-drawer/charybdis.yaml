@@ -344,7 +344,10 @@ layers:
 combos:
 - p: [49, 48]
   k: {t: '$$mdi:keyboard-esc$$', h: '4'}
+  l: ['0', '1']
 - p: [49, 50]
-  k: {t: '$$mdi:keyboard-tab$$', h: '&lm2 LCTRL'}
+  k: {t: '$$mdi:keyboard-tab$$', h: '&l2m LCTRL'}
+  l: ['0', '1']
 - p: [49, 52]
-  k: {t: '$$mdi:alpha-w-box$$', h: '&lm2 LSHFT'}
+  k: {t: '$$mdi:alpha-w-box$$', h: '&l2m LSHFT'}
+  l: ['0', '1']
