@@ -19,13 +19,13 @@
         lm2_cpw: lm2_cpw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&lm2>, <&caps_word>; };
     };
     combos { compatible = "zmk,combos";
-        l4_esc { key-positions = <48 49>; bindings = <&lt 4 ESC>; };
+        l4_esc { key-positions = <49 48>; bindings = <&lt 4 ESC>; };
         c2_tab { key-positions = <49 50>; bindings = <&lm2_tap LCTRL TAB>; };
+        c2_cps { key-positions = <49 51>; bindings = <&lm2_tap LCTRL CAPS>; };
         s2_cpw { key-positions = <49 52>; bindings = <&lm2_cpw LSHFT 0>; };
     };
     keymap {
         compatible = "zmk,keymap";
-
         layer_0 { bindings = <
 &kp PRCNT           &kp GRAVE           &kp LT              &kp GT              &kp LBRC            &kp RBRC                &kp PLUS            &kp MINUS           &kp EQUAL           &kp LBKT            &kp RBKT            &kp BSLH
 &kp TAB             &kp Q               &kp Z               &kp U               &kp P               &kp Y                   &kp B               &kp F               &kp K               &kp L               &kp SEMI            &kp LPAR
