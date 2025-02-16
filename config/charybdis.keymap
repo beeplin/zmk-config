@@ -19,9 +19,10 @@
     };
     combos { compatible = "zmk,combos";
         l4_esc { layers = <0 1>; key-positions = <49 48>; bindings = <&lt 4 ESC>; };
-        c2_tab { layers = <0 1>;key-positions = <49 50>; bindings = <&l2m_tap LCTRL TAB>; };
+        c2_tab { layers = <0 1>; key-positions = <49 50>; bindings = <&l2m_tap LCTRL TAB>; };
    //     a2_cps { layers = <0 1>; key-positions = <49 51>; bindings = <&l2m_tap LALT CAPS>; };
         s2_cpw { layers = <0 1>; key-positions = <49 52>; bindings = <&l2m_cpw LSHFT 0>; };
+        s2_cpw { layers = <0 1>; key-positions = <27 28>; bindings = <&kp EQUAL>; };
     };
     keymap {
         compatible = "zmk,keymap";
