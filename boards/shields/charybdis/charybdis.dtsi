@@ -43,8 +43,8 @@
         kscan = <&kscan0>;
         transform = <&transform0>;
         keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100 100    0   70       0     0     0>
-            , <&key_physical_attrs 100 100  100   70       0     0     0>
+            = <&key_physical_attrs 100 100    0   30       0     0     0>
+            , <&key_physical_attrs 100 100  100   30       0     0     0>
             , <&key_physical_attrs 100 100  200   10       0     0     0>
             , <&key_physical_attrs 100 100  300   00       0     0     0>
             , <&key_physical_attrs 100 100  400   20       0     0     0>
@@ -53,10 +53,10 @@
             , <&key_physical_attrs 100 100 1100   20       0     0     0>
             , <&key_physical_attrs 100 100 1200   00       0     0     0>
             , <&key_physical_attrs 100 100 1300   10       0     0     0>
-            , <&key_physical_attrs 100 100 1400   70       0     0     0>
-            , <&key_physical_attrs 100 100 1500   70       0     0     0>
-            , <&key_physical_attrs 100 100    0  170       0     0     0>
-            , <&key_physical_attrs 100 100  100  170       0     0     0>
+            , <&key_physical_attrs 100 100 1400   30       0     0     0>
+            , <&key_physical_attrs 100 100 1500   30       0     0     0>
+            , <&key_physical_attrs 100 100    0  130       0     0     0>
+            , <&key_physical_attrs 100 100  100  130       0     0     0>
             , <&key_physical_attrs 100 100  200  110       0     0     0>
             , <&key_physical_attrs 100 100  300  100       0     0     0>
             , <&key_physical_attrs 100 100  400  120       0     0     0>
@@ -65,10 +65,10 @@
             , <&key_physical_attrs 100 100 1100  120       0     0     0>
             , <&key_physical_attrs 100 100 1200  100       0     0     0>
             , <&key_physical_attrs 100 100 1300  110       0     0     0>
-            , <&key_physical_attrs 100 100 1400  170       0     0     0>
-            , <&key_physical_attrs 100 100 1500  170       0     0     0>
-            , <&key_physical_attrs 100 100    0  270       0     0     0>
-            , <&key_physical_attrs 100 100  100  270       0     0     0>
+            , <&key_physical_attrs 100 100 1400  130       0     0     0>
+            , <&key_physical_attrs 100 100 1500  130       0     0     0>
+            , <&key_physical_attrs 100 100    0  230       0     0     0>
+            , <&key_physical_attrs 100 100  100  230       0     0     0>
             , <&key_physical_attrs 100 100  200  210       0     0     0>
             , <&key_physical_attrs 100 100  300  200       0     0     0>
             , <&key_physical_attrs 100 100  400  220       0     0     0>
@@ -77,10 +77,10 @@
             , <&key_physical_attrs 100 100 1100  220       0     0     0>
             , <&key_physical_attrs 100 100 1200  200       0     0     0>
             , <&key_physical_attrs 100 100 1300  210       0     0     0>
-            , <&key_physical_attrs 100 100 1400  270       0     0     0>
-            , <&key_physical_attrs 100 100 1500  270       0     0     0>
-            , <&key_physical_attrs 100 100    0  370       0     0     0>
-            , <&key_physical_attrs 100 100  100  370       0     0     0>
+            , <&key_physical_attrs 100 100 1400  230       0     0     0>
+            , <&key_physical_attrs 100 100 1500  230       0     0     0>
+            , <&key_physical_attrs 100 100    0  330       0     0     0>
+            , <&key_physical_attrs 100 100  100  330       0     0     0>
             , <&key_physical_attrs 100 100  200  310       0     0     0>
             , <&key_physical_attrs 100 100  300  300       0     0     0>
             , <&key_physical_attrs 100 100  400  320       0     0     0>
@@ -89,8 +89,8 @@
             , <&key_physical_attrs 100 100 1100  320       0     0     0>
             , <&key_physical_attrs 100 100 1200  300       0     0     0>
             , <&key_physical_attrs 100 100 1300  310       0     0     0>
-            , <&key_physical_attrs 100 100 1400  370       0     0     0>
-            , <&key_physical_attrs 100 100 1500  370       0     0     0>
+            , <&key_physical_attrs 100 100 1400  330       0     0     0>
+            , <&key_physical_attrs 100 100 1500  330       0     0     0>
             , <&key_physical_attrs 100 100  450  460    1200   500   510>
             , <&key_physical_attrs 100 100  550  500    3000   600   550>
             , <&key_physical_attrs 100 100  635  565    4500   685   615>
