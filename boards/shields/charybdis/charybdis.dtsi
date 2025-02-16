@@ -95,7 +95,7 @@
             , <&key_physical_attrs 100 100  560  500    3000   610   550>
             , <&key_physical_attrs 100 100  650  570    4500   700   620>
             , <&key_physical_attrs 100 100  850  570   31500   900   620>
-            , <&key_physical_attrs 100 100  940  500   33100   990   550>
+            , <&key_physical_attrs 100 100  940  500 (-3000)   990   550>
             , <&key_physical_attrs 100 100  500  590    3000   550   640>
             , <&key_physical_attrs 100 100  590  660    4500   640   710>
             , <&key_physical_attrs 100 100  910  660   31500   960   710>
