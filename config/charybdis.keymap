@@ -21,7 +21,7 @@
     combos { compatible = "zmk,combos";
         l4_esc { key-positions = <49 48>; bindings = <&lt 4 ESC>; };
         c2_tab { key-positions = <49 50>; bindings = <&lm2_tap LCTRL TAB>; };
-        c2_cps { key-positions = <49 51>; bindings = <&lm2_tap LCTRL CAPS>; };
+        a2_cps { key-positions = <49 51>; bindings = <&lm2_tap LALT CAPS>; };
         s2_cpw { key-positions = <49 52>; bindings = <&lm2_cpw LSHFT 0>; };
     };
     keymap {
