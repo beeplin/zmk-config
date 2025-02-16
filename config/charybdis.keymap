@@ -49,9 +49,9 @@
                                                                                 &trans              &trans                  &kp TILDE >; };
         layer_3 { bindings = <
 &bootloader         &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &none
-&none               &kp LALT            &kp F9              &kp F8              &kp F7              &kp F10                 &kp C_BRI_UP        &kp C_VOL_DN        &kp C_MUTE          &kp C_VOL_UP        &kp LALT            &none
-&none               &kp LCTRL           &kp F3              &kp F2              &kp F1              &kp F12                 &kp C_BRI_DN        &mt RCTRL C_PREV    &mt RSHFT C_PP      &mt LALT C_NEXT     &kp RCTRL           &none
-&none               &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F11                 &kp K_APP           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp RSHFT           &none
+&none               &kp LALT            &kp F9              &kp F8              &kp F7              &kp F10                 &kp C_BRI_UP        &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp C_VOL_UP        &none
+&none               &kp LCTRL           &kp F3              &kp F2              &kp F1              &kp F12                 &kp C_BRI_DN        &mt RCTRL C_PREV    &mt RSHFT C_PP      &mt LALT C_NEXT     &kp C_MUTE          &none
+&none               &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F11                 &kp K_APP           &mkp LCLK           &mkp MCLK           &mkp RCLK           &kp C_VOL_DN        &none
                                                             &trans              &mo 4               &mo 5                   &trans              &trans
                                                                                 &trans              &trans                  &kp RCTRL >; };
         layer_4 { bindings = <
