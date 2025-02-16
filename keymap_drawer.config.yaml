@@ -205,9 +205,9 @@ parse_config:
       hold: $$mdi:toggle-switch$$
 
     # Empty
-    "&none":
-      tap: $$mdi:minus-circle-outline$$
-      type: none
+    #"&none":
+    #  tap: $$mdi:minus-circle-outline$$
+    #  type: none
 
     # Whitespace
     "&bkspc_del":
