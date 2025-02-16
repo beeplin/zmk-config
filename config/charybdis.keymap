@@ -10,15 +10,15 @@
 
 / {
     macros {
-        l2ctrl: l2ctrl { compatible = "zmk,behavior-macro"; wait-ms = <0>; #binding-cells = <0>; bindings = <&macro_press &mo 2 &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &mo 2 &kp LCTRL>; };
+        l2ctrl: l2ctrl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <0>; bindings = <&macro_press &mo 2 &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &mo 2 &kp LCTRL>; };
     };
     behaviors {
         l2ctrl_capsword: l2ctrl_capsword { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&l2ctrl>, <&caps_word>; };
     };
     combos { compatible = "zmk,combos";
-        lt_4_tab  { key-positions = <48 49>; bindings = <&lt 4 TAB>; };
-        l2ctrl_cw { key-positions = <49 50>; bindings = <&l2ctrl_capsword 0 0>; };
-        mt_sa_esc { key-positions = <51 52>; bindings = <&mt RS(LALT) ESC>; };
+        mo4__tab      { key-positions = <48 49>; bindings = <&lt 4 TAB>; };
+        mo2_ctrl__cw  { key-positions = <49 50>; bindings = <&l2ctrl_capsword 0 0>; };
+        shft_alt__esc { key-positions = <51 52>; bindings = <&mt RS(LALT) ESC>; };
     };
     keymap {
         compatible = "zmk,keymap";
