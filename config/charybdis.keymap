@@ -17,7 +17,7 @@
     };
     combos { compatible = "zmk,combos"; 
         lt_4_tab  { key-positions = <48 49>; bindings = <&lt 4 TAB>; };
-        l2ctrl_cw { key-positions = <49 50>; bindings = <&l2ctrl_capsword>; };
+        l2ctrl_cw { key-positions = <49 50>; bindings = <&l2ctrl_capsword 0 0>; };
         mt_sa_esc { key-positions = <51 52>; bindings = <&mt RS(LALT) ESC>; };
     };
     keymap {
