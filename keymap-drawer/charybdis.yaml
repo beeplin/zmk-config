@@ -201,7 +201,7 @@ layers:
   - F2
   - F1
   - F12
-  - $$mdi:brightness-7$$
+  - APP
   - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -213,7 +213,7 @@ layers:
   - F5
   - F4
   - F11
-  - APP
+  - $$mdi:brightness-7$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
