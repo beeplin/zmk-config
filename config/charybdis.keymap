@@ -9,11 +9,15 @@
 &sk { release-after-ms = <2000>; quick-release; };
 
 / {
+    macros {
+        l2ctrl: l2ctrl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &mo 2>, <&macro_press &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &kp LCTRL>, <&macro_release &mo 2>; };
+    };
     behaviors {
-        mc: mod_capsword { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&caps_word>; };
+        l2ctrl_capsword: l2ctrl_capsword { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&l2ctrl>, <&caps_word>; };
     };
     combos { compatible = "zmk,combos"; 
         lt_4_tab  { key-positions = <48 49>; bindings = <&lt 4 TAB>; };
+        l2ctrl_cw { key-positions = <49 50>; bindings = <&l2ctrl_capsword>; };
         mt_sa_esc { key-positions = <51 52>; bindings = <&mt RS(LALT) ESC>; };
     };
     keymap {
@@ -37,7 +41,7 @@
 &kp ASTRK           &kp HOME            &kp LEFT            &kp UP              &kp END             &kp F8                  &kp AMPS            &kp N7              &kp N8              &kp N9              &kp COLON           &kp DLLR
 &mt LCTRL INS       &kp ESC             &kp BSPC            &kp ENTER           &kp DEL             &kp F12                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
 &kp LSHFT           &kp CAPS            &kp PG_UP           &kp PG_DN           &kp DOWN            &kp RIGHT               &kp PIPE            &kp N4              &kp N5              &kp N6              &kp QMARK           &kp AT
-                                                            &mo 4               &trans              &trans                  &trans             &trans
+                                                            &mo 4               &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &mt RCTRL TILDE >; };
         layer_3 { bindings = <
 &bootloader         &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &none
