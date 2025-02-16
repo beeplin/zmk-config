@@ -351,6 +351,45 @@ combos:
 - p: [49, 52]
   k: {t: '$$mdi:alpha-w-box$$', h: '&l2m LSHFT'}
   l: ['0', '1']
-- p: [27, 28]
-  k: {t: '=', s: +}
+- p: [13, 14]
+  k: $$mdi:keyboard-tab$$
+  l: ['0', '1']
+- p: [25, 26]
+  k: $$mdi:keyboard-esc$$
+  l: ['0', '1']
+- p: [37, 38]
+  k: $$mdi:apple-keyboard-caps$$
+  l: ['0', '1']
+- p: [26, 27]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: ['0', '1']
+- p: [13, 25]
+  k: HOME
+  l: ['0', '1']
+- p: [25, 37]
+  k: PG UP
+  l: ['0', '1']
+- p: [14, 26]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+  l: ['0', '1']
+- p: [26, 38]
+  k: $$mdi:arrow-left-bold$$
+  l: ['0', '1']
+- p: [15, 27]
+  k: $$mdi:arrow-up-bold$$
+  l: ['0', '1']
+- p: [27, 39]
+  k: $$mdi:arrow-down-bold$$
+  l: ['0', '1']
+- p: [16, 28]
+  k: $$mdi:backspace-reverse-outline$$
+  l: ['0', '1']
+- p: [28, 40]
+  k: $$mdi:arrow-right-bold$$
+  l: ['0', '1']
+- p: [17, 29]
+  k: END
+  l: ['0', '1']
+- p: [29, 41]
+  k: PG DN
   l: ['0', '1']
