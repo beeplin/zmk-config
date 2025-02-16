@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - '~'
   '3':
-  - $$mdi:progress-download$$
+  - ''
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -240,7 +240,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - '!'
   - '@'
   - '#'
@@ -252,7 +252,7 @@ layers:
   - {t: '`', s: '~'}
   - INS
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - $$mdi:apple-keyboard-control$$
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -264,7 +264,7 @@ layers:
   - {t: '''', s: '"'}
   - ':'
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - '~'
   - {t: \, s: '|'}
   - '|'
@@ -346,7 +346,5 @@ combos:
   k: {t: '$$mdi:keyboard-esc$$', h: '4'}
 - p: [49, 50]
   k: {t: '$$mdi:keyboard-tab$$', h: '&lm2 LCTRL'}
-- p: [49, 51]
-  k: {t: '$$mdi:apple-keyboard-caps$$', h: '&lm2 LALT'}
 - p: [49, 52]
   k: {t: '$$mdi:alpha-w-box$$', h: '&lm2 LSHFT'}
