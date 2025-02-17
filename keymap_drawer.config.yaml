@@ -398,8 +398,10 @@ parse_config:
     LSHFT: $$mdi:apple-keyboard-shift$$
     LSHIFT: $$mdi:apple-keyboard-shift$$
     LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
-    LCMD: $$mdi:microsoft-windows$$
-    LEFT_COMMAND: $$mdi:microsoft-windows$$
+    LCMD: $$mdi:apple-keyboard-command$$
+    LEFT_COMMAND: $$mdi:apple-keyboard-command$$
+    LWIN: $$mdi:microsoft-windows$$
+    LEFT_WIN: $$mdi:microsoft-windows$$
     LG: $$mdi:microsoft-windows$$
     LGUI: $$mdi:microsoft-windows$$
     LEFT_GUI: $$mdi:microsoft-windows$$
@@ -410,8 +412,10 @@ parse_config:
     RSHFT: $$mdi:apple-keyboard-shift$$
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
-    RCMD: $$mdi:microsoft-windows$$
-    RIGHT_COMMAND: $$mdi:microsoft-windows$$
+    RCMD: $$mdi:apple-keyboard-command$$
+    RIGHT_COMMAND: $$mdi:apple-keyboard-command$$
+    LWIN: $$mdi:microsoft-windows$$
+    LEFT_WIN: $$mdi:microsoft-windows$$
     RG: $$mdi:microsoft-windows$$
     RGUI: $$mdi:microsoft-windows$$
     RIGHT_GUI: $$mdi:microsoft-windows$$$
