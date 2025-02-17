@@ -136,7 +136,7 @@ parse_config:
     # Home rows
     "&hm LEFT_GUI A":
       tap: "A"
-      shifted: $$mdi:apple-keyboard-command$$
+      shifted: $$mdi:microsoft-windows$$
     "&hm LEFT_ALT S":
       tap: "S"
       shifted: $$mdi:apple-keyboard-option$$
@@ -395,24 +395,27 @@ parse_config:
     LEFT_CONTROL: $$mdi:apple-keyboard-control$$
     LALT: $$mdi:apple-keyboard-option$$
     LEFT_ALT: $$mdi:apple-keyboard-option$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
     LSHIFT: $$mdi:apple-keyboard-shift$$
     LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
-    LSHFT: $$mdi:apple-keyboard-shift$$
-    LCMD: $$mdi:apple-keyboard-command$$
-    LG: $$mdi:apple-keyboard-command$$
-    LEFT_GUI: $$mdi:apple-keyboard-command$$
-    LEFT_COMMAND: $$mdi:apple-keyboard-command$$
+    LCMD: $$mdi:microsoft-windows$$
+    LEFT_COMMAND: $$mdi:microsoft-windows$$
+    LG: $$mdi:microsoft-windows$$
+    LGUI: $$mdi:microsoft-windows$$
+    LEFT_GUI: $$mdi:microsoft-windows$$
     RCTRL: $$mdi:apple-keyboard-control$$
     RIGHT_CONTROL: $$mdi:apple-keyboard-control$$
     RALT: $$mdi:apple-keyboard-option$$
     RIGHT_ALT: $$mdi:apple-keyboard-option$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
-    RSHFT: $$mdi:apple-keyboard-shift$$
-    RCMD: $$mdi:apple-keyboard-command$$
-    RG: $$mdi:apple-keyboard-command$$
+    RCMD: $$mdi:microsoft-windows$$
+    RIGHT_COMMAND: $$mdi:microsoft-windows$$
+    RG: $$mdi:microsoft-windows$$
+    RGUI: $$mdi:microsoft-windows$$
+    RIGHT_GUI: $$mdi:microsoft-windows$$$
     PSCRN: $$mdi:printer-outline$$
-    RIGHT_COMMAND: $$mdi:apple-keyboard-command$$
     PAGE_UP:
       tap: "PgUp"
       shifted: ""
@@ -491,28 +494,28 @@ parse_config:
     # Command +
     LG(A):
       tap: "A"
-      hold: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:microsoft-windows$$
     LG(S):
       tap: "S"
-      hold: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:microsoft-windows$$
     LG(D):
       tap: "D"
-      hold: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:microsoft-windows$$
     LG(F):
       tap: "F"
-      hold: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:microsoft-windows$$
     LG(Z):
       tap: "Z"
-      hold: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:microsoft-windows$$
     LG(X):
       tap: "X"
-      hold: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:microsoft-windows$$
     LG(C):
       tap: "C"
-      hold: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:microsoft-windows$$
     LG(V):
       tap: "V"
-      hold: $$mdi:apple-keyboard-command$$
+      hold: $$mdi:microsoft-windows$$
     # Zoom
     RG(RS(A)):
       tap: $$mdi:microphone$$
