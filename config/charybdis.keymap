@@ -11,17 +11,70 @@
 / {
     macros {
         l2m: layer_2_mod { compatible = "zmk,behavior-macro-one-param"; #binding-cells = <1>; wait-ms = <0>; bindings =
-             <&macro_press &mo 2>, <&macro_param_1to1>, <&macro_press &kp MACRO_PLACEHOLDER>, <&macro_pause_for_release>, <&macro_param_1to1>, <&macro_release &kp MACRO_PLACEHOLDER>, <&macro_release &mo 2>; };
+             <&macro_press &mo 2>, <&macro_param_1to1>, <&macro_press &kp MACRO_PLACEHOLDER>, <&macro_pause_for_release>, <&macro_param_1to1>, <&macro_release &kp MACRO_PLACEHOLDER>, <&macro_release &mo 2>>; };
     };
     behaviors {
         l2m_tap: l2m_tap { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&l2m>, <&kp>; };
         l2m_cpw: l2m_cpw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&l2m>, <&caps_word>; };
     };
     combos { compatible = "zmk,combos";
+        n1     { layers = <0 1>; key-positions = <13 25>; bindings = <&kp N1>; };
+        n2     { layers = <0 1>; key-positions = <14 26>; bindings = <&kp N2>; };
+        n3     { layers = <0 1>; key-positions = <15 27>; bindings = <&kp N3>; };
+        n4     { layers = <0 1>; key-positions = <16 28>; bindings = <&kp N4>; };
+        n5     { layers = <0 1>; key-positions = <17 29>; bindings = <&kp N5>; };
+
+        n6     { layers = <0 1>; key-positions = <18 30>; bindings = <&kp N6>; };
+        n7     { layers = <0 1>; key-positions = <19 31>; bindings = <&kp N7>; };
+        n8     { layers = <0 1>; key-positions = <20 32>; bindings = <&kp N8>; };
+        n9     { layers = <0 1>; key-positions = <21 33>; bindings = <&kp N9>; };
+        n0     { layers = <0 1>; key-positions = <22 34>; bindings = <&kp N0>; };
+
+        grave  { layers = <0 1>; key-positions = <25 37>; bindings = <&kp GRAVE>; };
+        minus  { layers = <0 1>; key-positions = <26 38>; bindings = <&kp MINUS>; };
+        equal  { layers = <0 1>; key-positions = <27 39>; bindings = <&kp EQUAL>; };
+        lbkt   { layers = <0 1>; key-positions = <28 40>; bindings = <&kp LBKT>; };
+        rbkt   { layers = <0 1>; key-positions = <29 41>; bindings = <&kp RBKT>; };
+
+        bslh   { layers = <0 1>; key-positions = <30 42>; bindings = <&kp BSLH>; };
+        lpar   { layers = <0 1>; key-positions = <31 43>; bindings = <&kp LPAR>; };
+        rpar   { layers = <0 1>; key-positions = <32 44>; bindings = <&kp RPAR>; };
+        dqt    { layers = <0 1>; key-positions = <33 45>; bindings = <&kp DQT>; };
+        sqt    { layers = <0 1>; key-positions = <34 46>; bindings = <&kp SQT>; };
+
+        //    { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+
+
+
+
+        f1     { layers = <2>;   key-positions = <13 25>; bindings = <&kp F1>; };
+        f2     { layers = <2>;   key-positions = <14 26>; bindings = <&kp F2>; };
+        f3     { layers = <2>;   key-positions = <15 27>; bindings = <&kp F3>; };
+        f4     { layers = <2>;   key-positions = <16 28>; bindings = <&kp F4>; };
+        f5     { layers = <2>;   key-positions = <17 29>; bindings = <&kp F5>; };
+        f6     { layers = <2>;   key-positions = <18 30>; bindings = <&kp F6>; };
+        f7     { layers = <2>;   key-positions = <19 31>; bindings = <&kp F7>; };
+        f8     { layers = <2>;   key-positions = <20 32>; bindings = <&kp F8>; };
+        f9     { layers = <2>;   key-positions = <21 33>; bindings = <&kp F9>; };
+        f0     { layers = <2>;   key-positions = <22 34>; bindings = <&kp F0>; };
+
+
+        lt     { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        gt     { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        lbrc   { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        rbrc   { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        plus   { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        prcnt  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        pound  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        astrk  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        under  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        tilde  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+
+
+
         l4_esc { layers = <0 1>; key-positions = <49 48>; bindings = <&lt 4 ESC>; };
         c2_tab { layers = <0 1>; key-positions = <49 50>; bindings = <&l2m_tap LCTRL TAB>; };
         s2_cpw { layers = <0 1>; key-positions = <49 52>; bindings = <&l2m_cpw LSHFT 0>; };
-        equal  { layers = <0 1>; key-positions = <27 28>; bindings = <&kp EQUAL>; };
     };
     keymap {
         compatible = "zmk,keymap";
