@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define CB(KP, POS) KP { key-positions = <POS>; bindings = <&kp KP>; };
+#define COMBO(KP, POS...) KP { key-positions = <POS>; bindings = <&kp KP>; };
 
 &mt { quick-tap-ms = <200>; };
 &lt { quick-tap-ms = <200>; flavor = "hold-preferred"; };
@@ -47,7 +47,7 @@
         n3     { key-positions = <32 44>; bindings = <&kp N3>; };
         n4     { key-positions = <33 45>; bindings = <&kp N4>; };
         n5     { key-positions = <34 46>; bindings = <&kp N5>; };
-        CB(F1, 14 15 ) CB(F2, 15 16)
+        COMBO(F1, 14, 15) COMBO(F2, 15, 16)
     };
     keymap {
         compatible = "zmk,keymap";
