@@ -48,13 +48,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - )
-  - {t: '$$mdi:microsoft-windows$$', h: '3'}
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:microsoft-windows$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
   - _
   '1':
   - {t: ▽, type: trans}
@@ -163,7 +163,7 @@ layers:
   - '?'
   - '@'
   - '4'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,7 +219,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:volume-low$$
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - {t: ▽, type: trans}
@@ -277,7 +277,7 @@ layers:
   - '?'
   - ''
   - {type: held}
-  - {type: held}
+  - {type: held alternate}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -333,7 +333,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - $$mdi:progress-download$$
   - {type: held}
   - {t: ▽, type: trans}
@@ -348,14 +348,6 @@ combos:
   k: {t: '$$mdi:keyboard-tab$$', h: '&l2m LCTRL'}
 - p: [49, 52]
   k: {t: '$$mdi:alpha-w-box$$', h: '&l2m LSHFT'}
-- p: [13, 14]
-  k: $$mdi:keyboard-tab$$
-- p: [25, 26]
-  k: $$mdi:keyboard-esc$$
-- p: [37, 38]
-  k: $$mdi:apple-keyboard-caps$$
-- p: [26, 27]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [13, 25]
   k: HOME
 - p: [25, 37]
@@ -396,7 +388,17 @@ combos:
   k: {t: '4', s: $}
 - p: [34, 46]
   k: {t: '5', s: '%'}
-- p: [14, 15]
-  k: F1
-- p: [15, 16]
-  k: F2
+- p: [13, 14]
+  k: $$mdi:keyboard-tab$$
+- p: [37, 38]
+  k: Ctl+Z
+- p: [25, 26]
+  k: $$mdi:keyboard-esc$$
+- p: [26, 27]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [38, 39]
+  k: Ctl+X
+- p: [39, 40]
+  k: Ctl+C
+- p: [41, 42]
+  k: Ctl+V
