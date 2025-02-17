@@ -48,7 +48,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - )
-  - {t: LGUI, h: '3'}
+  - {t: LWIN, h: '3'}
   - {t: '$$mdi:keyboard-space$$', h: '2'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
