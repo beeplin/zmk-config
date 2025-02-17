@@ -344,52 +344,59 @@ layers:
 combos:
 - p: [49, 48]
   k: {t: '$$mdi:keyboard-esc$$', h: '4'}
-  l: ['0', '1']
 - p: [49, 50]
   k: {t: '$$mdi:keyboard-tab$$', h: '&l2m LCTRL'}
-  l: ['0', '1']
 - p: [49, 52]
   k: {t: '$$mdi:alpha-w-box$$', h: '&l2m LSHFT'}
-  l: ['0', '1']
 - p: [13, 14]
   k: $$mdi:keyboard-tab$$
-  l: ['0', '1']
 - p: [25, 26]
   k: $$mdi:keyboard-esc$$
-  l: ['0', '1']
 - p: [37, 38]
   k: $$mdi:apple-keyboard-caps$$
-  l: ['0', '1']
 - p: [26, 27]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: ['0', '1']
 - p: [13, 25]
   k: HOME
-  l: ['0', '1']
 - p: [25, 37]
   k: PG UP
-  l: ['0', '1']
 - p: [14, 26]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: ['0', '1']
 - p: [26, 38]
   k: $$mdi:arrow-left-bold$$
-  l: ['0', '1']
 - p: [15, 27]
   k: $$mdi:arrow-up-bold$$
-  l: ['0', '1']
 - p: [27, 39]
   k: $$mdi:arrow-down-bold$$
-  l: ['0', '1']
 - p: [16, 28]
   k: $$mdi:backspace-reverse-outline$$
-  l: ['0', '1']
 - p: [28, 40]
   k: $$mdi:arrow-right-bold$$
-  l: ['0', '1']
 - p: [17, 29]
   k: END
-  l: ['0', '1']
 - p: [29, 41]
   k: PG DN
-  l: ['0', '1']
+- p: [18, 30]
+  k: {t: '6', s: ^}
+- p: [19, 31]
+  k: {t: '7', s: '&'}
+- p: [20, 32]
+  k: {t: '8', s: '*'}
+- p: [21, 33]
+  k: {t: '9', s: (}
+- p: [22, 34]
+  k: {t: '0', s: )}
+- p: [30, 42]
+  k: {t: '1', s: '!'}
+- p: [31, 43]
+  k: {t: '2', s: '@'}
+- p: [32, 44]
+  k: {t: '3', s: '#'}
+- p: [33, 45]
+  k: {t: '4', s: $}
+- p: [34, 46]
+  k: {t: '5', s: '%'}
+- p: [14, 15]
+  k: F1
+- p: [15, 16]
+  k: F2
