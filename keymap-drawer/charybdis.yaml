@@ -430,7 +430,7 @@ combos:
   k: F9
   l: ['2']
 - p: [22, 34]
-  k: F0
+  k: F10
   l: ['2']
 - p: [49, 48]
   k: {t: '$$mdi:keyboard-esc$$', h: '4'}
