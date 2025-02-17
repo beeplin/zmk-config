@@ -48,13 +48,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - )
+  - {t: '$$mdi:microsoft-windows$$', h: '3'}
+  - {t: '$$mdi:keyboard-space$$', h: '2'}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:microsoft-windows$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - _
   '1':
   - {t: ▽, type: trans}
@@ -163,7 +163,7 @@ layers:
   - '?'
   - '@'
   - '4'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,7 +219,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:volume-low$$
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - '4'
   - '5'
   - {t: ▽, type: trans}
@@ -277,7 +277,7 @@ layers:
   - '?'
   - ''
   - {type: held}
-  - {type: held alternate}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -333,7 +333,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - $$mdi:progress-download$$
   - {type: held}
   - {t: ▽, type: trans}
@@ -344,61 +344,13 @@ layers:
 combos:
 - p: [49, 48]
   k: {t: '$$mdi:keyboard-esc$$', h: '4'}
+  l: ['0', '1']
 - p: [49, 50]
   k: {t: '$$mdi:keyboard-tab$$', h: '&l2m LCTRL'}
+  l: ['0', '1']
 - p: [49, 52]
   k: {t: '$$mdi:alpha-w-box$$', h: '&l2m LSHFT'}
-- p: [13, 25]
-  k: HOME
-- p: [25, 37]
-  k: PG UP
-- p: [14, 26]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [26, 38]
-  k: $$mdi:arrow-left-bold$$
-- p: [15, 27]
-  k: $$mdi:arrow-up-bold$$
-- p: [27, 39]
-  k: $$mdi:arrow-down-bold$$
-- p: [16, 28]
-  k: $$mdi:backspace-reverse-outline$$
-- p: [28, 40]
-  k: $$mdi:arrow-right-bold$$
-- p: [17, 29]
-  k: END
-- p: [29, 41]
-  k: PG DN
-- p: [18, 30]
-  k: {t: '6', s: ^}
-- p: [19, 31]
-  k: {t: '7', s: '&'}
-- p: [20, 32]
-  k: {t: '8', s: '*'}
-- p: [21, 33]
-  k: {t: '9', s: (}
-- p: [22, 34]
-  k: {t: '0', s: )}
-- p: [30, 42]
-  k: {t: '1', s: '!'}
-- p: [31, 43]
-  k: {t: '2', s: '@'}
-- p: [32, 44]
-  k: {t: '3', s: '#'}
-- p: [33, 45]
-  k: {t: '4', s: $}
-- p: [34, 46]
-  k: {t: '5', s: '%'}
-- p: [13, 14]
-  k: $$mdi:keyboard-tab$$
-- p: [37, 38]
-  k: Ctl+Z
-- p: [25, 26]
-  k: $$mdi:keyboard-esc$$
-- p: [26, 27]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [38, 39]
-  k: Ctl+X
-- p: [39, 40]
-  k: Ctl+C
-- p: [41, 42]
-  k: Ctl+V
+  l: ['0', '1']
+- p: [27, 28]
+  k: {t: '=', s: +}
+  l: ['0', '1']
