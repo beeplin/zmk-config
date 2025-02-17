@@ -60,15 +60,15 @@
 
 
         lt     { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        gt     { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        lbrc   { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        rbrc   { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        plus   { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        prcnt  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        pound  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        astrk  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        under  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        tilde  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        // gt     { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        // lbrc   { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        // rbrc   { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        // plus   { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        // prcnt  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        // pound  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        // astrk  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        // under  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        // tilde  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
 
 
 
