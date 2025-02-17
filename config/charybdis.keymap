@@ -56,7 +56,7 @@
         f7     { layers = <2>;   key-positions = <19 31>; bindings = <&kp F7>; };
         f8     { layers = <2>;   key-positions = <20 32>; bindings = <&kp F8>; };
         f9     { layers = <2>;   key-positions = <21 33>; bindings = <&kp F9>; };
-        f0     { layers = <2>;   key-positions = <22 34>; bindings = <&kp F0>; };
+        f0     { layers = <2>;   key-positions = <22 34>; bindings = <&kp F10>; };
 
 
         // lt     { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
