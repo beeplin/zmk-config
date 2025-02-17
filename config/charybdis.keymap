@@ -1,4 +1,4 @@
-#define COMBO(KP, A, B) CB_KP { key-positions = <A B>; bindings = <&kp KP>; };
+#define COMBO(KP, A, B) CB#_KP { key-positions = <A B>; bindings = <&kp KP>; };
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
