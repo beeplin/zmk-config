@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#define CB(KP, POS) cb_POS { key-positions = <POS>; bindings = <&kp KP>; };
+
 &mt { quick-tap-ms = <200>; };
 &lt { quick-tap-ms = <200>; flavor = "hold-preferred"; };
 &sk { release-after-ms = <2000>; quick-release; };
@@ -18,27 +20,34 @@
         l2m_cpw: l2m_cpw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&l2m>, <&caps_word>; };
     };
     combos { compatible = "zmk,combos";
-        l4_esc { layers = <0 1>; key-positions = <49 48>; bindings = <&lt 4 ESC>; };
-        c2_tab { layers = <0 1>; key-positions = <49 50>; bindings = <&l2m_tap LCTRL TAB>; };
-        s2_cpw { layers = <0 1>; key-positions = <49 52>; bindings = <&l2m_cpw LSHFT 0>; };
-        tab    { layers = <0 1>; key-positions = <13 14>; bindings = <&kp TAB>; };
-        esc    { layers = <0 1>; key-positions = <25 26>; bindings = <&kp ESC>; };
-        caps   { layers = <0 1>; key-positions = <37 38>; bindings = <&kp CAPS>; };
-        enter  { layers = <0 1>; key-positions = <26 27>; bindings = <&kp ENTER>; };
-        home   { layers = <0 1>; key-positions = <13 25>; bindings = <&kp HOME>; };
-        pgup   { layers = <0 1>; key-positions = <25 37>; bindings = <&kp PG_UP>; };
-        bspc   { layers = <0 1>; key-positions = <14 26>; bindings = <&kp BSPC>; };
-        left   { layers = <0 1>; key-positions = <26 38>; bindings = <&kp LEFT>; };
-        up     { layers = <0 1>; key-positions = <15 27>; bindings = <&kp UP>; };
-        down   { layers = <0 1>; key-positions = <27 39>; bindings = <&kp DOWN>; };
-        del    { layers = <0 1>; key-positions = <16 28>; bindings = <&kp DEL>; };
-        right  { layers = <0 1>; key-positions = <28 40>; bindings = <&kp RIGHT>; };
-        end    { layers = <0 1>; key-positions = <17 29>; bindings = <&kp END>; };
-        pgdn   { layers = <0 1>; key-positions = <29 41>; bindings = <&kp PG_DN>; };
-        // equal  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        // equal  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        // equal  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
-        // equal  { layers = <0 1>; key-positions = <>; bindings = <&kp >; };
+        l4_esc { key-positions = <49 48>; bindings = <&lt 4 ESC>; };
+        c2_tab { key-positions = <49 50>; bindings = <&l2m_tap LCTRL TAB>; };
+        s2_cpw { key-positions = <49 52>; bindings = <&l2m_cpw LSHFT 0>; };
+        tab    { key-positions = <13 14>; bindings = <&kp TAB>; };
+        esc    { key-positions = <25 26>; bindings = <&kp ESC>; };
+        caps   { key-positions = <37 38>; bindings = <&kp CAPS>; };
+        enter  { key-positions = <26 27>; bindings = <&kp ENTER>; };
+        home   { key-positions = <13 25>; bindings = <&kp HOME>; };
+        pgup   { key-positions = <25 37>; bindings = <&kp PG_UP>; };
+        bspc   { key-positions = <14 26>; bindings = <&kp BSPC>; };
+        left   { key-positions = <26 38>; bindings = <&kp LEFT>; };
+        up     { key-positions = <15 27>; bindings = <&kp UP>; };
+        down   { key-positions = <27 39>; bindings = <&kp DOWN>; };
+        del    { key-positions = <16 28>; bindings = <&kp DEL>; };
+        right  { key-positions = <28 40>; bindings = <&kp RIGHT>; };
+        end    { key-positions = <17 29>; bindings = <&kp END>; };
+        pgdn   { key-positions = <29 41>; bindings = <&kp PG_DN>; };
+        n6     { key-positions = <18 30>; bindings = <&kp N6>; };
+        n7     { key-positions = <19 31>; bindings = <&kp N7>; };
+        n8     { key-positions = <20 32>; bindings = <&kp N8>; };
+        n9     { key-positions = <21 33>; bindings = <&kp N9>; };
+        n0     { key-positions = <22 34>; bindings = <&kp N0>; };
+        n1     { key-positions = <30 42>; bindings = <&kp N1>; };
+        n2     { key-positions = <31 43>; bindings = <&kp N2>; };
+        n3     { key-positions = <32 44>; bindings = <&kp N3>; };
+        n4     { key-positions = <33 45>; bindings = <&kp N4>; };
+        n5     { key-positions = <34 46>; bindings = <&kp N5>; };
+        CB(F1, 14 15 ) CB(F2, 15 16)
     };
     keymap {
         compatible = "zmk,keymap";
@@ -86,3 +95,4 @@
                                                                                 &trans              &trans                  &trans >; };
     };
 };
+&
