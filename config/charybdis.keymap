@@ -99,7 +99,7 @@
 &kp LC(Y)           &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp CARET
 &kp LC(Z)           &kp HOME            &kp BSPC            &kp UP              &kp DEL             &kp F8                  &kp AMPS            &kp N7              &kp N8              &kp N9              &kp ASTRK           &kp DLLR
 &mt LCTRL CAPS      &mt LALT ESC        &kp LEFT            &kp ENTER           &kp RIGHT           &kp F12                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
-&kp LSHFT           &mt LSHFT INS       &kp PG_UP           &kp DOWN            &kp PG_DN           &kp END                 &kp PIPE            &kp N4              &kp N5              &kp N6              &kp POUND           &kp AT
+&kp LSHFT           &mt LSHFT TAB       &kp PG_UP           &kp DOWN            &kp PG_DN           &kp END                 &kp PIPE            &kp N4              &kp N5              &kp N6              &kp POUND           &kp AT
                                                             &mo 4               &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &kp TILDE >; };
         layer_3 { bindings = <
