@@ -1546,8 +1546,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:bluetooth"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:toggle-switch"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:usb"/>
+<use href="#mdi:usb" xlink:href="#mdi:usb" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:usb"/>
+<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:toggle-switch"/>
 </g>
 <g transform="translate(700, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2159,8 +2159,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:bluetooth"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:toggle-switch"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:usb"/>
+<use href="#mdi:usb" xlink:href="#mdi:usb" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:usb"/>
+<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:toggle-switch"/>
 </g>
 <g transform="translate(700, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
