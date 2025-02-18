@@ -38,10 +38,10 @@
         r12_c0   { layers = <0 1>; key-positions = <22 34>; bindings = <&kp RBKT>; };
 
         r23_c1   { layers = <0 1>; key-positions = <25 37>; bindings = <&kp TILDE>; };
-        r23_c2   { layers = <0 1>; key-positions = <26 38>; bindings = <&kp PRCNT>; };
+        r23_c2   { layers = <0 1>; key-positions = <26 38>; bindings = <&kp BSLH>; };
         r23_c3   { layers = <0 1>; key-positions = <27 39>; bindings = <&kp DQT>; };
         r23_c4   { layers = <0 1>; key-positions = <28 40>; bindings = <&kp SQT>; };
-        r23_c5   { layers = <0 1>; key-positions = <29 41>; bindings = <&kp BSLH >; };
+        r23_c5   { layers = <0 1>; key-positions = <29 41>; bindings = <&kp PRCNT>; };
 
         r23_c6   { layers = <0 1>; key-positions = <30 42>; bindings = <&kp AT>; };
         r23_c7   { layers = <0 1>; key-positions = <31 43>; bindings = <&kp LPAR>; };
