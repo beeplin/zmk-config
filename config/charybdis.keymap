@@ -75,7 +75,7 @@
         l4_esc   { layers = <0 1>; key-positions = <49 48>; bindings = <&lt 4 ESC>; };
         c2_tab   { layers = <0 1>; key-positions = <49 50>; bindings = <&l2m_tap LCTRL TAB>; };
         s2_cpw   { layers = <0 1>; key-positions = <49 52>; bindings = <&l2m_cpw LSHFT 0>; };
-        ca_caps  { layers = <0 1>; key-positions = <50 51>; bindings = <&mt LCTRL(LALT) CAPS>; };
+        ca_caps  { layers = <0 1>; key-positions = <50 51>; bindings = <&mt LC(LALT) CAPS>; };
     };
     keymap {
         compatible = "zmk,keymap";
