@@ -172,13 +172,13 @@ layers:
   - '~'
   '3':
   - ''
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '0'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '4'}
   - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {t: '$$mdi:bluetooth$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
   - '&studio_unlock'
   - ''
   - ''
@@ -298,13 +298,13 @@ layers:
   - ''
   - ''
   - ''
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '0'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '4'}
   - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {t: '$$mdi:bluetooth$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:usb$$'}
   - '&studio_unlock'
   - ''
   - ''
