@@ -14,14 +14,14 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
   - Q
-  - Z
-  - U
-  - P
-  - Y
-  - B
+  - W
   - F
-  - K
+  - P
+  - P
+  - J
   - L
+  - U
+  - Y
   - {t: ;, s: ':'}
   - (
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -33,17 +33,17 @@ layers:
   - M
   - N
   - E
-  - O
   - I
+  - O
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - W
+  - Z
   - X
   - C
   - D
   - V
+  - K
   - H
-  - J
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - '#'
+  - Ctl+Y
   - F1
   - F2
   - F3
@@ -126,23 +126,23 @@ layers:
   - F10
   - F11
   - ^
-  - '*'
+  - Ctl+Z
   - HOME
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
-  - END
+  - $$mdi:backspace-reverse-outline$$
   - F8
   - '&'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - ':'
+  - '*'
   - $
-  - {t: INS, h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:arrow-right-bold$$
   - F12
   - '!'
   - {t: '1', s: '!'}
@@ -151,16 +151,16 @@ layers:
   - {t: '0', s: )}
   - '"'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-caps$$
+  - INS
   - PG UP
-  - PG DN
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - PG DN
+  - END
   - '|'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - '?'
+  - '#'
   - '@'
   - '4'
   - {type: held}
