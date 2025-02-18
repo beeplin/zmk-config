@@ -39,45 +39,45 @@
 
         r23_c1   { layers = <0 1>; key-positions = <25 37>; bindings = <&kp TILDE>; };
         r23_c2   { layers = <0 1>; key-positions = <26 38>; bindings = <&kp PRCNT>; };
-        r23_c3   { layers = <0 1>; key-positions = <27 39>; bindings = <&kp AT>; };
-        r23_c4   { layers = <0 1>; key-positions = <28 40>; bindings = <&kp DLLR>; };
-        r23_c5   { layers = <0 1>; key-positions = <29 41>; bindings = <&kp CARET >; };
+        r23_c3   { layers = <0 1>; key-positions = <27 39>; bindings = <&kp DQT>; };
+        r23_c4   { layers = <0 1>; key-positions = <28 40>; bindings = <&kp SQT>; };
+        r23_c5   { layers = <0 1>; key-positions = <29 41>; bindings = <&kp BSLH >; };
 
-        r23_c6   { layers = <0 1>; key-positions = <30 42>; bindings = <&kp BSLH>; };
-        r23_c7   { layers = <0 1>; key-positions = <31 43>; bindings = <&kp DQT>; };
-        r23_c8   { layers = <0 1>; key-positions = <32 44>; bindings = <&kp SQT>; };
-        r23_c9   { layers = <0 1>; key-positions = <33 45>; bindings = <&kp LPAR>; };
-        r23_c0   { layers = <0 1>; key-positions = <34 46>; bindings = <&kp RPAR>; };
+        r23_c6   { layers = <0 1>; key-positions = <30 42>; bindings = <&kp AT>; };
+        r23_c7   { layers = <0 1>; key-positions = <31 43>; bindings = <&kp LPAR>; };
+        r23_c8   { layers = <0 1>; key-positions = <32 44>; bindings = <&kp RPAR>; };
+        r23_c9   { layers = <0 1>; key-positions = <33 45>; bindings = <&kp DLLR>; };
+        r23_c0   { layers = <0 1>; key-positions = <34 46>; bindings = <&kp CARET>; };
 
-        r1_c12   { layers = <2>;   key-positions = <13 25>; bindings = <&kp F9>; };
-        r1_c23   { layers = <2>;   key-positions = <14 26>; bindings = <&kp F8>; };
-        r1_c34   { layers = <2>;   key-positions = <15 27>; bindings = <&kp F7>; };
-        r1_c14   { layers = <2>;   key-positions = <16 28>; bindings = <&kp F12>; };
+        r1_c12   { layers = <0 1>; key-positions = <13 25>; bindings = <&kp F9>; };
+        r1_c23   { layers = <0 1>; key-positions = <14 26>; bindings = <&kp F8>; };
+        r1_c34   { layers = <0 1>; key-positions = <15 27>; bindings = <&kp F7>; };
+        r1_c14   { layers = <0 1>; key-positions = <16 28>; bindings = <&kp F12>; };
                 
-        r1_c78   { layers = <2>;   key-positions = <13 25>; bindings = <&kp C_VOL_DN>; };
-        r1_c89   { layers = <2>;   key-positions = <14 26>; bindings = <&kp C_MUTE>; };
-        r1_c90   { layers = <2>;   key-positions = <15 27>; bindings = <&kp C_VOL_UP>; };
-        r1_c70   { layers = <2>;   key-positions = <16 28>; bindings = <&kp C_BRI_UP>; };
+        r1_c78   { layers = <0 1>; key-positions = <13 25>; bindings = <&kp C_VOL_DN>; };
+        r1_c89   { layers = <0 1>; key-positions = <14 26>; bindings = <&kp C_MUTE>; };
+        r1_c90   { layers = <0 1>; key-positions = <15 27>; bindings = <&kp C_VOL_UP>; };
+        r1_c70   { layers = <0 1>; key-positions = <16 28>; bindings = <&kp C_BRI_UP>; };
 
-        r2_c12   { layers = <2>;   key-positions = <13 25>; bindings = <&kp F3>; };
-        r2_c23   { layers = <2>;   key-positions = <14 26>; bindings = <&kp F2>; };
-        r2_c34   { layers = <2>;   key-positions = <15 27>; bindings = <&kp F1>; };
-        r2_c14   { layers = <2>;   key-positions = <16 28>; bindings = <&kp F11>; };
+        r2_c12   { layers = <0 1>; key-positions = <13 25>; bindings = <&kp F3>; };
+        r2_c23   { layers = <0 1>; key-positions = <14 26>; bindings = <&kp F2>; };
+        r2_c34   { layers = <0 1>; key-positions = <15 27>; bindings = <&kp F1>; };
+        r2_c14   { layers = <0 1>; key-positions = <16 28>; bindings = <&kp F11>; };
 
-        r2_c78   { layers = <2>;   key-positions = <13 25>; bindings = <&kp C_PREV>; };
-        r2_c89   { layers = <2>;   key-positions = <14 26>; bindings = <&kp C_PP>; };
-        r2_c90   { layers = <2>;   key-positions = <15 27>; bindings = <&kp C_NEXT>; };
-        r2_c70   { layers = <2>;   key-positions = <16 28>; bindings = <&kp K_APP>; };
+        r2_c78   { layers = <0 1>; key-positions = <13 25>; bindings = <&kp C_PREV>; };
+        r2_c89   { layers = <0 1>; key-positions = <14 26>; bindings = <&kp C_PP>; };
+        r2_c90   { layers = <0 1>; key-positions = <15 27>; bindings = <&kp C_NEXT>; };
+        r2_c70   { layers = <0 1>; key-positions = <16 28>; bindings = <&kp K_APP>; };
 
-        r3_c12   { layers = <2>;   key-positions = <13 25>; bindings = <&kp F6>; };
-        r3_c23   { layers = <2>;   key-positions = <14 26>; bindings = <&kp F5>; };
-        r3_c34   { layers = <2>;   key-positions = <15 27>; bindings = <&kp F4>; };
-        r3_c14   { layers = <2>;   key-positions = <16 28>; bindings = <&kp F10>; };
+        r3_c12   { layers = <0 1>; key-positions = <13 25>; bindings = <&kp F6>; };
+        r3_c23   { layers = <0 1>; key-positions = <14 26>; bindings = <&kp F5>; };
+        r3_c34   { layers = <0 1>; key-positions = <15 27>; bindings = <&kp F4>; };
+        r3_c14   { layers = <0 1>; key-positions = <16 28>; bindings = <&kp F10>; };
 
-        r3_c78   { layers = <2>;   key-positions = <13 25>; bindings = <&kp PSCRN>; };
-        r3_c89   { layers = <2>;   key-positions = <14 26>; bindings = <&kp SLCK>; };
-        r3_c90   { layers = <2>;   key-positions = <15 27>; bindings = <&kp PAUSE_BREAK>; };
-        r3_c70   { layers = <2>;   key-positions = <16 28>; bindings = <&kp C_BRI_DN>; };
+        r3_c78   { layers = <0 1>; key-positions = <13 25>; bindings = <&kp PSCRN>; };
+        r3_c89   { layers = <0 1>; key-positions = <14 26>; bindings = <&kp SLCK>; };
+        r3_c90   { layers = <0 1>; key-positions = <15 27>; bindings = <&kp PAUSE_BREAK>; };
+        r3_c70   { layers = <0 1>; key-positions = <16 28>; bindings = <&kp C_BRI_DN>; };
     };
     keymap {
         compatible = "zmk,keymap";
