@@ -41,7 +41,7 @@
         r23_c2   { layers = <0 1>; key-positions = <26 38>; bindings = <&kp PRCNT>; };
         r23_c3   { layers = <0 1>; key-positions = <27 39>; bindings = <&kp BSLH>; };
         r23_c4   { layers = <0 1>; key-positions = <28 40>; bindings = <&kp LPAR>; };
-        r23_c5   { layers = <0 1>; key-positions = <29 41>; bindings = <&kp RPARh>; };
+        r23_c5   { layers = <0 1>; key-positions = <29 41>; bindings = <&kp RPAR>; };
 
         r23_c6   { layers = <0 1>; key-positions = <30 42>; bindings = <&kp AT>; };
         r23_c7   { layers = <0 1>; key-positions = <31 43>; bindings = <&kp SQT>; };
