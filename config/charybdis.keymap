@@ -81,7 +81,7 @@
         compatible = "zmk,keymap";
         layer_0 { bindings = <
 &kp PRCNT           &kp GRAVE           &kp LT              &kp GT              &kp LBRC            &kp RBRC                &kp PLUS            &kp MINUS           &kp EQUAL           &kp LBKT            &kp RBKT            &kp BSLH
-&kp TAB             &kp Q               &kp W               &kp F               &kp P               &kp P                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LPAR
+&kp TAB             &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LPAR
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
                                                             &lt 3 LGUI          &lt 2 SPACE         &kp LCTRL               &kp LALT            &kp LSHFT
