@@ -80,9 +80,9 @@
         compatible = "zmk,keymap";
         layer_0 { bindings = <
 &kp PRCNT           &kp GRAVE           &kp LT              &kp GT              &kp LBRC            &kp RBRC                &kp PLUS            &kp MINUS           &kp EQUAL           &kp LBKT            &kp RBKT            &kp BSLH
-&kp TAB             &kp Q               &kp Z               &kp U               &kp P               &kp Y                   &kp B               &kp F               &kp K               &kp L               &kp SEMI            &kp LPAR
-&mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp O               &kp I               &kp SQT
-&kp LSHFT           &kp W               &kp X               &kp C               &kp D               &kp V                   &kp H               &kp J               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
+&kp TAB             &kp Q               &kp W               &kp F               &kp P               &kp P                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LPAR
+&mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
+&kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
                                                             &lt 3 LGUI          &lt 2 SPACE         &kp LCTRL               &kp LALT            &kp LSHFT
                                                                                 &kp LALT            &kp LSHFT               &kp UNDER >; };
         layer_1 { bindings = <
@@ -93,10 +93,10 @@
                                                             &trans              &trans              &trans                  &trans              &trans 
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
-&kp POUND           &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp CARET
-&kp ASTRK           &kp HOME            &kp LEFT            &kp UP              &kp END             &kp F8                  &kp AMPS            &kp N7              &kp N8              &kp N9              &kp COLON           &kp DLLR
-&mt LCTRL INS       &kp ESC             &kp BSPC            &kp ENTER           &kp DEL             &kp F12                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
-&kp LSHFT           &kp CAPS            &kp PG_UP           &kp PG_DN           &kp DOWN            &kp RIGHT               &kp PIPE            &kp N4              &kp N5              &kp N6              &kp QMARK           &kp AT
+&kp LC(Y)           &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp CARET
+&kp LC(Z)           &kp HOME            &kp BSPC            &kp UP              &kp DEL             &kp F8                  &kp AMPS            &kp N7              &kp N8              &kp N9              &kp ASTRK           &kp DLLR
+&mt LCTRL CAPS      &kp LALT            &kp LEFT            &kp ENTER           &kp RIGHT           &kp F12                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
+&kp LSHFT           &kp INS             &kp PG_UP           &kp DOWN            &kp PG_DN           &kp END                 &kp PIPE            &kp N4              &kp N5              &kp N6              &kp POUND           &kp AT
                                                             &mo 4               &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &kp TILDE >; };
         layer_3 { bindings = <
