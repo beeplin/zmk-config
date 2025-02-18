@@ -566,9 +566,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:microsoft-windows"/>
-<a href="#x_x">
-<text x="0" y="24" class="key hold layer-activator">3</text>
-</a></g>
+</g>
 <g transform="translate(318, 285) rotate(30.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -599,7 +597,7 @@ rect.held, rect.combo.held {
 <g transform="translate(339, 361) rotate(30.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:microsoft-windows"/>
 </g>
 <g transform="translate(557, 361) rotate(-30.0)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -710,29 +708,41 @@ rect.held, rect.combo.held {
 <text x="812" y="157" class="combo shifted">&quot;</text>
 </g>
 <g class="combo combopos-20">
+<path d="M318,285 l-32,-19" class="combo"/>
+<path d="M318,285 l32,19" class="combo"/>
+<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="318" y="285" class="combo tap layer-activator">5</text>
+</a></g>
+<g class="combo combopos-21">
 <rect rx="6" ry="6" x="280" y="258" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="285" y="262" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <a href="#x_x">
 <text x="294" y="282" class="combo hold layer-activator">4</text>
 </a></g>
-<g class="combo combopos-21">
+<g class="combo combopos-22">
 <rect rx="6" ry="6" x="328" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="333" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 <text x="342" y="310" class="combo hold"><tspan style="font-size: 60%">&amp;l2m LCTRL</tspan></text>
 </g>
-<g class="combo combopos-22">
+<g class="combo combopos-23">
 <path d="M448,285 l-111,0" class="combo"/>
 <path d="M448,285 l111,0" class="combo"/>
 <rect rx="6" ry="6" x="434" y="272" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="439" y="276" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 <text x="448" y="296" class="combo hold"><tspan style="font-size: 60%">&amp;l2m LSHFT</tspan></text>
 </g>
-<g class="combo combopos-23">
+<g class="combo combopos-24">
 <path d="M448,313 l-63,0" class="combo"/>
 <path d="M448,313 l63,0" class="combo"/>
 <rect rx="6" ry="6" x="434" y="300" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="439" y="304" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 <text x="448" y="324" class="combo hold"><tspan style="font-size: 60%">LCTRL(LAL…</tspan></text>
+</g>
+<g class="combo combopos-25">
+<rect rx="6" ry="6" x="540" y="286" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="545" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-return"/>
+<text x="554" y="310" class="combo hold"><tspan style="font-size: 60%">LSHFT(LAL…</tspan></text>
 </g>
 </g>
 </g>
@@ -1123,29 +1133,41 @@ rect.held, rect.combo.held {
 <text x="812" y="157" class="combo shifted">&quot;</text>
 </g>
 <g class="combo combopos-20">
+<path d="M318,285 l-32,-19" class="combo"/>
+<path d="M318,285 l32,19" class="combo"/>
+<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="318" y="285" class="combo tap layer-activator">5</text>
+</a></g>
+<g class="combo combopos-21">
 <rect rx="6" ry="6" x="280" y="258" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="285" y="262" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 <a href="#x_x">
 <text x="294" y="282" class="combo hold layer-activator">4</text>
 </a></g>
-<g class="combo combopos-21">
+<g class="combo combopos-22">
 <rect rx="6" ry="6" x="328" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="333" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 <text x="342" y="310" class="combo hold"><tspan style="font-size: 60%">&amp;l2m LCTRL</tspan></text>
 </g>
-<g class="combo combopos-22">
+<g class="combo combopos-23">
 <path d="M448,285 l-111,0" class="combo"/>
 <path d="M448,285 l111,0" class="combo"/>
 <rect rx="6" ry="6" x="434" y="272" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="439" y="276" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 <text x="448" y="296" class="combo hold"><tspan style="font-size: 60%">&amp;l2m LSHFT</tspan></text>
 </g>
-<g class="combo combopos-23">
+<g class="combo combopos-24">
 <path d="M448,313 l-63,0" class="combo"/>
 <path d="M448,313 l63,0" class="combo"/>
 <rect rx="6" ry="6" x="434" y="300" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="439" y="304" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 <text x="448" y="324" class="combo hold"><tspan style="font-size: 60%">LCTRL(LAL…</tspan></text>
+</g>
+<g class="combo combopos-25">
+<rect rx="6" ry="6" x="540" y="286" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="545" y="290" height="18" width="18.0" class="combo tap glyph mdi:keyboard-return"/>
+<text x="554" y="310" class="combo hold"><tspan style="font-size: 60%">LSHFT(LAL…</tspan></text>
 </g>
 </g>
 </g>
@@ -1354,6 +1376,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">INS</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(140, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1746,9 +1769,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 </g>
-<g transform="translate(270, 257) rotate(30.0)" class="key held keypos-48">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<g transform="translate(270, 257) rotate(30.0)" class="key trans keypos-48">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<text x="0" y="-4" class="key trans tap">▽</text>
 </g>
 <g transform="translate(318, 285) rotate(30.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2276,9 +2300,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 </g>
-<g transform="translate(270, 257) rotate(30.0)" class="key held keypos-48">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<g transform="translate(270, 257) rotate(30.0)" class="key held alternate keypos-48">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
 </g>
 <g transform="translate(318, 285) rotate(30.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

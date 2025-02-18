@@ -48,13 +48,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - )
-  - {t: '$$mdi:microsoft-windows$$', h: '3'}
+  - $$mdi:microsoft-windows$$
   - {t: '$$mdi:keyboard-space$$', h: '2'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:microsoft-windows$$
   - _
   '1':
   - {t: ▽, type: trans}
@@ -151,7 +151,7 @@ layers:
   - {t: '0', s: )}
   - '"'
   - $$mdi:apple-keyboard-shift$$
-  - INS
+  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
   - PG UP
   - $$mdi:arrow-down-bold$$
   - PG DN
@@ -219,7 +219,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:volume-low$$
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - {t: ▽, type: trans}
@@ -333,7 +333,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {type: held alternate}
   - $$mdi:progress-download$$
   - {type: held}
   - {t: ▽, type: trans}
@@ -432,6 +432,9 @@ combos:
 - p: [22, 34]
   k: F10
   l: ['2']
+- p: [48, 50]
+  k: '5'
+  l: ['0', '1']
 - p: [49, 48]
   k: {t: '$$mdi:keyboard-esc$$', h: '4'}
   l: ['0', '1']
@@ -443,4 +446,7 @@ combos:
   l: ['0', '1']
 - p: [50, 51]
   k: {t: '$$mdi:apple-keyboard-caps$$', h: LCTRL(LALT)}
+  l: ['0', '1']
+- p: [51, 52]
+  k: {t: '$$mdi:keyboard-return$$', h: LSHFT(LALT)}
   l: ['0', '1']
