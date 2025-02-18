@@ -442,5 +442,5 @@ combos:
   k: {t: '$$mdi:alpha-w-box$$', h: '&l2m LSHFT'}
   l: ['0', '1']
 - p: [50, 51]
-  k: {t: '$$mdi:apple-keyboard-caps$$', h: LCTRL(LALT)}
+  k: {t: '$$mdi:apple-keyboard-caps$$', h: 'Ctl+$$mdi:apple-keyboard-option$$'}
   l: ['0', '1']
