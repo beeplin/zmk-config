@@ -151,7 +151,7 @@ layers:
   - {t: '0', s: )}
   - '"'
   - $$mdi:apple-keyboard-shift$$
-  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - PG UP
   - $$mdi:arrow-down-bold$$
   - PG DN
