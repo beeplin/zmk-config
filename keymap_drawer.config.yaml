@@ -232,9 +232,9 @@ parse_config:
       shifted: 4
       tap: $$mdi:bluetooth-connect$$
     "&out OUT_TOG":
-      shifted: $$mdi:usb$$
+      shifted: $$mdi:toggle-switch$$
       tap: $$mdi:bluetooth$$
-      hold: $$mdi:toggle-switch$$
+      hold: $$mdi:usb$$
     "&bt BT_PRV":
       shifted: $$mdi:bluetooth-connect$$
       tap: ""
