@@ -17,7 +17,7 @@ layers:
   - W
   - F
   - P
-  - Bh
+  - B
   - J
   - L
   - U
@@ -139,7 +139,7 @@ layers:
   - '*'
   - $
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - '&mt LALT ESC h'
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
