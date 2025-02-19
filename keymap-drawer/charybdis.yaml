@@ -48,7 +48,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - )
-  - $$mdi:microsoft-windows$$
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '2'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - Ctl+Y
+  - F8
   - F1
   - F2
   - F3
@@ -126,12 +126,12 @@ layers:
   - F10
   - F11
   - ^
-  - Ctl+Z
-  - HOME
+  - F12
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - F8
+  - PG UP
   - '&'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -139,11 +139,11 @@ layers:
   - '*'
   - $
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - F12
+  - $$mdi:keyboard-space$$
   - '!'
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -152,10 +152,10 @@ layers:
   - '"'
   - $$mdi:apple-keyboard-shift$$
   - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
-  - PG UP
+  - HOME
   - $$mdi:arrow-down-bold$$
-  - PG DN
   - END
+  - PG DN
   - '|'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -228,20 +228,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [48, 50]
-  k: '3'
-  l: ['0', '1']
-- p: [49, 48]
-  k: {t: '$$mdi:keyboard-esc$$', h: '&l2m LGUI'}
-  l: ['0', '1']
-- p: [49, 50]
-  k: {t: '$$mdi:keyboard-tab$$', h: '&l2m LCTRL'}
+- p: [50, 51]
+  k: {t: '$$mdi:apple-keyboard-caps$$', h: 'Alt+$$mdi:apple-keyboard-control$$'}
   l: ['0', '1']
 - p: [49, 52]
   k: {t: '$$mdi:alpha-w-box$$', h: '&l2m LSHFT'}
   l: ['0', '1']
-- p: [50, 51]
-  k: {t: '$$mdi:apple-keyboard-caps$$', h: 'Alt+$$mdi:apple-keyboard-control$$'}
+- p: [49, 50]
+  k: {t: '$$mdi:keyboard-tab$$', h: '&l2m LCTRL'}
+  l: ['0', '1']
+- p: [49, 48]
+  k: {t: '$$mdi:keyboard-esc$$', h: '&l2m LALT'}
+  l: ['0', '1']
+- p: [48, 50]
+  k: '3'
   l: ['0', '1']
 - p: [51, 52]
   k: {t: _, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
@@ -261,21 +261,6 @@ combos:
 - p: [17, 29]
   k: '}'
   l: ['0', '1']
-- p: [18, 30]
-  k: +
-  l: ['0', '1']
-- p: [19, 31]
-  k: {t: '-', s: _}
-  l: ['0', '1']
-- p: [20, 32]
-  k: {t: '=', s: +}
-  l: ['0', '1']
-- p: [21, 33]
-  k: {t: '[', s: '{'}
-  l: ['0', '1']
-- p: [22, 34]
-  k: {t: ']', s: '}'}
-  l: ['0', '1']
 - p: [25, 37]
   k: '~'
   l: ['0', '1']
@@ -290,6 +275,21 @@ combos:
   l: ['0', '1']
 - p: [29, 41]
   k: )
+  l: ['0', '1']
+- p: [18, 30]
+  k: +
+  l: ['0', '1']
+- p: [19, 31]
+  k: {t: '-', s: _}
+  l: ['0', '1']
+- p: [20, 32]
+  k: {t: '=', s: +}
+  l: ['0', '1']
+- p: [21, 33]
+  k: {t: '[', s: '{'}
+  l: ['0', '1']
+- p: [22, 34]
+  k: {t: ']', s: '}'}
   l: ['0', '1']
 - p: [30, 42]
   k: '@'
@@ -316,19 +316,7 @@ combos:
   k: F7
   l: ['0', '1']
 - p: [16, 17]
-  k: F12
-  l: ['0', '1']
-- p: [18, 19]
-  k: $$mdi:brightness-5$$
-  l: ['0', '1']
-- p: [19, 20]
-  k: $$mdi:volume-low$$
-  l: ['0', '1']
-- p: [20, 21]
-  k: $$mdi:volume-off$$
-  l: ['0', '1']
-- p: [21, 22]
-  k: $$mdi:volume-high$$
+  k: F10
   l: ['0', '1']
 - p: [25, 26]
   k: F3
@@ -342,18 +330,6 @@ combos:
 - p: [28, 29]
   k: F11
   l: ['0', '1']
-- p: [30, 31]
-  k: APP
-  l: ['0', '1']
-- p: [31, 32]
-  k: $$mdi:skip-previous$$
-  l: ['0', '1']
-- p: [32, 33]
-  k: $$mdi:play-pause$$
-  l: ['0', '1']
-- p: [33, 34]
-  k: $$mdi:skip-next$$
-  l: ['0', '1']
 - p: [37, 38]
   k: F6
   l: ['0', '1']
@@ -364,17 +340,41 @@ combos:
   k: F4
   l: ['0', '1']
 - p: [40, 41]
-  k: F10
+  k: F12
+  l: ['0', '1']
+- p: [18, 19]
+  k: $$mdi:brightness-5$$
+  l: ['0', '1']
+- p: [19, 20]
+  k: $$mdi:printer-outline$$
+  l: ['0', '1']
+- p: [20, 21]
+  k: SLCK
+  l: ['0', '1']
+- p: [21, 22]
+  k: PAUSE BREAK
+  l: ['0', '1']
+- p: [30, 31]
+  k: APP
+  l: ['0', '1']
+- p: [31, 32]
+  k: $$mdi:volume-low$$
+  l: ['0', '1']
+- p: [32, 33]
+  k: $$mdi:volume-off$$
+  l: ['0', '1']
+- p: [33, 34]
+  k: $$mdi:volume-high$$
   l: ['0', '1']
 - p: [42, 43]
   k: $$mdi:brightness-7$$
   l: ['0', '1']
 - p: [43, 44]
-  k: $$mdi:printer-outline$$
+  k: $$mdi:volume-low$$
   l: ['0', '1']
 - p: [44, 45]
-  k: SLCK
+  k: $$mdi:volume-off$$
   l: ['0', '1']
 - p: [45, 46]
-  k: PAUSE BREAK
+  k: $$mdi:volume-high$$
   l: ['0', '1']
