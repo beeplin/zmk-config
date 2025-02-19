@@ -360,8 +360,11 @@ combos:
 - p: [45, 46]
   k: $$mdi:skip-next$$
   l: ['0', '1']
-- p: [50, 51]
-  k: {t: '$$mdi:apple-keyboard-caps$$', h: 'Alt+$$mdi:apple-keyboard-control$$'}
+- p: [28, 31]
+  k: $$mdi:apple-keyboard-caps$$
+  l: ['0', '1']
+- p: [40, 43]
+  k: $$mdi:alpha-w-box$$
   l: ['0', '1']
 - p: [13, 22]
   k: {t: '$$mdi:bluetooth-connect$$', s: '0'}
@@ -381,9 +384,9 @@ combos:
 - p: [29, 30]
   k: $$mdi:bluetooth-off$$
   l: ['2']
-- p: [37, 41]
+- p: [37, 40]
   k: $$mdi:progress-download$$
   l: ['2']
-- p: [42, 46]
+- p: [43, 46]
   k: $$mdi:progress-download$$
   l: ['2']
