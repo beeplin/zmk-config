@@ -14,70 +14,71 @@
              <&macro_press &mo 2>, <&macro_param_1to1>, <&macro_press &kp MACRO_PLACEHOLDER>, <&macro_pause_for_release>, <&macro_param_1to1>, <&macro_release &kp MACRO_PLACEHOLDER>, <&macro_release &mo 2>; };
     };
     behaviors {
-        l2m_tap: l2m_tap { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&l2m>, <&kp>; };
-        l2m_cpw: l2m_cpw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&l2m>, <&caps_word>; };
+        ms:      mod_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&sk>; };
+        l2m_tap: l2mnod_tap { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&l2m>, <&kp>; };
+        l2m_cpw: l2mnod_cpw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&l2m>, <&caps_word>; };
     };
     combos { compatible = "zmk,combos";
-        mo3      { layers = <0 1>; key-positions = <48 50>; bindings = <&mo 3>; };
-        g2_esc   { layers = <0 1>; key-positions = <49 48>; bindings = <&l2m_tap LGUI ESC>; };
-        c2_tab   { layers = <0 1>; key-positions = <49 50>; bindings = <&l2m_tap LCTRL TAB>; };
-        s2_cpw   { layers = <0 1>; key-positions = <49 52>; bindings = <&l2m_cpw LSHFT 0>; };
-        ca_caps  { layers = <0 1>; key-positions = <50 51>; bindings = <&mt LA(LCTRL) CAPS>; };
-        sa_under { layers = <0 1>; key-positions = <51 52>; bindings = <&mt LA(LSHFT) UNDER>; };
+        crss_finger_00_row_4 { layers = <0 1>; key-positions = <50 51>; bindings = <&mt LA(LCTRL) CAPS>; };
+        crss_finger_11_row_4 { layers = <0 1>; key-positions = <49 52>; bindings = <&l2m_cpw LSHFT CAPS>; };
+        left_finger_01_row_4 { layers = <0 1>; key-positions = <49 50>; bindings = <&l2m_tap LCTRL TAB>; };
+        left_finger_12_row_4 { layers = <0 1>; key-positions = <49 48>; bindings = <&l2m_tap LALT ESC>; };
+        left_finger_02_row_4 { layers = <0 1>; key-positions = <48 50>; bindings = <&mo 3>; };
+        rght_finger_01_row_4 { layers = <0 1>; key-positions = <51 52>; bindings = <&mt LA(LSHFT) UNDER>; };
         
-        r12_c1   { layers = <0 1>; key-positions = <13 25>; bindings = <&kp GRAVE>; };
-        r12_c2   { layers = <0 1>; key-positions = <14 26>; bindings = <&kp LT>; };
-        r12_c3   { layers = <0 1>; key-positions = <15 27>; bindings = <&kp GT>; };
-        r12_c4   { layers = <0 1>; key-positions = <16 28>; bindings = <&kp LBRC>; };
-        r12_c5   { layers = <0 1>; key-positions = <17 29>; bindings = <&kp RBRC>; };
+        left_finger_4_row_12 { layers = <0 1>; key-positions = <13 25>; bindings = <&kp GRAVE>; };
+        left_finger_3_row_12 { layers = <0 1>; key-positions = <14 26>; bindings = <&kp LT>; };
+        left_finger_2_row_12 { layers = <0 1>; key-positions = <15 27>; bindings = <&kp GT>; };
+        left_finger_1_row_12 { layers = <0 1>; key-positions = <16 28>; bindings = <&kp LBRC>; };
+        left_finger_0_row_12 { layers = <0 1>; key-positions = <17 29>; bindings = <&kp RBRC>; };
 
-        r12_c6   { layers = <0 1>; key-positions = <18 30>; bindings = <&kp PLUS>; }; 
-        r12_c7   { layers = <0 1>; key-positions = <19 31>; bindings = <&kp MINUS>; };
-        r12_c8   { layers = <0 1>; key-positions = <20 32>; bindings = <&kp EQUAL>; };
-        r12_c9   { layers = <0 1>; key-positions = <21 33>; bindings = <&kp LBKT>; };
-        r12_c0   { layers = <0 1>; key-positions = <22 34>; bindings = <&kp RBKT>; };
+        left_finger_4_row_23 { layers = <0 1>; key-positions = <25 37>; bindings = <&kp TILDE>; };
+        left_finger_3_row_23 { layers = <0 1>; key-positions = <26 38>; bindings = <&kp PRCNT>; };
+        left_finger_2_row_23 { layers = <0 1>; key-positions = <27 39>; bindings = <&kp BSLH>; };
+        left_finger_1_row_23 { layers = <0 1>; key-positions = <28 40>; bindings = <&kp LPAR>; };
+        left_finger_0_row_23 { layers = <0 1>; key-positions = <29 41>; bindings = <&kp RPAR>; };
 
-        r23_c1   { layers = <0 1>; key-positions = <25 37>; bindings = <&kp TILDE>; };
-        r23_c2   { layers = <0 1>; key-positions = <26 38>; bindings = <&kp PRCNT>; };
-        r23_c3   { layers = <0 1>; key-positions = <27 39>; bindings = <&kp BSLH>; };
-        r23_c4   { layers = <0 1>; key-positions = <28 40>; bindings = <&kp LPAR>; };
-        r23_c5   { layers = <0 1>; key-positions = <29 41>; bindings = <&kp RPAR>; };
+        rght_finger_0_row_12 { layers = <0 1>; key-positions = <18 30>; bindings = <&kp PLUS>; }; 
+        rght_finger_1_row_12 { layers = <0 1>; key-positions = <19 31>; bindings = <&kp MINUS>; };
+        rght_finger_2_row_12 { layers = <0 1>; key-positions = <20 32>; bindings = <&kp EQUAL>; };
+        rght_finger_3_row_12 { layers = <0 1>; key-positions = <21 33>; bindings = <&kp LBKT>; };
+        rght_finger_4_row_12 { layers = <0 1>; key-positions = <22 34>; bindings = <&kp RBKT>; };
 
-        r23_c6   { layers = <0 1>; key-positions = <30 42>; bindings = <&kp AT>; };
-        r23_c7   { layers = <0 1>; key-positions = <31 43>; bindings = <&kp SQT>; };
-        r23_c8   { layers = <0 1>; key-positions = <32 44>; bindings = <&kp DQT>; };
-        r23_c9   { layers = <0 1>; key-positions = <33 45>; bindings = <&kp DLLR>; };
-        r23_c0   { layers = <0 1>; key-positions = <34 46>; bindings = <&kp CARET>; };
+        rght_finger_0_row_23 { layers = <0 1>; key-positions = <30 42>; bindings = <&kp AT>; };
+        rght_finger_1_row_23 { layers = <0 1>; key-positions = <31 43>; bindings = <&kp SQT>; };
+        rght_finger_2_row_23 { layers = <0 1>; key-positions = <32 44>; bindings = <&kp DQT>; };
+        rght_finger_3_row_23 { layers = <0 1>; key-positions = <33 45>; bindings = <&kp DLLR>; };
+        rght_finger_4_row_23 { layers = <0 1>; key-positions = <34 46>; bindings = <&kp CARET>; };
 
-        r1_c12   { layers = <0 1>; key-positions = <13 14>; bindings = <&kp F9>; };
-        r1_c23   { layers = <0 1>; key-positions = <14 15>; bindings = <&kp F8>; };
-        r1_c34   { layers = <0 1>; key-positions = <15 16>; bindings = <&kp F7>; };
-        r1_c14   { layers = <0 1>; key-positions = <16 17>; bindings = <&kp F12>; };
-                
-        r1_c70   { layers = <0 1>; key-positions = <18 19>; bindings = <&kp C_BRI_UP>; };
-        r1_c78   { layers = <0 1>; key-positions = <19 20>; bindings = <&kp C_VOL_DN>; };
-        r1_c89   { layers = <0 1>; key-positions = <20 21>; bindings = <&kp C_MUTE>; };
-        r1_c90   { layers = <0 1>; key-positions = <21 22>; bindings = <&kp C_VOL_UP>; };
+        left_finger_34_row_1 { layers = <0 1>; key-positions = <13 14>; bindings = <&kp F9>; };
+        left_finger_23_row_1 { layers = <0 1>; key-positions = <14 15>; bindings = <&kp F8>; };
+        left_finger_12_row_1 { layers = <0 1>; key-positions = <15 16>; bindings = <&kp F7>; };
+        left_finger_01_row_1 { layers = <0 1>; key-positions = <16 17>; bindings = <&kp F10>; };
 
-        r2_c12   { layers = <0 1>; key-positions = <25 26>; bindings = <&kp F3>; };
-        r2_c23   { layers = <0 1>; key-positions = <26 27>; bindings = <&kp F2>; };
-        r2_c34   { layers = <0 1>; key-positions = <27 28>; bindings = <&kp F1>; };
-        r2_c14   { layers = <0 1>; key-positions = <28 29>; bindings = <&kp F11>; };
+        left_finger_34_row_2 { layers = <0 1>; key-positions = <25 26>; bindings = <&kp F3>; };
+        left_finger_23_row_2 { layers = <0 1>; key-positions = <26 27>; bindings = <&kp F2>; };
+        left_finger_12_row_2 { layers = <0 1>; key-positions = <27 28>; bindings = <&kp F1>; };
+        left_finger_01_row_2 { layers = <0 1>; key-positions = <28 29>; bindings = <&kp F11>; };
 
-        r2_c70   { layers = <0 1>; key-positions = <30 31>; bindings = <&kp K_APP>; };
-        r2_c78   { layers = <0 1>; key-positions = <31 32>; bindings = <&kp C_PREV>; };
-        r2_c89   { layers = <0 1>; key-positions = <32 33>; bindings = <&kp C_PP>; };
-        r2_c90   { layers = <0 1>; key-positions = <33 34>; bindings = <&kp C_NEXT>; };
+        left_finger_34_row_3 { layers = <0 1>; key-positions = <37 38>; bindings = <&kp F6>; };
+        left_finger_23_row_3 { layers = <0 1>; key-positions = <38 39>; bindings = <&kp F5>; };
+        left_finger_12_row_3 { layers = <0 1>; key-positions = <39 40>; bindings = <&kp F4>; };
+        left_finger_01_row_3 { layers = <0 1>; key-positions = <40 41>; bindings = <&kp F12>; };
 
-        r3_c12   { layers = <0 1>; key-positions = <37 38>; bindings = <&kp F6>; };
-        r3_c23   { layers = <0 1>; key-positions = <38 39>; bindings = <&kp F5>; };
-        r3_c34   { layers = <0 1>; key-positions = <39 40>; bindings = <&kp F4>; };
-        r3_c14   { layers = <0 1>; key-positions = <40 41>; bindings = <&kp F10>; };
+        rght_finger_01_row_1 { layers = <0 1>; key-positions = <18 19>; bindings = <&kp C_BRI_UP>; };
+        rght_finger_12_row_1 { layers = <0 1>; key-positions = <19 20>; bindings = <&kp PSCRN>; };
+        rght_finger_23_row_1 { layers = <0 1>; key-positions = <20 21>; bindings = <&kp SLCK>; };
+        rght_finger_34_row_1 { layers = <0 1>; key-positions = <21 22>; bindings = <&kp PAUSE_BREAK>; };
 
-        r3_c70   { layers = <0 1>; key-positions = <42 43>; bindings = <&kp C_BRI_DN>; };
-        r3_c78   { layers = <0 1>; key-positions = <43 44>; bindings = <&kp PSCRN>; };
-        r3_c89   { layers = <0 1>; key-positions = <44 45>; bindings = <&kp SLCK>; };
-        r3_c90   { layers = <0 1>; key-positions = <45 46>; bindings = <&kp PAUSE_BREAK>; };
+        rght_finger_01_row_2 { layers = <0 1>; key-positions = <30 31>; bindings = <&kp K_APP>; };
+        rght_finger_12_row_2 { layers = <0 1>; key-positions = <31 32>; bindings = <&kp C_VOL_DN>; };
+        rght_finger_23_row_2 { layers = <0 1>; key-positions = <32 33>; bindings = <&kp C_MUTE>; };
+        rght_finger_34_row_2 { layers = <0 1>; key-positions = <33 34>; bindings = <&kp C_VOL_UP>; };
+
+        rght_finger_01_row_3 { layers = <0 1>; key-positions = <42 43>; bindings = <&kp C_BRI_DN>; };
+        rght_finger_12_row_3 { layers = <0 1>; key-positions = <43 44>; bindings = <&kp C_VOL_DN>; };
+        rght_finger_23_row_3 { layers = <0 1>; key-positions = <44 45>; bindings = <&kp C_MUTE>; };
+        rght_finger_34_row_3 { layers = <0 1>; key-positions = <45 46>; bindings = <&kp C_VOL_UP>; };
     };
     keymap {
         compatible = "zmk,keymap";
@@ -86,7 +87,7 @@
 &kp TAB             &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LPAR
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
-                                                            &kp LGUI            &lt 2 SPACE         &kp LCTRL               &kp LALT            &kp LSHFT
+                                                            &ms LALT LGUI       &lt 2 SPACE         &kp LCTRL               &kp LALT            &kp LSHFT
                                                                                 &kp LALT            &kp LGUI                &kp UNDER >; };
         layer_1 { bindings = <
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
@@ -96,10 +97,10 @@
                                                             &trans              &trans              &trans                  &trans              &trans 
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
-&kp LC(Y)           &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp CARET
-&kp LC(Z)           &kp HOME            &kp BSPC            &kp UP              &kp DEL             &kp F8                  &kp AMPS            &kp N7              &kp N8              &kp N9              &kp ASTRK           &kp DLLR
-&mt LCTRL CAPS      &mt LALT ESC        &kp LEFT            &kp ENTER           &kp RIGHT           &kp F12                 &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
-&kp LSHFT           &mt LSHFT INS       &kp PG_UP           &kp DOWN            &kp PG_DN           &kp END                 &kp PIPE            &kp N4              &kp N5              &kp N6              &kp POUND           &kp AT
+&kp F8              &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp CARET
+&kp F12             &kp TAB             &kp BSPC            &kp UP              &kp DEL             &kp PG_UP               &kp AMPS            &kp N7              &kp N8              &kp N9              &kp ASTRK           &kp DLLR
+&mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp SPACE               &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
+&kp LSHFT           &mt LSHFT INS       &kp HOME            &kp DOWN            &kp END             &kp PG_DN               &kp PIPE            &kp N4              &kp N5              &kp N6              &kp POUND           &kp AT
                                                             &trans              &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &kp TILDE >; };
         layer_3 { bindings = <
@@ -109,5 +110,5 @@
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
                                                             &trans              &bootloader         &trans                  &trans              &bootloader
                                                                                 &trans              &trans                  &trans >; };
-    };
+    }; 
 };
