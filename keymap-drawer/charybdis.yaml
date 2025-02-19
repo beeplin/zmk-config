@@ -228,24 +228,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [50, 51]
-  k: {t: '$$mdi:apple-keyboard-caps$$', h: 'Alt+$$mdi:apple-keyboard-control$$'}
-  l: ['0', '1']
-- p: [49, 52]
-  k: {t: '$$mdi:alpha-w-box$$', h: '&l2m LSHFT'}
-  l: ['0', '1']
-- p: [49, 50]
-  k: {t: '$$mdi:keyboard-tab$$', h: '&l2m LCTRL'}
-  l: ['0', '1']
-- p: [49, 48]
-  k: {t: '$$mdi:keyboard-esc$$', h: '&l2m LALT'}
-  l: ['0', '1']
-- p: [48, 50]
-  k: '3'
-  l: ['0', '1']
-- p: [51, 52]
-  k: {t: _, h: 'Alt+$$mdi:apple-keyboard-shift$$'}
-  l: ['0', '1']
 - p: [13, 25]
   k: {t: '`', s: '~'}
   l: ['0', '1']
@@ -292,19 +274,19 @@ combos:
   k: {t: ']', s: '}'}
   l: ['0', '1']
 - p: [30, 42]
-  k: '@'
+  k: ':'
   l: ['0', '1']
 - p: [31, 43]
-  k: {t: '''', s: '"'}
+  k: _
   l: ['0', '1']
 - p: [32, 44]
-  k: '"'
+  k: {t: '''', s: '"'}
   l: ['0', '1']
 - p: [33, 45]
-  k: $
+  k: '"'
   l: ['0', '1']
 - p: [34, 46]
-  k: ^
+  k: '?'
   l: ['0', '1']
 - p: [13, 14]
   k: F9
@@ -370,11 +352,29 @@ combos:
   k: $$mdi:brightness-7$$
   l: ['0', '1']
 - p: [43, 44]
-  k: $$mdi:volume-low$$
+  k: $$mdi:skip-previous$$
   l: ['0', '1']
 - p: [44, 45]
-  k: $$mdi:volume-off$$
+  k: $$mdi:play-pause$$
   l: ['0', '1']
 - p: [45, 46]
-  k: $$mdi:volume-high$$
+  k: $$mdi:skip-next$$
+  l: ['0', '1']
+- p: [49, 50]
+  k: {t: $, h: '&l2m LCTRL'}
+  l: ['0', '1']
+- p: [48, 50]
+  k: '3'
+  l: ['0', '1']
+- p: [49, 48]
+  k: {t: ^, h: '&l2m LALT'}
+  l: ['0', '1']
+- p: [51, 52]
+  k: {t: '@', h: 'Alt+$$mdi:apple-keyboard-shift$$'}
+  l: ['0', '1']
+- p: [50, 51]
+  k: {t: '$$mdi:apple-keyboard-caps$$', h: 'Alt+$$mdi:apple-keyboard-control$$'}
+  l: ['0', '1']
+- p: [49, 52]
+  k: {t: '$$mdi:alpha-w-box$$', h: '&l2m LSHFT'}
   l: ['0', '1']
