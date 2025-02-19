@@ -25,7 +25,7 @@
         left_finger_1_row_12 { layers = <0 1>; key-positions = <16 28>; bindings = <&kp LBRC>; };
         left_finger_0_row_12 { layers = <0 1>; key-positions = <17 29>; bindings = <&kp RBRC>; };
 
-        left_finger_4_row_23 { layers = <0 1>; key-positions = <25 37>; bindings = <&kp TILDE>; };
+        left_finger_4_row_23 { layers = <0 1>; key-positions = <25 37>; bindings = <&kp EXCL>; };
         left_finger_3_row_23 { layers = <0 1>; key-positions = <26 38>; bindings = <&kp PRCNT>; };
         left_finger_2_row_23 { layers = <0 1>; key-positions = <27 39>; bindings = <&kp BSLH>; };
         left_finger_1_row_23 { layers = <0 1>; key-positions = <28 40>; bindings = <&kp LPAR>; };
@@ -37,11 +37,11 @@
         rght_finger_3_row_12 { layers = <0 1>; key-positions = <21 33>; bindings = <&kp LBKT>; };
         rght_finger_4_row_12 { layers = <0 1>; key-positions = <22 34>; bindings = <&kp RBKT>; };
 
-        rght_finger_0_row_23 { layers = <0 1>; key-positions = <30 42>; bindings = <&kp COLON>; };
+        rght_finger_0_row_23 { layers = <0 1>; key-positions = <30 42>; bindings = <&kp PIPE>; };
         rght_finger_1_row_23 { layers = <0 1>; key-positions = <31 43>; bindings = <&kp UNDER>; };
         rght_finger_2_row_23 { layers = <0 1>; key-positions = <32 44>; bindings = <&kp SQT>; };
         rght_finger_3_row_23 { layers = <0 1>; key-positions = <33 45>; bindings = <&kp DQT>; };
-        rght_finger_4_row_23 { layers = <0 1>; key-positions = <34 46>; bindings = <&kp QMARK>; };
+        rght_finger_4_row_23 { layers = <0 1>; key-positions = <34 46>; bindings = <&kp CARET>; };
 
         left_finger_34_row_1 { layers = <0 1>; key-positions = <13 14>; bindings = <&kp F9>; };
         left_finger_23_row_1 { layers = <0 1>; key-positions = <14 15>; bindings = <&kp F8>; };
@@ -73,11 +73,11 @@
         rght_finger_23_row_3 { layers = <0 1>; key-positions = <44 45>; bindings = <&kp C_PP>; };
         rght_finger_34_row_3 { layers = <0 1>; key-positions = <45 46>; bindings = <&kp C_NEXT>; };
 
-        left_finger_01_row_4 { layers = <0 1>; key-positions = <49 50>; bindings = <&l2m_tap LCTRL DLLR>; };
+        // left_finger_01_row_4 { layers = <0 1>; key-positions = <49 50>; bindings = <&l2m_tap LCTRL DLLR>; };
         left_finger_02_row_4 { layers = <0 1>; key-positions = <48 50>; bindings = <&mo 3>; };
-        left_finger_12_row_4 { layers = <0 1>; key-positions = <49 48>; bindings = <&l2m_tap LALT CARET>; };
+        // left_finger_12_row_4 { layers = <0 1>; key-positions = <49 48>; bindings = <&l2m_tap LALT CARET>; };
 
-        rght_finger_01_row_4 { layers = <0 1>; key-positions = <51 52>; bindings = <&mt LA(LSHFT) AT>; };
+        // rght_finger_01_row_4 { layers = <0 1>; key-positions = <51 52>; bindings = <&mt LA(LSHFT) AT>; };
         
         crss_finger_00_row_4 { layers = <0 1>; key-positions = <50 51>; bindings = <&mt LA(LCTRL) CAPS>; };
         crss_finger_11_row_4 { layers = <0 1>; key-positions = <49 52>; bindings = <&l2m_cpw LSHFT CAPS>; };
@@ -99,10 +99,10 @@
                                                             &trans              &trans              &trans                  &trans              &trans 
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
-&kp F8              &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp CARET
-&kp F12             &kp TAB             &kp BSPC            &kp UP              &kp DEL             &kp PG_UP               &kp AMPS            &kp N7              &kp N8              &kp N9              &kp ASTRK           &kp DLLR
-&mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp SPACE               &kp EXCL            &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
-&kp LSHFT           &mt LSHFT INS       &kp HOME            &kp DOWN            &kp END             &kp PG_DN               &kp PIPE            &kp N4              &kp N5              &kp N6              &kp POUND           &kp AT
+&kp F8              &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp CARET 
+&kp F12             &kp TAB             &kp BSPC            &kp UP              &kp DEL             &kp PG_UP               &kp POUND           &kp N7              &kp N8              &kp N9              &kp AMPS            &kp PIPE
+&mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp SPACE               &kp AT              &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
+&kp LSHFT           &mt LSHFT INS       &kp HOME            &kp DOWN            &kp END             &kp PG_DN               &kp ASTRK           &kp N4              &kp N5              &kp N6              &kp DLLR            &kp EXCL
                                                             &trans              &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &kp TILDE >; };
         layer_3 { bindings = <
