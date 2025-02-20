@@ -243,7 +243,7 @@ parse_config:
     "&bt BT_CLR":
       tap: "BT CLR"
     "&bt BT_CLR_ALL":
-      tap: "BT ALL"
+      tap: "BT CLRALL"
 
     "&out OUT_TOG":
       tap: "OUT TOG"
