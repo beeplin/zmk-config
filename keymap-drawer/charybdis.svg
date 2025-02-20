@@ -710,17 +710,15 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-33">
 <rect rx="6" ry="6" x="658" y="71" width="28" height="26" class="combo"/>
-<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="663" y="75" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="663" y="75" height="18" width="18.0" class="combo tap glyph mdi:volume-high"/>
 </g>
 <g class="combo combopos-34">
 <rect rx="6" ry="6" x="714" y="71" width="28" height="26" class="combo"/>
-<text x="728" y="84" class="combo tap">SLCK</text>
+<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="719" y="75" height="18" width="18.0" class="combo tap glyph mdi:skip-previous"/>
 </g>
 <g class="combo combopos-35">
 <rect rx="6" ry="6" x="770" y="71" width="28" height="26" class="combo"/>
-<text x="784" y="84" class="combo tap">
-<tspan x="784" dy="-0.6em">PAUSE</tspan><tspan x="784" dy="1.2em">BREAK</tspan>
-</text>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="775" y="75" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
 </g>
 <g class="combo combopos-36">
 <rect rx="6" ry="6" x="602" y="127" width="28" height="26" class="combo"/>
@@ -728,15 +726,15 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-37">
 <rect rx="6" ry="6" x="658" y="127" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="663" y="131" height="18" width="18.0" class="combo tap glyph mdi:volume-low"/>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="663" y="131" height="18" width="18.0" class="combo tap glyph mdi:volume-off"/>
 </g>
 <g class="combo combopos-38">
 <rect rx="6" ry="6" x="714" y="127" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="719" y="131" height="18" width="18.0" class="combo tap glyph mdi:volume-off"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="719" y="131" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-39">
 <rect rx="6" ry="6" x="770" y="127" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="775" y="131" height="18" width="18.0" class="combo tap glyph mdi:volume-high"/>
+<text x="784" y="140" class="combo tap">SLCK</text>
 </g>
 <g class="combo combopos-40">
 <rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
@@ -744,15 +742,17 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-41">
 <rect rx="6" ry="6" x="658" y="183" width="28" height="26" class="combo"/>
-<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="663" y="187" height="18" width="18.0" class="combo tap glyph mdi:skip-previous"/>
+<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="663" y="187" height="18" width="18.0" class="combo tap glyph mdi:volume-low"/>
 </g>
 <g class="combo combopos-42">
 <rect rx="6" ry="6" x="714" y="183" width="28" height="26" class="combo"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="719" y="187" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
+<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="719" y="187" height="18" width="18.0" class="combo tap glyph mdi:skip-next"/>
 </g>
 <g class="combo combopos-43">
 <rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
-<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="775" y="187" height="18" width="18.0" class="combo tap glyph mdi:skip-next"/>
+<text x="784" y="196" class="combo tap">
+<tspan x="784" dy="-0.6em">PAUSE</tspan><tspan x="784" dy="1.2em">BREAK</tspan>
+</text>
 </g>
 <g class="combo combopos-44">
 <path d="M318,285 l-32,-19" class="combo"/>
@@ -1180,17 +1180,15 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-33">
 <rect rx="6" ry="6" x="658" y="71" width="28" height="26" class="combo"/>
-<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="663" y="75" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="663" y="75" height="18" width="18.0" class="combo tap glyph mdi:volume-high"/>
 </g>
 <g class="combo combopos-34">
 <rect rx="6" ry="6" x="714" y="71" width="28" height="26" class="combo"/>
-<text x="728" y="84" class="combo tap">SLCK</text>
+<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="719" y="75" height="18" width="18.0" class="combo tap glyph mdi:skip-previous"/>
 </g>
 <g class="combo combopos-35">
 <rect rx="6" ry="6" x="770" y="71" width="28" height="26" class="combo"/>
-<text x="784" y="84" class="combo tap">
-<tspan x="784" dy="-0.6em">PAUSE</tspan><tspan x="784" dy="1.2em">BREAK</tspan>
-</text>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="775" y="75" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
 </g>
 <g class="combo combopos-36">
 <rect rx="6" ry="6" x="602" y="127" width="28" height="26" class="combo"/>
@@ -1198,15 +1196,15 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-37">
 <rect rx="6" ry="6" x="658" y="127" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="663" y="131" height="18" width="18.0" class="combo tap glyph mdi:volume-low"/>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="663" y="131" height="18" width="18.0" class="combo tap glyph mdi:volume-off"/>
 </g>
 <g class="combo combopos-38">
 <rect rx="6" ry="6" x="714" y="127" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="719" y="131" height="18" width="18.0" class="combo tap glyph mdi:volume-off"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="719" y="131" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-39">
 <rect rx="6" ry="6" x="770" y="127" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="775" y="131" height="18" width="18.0" class="combo tap glyph mdi:volume-high"/>
+<text x="784" y="140" class="combo tap">SLCK</text>
 </g>
 <g class="combo combopos-40">
 <rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
@@ -1214,15 +1212,17 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-41">
 <rect rx="6" ry="6" x="658" y="183" width="28" height="26" class="combo"/>
-<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="663" y="187" height="18" width="18.0" class="combo tap glyph mdi:skip-previous"/>
+<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="663" y="187" height="18" width="18.0" class="combo tap glyph mdi:volume-low"/>
 </g>
 <g class="combo combopos-42">
 <rect rx="6" ry="6" x="714" y="183" width="28" height="26" class="combo"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="719" y="187" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
+<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="719" y="187" height="18" width="18.0" class="combo tap glyph mdi:skip-next"/>
 </g>
 <g class="combo combopos-43">
 <rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
-<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="775" y="187" height="18" width="18.0" class="combo tap glyph mdi:skip-next"/>
+<text x="784" y="196" class="combo tap">
+<tspan x="784" dy="-0.6em">PAUSE</tspan><tspan x="784" dy="1.2em">BREAK</tspan>
+</text>
 </g>
 <g class="combo combopos-44">
 <path d="M318,285 l-32,-19" class="combo"/>
