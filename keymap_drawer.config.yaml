@@ -247,11 +247,11 @@ parse_config:
       shifted: 4
       tap: $$mdi:bluetooth-off$$
     "&bt BT_PRV":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: $$mdi:arrow-left-bold$$
+      shifted: $$mdi:arrow-left-bold$$
+      tap: $$mdi:bluetooth-connect$$
     "&bt BT_NXT":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: $$mdi:arrow-down-bold$$
+      shifted: $$mdi:arrow-down-bold$$
+      tap: $$mdi:bluetooth-connect$$
     "&bt BT_CLR":
       tap: $$mdi:bluetooth-settings$$
     "&bt BT_CLR_ALL":
