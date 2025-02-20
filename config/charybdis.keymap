@@ -10,8 +10,6 @@
 &lt { quick-tap-ms = <200>; flavor = "hold-preferred"; };
 &sk { release-after-ms = <2000>; quick-release; lazy; };
 
-int a = GRAVE;
-
 / {
     behaviors {
         ms:      mod_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&sk>; };
@@ -48,7 +46,7 @@ int a = GRAVE;
                                                                                 &trans              &trans                  &trans >; };
     };
     combos { compatible = "zmk,combos";
-        left_finger_4_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <13 25>; bindings = <&kp a>; };
+        left_finger_4_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <13 25>; bindings = <&kp GRAVE>; };
         left_finger_3_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <14 26>; bindings = <&kp LT>; };
         left_finger_2_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <15 27>; bindings = <&kp GT>; };
         left_finger_1_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <16 28>; bindings = <&kp LBRC>; };
@@ -79,7 +77,7 @@ int a = GRAVE;
 
         left_finger_34_row_2 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <25 26>; bindings = <&kp F6>; };
         left_finger_23_row_2 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <26 27>; bindings = <&kp F5>; };
-        left_finger_12_row_2 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <27 28>; bindings = <&kp F4>; };o
+        left_finger_12_row_2 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <27 28>; bindings = <&kp F4>; };
         left_finger_01_row_2 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <28 29>; bindings = <&kp F11>; };
 
         left_finger_34_row_3 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <37 38>; bindings = <&kp F3>; };
