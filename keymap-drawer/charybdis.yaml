@@ -1,17 +1,17 @@
 layers:
   '0':
   - '%'
-  - {t: '`', s: '~'}
+  - '`'
   - <
   - '>'
   - '{'
   - '}'
   - $
   - ':'
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - '='
+  - '['
+  - ']'
+  - \
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -22,7 +22,7 @@ layers:
   - L
   - U
   - Y
-  - {t: ;, s: ':'}
+  - ;
   - (
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
@@ -35,7 +35,7 @@ layers:
   - E
   - I
   - O
-  - {t: '''', s: '"'}
+  - ''''
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -44,9 +44,9 @@ layers:
   - V
   - K
   - H
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - ','
+  - .
+  - /
   - )
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '2'}
@@ -133,9 +133,9 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - PG UP
   - '~'
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - '7'
+  - '8'
+  - '9'
   - +
   - '|'
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -145,10 +145,10 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-space$$
   - '@'
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '-', s: _}
+  - '4'
+  - '5'
+  - '6'
+  - '-'
   - '"'
   - $$mdi:apple-keyboard-shift$$
   - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
@@ -157,16 +157,16 @@ layers:
   - END
   - PG DN
   - '#'
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - '1'
+  - '2'
+  - '3'
   - '*'
   - '&'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ., s: '>'}
-  - {t: '0', s: )}
+  - .
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ^
@@ -184,11 +184,11 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '$$mdi:bluetooth-connect$$', s: '0'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '3'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '0'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - RGB SPI
   - RGB HUI
   - RGB SAI
@@ -196,10 +196,10 @@ layers:
   - RGB EFR
   - ''
   - ''
-  - {t: '$$mdi:bluetooth$$', h: '$$mdi:usb$$', s: '$$mdi:toggle-switch$$'}
-  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - OUT TOG
+  - BT PRV
   - $$mdi:bluetooth-off$$
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - BT NXT
   - BT CLR ALL
   - '&studio_unlock'
   - '&bl BL_DEC'
@@ -220,16 +220,16 @@ layers:
   - RGB EFF
   - ''
   - {type: held}
-  - $$mdi:progress-download$$
+  - '&bootloader'
   - {type: held}
   - {t: ▽, type: trans}
-  - $$mdi:progress-download$$
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [13, 25]
-  k: {t: '`', s: '~'}
+  k: '`'
   l: ['0', '1']
 - p: [14, 26]
   k: <
@@ -250,7 +250,7 @@ combos:
   k: '%'
   l: ['0', '1']
 - p: [27, 39]
-  k: {t: \, s: '|'}
+  k: \
   l: ['0', '1']
 - p: [28, 40]
   k: (
@@ -262,16 +262,16 @@ combos:
   k: +
   l: ['0', '1']
 - p: [19, 31]
-  k: {t: '-', s: _}
+  k: '-'
   l: ['0', '1']
 - p: [20, 32]
-  k: {t: '=', s: +}
+  k: '='
   l: ['0', '1']
 - p: [21, 33]
-  k: {t: '[', s: '{'}
+  k: '['
   l: ['0', '1']
 - p: [22, 34]
-  k: {t: ']', s: '}'}
+  k: ']'
   l: ['0', '1']
 - p: [30, 42]
   k: '|'
@@ -280,7 +280,7 @@ combos:
   k: _
   l: ['0', '1']
 - p: [32, 44]
-  k: {t: '''', s: '"'}
+  k: ''''
   l: ['0', '1']
 - p: [33, 45]
   k: '"'
