@@ -6,8 +6,8 @@ layers:
   - '>'
   - '{'
   - '}'
-  - +
-  - {t: '-', s: _}
+  - $
+  - ':'
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -55,7 +55,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:microsoft-windows$$'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: _, h: '$$mdi:apple-keyboard-control$$'}
+  - _
   '1':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -125,18 +125,18 @@ layers:
   - F9
   - F10
   - F11
-  - ^
+  - '!'
   - F12
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PG UP
-  - '#'
+  - '~'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - '&'
+  - +
   - '|'
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -145,10 +145,10 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-space$$
   - '@'
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '0', s: )}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '-', s: _}
   - '"'
   - $$mdi:apple-keyboard-shift$$
   - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
@@ -156,20 +156,20 @@ layers:
   - $$mdi:arrow-down-bold$$
   - END
   - PG DN
+  - '#'
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - '*'
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - $
-  - '!'
+  - '&'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ., s: '>'}
+  - {t: '0', s: )}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '~', h: '$$mdi:apple-keyboard-control$$'}
+  - ^
   '3':
   - ''
   - ''
@@ -301,25 +301,25 @@ combos:
   k: F10
   l: ['0', '1']
 - p: [25, 26]
-  k: F3
+  k: F6
   l: ['0', '1']
 - p: [26, 27]
-  k: F2
+  k: F5
   l: ['0', '1']
 - p: [27, 28]
-  k: F1
+  k: F4
   l: ['0', '1']
 - p: [28, 29]
   k: F11
   l: ['0', '1']
 - p: [37, 38]
-  k: F6
+  k: F3
   l: ['0', '1']
 - p: [38, 39]
-  k: F5
+  k: F2
   l: ['0', '1']
 - p: [39, 40]
-  k: F4
+  k: F1
   l: ['0', '1']
 - p: [40, 41]
   k: F12
