@@ -197,9 +197,9 @@ layers:
   - ''
   - ''
   - {t: '$$mdi:bluetooth$$', h: '$$mdi:usb$$', s: '$$mdi:toggle-switch$$'}
-  - {h: '$$mdi:arrow-left-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:arrow-left-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-settings$$
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:bluetooth-settings$$', s: ALL}
   - '&studio_unlock'
   - '&bl BL_DEC'
