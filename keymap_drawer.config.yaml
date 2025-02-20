@@ -277,6 +277,9 @@ parse_config:
     "&bootloader":
       tap: $$mdi:progress-download$$
 
+    "&studio_unlock":
+      tap: "STUDIO UNLOCK"
+
   # ZMK
   zmk_keycode_map:
     # Symbols
