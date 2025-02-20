@@ -219,11 +219,11 @@ layers:
   - RGB BRD
   - RGB EFF
   - ''
+  - {type: held}
+  - $$mdi:progress-download$$
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:progress-download$$', type: held}
-  - {type: held}
-  - {type: held}
-  - {t: '$$mdi:progress-download$$', type: held}
+  - $$mdi:progress-download$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -363,6 +363,6 @@ combos:
 - p: [28, 31]
   k: $$mdi:apple-keyboard-caps$$
   l: ['0', '1']
-- p: [49, 50, 51, 52]
+- p: [48, 50]
   k: '3'
   l: ['0', '1']
