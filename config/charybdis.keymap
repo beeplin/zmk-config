@@ -100,7 +100,7 @@
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
                                                             &ms LALT LGUI       &lt 2 SPACE         &ms LCTRL LSHFT         &kp LALT            &kp LSHFT
-                                                                                &kp LALT            &kp LGUI                &kp UNDER >; };
+                                                                                &kp LGUI            &kp LSHFT               &mt LCTRL UNDER >; };
         layer_1 { bindings = <
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
@@ -114,7 +114,7 @@
 &mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp SPACE               &kp AT              &kp N1              &kp N2              &kp N3              &kp N0              &kp DQT
 &kp LSHFT           &mt LSHFT INS       &kp HOME            &kp DOWN            &kp END             &kp PG_DN               &kp ASTRK           &kp N4              &kp N5              &kp N6              &kp DLLR            &kp EXCL
                                                             &trans              &trans              &trans                  &trans              &trans
-                                                                                &trans              &trans                  &kp TILDE >; };
+                                                                                &trans              &trans                  &mt LCTRL TILDE >; };
         layer_3 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_CLR          &out OUT_TOG        &studio_unlock      &none               &none               &none
