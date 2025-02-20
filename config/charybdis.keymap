@@ -33,8 +33,8 @@
         layer_2 { bindings = <
 &kp F8              &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp EXCL 
 &kp F12             &kp TAB             &kp BSPC            &kp UP              &kp DEL             &kp PG_UP               &kp TILDE           &kp N7              &kp N8              &kp N9              &kp PLUS            &kp PIPE
-&mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp SPACE               &kp POUND           &kp N4              &kp N5              &kp N6              &kp MINUS           &kp DQT
-&kp LSHFT           &mt LSHFT INS       &kp HOME            &kp DOWN            &kp END             &kp PG_DN               &kp AT              &kp N1              &kp N2              &kp N3              &kp ASTRK           &kp AMPS 
+&mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp INS               &kp POUND           &kp N4              &kp N5              &kp N6              &kp MINUS           &kp DQT
+&kp LSHFT           &mt LSHFT CAPS      &kp HOME            &kp DOWN            &kp END             &kp PG_DN               &kp AT              &kp N1              &kp N2              &kp N3              &kp ASTRK           &kp AMPS 
                                                             &trans              &trans              &trans                  &kp DOT             &kp N0
                                                                                 &trans              &trans                  &kp CARET >; };
         layer_3 { bindings = <
@@ -99,8 +99,6 @@
         rght_finger_12_row_3 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <43 44>; bindings = <&kp C_PREV>; };
         rght_finger_23_row_3 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <44 45>; bindings = <&kp C_PP>; };
         rght_finger_34_row_3 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <45 46>; bindings = <&kp C_NEXT>; };
-
-        crss_finger_11_row_2 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <28 31>; bindings = <&kp CAPS>; };
 
         left_finger_02_row_4 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <48 50>; bindings = <&mo 3>; };
     };
