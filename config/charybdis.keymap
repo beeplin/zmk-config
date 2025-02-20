@@ -1,8 +1,10 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/rgb.h>
 
 &mt { quick-tap-ms = <200>; };
 &lt { quick-tap-ms = <200>; flavor = "hold-preferred"; };
@@ -76,16 +78,6 @@
         crss_finger_11_row_2 { layers = <0 1>; key-positions = <28 31>; bindings = <&kp CAPS>; };
 
         crss_finger_0101_row_4 { layers = <0 1>; key-positions = <49 50 51 52>; bindings = <&mo 3>; };
-        
-        // left_finger_01_row_12 { layers = <2>;  key-positions = <16 17 28 29>; bindings = <&bt BT_SEL 0>; };
-        // left_finger_01_row_23 { layers = <2>;  key-positions = <28 29 40 41>; bindings = <&bt BT_SEL 1>; };
-        // rght_finger_01_row_12 { layers = <2>;  key-positions = <18 19 30 31>; bindings = <&bt BT_SEL 2>; };
-        // rght_finger_01_row_23 { layers = <2>;  key-positions = <30 31 42 43>; bindings = <&bt BT_SEL 3>; };
-        // crss_finger_00_row_12 { layers = <2>;  key-positions = <17 18 29 30>; bindings = <&bt BT_SEL 4>; };
-        // crss_finger_00_row_23 { layers = <2>;  key-positions = <29 30 41 42>; bindings = <&bt BT_CLR>; };
-
-        // left_finger_1234_row_3 { layers = <2>; key-positions = <37 38 39 40>; bindings = <&bootloader>; };
-        // rght_finger_1234_row_3 { layers = <2>; key-positions = <43 44 45 46>; bindings = <&bootloader>; };
     };
     keymap {
         compatible = "zmk,keymap";
@@ -112,9 +104,9 @@
                                                                                 &trans              &trans                  &mt LCTRL TILDE >; };
         layer_3 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
-&none               &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &none               &none               &none               &none               &none               &none
-&none               &studio_unlock      &bt BT_PRV          &bt BT_CLR          &bt BT_NXT          &out OUT_TOG            &none               &none               &none               &none               &none               &none               &none
-&none               &bt BT_DISC 0       &bt BT_DISC 1       &bt BT_DISC 2       &bt BT_DISC 3       &bt BT_DISC 4           &none               &none               &none               &none               &none               &none
+&none               &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &rgb_ug RGB_SPI     &rgb_ug RGB_HUI     &rgb_ug RGB_SAI     &rgb_ug RGB_BRI     &rgb_ug RGB_EFR     &none
+&none               &out OUT_TOG        &bt BT_PRV          &bt BT_CLR          &bt BT_NXT          &bt BT_CLR_ALL          &studio_unlock      &bl BL_DEC          &bl BL_TOG          &bl BL_INC          &rgb_ug RGB_TOG     &none
+&none               &bt BT_DISC 0       &bt BT_DISC 1       &bt BT_DISC 2       &bt BT_DISC 3       &bt BT_DISC 4           &rgb_ug RGB_SPD     &rgb_ug RGB_HUD     &rgb_ug RGB_SAD     &rgb_ug RGB_BRD     &rgb_ug RGB_EFF     &none
                                                             &trans              &bootloader         &trans                  &trans              &bootloader
                                                                                 &trans              &trans                  &trans >; };
     }; 
