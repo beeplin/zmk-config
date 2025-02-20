@@ -250,8 +250,8 @@ parse_config:
       shifted: $$mdi:arrow-left-bold$$
       tap: $$mdi:bluetooth-connect$$
     "&bt BT_NXT":
-      shifted: $$mdi:arrow-down-bold$$
       tap: $$mdi:bluetooth-connect$$
+      shifted: $$mdi:arrow-down-bold$$
     "&bt BT_CLR":
       tap: $$mdi:bluetooth-settings$$
     "&bt BT_CLR_ALL":
@@ -265,6 +265,10 @@ parse_config:
 
     "&bl BL_TOG":
       tap: "BL TOG"
+    "&bl BL_INC":
+      tap: "BL INC"
+    "&bl BL_DEC":
+      tap: "BL DEC"
 
     # Reset
     "&sys_reset":
