@@ -201,7 +201,7 @@ layers:
   - $$mdi:bluetooth-settings$$
   - {t: '$$mdi:bluetooth-connect$$', s: '$$mdi:arrow-down-bold$$'}
   - {t: '$$mdi:bluetooth-settings$$', s: all}
-  - '&studio_unlock'
+  - STUDIO UNLOCK
   - BL DEC
   - BL TOG
   - BL INC
