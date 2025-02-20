@@ -143,7 +143,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - $$mdi:keyboard-space$$
+  - INS
   - '#'
   - '4'
   - '5'
@@ -151,7 +151,7 @@ layers:
   - '-'
   - '"'
   - $$mdi:apple-keyboard-shift$$
-  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - HOME
   - $$mdi:arrow-down-bold$$
   - END
@@ -185,10 +185,10 @@ layers:
   - ''
   - ''
   - BT SEL 0
-  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '3'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '4'}
+  - BT SEL 1
+  - BT SEL 2
+  - BT SEL 3
+  - BT SEL 4
   - RGB SPI
   - RGB HUI
   - RGB SAI
@@ -196,11 +196,11 @@ layers:
   - RGB EFR
   - ''
   - ''
-  - {t: '$$mdi:bluetooth$$', h: '$$mdi:usb$$', s: '$$mdi:toggle-switch$$'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '$$mdi:arrow-left-bold$$'}
-  - $$mdi:bluetooth-settings$$
-  - {t: '$$mdi:bluetooth-connect$$', s: '$$mdi:arrow-down-bold$$'}
-  - {t: '$$mdi:bluetooth-settings$$', s: all}
+  - OUT TOG
+  - BT PRV
+  - BT CLR
+  - BT NXT
+  - BT ALL
   - studio unlock
   - BL DEC
   - BL TOG
@@ -208,11 +208,11 @@ layers:
   - RGB TOG
   - ''
   - ''
-  - {t: '$$mdi:bluetooth-off$$', s: '0'}
-  - {t: '$$mdi:bluetooth-off$$', s: '1'}
-  - {t: '$$mdi:bluetooth-off$$', s: '2'}
-  - {t: '$$mdi:bluetooth-off$$', s: '3'}
-  - {t: '$$mdi:bluetooth-off$$', s: '4'}
+  - BT DISC 0
+  - BT DISC 1
+  - BT DISC 2
+  - BT DISC 3
+  - BT DISC 4
   - RGB SPD
   - RGB HUD
   - RGB SAD
@@ -220,10 +220,10 @@ layers:
   - RGB EFF
   - ''
   - {type: held}
-  - boot loades
+  - boot loader
   - {type: held}
   - {t: ▽, type: trans}
-  - boot loades
+  - boot loader
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -359,9 +359,6 @@ combos:
   l: ['0', '1']
 - p: [45, 46]
   k: $$mdi:skip-next$$
-  l: ['0', '1']
-- p: [28, 31]
-  k: $$mdi:apple-keyboard-caps$$
   l: ['0', '1']
 - p: [48, 50]
   k: '3'
