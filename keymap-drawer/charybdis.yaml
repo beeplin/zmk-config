@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '$$mdi:bluetooth-connect$$', s: '0'}
+  - {t: BT SEL 0, s: '0'}
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
   - {t: '$$mdi:bluetooth-connect$$', s: '3'}
@@ -220,10 +220,10 @@ layers:
   - RGB EFF
   - ''
   - {type: held}
-  - $$mdi:progress-download$$
+  - BOOT LOADER
   - {type: held}
   - {t: ▽, type: trans}
-  - $$mdi:progress-download$$
+  - BOOT LOADER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
