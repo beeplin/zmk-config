@@ -36,7 +36,7 @@ draw_config:
       translate: -5px 2px;
       font-size: 20px;
     }
-    .sym_sub_text.shifted {
+    # .sym_sub_text.shifted {
       translate: 10px 13px;
       font-size: 10px;
       opacity: 1.0;
@@ -44,14 +44,14 @@ draw_config:
     .combo.sym_sub_text.tap {
       translate: -1px 1px;
     }
-    .combo.sym_sub_text.shifted {
+    # .combo.sym_sub_text.shifted {
       translate: 7px 5px;
       font-size: 10px;
       opacity: 1.0;
     }
 
     /* Toggle */
-    .toggle.shifted {
+    # .toggle.shifted {
       translate: -10px 12px;
     }
 
@@ -64,7 +64,7 @@ draw_config:
       translate: -7px 0px;
       font-size: 12px;
     }
-    .tap_dance.shifted {
+    # .tap_dance.shifted {
       translate: 7px 17px;
       font-size: 12px;
       opacity: 1.0;
@@ -74,7 +74,7 @@ draw_config:
     .sym_by_sym.tap {
       translate: -6px 0px;
     }
-    .sym_by_sym.shifted {
+    # .sym_by_sym.shifted {
       translate: 10px 12px;
       opacity: 1.0;
     }
@@ -82,7 +82,7 @@ draw_config:
     .combo.sym_by_sym.tap {
       translate: -35px 0px;
     }
-    .combo.sym_by_sym.shifted {
+    # .combo.sym_by_sym.shifted {
       translate: 35px 20px;
       opacity: 1.0;
     }
@@ -99,7 +99,7 @@ draw_config:
   shrink_wide_legends: 6
   glyph_tap_size: 18
   glyph_hold_size: 15
-  glyph_shifted_size: 15
+  # glyph_shifted_size: 15
   glyphs: {}
   glyph_urls:
     tabler: https://unpkg.com/@tabler/icons/icons/outline/{}.svg
@@ -136,62 +136,62 @@ parse_config:
     # Home rows
     "&hm LEFT_GUI A":
       tap: "A"
-      shifted: $$mdi:microsoft-windows$$
+      # shifted: $$mdi:microsoft-windows$$
     "&hm LEFT_ALT S":
       tap: "S"
-      shifted: $$mdi:apple-keyboard-option$$
+      # shifted: $$mdi:apple-keyboard-option$$
     "&hm LEFT_CONTROL D":
       tap: "D"
-      shifted: $$mdi:apple-keyboard-control$$
+      # shifted: $$mdi:apple-keyboard-control$$
     "&hm LEFT_SHIFT F":
       tap: "F"
-      shifted: $$mdi:apple-keyboard-shift$$
+      # shifted: $$mdi:apple-keyboard-shift$$
     "&hm RIGHT_SHIFT J":
       tap: "J"
-      shifted: $$mdi:apple-keyboard-shift$$
+      # shifted: $$mdi:apple-keyboard-shift$$
     "&hm RIGHT_CONTROL K":
       tap: "K"
-      shifted: $$mdi:apple-keyboard-control$$
+      # shifted: $$mdi:apple-keyboard-control$$
     "&hm RIGHT_ALT L":
       tap: "L"
-      shifted: $$mdi:apple-keyboard-option$$
+      # shifted: $$mdi:apple-keyboard-option$$
     # self behaviors
     "&hm LG(LS(V)) P":
       tap: "P"
-      shifted: $$mdi:content-copy$$
+      # shifted: $$mdi:content-copy$$
     # Mouse
     "&msc SCRL_UP":
       tap: $$mdi:pan-up$$
       hold: ""
-      shifted: ""
+      # shifted: ""
     "&msc SCRL_DOWN":
       tap: $$mdi:pan-down$$
       hold: ""
-      shifted: ""
+      # shifted: ""
     "&msc SCRL_LEFT":
       tap: $$mdi:pan-left$$
       hold: ""
-      shifted: ""
+      # shifted: ""
     "&msc SCRL_RIGHT":
       tap: $$mdi:pan-right$$
       hold: ""
-      shifted: ""
+      # shifted: ""
     "&mmv MOVE_LEFT":
       tap: $$mdi:menu-left$$
       hold: ""
-      shifted: $$mdi:mouse$$
+      # shifted: $$mdi:mouse$$
     "&mmv MOVE_RIGHT":
       tap: $$mdi:menu-right$$
       hold: ""
-      shifted: $$mdi:mouse$$
+      # shifted: $$mdi:mouse$$
     "&mmv MOVE_UP":
       tap: $$mdi:menu-up$$
       hold: ""
-      shifted: $$mdi:mouse$$
+      # shifted: $$mdi:mouse$$
     "&mmv MOVE_DOWN":
       tap: $$mdi:menu-down$$
       hold: ""
-      shifted: $$mdi:mouse$$
+      # shifted: $$mdi:mouse$$
     "&mkp LCLK":
       tap: $$mdi:mouse-left-click-outline$$
     "&mkp RCLK":
@@ -213,42 +213,42 @@ parse_config:
     "&bkspc_del":
       type: backspace
       tap: $$mdi:backspace$$
-      shifted: $$mdi:backspace-reverse-outline$$
+      # shifted: $$mdi:backspace-reverse-outline$$
 
-    # Bluetooth
-    "&bt BT_SEL 0":
+    # # Bluetooth
+    # "&bt BT_SEL 0":
       shifted: 0
-      tap: $$mdi:bluetooth-connect$$
-    "&bt BT_SEL 1":
+    #   tap: $$mdi:bluetooth-connect$$
+    # "&bt BT_SEL 1":
       shifted: 1
-      tap: $$mdi:bluetooth-connect$$
-    "&bt BT_SEL 2":
+    #   tap: $$mdi:bluetooth-connect$$
+    # "&bt BT_SEL 2":
       shifted: 2
-      tap: $$mdi:bluetooth-connect$$
-    "&bt BT_SEL 3":
+    #   tap: $$mdi:bluetooth-connect$$
+    # "&bt BT_SEL 3":
       shifted: 3
-      tap: $$mdi:bluetooth-connect$$
-    "&bt BT_SEL 4":
+    #   tap: $$mdi:bluetooth-connect$$
+    # "&bt BT_SEL 4":
       shifted: 4
-      tap: $$mdi:bluetooth-connect$$
-    "&out OUT_TOG":
+    #   tap: $$mdi:bluetooth-connect$$
+    # "&out OUT_TOG":
       shifted: $$mdi:toggle-switch$$
-      tap: $$mdi:bluetooth$$
-      hold: $$mdi:usb$$
-    "&bt BT_PRV":
+    #   tap: $$mdi:bluetooth$$
+    #   hold: $$mdi:usb$$
+    # "&bt BT_PRV":
       shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: $$mdi:arrow-up-bold$$
-    "&bt BT_NXT":
+    #   tap: ""
+    #   hold: $$mdi:arrow-up-bold$$
+    # "&bt BT_NXT":
       shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: $$mdi:arrow-down-bold$$
-    # Reset
-    "&sys_reset":
-      type: bootloader
-      tap: $$mdi:backup-restore$$
-    "&bootloader":
-      tap: $$mdi:progress-download$$
+    #   tap: ""
+    #   hold: $$mdi:arrow-down-bold$$
+    # # Reset
+    # "&sys_reset":
+    #   type: bootloader
+    #   tap: $$mdi:backup-restore$$
+    # "&bootloader":
+    #   tap: $$mdi:progress-download$$
 
   # ZMK
   zmk_keycode_map:
@@ -275,44 +275,44 @@ parse_config:
     RPAR: )
     EQUAL:
       tap: "="
-      shifted: "+"
+      # shifted: "+"
     PLUS: +
     MINUS:
       tap: "-"
-      shifted: "_"
+      # shifted: "_"
     UNDERSCORE: _
     UNDER: _
     SLASH:
       tap: "/"
-      shifted: "?"
+      # shifted: "?"
     FSLH:
       tap: "/"
-      shifted: "?"
+      # shifted: "?"
     QUESTION: "?"
     QMARK: "?"
     BACKSLASH:
       tap: '\'
-      shifted: "|"
+      # shifted: "|"
     BSLH:
       tap: '\'
-      shifted: "|"
+      # shifted: "|"
     PIPE: "|"
     NON_US_BACKSLASH: \
     PIPE2: "|"
     NON_US_BSLH: "|"
     SEMICOLON:
       tap: ";"
-      shifted: ":"
+      # shifted: ":"
     SEMI:
       tap: ";"
-      shifted: ":"
+      # shifted: ":"
     COLON: ":"
     SINGLE_QUOTE:
       tap: "'"
-      shifted: '"'
+      # shifted: '"'
     SQT:
       tap: "'"
-      shifted: '"'
+      # shifted: '"'
     APOSTROPHE: <
     APOS: .
     DOUBLE_QUOTES: '"'
@@ -323,31 +323,31 @@ parse_config:
     PERIOD: "."
     DOT:
       tap: "."
-      shifted: ">"
+      # shifted: ">"
     COMMA:
       tap: ","
-      shifted: "<"
+      # shifted: "<"
     GREATER_THAN: ">"
     GT: ">"
     LEFT_BRACKET:
       tap: "["
-      shifted: "{"
+      # shifted: "{"
     LBKT:
       tap: "["
-      shifted: "{"
+      # shifted: "{"
     LEFT_BRACE: "{"
     LBRC: "{"
     RIGHT_BRACKET:
       tap: "]"
-      shifted: "}"
+      # shifted: "}"
     RBKT:
       tap: "]"
-      shifted: "}"
+      # shifted: "}"
     RIGHT_BRACE: "}"
     RBRC: "}"
     GRAVE:
       tap: "`"
-      shifted: "~"
+      # shifted: "~"
     TILDE: "~"
     NON_US_HASH: "#"
     NUHS: "#"
@@ -356,34 +356,34 @@ parse_config:
     # Numbers
     N1:
       tap: 1
-      shifted: "!"
+      # shifted: "!"
     N2:
       tap: 2
-      shifted: "@"
+      # shifted: "@"
     N3:
       tap: 3
-      shifted: "#"
+      # shifted: "#"
     N4:
       tap: 4
-      shifted: "$"
+      # shifted: "$"
     N5:
       tap: 5
-      shifted: "%"
+      # shifted: "%"
     N6:
       tap: 6
-      shifted: "^"
+      # shifted: "^"
     N7:
       tap: 7
-      shifted: "&"
+      # shifted: "&"
     N8:
       tap: 8
-      shifted: "*"
+      # shifted: "*"
     N9:
       tap: 9
-      shifted: "("
+      # shifted: "("
     N0:
       tap: 0
-      shifted: ")"
+      # shifted: ")"
 
     # Modifiers
     LCTRL: $$mdi:apple-keyboard-control$$
@@ -417,13 +417,13 @@ parse_config:
     PSCRN: $$mdi:printer-outline$$
     PAGE_UP:
       tap: "PgUp"
-      shifted: ""
+      # shifted: ""
     PAGE_DOWN:
       tap: "PgDn"
-      shifted: ""
+      # shifted: ""
     INSERT:
       tap: "Ins"
-      shifted: ""
+      # shifted: ""
     # "Meh" key
     LS(LC(LALT)): $$mdi:star-three-points$$
 
@@ -536,25 +536,25 @@ parse_config:
       offset: 0.15
     combo_minus:
       key:
-        shifted: "_"
+        # shifted: "_"
         hold: "-"
     combo_equal:
       key:
-        shifted: "+"
+        # shifted: "+"
         hold: "="
     combo_backslash:
       key:
-        shifted: "|"
+        # shifted: "|"
         hold: \
     combo_lbkt:
       key:
-        shifted: "{"
+        # shifted: "{"
         hold: "["
     combo_rbkt:
       key:
-        shifted: "}"
+        # shifted: "}"
         hold: "]"
     combo_semicolon:
       key:
-        shifted: ":"
+        # shifted: ":"
         hold: ";"
