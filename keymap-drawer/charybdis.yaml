@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-space$$
-  - '@'
+  - '#'
   - '4'
   - '5'
   - '6'
@@ -156,7 +156,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - END
   - PG DN
-  - '#'
+  - '@'
   - '1'
   - '2'
   - '3'
@@ -259,10 +259,10 @@ combos:
   k: )
   l: ['0', '1']
 - p: [18, 30]
-  k: +
+  k: $
   l: ['0', '1']
 - p: [19, 31]
-  k: '-'
+  k: ':'
   l: ['0', '1']
 - p: [20, 32]
   k: '='
@@ -286,7 +286,7 @@ combos:
   k: '"'
   l: ['0', '1']
 - p: [34, 46]
-  k: ^
+  k: '&'
   l: ['0', '1']
 - p: [13, 14]
   k: F9
