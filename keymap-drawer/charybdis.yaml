@@ -200,10 +200,10 @@ layers:
   - {t: '$$mdi:arrow-left-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-settings$$
   - {t: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:bluetooth-settings$$', s: ALL}
+  - {t: '$$mdi:bluetooth-settings$$', s: all}
   - '&studio_unlock'
   - '&bl BL_DEC'
-  - '&bl BL_TOG'
+  - BL TOG
   - '&bl BL_INC'
   - RGB TOG
   - ''
