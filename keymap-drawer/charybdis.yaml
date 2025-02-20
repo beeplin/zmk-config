@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT SEL 0, s: '0'}
+  - BT SEL 0
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
   - {t: '$$mdi:bluetooth-connect$$', s: '3'}
@@ -201,7 +201,7 @@ layers:
   - $$mdi:bluetooth-settings$$
   - {t: '$$mdi:bluetooth-connect$$', s: '$$mdi:arrow-down-bold$$'}
   - {t: '$$mdi:bluetooth-settings$$', s: all}
-  - STUDIO UNLOCK
+  - studio unlock
   - BL DEC
   - BL TOG
   - BL INC
@@ -220,10 +220,10 @@ layers:
   - RGB EFF
   - ''
   - {type: held}
-  - BOOT LOADER
+  - boot loades
   - {type: held}
   - {t: ▽, type: trans}
-  - BOOT LOADER
+  - boot loades
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
