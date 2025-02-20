@@ -219,48 +219,34 @@ parse_config:
     "&bt BT_SEL 0":
       tap: "BT SEL 0"
     "&bt BT_SEL 1":
-      shifted: 1
-      tap: $$mdi:bluetooth-connect$$
+      tap: "BT SEL 1"
     "&bt BT_SEL 2":
-      shifted: 2
-      tap: $$mdi:bluetooth-connect$$
+      tap: "BT SEL 2"
     "&bt BT_SEL 3":
-      shifted: 3
-      tap: $$mdi:bluetooth-connect$$
+      tap: "BT SEL 3"
     "&bt BT_SEL 4":
-      shifted: 4
-      tap: $$mdi:bluetooth-connect$$
+      tap: "BT SEL 4"
     "&bt BT_DISC 0":
-      shifted: 0
-      tap: $$mdi:bluetooth-off$$
+      tap: "BT DISC 0"
     "&bt BT_DISC 1":
-      shifted: 1
-      tap: $$mdi:bluetooth-off$$
+      tap: "BT DISC 1"
     "&bt BT_DISC 2":
-      shifted: 2
-      tap: $$mdi:bluetooth-off$$
+      tap: "BT DISC 2"
     "&bt BT_DISC 3":
-      shifted: 3
-      tap: $$mdi:bluetooth-off$$
+      tap: "BT DISC 3"
     "&bt BT_DISC 4":
-      shifted: 4
-      tap: $$mdi:bluetooth-off$$
+      tap: "BT DISC 4"
     "&bt BT_PRV":
-      shifted: $$mdi:arrow-left-bold$$
-      tap: $$mdi:bluetooth-connect$$
+      tap: "BT PRV"
     "&bt BT_NXT":
-      tap: $$mdi:bluetooth-connect$$
-      shifted: $$mdi:arrow-down-bold$$
+      tap: "BT NXT"
     "&bt BT_CLR":
-      tap: $$mdi:bluetooth-settings$$
+      tap: "BT CLR"
     "&bt BT_CLR_ALL":
-      shifted: "all"
-      tap: $$mdi:bluetooth-settings$$
+      tap: "BT ALL"
 
     "&out OUT_TOG":
-      shifted: $$mdi:toggle-switch$$
-      tap: $$mdi:bluetooth$$
-      hold: $$mdi:usb$$
+      tap: "OUT TOG"
 
     "&bl BL_TOG":
       tap: "BL TOG"
@@ -269,12 +255,12 @@ parse_config:
     "&bl BL_DEC":
       tap: "BL DEC"
 
-    # Reset
     "&sys_reset":
       type: bootloader
-      tap: "SYS RESET"
+      tap: "sys reset"
+
     "&bootloader":
-      tap: "boot loades"
+      tap: "boot loader"
 
     "&studio_unlock":
       tap: "studio unlock"
