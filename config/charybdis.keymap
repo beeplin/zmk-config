@@ -12,7 +12,7 @@
 
 / {
     behaviors {
-        ms:      mod_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&sk>; };
+        ms:      mod_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&sk>; };
     };
     keymap {
         compatible = "zmk,keymap";
@@ -22,7 +22,7 @@
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
                                                             &ms LALT LGUI       &lt 2 SPACE         &ms LCTRL LSHFT         &kp LALT            &kp LSHFT
-                                                                                &ms LGUI LALT       &ms LSHFT LCTRL         &kp UNDER >; };
+                                                                                &ms LSHFT LALT      &ms LALT LCTRL          &kp UNDER >; };
         layer_1 { bindings = <
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
@@ -35,7 +35,7 @@
 &kp F12             &kp TAB             &kp BSPC            &kp UP              &kp DEL             &kp INS                 &kp TILDE           &kp N7              &kp N8              &kp N9              &kp PLUS            &kp PIPE
 &mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp PG_UP               &kp POUND           &kp N4              &kp N5              &kp N6              &kp MINUS           &kp DQT
 &kp LSHFT           &mt LSHFT CAPS      &kp HOME            &kp DOWN            &kp END             &kp PG_DN               &kp AT              &kp N1              &kp N2              &kp N3              &kp ASTRK           &kp AMPS 
-                                                            &trans              &trans              &trans                  &kp CARET             &kp N0
+                                                            &trans              &trans              &trans                  &kp CARET           &kp N0
                                                                                 &trans              &trans                  &kp DOT >; };
         layer_3 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
