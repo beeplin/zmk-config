@@ -215,40 +215,66 @@ parse_config:
       tap: $$mdi:backspace$$
       # shifted: $$mdi:backspace-reverse-outline$$
 
+    # Bluetooth
+    "&bt BT_SEL 0":
+      shifted: 0
+      tap: $$mdi:bluetooth-connect$$
+    "&bt BT_SEL 1":
+      shifted: 1
+      tap: $$mdi:bluetooth-connect$$
+    "&bt BT_SEL 2":
+      shifted: 2
+      tap: $$mdi:bluetooth-connect$$
+    "&bt BT_SEL 3":
+      shifted: 3
+      tap: $$mdi:bluetooth-connect$$
+    "&bt BT_SEL 4":
+      shifted: 4
+      tap: $$mdi:bluetooth-connect$$
+    "&bt BT_DISC 0":
+      shifted: 0
+      tap: $$mdi:bluetooth-off$$
+    "&bt BT_DISC 1":
+      shifted: 1
+      tap: $$mdi:bluetooth-off$$
+    "&bt BT_DISC 2":
+      shifted: 2
+      tap: $$mdi:bluetooth-off$$
+    "&bt BT_DISC 3":
+      shifted: 3
+      tap: $$mdi:bluetooth-off$$
+    "&bt BT_DISC 4":
+      shifted: 4
+      tap: $$mdi:bluetooth-off$$
+    "&out OUT_TOG":
+      shifted: $$mdi:toggle-switch$$
+      tap: $$mdi:bluetooth$$
+      hold: $$mdi:usb$$
+    "&bt BT_PRV":
+      shifted: $$mdi:bluetooth-connect$$
+      tap: ""
+      hold: $$mdi:arrow-left-bold$$
+    "&bt BT_NXT":
+      shifted: $$mdi:bluetooth-connect$$
+      tap: ""
+      hold: $$mdi:arrow-down-bold$$
+    "&bt BT_CLR":
+      tap: $$mdi:bluetooth-settings$$
+    "&bt BT_CLR_ALL":
+      shifted: "ALL"
+      tap: $$mdi:bluetooth-settings$$
+
     # # Bluetooth
-    # "&bt BT_SEL 0":
-    #   shifted: 0
-    #   tap: $$mdi:bluetooth-connect$$
-    # "&bt BT_SEL 1":
-    #   shifted: 1
-    #   tap: $$mdi:bluetooth-connect$$
-    # "&bt BT_SEL 2":
-    #   shifted: 2
-    #   tap: $$mdi:bluetooth-connect$$
-    # "&bt BT_SEL 3":
-    #   shifted: 3
-    #   tap: $$mdi:bluetooth-connect$$
-    # "&bt BT_SEL 4":
-    #   shifted: 4
-    #   tap: $$mdi:bluetooth-connect$$
-    # "&out OUT_TOG":
-    #   shifted: $$mdi:toggle-switch$$
-    #   tap: $$mdi:bluetooth$$
-    #   hold: $$mdi:usb$$
-    # "&bt BT_PRV":
-    #   shifted: $$mdi:bluetooth-connect$$
-    #   tap: ""
-    #   hold: $$mdi:arrow-up-bold$$
-    # "&bt BT_NXT":
-    #   shifted: $$mdi:bluetooth-connect$$
-    #   tap: ""
-    #   hold: $$mdi:arrow-down-bold$$
-    # # Reset
-    # "&sys_reset":
-    #   type: bootloader
-    #   tap: $$mdi:backup-restore$$
-    # "&bootloader":
-    #   tap: $$mdi:progress-download$$
+    # BT_CLR: $$mdi:bluetooth-off$$
+    # BT_SEL: $$mdi:bluetooth-connect$$
+
+
+    # Reset
+    "&sys_reset":
+      type: bootloader
+      tap: $$mdi:backup-restore$$
+    "&bootloader":
+      tap: $$mdi:progress-download$$
 
   # ZMK
   zmk_keycode_map:
@@ -473,10 +499,6 @@ parse_config:
     C_NEXT: $$mdi:skip-next$$
     C_PREV: $$mdi:skip-previous$$
     C_PP: $$mdi:play-pause$$
-
-    # # Bluetooth
-    # BT_CLR: $$mdi:bluetooth-off$$
-    # BT_SEL: $$mdi:bluetooth-connect$$
 
     # Settings
     C_BRI_UP: $$mdi:brightness-5$$
