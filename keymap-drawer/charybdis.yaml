@@ -184,11 +184,11 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '0'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '4'}
   - RGB SPI
   - RGB HUI
   - RGB SAI
@@ -196,11 +196,11 @@ layers:
   - RGB EFR
   - ''
   - ''
-  - OUT TOG
-  - BT PRV
-  - BT CLR
-  - BT NXT
-  - BT CLR ALL
+  - {t: '$$mdi:bluetooth$$', h: '$$mdi:usb$$', s: '$$mdi:toggle-switch$$'}
+  - {h: '$$mdi:arrow-left-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-settings$$
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:bluetooth-settings$$', s: ALL}
   - '&studio_unlock'
   - '&bl BL_DEC'
   - '&bl BL_TOG'
@@ -208,11 +208,11 @@ layers:
   - RGB TOG
   - ''
   - ''
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
-  - {t: BT DISC, h: '2'}
-  - {t: BT DISC, h: '3'}
-  - {t: BT DISC, h: '4'}
+  - {t: '$$mdi:bluetooth-off$$', s: '0'}
+  - {t: '$$mdi:bluetooth-off$$', s: '1'}
+  - {t: '$$mdi:bluetooth-off$$', s: '2'}
+  - {t: '$$mdi:bluetooth-off$$', s: '3'}
+  - {t: '$$mdi:bluetooth-off$$', s: '4'}
   - RGB SPD
   - RGB HUD
   - RGB SAD
@@ -220,10 +220,10 @@ layers:
   - RGB EFF
   - ''
   - {type: held}
-  - '&bootloader'
+  - $$mdi:progress-download$$
   - {type: held}
   - {t: ▽, type: trans}
-  - '&bootloader'
+  - $$mdi:progress-download$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
