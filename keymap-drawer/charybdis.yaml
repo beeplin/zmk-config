@@ -53,8 +53,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:microsoft-windows$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:microsoft-windows$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: _, h: '$$mdi:apple-keyboard-control$$'}
   '1':
   - {t: ▽, type: trans}
@@ -170,63 +170,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '~', h: '$$mdi:apple-keyboard-control$$'}
-  '3':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: '$$mdi:bluetooth-connect$$', s: '0'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '3'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '4'}
-  - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:bluetooth$$', h: '$$mdi:usb$$', s: '$$mdi:toggle-switch$$'}
-  - '&studio_unlock'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - $$mdi:progress-download$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:progress-download$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
 combos:
 - p: [13, 25]
   k: {t: '`', s: '~'}
@@ -363,30 +306,27 @@ combos:
 - p: [28, 31]
   k: $$mdi:apple-keyboard-caps$$
   l: ['0', '1']
-- p: [40, 43]
-  k: $$mdi:alpha-w-box$$
-  l: ['0', '1']
-- p: [13, 22]
+- p: [16, 17, 28, 29]
   k: {t: '$$mdi:bluetooth-connect$$', s: '0'}
   l: ['2']
-- p: [14, 21]
+- p: [28, 29, 40, 41]
   k: {t: '$$mdi:bluetooth-connect$$', s: '1'}
   l: ['2']
-- p: [15, 20]
+- p: [18, 19, 30, 31]
   k: {t: '$$mdi:bluetooth-connect$$', s: '2'}
   l: ['2']
-- p: [16, 19]
+- p: [30, 31, 42, 43]
   k: {t: '$$mdi:bluetooth-connect$$', s: '3'}
   l: ['2']
-- p: [17, 18]
+- p: [17, 18, 29, 30]
   k: {t: '$$mdi:bluetooth-connect$$', s: '4'}
   l: ['2']
-- p: [29, 30]
+- p: [29, 30, 41, 42]
   k: $$mdi:bluetooth-off$$
   l: ['2']
-- p: [37, 40]
+- p: [37, 38, 39, 40]
   k: $$mdi:progress-download$$
   l: ['2']
-- p: [43, 46]
+- p: [43, 44, 45, 46]
   k: $$mdi:progress-download$$
   l: ['2']
