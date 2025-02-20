@@ -274,10 +274,10 @@ parse_config:
       type: bootloader
       tap: "SYS RESET"
     "&bootloader":
-      tap: "BOOT LOADER"
+      tap: "boot loades"
 
     "&studio_unlock":
-      tap: "STUDIO UNLOCK"
+      tap: "studio unlock"
 
   # ZMK
   zmk_keycode_map:
