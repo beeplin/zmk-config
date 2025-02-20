@@ -189,41 +189,41 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
   - {t: '$$mdi:bluetooth-connect$$', s: '3'}
   - {t: '$$mdi:bluetooth-connect$$', s: '4'}
-  - $$mdi:bluetooth-off$$
+  - RGB SPI
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
+  - RGB EFR
+  - ''
+  - ''
   - {t: '$$mdi:bluetooth$$', h: '$$mdi:usb$$', s: '$$mdi:toggle-switch$$'}
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - BT CLR ALL
   - '&studio_unlock'
+  - '&bl BL_DEC'
+  - '&bl BL_TOG'
+  - '&bl BL_INC'
+  - RGB TOG
   - ''
   - ''
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - RGB SPD
+  - RGB HUD
+  - RGB SAD
+  - RGB BRD
+  - RGB EFF
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - $$mdi:progress-download$$
-  - {type: held}
   - {t: ▽, type: trans}
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:progress-download$$', type: held}
+  - {type: held}
+  - {type: held}
+  - {t: '$$mdi:progress-download$$', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -360,9 +360,9 @@ combos:
 - p: [45, 46]
   k: $$mdi:skip-next$$
   l: ['0', '1']
-- p: [48, 50]
-  k: '3'
-  l: ['0', '1']
 - p: [28, 31]
   k: $$mdi:apple-keyboard-caps$$
+  l: ['0', '1']
+- p: [49, 50, 51, 52]
+  k: '3'
   l: ['0', '1']
