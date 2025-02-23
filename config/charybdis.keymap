@@ -46,17 +46,17 @@
                                                                                 &trans              &trans                  &trans >; };
     };
     combos { compatible = "zmk,combos";
-        left_finger_4_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <13 25>; bindings = <&kp GRAVE>; };
-        left_finger_3_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <14 26>; bindings = <&kp LT>; };
-        left_finger_2_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <15 27>; bindings = <&kp GT>; };
-        left_finger_1_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <16 28>; bindings = <&kp LBRC>; };
-        left_finger_0_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <17 29>; bindings = <&kp RBRC>; };
+        left_finger_4_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <13 25>; bindings = <&kp LT>; };
+        left_finger_3_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <14 26>; bindings = <&kp GT>; };
+        left_finger_2_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <15 27>; bindings = <&kp LBRC>; };
+        left_finger_1_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <16 28>; bindings = <&kp RBRC>; };
+        left_finger_0_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <17 29>; bindings = <&kp GRAVE>; };
 
         left_finger_4_row_23 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <25 37>; bindings = <&kp EXCL>; };
-        left_finger_3_row_23 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <26 38>; bindings = <&kp PRCNT>; };
-        left_finger_2_row_23 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <27 39>; bindings = <&kp BSLH>; };
-        left_finger_1_row_23 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <28 40>; bindings = <&kp LPAR>; };
-        left_finger_0_row_23 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <29 41>; bindings = <&kp RPAR>; };
+        left_finger_3_row_23 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <26 38>; bindings = <&kp BSLH>; };
+        left_finger_2_row_23 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <27 39>; bindings = <&kp LPAR>; };
+        left_finger_1_row_23 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <28 40>; bindings = <&kp RPAR>; };
+        left_finger_0_row_23 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <29 41>; bindings = <&kp PRCNT>; };
 
         rght_finger_0_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <18 30>; bindings = <&kp DLLR>; }; 
         rght_finger_1_row_12 { require-prior-idle-ms = <80>; layers = <0 1>; key-positions = <19 31>; bindings = <&kp COLON>; };
