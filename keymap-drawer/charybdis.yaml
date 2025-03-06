@@ -49,7 +49,7 @@ layers:
   - /
   - )
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
+  - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -57,63 +57,6 @@ layers:
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-option$$'}
   - _
   '1':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '2':
   - F8
   - F1
   - F2
@@ -170,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - .
-  '3':
+  '2':
   - ''
   - ''
   - ''
@@ -229,10 +172,10 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [13, 25]
-  k: <
+  k: '"'
   l: ['0', '1', '2']
 - p: [14, 26]
-  k: '>'
+  k: ''''
   l: ['0', '1', '2']
 - p: [15, 27]
   k: '{'
@@ -262,7 +205,7 @@ combos:
   k: $
   l: ['0', '1', '2']
 - p: [19, 31]
-  k: ':'
+  k: _
   l: ['0', '1', '2']
 - p: [20, 32]
   k: '='
@@ -277,13 +220,13 @@ combos:
   k: '|'
   l: ['0', '1', '2']
 - p: [31, 43]
-  k: _
+  k: $$mdi:mouse-left-click-outline$$
   l: ['0', '1', '2']
 - p: [32, 44]
-  k: ''''
+  k: $$mdi:mouse-scroll-wheel$$
   l: ['0', '1', '2']
 - p: [33, 45]
-  k: '"'
+  k: $$mdi:mouse-right-click-outline$$
   l: ['0', '1', '2']
 - p: [34, 46]
   k: '&'
@@ -361,5 +304,5 @@ combos:
   k: PAUSE BREAK
   l: ['0', '1', '2']
 - p: [48, 50]
-  k: '3'
+  k: '2'
   l: ['0', '1', '2']
