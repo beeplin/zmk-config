@@ -21,7 +21,7 @@
 &kp TAB             &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LPAR
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
-                                                            &ms LALT LGUI       &lt 2 SPACE         &ms LCTRL LSHFT         &kp LALT            &ms LSHFT LSHFT
+                                                            &ms LALT LGUI       &lt 1 SPACE         &ms LCTRL LSHFT         &kp LALT            &ms LSHFT LSHFT
                                                                                 &ms LSHFT LALT      &ms LALT LCTRL          &kp UNDER >; };
         layer_1 { bindings = <
 &kp F8              &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp EXCL 
@@ -93,6 +93,6 @@
         rght_finger_23_row_3 { require-prior-idle-ms = <100>; layers = <0 1 2>; key-positions = <44 45>; bindings = <&kp C_NEXT>; };
         rght_finger_34_row_3 { require-prior-idle-ms = <100>; layers = <0 1 2>; key-positions = <45 46>; bindings = <&kp PAUSE_BREAK>; };
 
-        left_finger_02_row_4 { require-prior-idle-ms = <100>; layers = <0 1 2>; key-positions = <48 50>; bindings = <&mo 3>; };
+        left_finger_02_row_4 { require-prior-idle-ms = <100>; layers = <0 1 2>; key-positions = <48 50>; bindings = <&mo 2>; };
     };
 };
