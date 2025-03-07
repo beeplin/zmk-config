@@ -99,7 +99,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - END
   - PG DN
-  - '@'
+  - ^
   - '1'
   - '2'
   - '3'
@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - ^
+  - '@'
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,7 +175,7 @@ combos:
   k: '`'
   l: ['0', '1']
 - p: [14, 26]
-  k: ''''
+  k: '!'
   l: ['0', '1']
 - p: [15, 27]
   k: (
@@ -193,16 +193,16 @@ combos:
   k: '"'
   l: ['0', '1']
 - p: [27, 39]
-  k: $$mdi:mouse-right-click-outline$$
+  k: ''''
   l: ['0', '1']
 - p: [28, 40]
   k: $$mdi:mouse-left-click-outline$$
   l: ['0', '1']
 - p: [29, 41]
-  k: \
+  k: $$mdi:mouse-right-click-outline$$
   l: ['0', '1']
 - p: [18, 30]
-  k: $
+  k: \
   l: ['0', '1']
 - p: [19, 31]
   k: '{'
@@ -217,7 +217,7 @@ combos:
   k: ']'
   l: ['0', '1']
 - p: [30, 42]
-  k: '!'
+  k: $
   l: ['0', '1']
 - p: [31, 43]
   k: _
@@ -306,6 +306,6 @@ combos:
 - p: [48, 50]
   k: '2'
   l: ['0', '1']
-- p: [27, 28, 39, 40]
+- p: [28, 29, 40, 41]
   k: $$mdi:mouse-scroll-wheel$$
   l: ['0', '1']
