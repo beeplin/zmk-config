@@ -74,7 +74,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - INS
+  - PG UP
   - '~'
   - '7'
   - '8'
@@ -86,7 +86,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - PG UP
+  - $$mdi:keyboard-space$$
   - '#'
   - '4'
   - '5'
@@ -186,6 +186,9 @@ combos:
 - p: [17, 29]
   k: '%'
   l: ['0', '1']
+- p: [16, 17, 28, 29]
+  k: INS
+  l: ['0', '1']
 - p: [25, 37]
   k: $$mdi:apple-keyboard-shift$$
   l: ['0', '1']
@@ -200,6 +203,9 @@ combos:
   l: ['0', '1']
 - p: [29, 41]
   k: $$mdi:mouse-right-click-outline$$
+  l: ['0', '1']
+- p: [28, 29, 40, 41]
+  k: $$mdi:mouse-scroll-wheel$$
   l: ['0', '1']
 - p: [18, 30]
   k: \
@@ -230,9 +236,6 @@ combos:
   l: ['0', '1']
 - p: [34, 46]
   k: '&'
-  l: ['0', '1']
-- p: [28, 29, 40, 41]
-  k: $$mdi:mouse-scroll-wheel$$
   l: ['0', '1']
 - p: [13, 14]
   k: F9
