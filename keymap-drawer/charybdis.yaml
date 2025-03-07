@@ -75,7 +75,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PG UP
-  - INS
+  - ^
   - '7'
   - '8'
   - '9'
@@ -86,7 +86,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - $$mdi:keyboard-space$$
+  - INS
   - '#'
   - '4'
   - '5'
@@ -99,7 +99,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - END
   - PG DN
-  - ^
+  - $
   - '1'
   - '2'
   - '3'
@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - '@'
+  - $$mdi:keyboard-space$$
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,7 +220,7 @@ combos:
   k: ']'
   l: ['0', '1']
 - p: [30, 42]
-  k: $
+  k: '@'
   l: ['0', '1']
 - p: [31, 43]
   k: _
