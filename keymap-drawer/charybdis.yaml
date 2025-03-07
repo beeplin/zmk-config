@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [13, 25]
-  k: '"'
+  k: '`'
   l: ['0', '1']
 - p: [14, 26]
   k: ''''
@@ -184,13 +184,13 @@ combos:
   k: )
   l: ['0', '1']
 - p: [17, 29]
-  k: '`'
+  k: '%'
   l: ['0', '1']
 - p: [25, 37]
   k: $$mdi:apple-keyboard-shift$$
   l: ['0', '1']
 - p: [26, 38]
-  k: \
+  k: '`'
   l: ['0', '1']
 - p: [27, 39]
   k: $$mdi:mouse-right-click-outline$$
@@ -199,7 +199,7 @@ combos:
   k: $$mdi:mouse-left-click-outline$$
   l: ['0', '1']
 - p: [29, 41]
-  k: '%'
+  k: \
   l: ['0', '1']
 - p: [18, 30]
   k: $
