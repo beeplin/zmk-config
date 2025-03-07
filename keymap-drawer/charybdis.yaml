@@ -190,7 +190,7 @@ combos:
   k: $$mdi:apple-keyboard-shift$$
   l: ['0', '1']
 - p: [26, 38]
-  k: '`'
+  k: '"'
   l: ['0', '1']
 - p: [27, 39]
   k: $$mdi:mouse-right-click-outline$$
