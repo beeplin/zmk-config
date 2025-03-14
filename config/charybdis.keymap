@@ -32,12 +32,12 @@
                                                             &trans              &trans              &trans                  &kp SPACE           &kp N0
                                                                                 &trans              &trans                  &kp DOT >; };
         layer_2 { bindings = <
-&kp GRAVE           &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                  &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &kp BSLH
-&kp none            &kp EXCL            &kp AT              &kp POUND           &kp DLLR            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp PIPE            &kp BSLH            &none
-&mt none            &kp SQT             &kp DQT             &kp LPAR            &kp RPAR            &kp GRAVE               &kp TILDE           &kp LBRC            &kp RBRC            &kp LBKT            &kp RBKT            &none
-&kp none            &none               &kp PLUS            &kp MINUS           &kp EQUAL           &none                   &none               &kp COLON           &kp LT              &kp GT              &kp QMARK           &none
+&none               &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                  &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &none
+&none               &kp EXCL            &kp AT              &kp POUND           &kp DLLR            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp PIPE            &kp BSLH            &none
+&none               &kp SQT             &kp DQT             &kp LPAR            &kp RPAR            &kp GRAVE               &kp TILDE           &kp LBRC            &kp RBRC            &kp LBKT            &kp RBKT            &none
+&none               &none               &kp PLUS            &kp MINUS           &kp EQUAL           &none                   &none               &kp COLON           &kp LT              &kp GT              &kp QMARK           &none
                                                             &trans              &kp UNDER           &trans                  &none               &none
-                                                                                &trans              &trans                  &none >; };
+                                                                                &trans              &trans                  &noned >; };
         layer_3 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &rgb_ug RGB_SPI     &rgb_ug RGB_HUI     &rgb_ug RGB_SAI     &rgb_ug RGB_BRI     &rgb_ug RGB_EFR     &none
