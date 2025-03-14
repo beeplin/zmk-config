@@ -38,7 +38,7 @@
 &none               &kp SQT             &kp DQT             &kp LPAR            &kp RPAR            &kp GRAVE               &kp TILDE           &kp LBRC            &kp RBRC            &kp LBKT            &kp RBKT            &none
 &none               &none               &kp PLUS            &kp MINUS           &kp EQUAL           &none                   &none               &kp COLON           &kp LT              &kp GT              &kp QMARK           &none
                                                             &trans              &kp UNDER           &trans                  &none               &none
-                                                                                &trans              &trans                  &noned >; };
+                                                                                &trans              &trans                  &none >; };
         layer_3 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &rgb_ug RGB_SPI     &rgb_ug RGB_HUI     &rgb_ug RGB_SAI     &rgb_ug RGB_BRI     &rgb_ug RGB_EFR     &none
