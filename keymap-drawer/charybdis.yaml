@@ -52,7 +52,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
-  - '&ls 2 LSHFT'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '2'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-option$$'}
   - _
@@ -162,11 +162,11 @@ layers:
   - '>'
   - '?'
   - ''
-  - {type: held}
+  - {type: held alternate}
   - _
+  - {type: held alternate}
+  - ''
   - {type: held}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&noned'
