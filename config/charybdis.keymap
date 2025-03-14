@@ -22,16 +22,23 @@
 &kp TAB             &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LPAR
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
-                                                            &ms LALT LGUI       &lt 1 SPACE         &ms LCTRL LSHFT         &kp LALT            &ms LSHFT LSHFT
+                                                            &ms LALT LGUI       &lt 1 SPACE         &ms LCTRL LALT          &kp LSHFT           &ls 2 LSHFT
                                                                                 &ms LSHFT LALT      &ms LALT LCTRL          &kp UNDER >; };
         layer_1 { bindings = <
-&kp F8              &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp EXCL 
-&kp F12             &kp TAB             &kp BSPC            &kp UP              &kp DEL             &kp PG_UP               &kp CARET           &kp N7              &kp N8              &kp N9              &kp PLUS            &kp PIPE
-&mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp INS                 &kp POUND           &kp N4              &kp N5              &kp N6              &kp MINUS           &kp DQT
+&kp F8              &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp EXCL
+&kp F12             &kp TAB             &kp BSPC            &kp UP              &kp DEL             &kp INS                 &kp CARET           &kp N7              &kp N8              &kp N9              &kp PLUS            &kp PIPE
+&mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp PG_UP               &kp POUND           &kp N4              &kp N5              &kp N6              &kp MINUS           &kp DQT
 &kp LSHFT           &mt LSHFT CAPS      &kp HOME            &kp DOWN            &kp END             &kp PG_DN               &kp DLLR            &kp N1              &kp N2              &kp N3              &kp ASTRK           &kp AMPS 
                                                             &trans              &trans              &trans                  &kp SPACE           &kp N0
                                                                                 &trans              &trans                  &kp DOT >; };
         layer_2 { bindings = <
+&kp GRAVE           &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                  &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &kp BSLH
+&kp none            &kp EXCL            &kp AT              &kp POUND           &kp DLLR            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp PIPE            &kp BSLH            &none
+&mt none            &kp SQT             &kp DQT             &kp LPAR            &kp RPAR            &kp GRAVE               &kp TILDE           &kp LBRC            &kp RBRC            &kp LBKT            &kp RBKT            &none
+&kp none            &none               &kp PLUS            &kp MINUS           &kp EQUAL           &none                   &none               &kp COLON           &kp LT              &kp GT              &kp QMARK           &none
+                                                            &trans              &kp UNDER           &trans                  &none               &none
+                                                                                &trans              &trans                  &none >; };
+        layer_3 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &rgb_ug RGB_SPI     &rgb_ug RGB_HUI     &rgb_ug RGB_SAI     &rgb_ug RGB_BRI     &rgb_ug RGB_EFR     &none
 &none               &out OUT_TOG        &bt BT_PRV          &bt BT_CLR          &bt BT_NXT          &bt BT_CLR_ALL          &studio_unlock      &bl BL_DEC          &bl BL_TOG          &bl BL_INC          &rgb_ug RGB_TOG     &none
