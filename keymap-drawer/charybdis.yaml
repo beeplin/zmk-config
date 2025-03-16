@@ -12,7 +12,7 @@ layers:
   - '9'
   - '0'
   - \
-  - $$mdi:keyboard-tab$$
+  - '='
   - Q
   - W
   - F
@@ -23,8 +23,8 @@ layers:
   - U
   - Y
   - ;
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - '['
+  - '-'
   - A
   - R
   - S
@@ -47,15 +47,15 @@ layers:
   - ','
   - .
   - /
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-space$$', h: '1'}
+  - ']'
   - {t: '$$mdi:keyboard-return$$', h: '2'}
-  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '1'}
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   '1':
   - F12
   - F1
@@ -82,7 +82,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:skip-previous$$
   - $$mdi:volume-off$$
-  - PG UP
+  - {t: PG UP, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -114,63 +114,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '|'
-  - \
-  - ''
-  - ''
-  - '"'
-  - '['
-  - '{'
-  - (
-  - '~'
-  - '`'
-  - )
-  - '}'
-  - ']'
-  - ''''
-  - ''
-  - ''
-  - +
-  - '='
-  - _
-  - '-'
-  - ''
-  - ''
-  - ':'
-  - <
-  - '>'
-  - '?'
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '3':
   - ''
   - ''
   - ''
@@ -218,6 +161,63 @@ layers:
   - F2
   - F3
   - F10
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '!'
+  - '!'
+  - \
+  - '|'
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - '|'
+  - \
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-control$$
+  - '['
+  - '{'
+  - (
+  - '`'
+  - '`'
+  - )
+  - '}'
+  - ']'
+  - ''''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-option$$
+  - ']'
+  - '}'
+  - )
+  - '~'
+  - ''
+  - ':'
+  - <
+  - '>'
+  - '?'
   - ''
   - {t: ▽, type: trans}
   - {type: held}
