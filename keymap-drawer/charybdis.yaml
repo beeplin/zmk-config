@@ -99,7 +99,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-tab$$
-  - APP
+  - $$mdi:apple-keyboard-caps$$
   - '1'
   - '2'
   - '3'
@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:alpha-w-box$$
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
