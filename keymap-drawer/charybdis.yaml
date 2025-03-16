@@ -75,7 +75,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - END
-  - PRINTSCREEN
+  - $$mdi:printer-outline$$
   - '7'
   - '8'
   - '9'
@@ -143,8 +143,8 @@ layers:
   - '['
   - '{'
   - (
-  - '`'
   - '~'
+  - '`'
   - )
   - '}'
   - ']'
@@ -253,18 +253,6 @@ layers:
   - RGB EFR
   - ''
   - ''
-  - OUT TOG
-  - BT PRV
-  - BT CLR
-  - BT NXT
-  - BT CLRALL
-  - studio unlock
-  - BL DEC
-  - BL TOG
-  - BL INC
-  - RGB TOG
-  - ''
-  - ''
   - BT DISC 0
   - BT DISC 1
   - BT DISC 2
@@ -275,6 +263,18 @@ layers:
   - RGB SAD
   - RGB BRD
   - RGB EFF
+  - ''
+  - ''
+  - OUT TOG
+  - BT PRV
+  - BT CLR
+  - BT NXT
+  - BT CLRALL
+  - studio unlock
+  - BL DEC
+  - BL TOG
+  - BL INC
+  - RGB TOG
   - ''
   - {type: held}
   - boot loader
