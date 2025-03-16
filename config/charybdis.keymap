@@ -19,27 +19,34 @@
     keymap {
         compatible = "zmk,keymap";
         layer_0 { bindings = <
-&kp PRCNT           &kp LT              &kp GT              &kp LBRC            &kp RBRC            &kp GRAVE               &kp DLLR            &kp COLON           &kp EQUAL           &kp LBKT            &kp RBKT            &kp BSLH
-&kp TAB             &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LPAR
+&kp GRAVE           &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                  &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &kp BSLH
+&kp TAB             &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp BSPC
 &mt LCTRL ESC       &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
-&kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RPAR
-                                                            &ms LALT LGUI       &lt 1 SPACE         &ms LCTRL LALT          &kp LSHFT           &ls 2 LSHFT
-                                                                                &ms LSHFT LALT      &ms LALT LCTRL          &kp UNDER >; };
+&kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RSHFT
+                                                            &kp LSHFT           &lt 1 SPACE         &lt 2 ENTER             &ms LALT RGUI       &kp RCTRL
+                                                                                &ms LALT LGUI       &kp LCTRL               &kp RSHFT >; };
         layer_1 { bindings = <
-&kp F8              &kp F1              &kp F2              &kp F3              &kp F4              &kp F7                  &kp F5              &kp F6              &kp F9              &kp F10             &kp F11             &kp EXCL
-&kp F12             &kp TAB             &kp BSPC            &kp UP              &kp DEL             &kp INS                 &kp CARET           &kp N7              &kp N8              &kp N9              &kp PLUS            &kp PIPE
-&mt LCTRL CAPS      &mt LCTRL ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp PG_UP               &kp POUND           &kp N4              &kp N5              &kp N6              &kp MINUS           &kp DQT
-&kp LSHFT           &mt LSHFT CAPS      &kp HOME            &kp DOWN            &kp END             &kp PG_DN               &kp DLLR            &kp N1              &kp N2              &kp N3              &kp ASTRK           &kp AMPS 
-                                                            &trans              &trans              &trans                  &kp SPACE           &kp N0
-                                                                                &trans              &trans                  &kp DOT >; };
+&kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
+&kp C_VOL_UP        &kp HOME            &kp BSPC            &kp UP              &kp DEL             &kp END                 &kp PRINTSCREEN     &kp N7              &kp N8              &kp N9              &kp LALT            &kp C_PREV
+&kp C_MUTE          &kp PG_UP           &kp LEFT            &kp DOWN            &kp RIGHT           &kp PG_DN               &kp K_APP           &kp N4              &kp N5              &kp N6              &kp N0              &kp C_PP
+&kp C_VOL_DN        &mt LSHFT CAPS      &mkp RCLK           &mkp MCLK           &mkp LCLK           &kp TAB                 &kp INS             &kp N1              &kp N2              &kp N3              &kp RCTRL           &kp C_NEXT
+                                                            &trans              &trans              &trans                  &trans              &trans
+                                                                                &trans              &trans                  &trans >; };
         layer_2 { bindings = <
-&none               &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                  &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &none
+&none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &kp EXCL            &kp AT              &kp POUND           &kp DLLR            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp PIPE            &kp BSLH            &none
-&none               &kp SQT             &kp DQT             &kp LPAR            &kp RPAR            &kp GRAVE               &kp TILDE           &kp LBRC            &kp RBRC            &kp LBKT            &kp RBKT            &none
-&none               &none               &kp PLUS            &kp MINUS           &kp EQUAL           &none                   &none               &kp COLON           &kp LT              &kp GT              &kp QMARK           &none
-                                                            &trans              &kp UNDER           &trans                  &none               &none
-                                                                                &trans              &trans                  &none >; };
+&none               &kp DQT             &kp LBKT            &kp LBRC            &kp LPAR            &kp GRAVE               &kp TILDE           &kp RPAR            &kp RBRC            &kp RBKT            &kp SQT             &none
+&none               &kp PLUS            &kp EQUAL           &kp UNDER           &kp MINUS           &none                   &none               &kp COLON           &kp LT              &kp GT              &kp QMARK           &none
+                                                            &trans              &trans              &trans                  &trans              &trans
+                                                                                &trans              &trans                  &trans >; };
         layer_3 { bindings = <
+&none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
+&none               &kp C_MUTE          &kp C_RW            &kp C_VOL_UP        &kp C_FF            &kp C_BRI_UP            &kp F15             &kp F7              &kp F8              &kp F9              &kp F12             &none
+&none               &kp C_PP            &kp C_PREV          &kp C_VOL_DN        &kp C_NEXT          &kp C_BRI_DN            &kp F14             &kp F4              &kp F5              &kp F6              &kp F11             &none
+&none               &kp LSHFT           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp K_APP               &kp F13             &kp F1              &kp F2              &kp F3              &kp F10             &none
+                                                            &trans              &trans              &trans                  &trans              &trans
+                                                                                &trans              &trans                  &trans >; };
+        layer_4 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &rgb_ug RGB_SPI     &rgb_ug RGB_HUI     &rgb_ug RGB_SAI     &rgb_ug RGB_BRI     &rgb_ug RGB_EFR     &none
 &none               &out OUT_TOG        &bt BT_PRV          &bt BT_CLR          &bt BT_NXT          &bt BT_CLR_ALL          &studio_unlock      &bl BL_DEC          &bl BL_TOG          &bl BL_INC          &rgb_ug RGB_TOG     &none
@@ -48,64 +55,65 @@
                                                                                 &trans              &trans                  &trans >; };
     };
     combos { compatible = "zmk,combos";
-        left_finger_4_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <13 25>; bindings = <&kp TILDE>; };
-        left_finger_3_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <14 26>; bindings = <&kp EXCL>; };
-        left_finger_2_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <15 27>; bindings = <&kp LPAR>; };
-        left_finger_1_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <16 28>; bindings = <&kp RPAR>; };
-        left_finger_0_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <17 29>; bindings = <&kp PRCNT>; };
+        left_finger_02_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 50>; bindings = <&mo 4>; };
+        left_finger_02_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 50>; bindings = <&lt 3 ESC>; };
 
-        // left_finger_01_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <16 17 28 29>; bindings = <&kp INS>; };  
+        // left_finger_4_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <13 25>; bindings = <&kp TILDE>; };
+        // left_finger_3_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <14 26>; bindings = <&kp EXCL>; };
+        // left_finger_2_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <15 27>; bindings = <&kp LPAR>; };
+        // left_finger_1_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <16 28>; bindings = <&kp RPAR>; };
+        // left_finger_0_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <17 29>; bindings = <&kp PRCNT>; };
 
-        left_finger_4_row_23 { require-prior-idle-ms = <(-1)>; layers = <0  >; key-positions = <25 37>; bindings = <&kp GRAVE>; };
-        left_finger_3_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <26 38>; bindings = <&kp DQT>; };
-        left_finger_2_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <27 39>; bindings = <&kp SQT>; };
-        left_finger_1_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <28 40>; bindings = <&mkp LCLK>; };
-        left_finger_0_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <29 41>; bindings = <&mkp RCLK>; };
+        // // left_finger_01_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <16 17 28 29>; bindings = <&kp INS>; };
 
-        left_finger_01_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <28 29 40 41>; bindings = <&mkp MCLK>; };
+        // left_finger_4_row_23 { require-prior-idle-ms = <(-1)>; layers = <0  >; key-positions = <25 37>; bindings = <&kp GRAVE>; };
+        // left_finger_3_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <26 38>; bindings = <&kp DQT>; };
+        // left_finger_2_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <27 39>; bindings = <&kp SQT>; };
+        // left_finger_1_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <28 40>; bindings = <&mkp LCLK>; };
+        // left_finger_0_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <29 41>; bindings = <&mkp RCLK>; };
 
-        rght_finger_0_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <18 30>; bindings = <&kp BSLH>; }; 
-        rght_finger_1_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <19 31>; bindings = <&kp LBRC>; };
-        rght_finger_2_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <20 32>; bindings = <&kp RBRC>; };
-        rght_finger_3_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <21 33>; bindings = <&kp LBKT>; };
-        rght_finger_4_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <22 34>; bindings = <&kp RBKT>; };
+        // left_finger_01_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <28 29 40 41>; bindings = <&mkp MCLK>; };
 
-        rght_finger_0_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <30 42>; bindings = <&kp AT>; };
-        rght_finger_1_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <31 43>; bindings = <&kp UNDER>; };
-        rght_finger_2_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <32 44>; bindings = <&kp EQUAL>; };
-        rght_finger_3_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <33 45>; bindings = <&kp PIPE>; };
-        rght_finger_4_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <34 46>; bindings = <&kp AMPS>; };
+        // rght_finger_0_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <18 30>; bindings = <&kp BSLH>; }; 
+        // rght_finger_1_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <19 31>; bindings = <&kp LBRC>; };
+        // rght_finger_2_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <20 32>; bindings = <&kp RBRC>; };
+        // rght_finger_3_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <21 33>; bindings = <&kp LBKT>; };
+        // rght_finger_4_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <22 34>; bindings = <&kp RBKT>; };
 
-        left_finger_34_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <13 14>; bindings = <&kp F9>; };
-        left_finger_23_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <14 15>; bindings = <&kp F8>; };
-        left_finger_12_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <15 16>; bindings = <&kp F7>; };
-        left_finger_01_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <16 17>; bindings = <&kp F10>; };
+        // rght_finger_0_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <30 42>; bindings = <&kp AT>; };
+        // rght_finger_1_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <31 43>; bindings = <&kp UNDER>; };
+        // rght_finger_2_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <32 44>; bindings = <&kp EQUAL>; };
+        // rght_finger_3_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <33 45>; bindings = <&kp PIPE>; };
+        // rght_finger_4_row_23 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <34 46>; bindings = <&kp AMPS>; };
 
-        left_finger_34_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <25 26>; bindings = <&kp F6>; };
-        left_finger_23_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <26 27>; bindings = <&kp F5>; };
-        left_finger_12_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <27 28>; bindings = <&kp F4>; };
-        left_finger_01_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <28 29>; bindings = <&kp F11>; };
+        // left_finger_34_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <13 14>; bindings = <&kp F9>; };
+        // left_finger_23_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <14 15>; bindings = <&kp F8>; };
+        // left_finger_12_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <15 16>; bindings = <&kp F7>; };
+        // left_finger_01_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <16 17>; bindings = <&kp F10>; };
 
-        left_finger_34_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <37 38>; bindings = <&kp F3>; };
-        left_finger_23_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <38 39>; bindings = <&kp F2>; };
-        left_finger_12_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <39 40>; bindings = <&kp F1>; };
-        left_finger_01_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <40 41>; bindings = <&kp F12>; };
+        // left_finger_34_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <25 26>; bindings = <&kp F6>; };
+        // left_finger_23_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <26 27>; bindings = <&kp F5>; };
+        // left_finger_12_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <27 28>; bindings = <&kp F4>; };
+        // left_finger_01_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <28 29>; bindings = <&kp F11>; };
 
-        rght_finger_01_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <18 19>; bindings = <&kp C_BRI_UP>; };
-        rght_finger_12_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <19 20>; bindings = <&kp C_VOL_UP>; };
-        rght_finger_23_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <20 21>; bindings = <&kp C_PREV>; };
-        rght_finger_34_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <21 22>; bindings = <&kp PSCRN>; };
+        // left_finger_34_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <37 38>; bindings = <&kp F3>; };
+        // left_finger_23_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <38 39>; bindings = <&kp F2>; };
+        // left_finger_12_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <39 40>; bindings = <&kp F1>; };
+        // left_finger_01_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <40 41>; bindings = <&kp F12>; };
 
-        rght_finger_01_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <30 31>; bindings = <&kp K_APP>; };
-        rght_finger_12_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <31 32>; bindings = <&kp C_MUTE>; };
-        rght_finger_23_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <32 33>; bindings = <&kp C_PP>; };
-        rght_finger_34_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <33 34>; bindings = <&kp SLCK>; };
+        // rght_finger_01_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <18 19>; bindings = <&kp C_BRI_UP>; };
+        // rght_finger_12_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <19 20>; bindings = <&kp C_VOL_UP>; };
+        // rght_finger_23_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <20 21>; bindings = <&kp C_PREV>; };
+        // rght_finger_34_row_1 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <21 22>; bindings = <&kp PSCRN>; };
 
-        rght_finger_01_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <42 43>; bindings = <&kp C_BRI_DN>; };
-        rght_finger_12_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <43 44>; bindings = <&kp C_VOL_DN>; };
-        rght_finger_23_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <44 45>; bindings = <&kp C_NEXT>; };
-        rght_finger_34_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <45 46>; bindings = <&kp PAUSE_BREAK>; };
+        // rght_finger_01_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <30 31>; bindings = <&kp K_APP>; };
+        // rght_finger_12_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <31 32>; bindings = <&kp C_MUTE>; };
+        // rght_finger_23_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <32 33>; bindings = <&kp C_PP>; };
+        // rght_finger_34_row_2 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <33 34>; bindings = <&kp SLCK>; };
 
-        left_finger_02_row_4 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <48 50>; bindings = <&mo 2>; };
+        // rght_finger_01_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <42 43>; bindings = <&kp C_BRI_DN>; };
+        // rght_finger_12_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <43 44>; bindings = <&kp C_VOL_DN>; };
+        // rght_finger_23_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <44 45>; bindings = <&kp C_NEXT>; };
+        // rght_finger_34_row_3 { require-prior-idle-ms = <120>; layers = <0 1>; key-positions = <45 46>; bindings = <&kp PAUSE_BREAK>; };
     };
 };
