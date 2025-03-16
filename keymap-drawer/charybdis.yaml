@@ -94,12 +94,12 @@ layers:
   - '-'
   - $$mdi:skip-next$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-tab$$
-  - INS
+  - APP
   - '1'
   - '2'
   - '3'
@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - APP
+  - $$mdi:apple-keyboard-caps$$
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
