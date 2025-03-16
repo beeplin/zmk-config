@@ -144,7 +144,7 @@ layers:
   - '='
   - '>'
   - '|'
-  - '&'
+  - '!'
   - (
   - )
   - '{'
@@ -152,7 +152,7 @@ layers:
   - ''
   - $$mdi:play-pause$$
   - $$mdi:apple-keyboard-option$$
-  - '!'
+  - '&'
   - '~'
   - '`'
   - '%'
