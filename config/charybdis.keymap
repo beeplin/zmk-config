@@ -23,28 +23,28 @@
 &kp EQUAL           &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LBKT
 &kp MINUS           &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RBKT
-                                                            &lt 2 ENTER         &lt 1 SPACE         &kp LCTRL               &kp LALT            &kp RSHFT
+                                                            &lt 2 ESC           &lt 1 SPACE         &kp LCTRL               &kp LALT            &kp RSHFT
                                                                                 &kp LALT            &kp LSHFT               &kp RCTRL >; };
         layer_1 { bindings = <
 &kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
-&kp C_VOL_UP        &kp HOME            &kp BSPC            &kp UP              &kp DEL             &kp END                 &kp PSCRN           &kp N7              &kp N8              &kp N9              &kp LALT            &kp C_PREV
-&kp C_MUTE          &mt LALT PG_UP      &kp LEFT            &kp DOWN            &kp RIGHT           &kp PG_DN               &kp K_APP           &kp N4              &kp N5              &kp N6              &kp N0              &kp C_PP
-&kp C_VOL_DN        &mt LSHFT CAPS      &mkp RCLK           &mkp MCLK           &mkp LCLK           &kp TAB                 &kp INS             &kp N1              &kp N2              &kp N3              &kp RCTRL           &kp C_NEXT
+&kp C_VOL_UP        &mt LCTRL HOME      &kp BSPC            &kp UP              &kp DEL             &kp END                 &kp ASTRK           &kp N7              &kp N8              &kp N9              &kp PLUS            &kp C_PREV
+&kp C_MUTE          &mt LSHFT PG_UP     &kp LEFT            &kp DOWN            &kp RIGHT           &kp PG_DN               &kp DOT             &kp N4              &kp N5              &kp N6              &kp N0              &kp C_PP
+&kp C_VOL_DN        &mt LALT CAPS       &mkp RCLK           &mkp MCLK           &mkp LCLK           &kp TAB                 &kp FSLH            &kp N1              &kp N2              &kp N3              &kp MINUS           &kp C_NEXT
                                                             &trans              &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
-&none               &kp C_MUTE          &kp C_RW            &kp C_VOL_UP        &kp C_FF            &kp C_BRI_UP            &kp F15             &kp F7              &kp F8              &kp F9              &kp F12             &none
-&none               &kp C_PP            &kp C_PREV          &kp C_VOL_DN        &kp C_NEXT          &kp C_BRI_DN            &kp F14             &kp F4              &kp F5              &kp F6              &kp F11             &none
-&none               &kp LSHFT           &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp K_APP               &kp F13             &kp F1              &kp F2              &kp F3              &kp F10             &none
+&kp C_PREV          &mt LCTRL PSCRN     &kp F9              &kp F8              &kp F7              &kp F10                 &none               &kp C_PP            &kp C_VOL_UP        &kp C_MUTE          &kp C_BRI_UP        &none
+&kp C_PP            &mt LSHFT INS       &kp F6              &kp F5              &kp F4              &kp F11                 &none               &kp C_PREV          &kp C_VOL_DN        &kp C_NEXT          &kp C_BRI_DN        &none
+&kp C_NEXT          &mt LALT K_APP      &kp F3              &kp F2              &kp F1              &kp F12                 &none               &kp PSCRN           &kp SLCK            &kp PAUSE_BREAK     &kp INS             &none
                                                             &trans              &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
-&none               &kp EXCL            &kp EXCL            &kp BSLH            &kp PIPE            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp PIPE            &kp BSLH            &none
-&none               &kp LCTRL           &kp LBKT            &kp LBRC            &kp LPAR            &kp GRAVE               &kp GRAVE           &kp RPAR            &kp RBRC            &kp RBKT            &kp SQT             &none
-&none               &kp LALT            &kp RBKT            &kp RBRC            &kp RPAR            &kp TILDE               &none               &kp COLON           &kp LT              &kp GT              &kp QMARK           &none
-                                                            &trans              &trans              &trans                  &trans              &trans
+&none               &kp LCTRL           &kp EXCL            &kp BSLH            &kp PIPE            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp PIPE            &kp BSLH            &none
+&none               &kp EXCL            &kp LBKT            &kp LBRC            &kp LPAR            &kp GRAVE               &kp GRAVE           &kp MINUS           &kp UNDER           &kp RBKT            &kp SQT             &none
+&none               &kp LALT            &kp RBKT            &kp RBRC            &kp RPAR            &kp TILDE               &none               &kp EQUAL           &kp LT              &kp GT              &kp QMARK           &none
+                                                            &trans              &trans              &trans                  &trans              &kp RCTRL
                                                                                 &trans              &trans                  &trans >; };
         layer_4 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
@@ -55,8 +55,10 @@
                                                                                 &trans              &trans                  &trans >; };
     };
     combos { compatible = "zmk,combos";
+        left_finger_12_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&lt 3 ENTER>; };
         left_finger_02_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 50>; bindings = <&mo 4>; };
-        left_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 50>; bindings = <&lt 3 ESC>; };
+        rght_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <51 52>; bindings = <&ms LA(RSHFT) RGUI>; };
+        left_finger_01_row_5 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <53 54>; bindings = <&ms LA(LSHFT) LGUI>; };
 
         // left_finger_4_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <13 25>; bindings = <&kp TILDE>; };
         // left_finger_3_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <14 26>; bindings = <&kp EXCL>; };
