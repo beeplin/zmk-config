@@ -36,7 +36,7 @@ layers:
   - I
   - O
   - ''''
-  - $$mdi:apple-keyboard-shift$$
+  - APP
   - Z
   - X
   - C
@@ -48,7 +48,7 @@ layers:
   - .
   - /
   - ']'
-  - {t: '$$mdi:keyboard-esc$$', h: '2'}
+  - {t: '$$mdi:keyboard-esc$$', h: '3'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -71,29 +71,29 @@ layers:
   - F11
   - $$mdi:volume-high$$
   - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - PG UP
   - $$mdi:arrow-up-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - PG DN
   - END
   - '*'
   - '7'
   - '8'
   - '9'
   - +
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-off$$
-  - {t: PG UP, h: '$$mdi:apple-keyboard-shift$$'}
+  - ''
+  - $$mdi:volume-low$$
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - PG DN
+  - $$mdi:backspace-reverse-outline$$
   - .
   - '4'
   - '5'
   - '6'
   - '0'
-  - $$mdi:play-pause$$
-  - $$mdi:volume-low$$
+  - ''
+  - $$mdi:volume-off$$
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -104,7 +104,7 @@ layers:
   - '2'
   - '3'
   - '-'
-  - $$mdi:skip-next$$
+  - ''
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -127,43 +127,43 @@ layers:
   - ''
   - ''
   - $$mdi:skip-previous$$
-  - {t: '$$mdi:printer-outline$$', h: '$$mdi:apple-keyboard-control$$'}
-  - F9
-  - F8
-  - F7
-  - F10
-  - ''
-  - $$mdi:play-pause$$
-  - $$mdi:volume-high$$
-  - $$mdi:volume-off$$
-  - $$mdi:brightness-5$$
-  - ''
-  - $$mdi:play-pause$$
-  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
-  - F6
-  - F5
-  - F4
-  - F11
-  - ''
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-low$$
-  - $$mdi:skip-next$$
-  - $$mdi:brightness-7$$
+  - $$mdi:apple-keyboard-control$$
+  - +
+  - ':'
+  - '!'
+  - \
+  - ^
+  - '*'
+  - ''''
+  - '"'
+  - $
   - ''
   - $$mdi:skip-next$$
-  - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
-  - F3
-  - F2
-  - F1
-  - F12
+  - '='
+  - '-'
+  - <
+  - '>'
+  - '|'
+  - '&'
+  - (
+  - )
+  - '{'
+  - '}'
   - ''
-  - $$mdi:printer-outline$$
-  - SLCK
-  - PAUSE BREAK
-  - INS
+  - $$mdi:play-pause$$
+  - $$mdi:apple-keyboard-option$$
+  - _
+  - '~'
+  - '`'
+  - '%'
+  - '@'
+  - '['
+  - ']'
+  - '#'
+  - '?'
   - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -183,47 +183,47 @@ layers:
   - ''
   - ''
   - ''
+  - $$mdi:brightness-5$$
+  - {t: '$$mdi:printer-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+  - F9
+  - F8
+  - F7
+  - F10
   - ''
-  - $$mdi:apple-keyboard-control$$
-  - '!'
-  - \
-  - '|'
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '|'
-  - \
+  - $$mdi:play-pause$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-off$$
+  - $$mdi:brightness-5$$
   - ''
+  - $$mdi:brightness-7$$
+  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
+  - F6
+  - F5
+  - F4
+  - F11
   - ''
-  - '!'
-  - '['
-  - '{'
-  - (
-  - '`'
-  - '`'
-  - '-'
-  - _
-  - ']'
-  - ''''
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-low$$
+  - $$mdi:skip-next$$
+  - $$mdi:brightness-7$$
   - ''
+  - INS
+  - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
+  - F3
+  - F2
+  - F1
+  - F12
   - ''
-  - $$mdi:apple-keyboard-option$$
-  - ']'
-  - '}'
-  - )
-  - '~'
+  - $$mdi:printer-outline$$
+  - SLCK
+  - PAUSE BREAK
+  - INS
   - ''
-  - '='
-  - <
-  - '>'
-  - '?'
-  - ''
-  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -286,7 +286,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [48, 49]
-  k: {t: '$$mdi:keyboard-return$$', h: '3'}
+  k: {t: '$$mdi:keyboard-return$$', h: '2'}
   l: ['0']
 - p: [48, 50]
   k: '4'
