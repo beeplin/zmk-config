@@ -48,7 +48,7 @@ layers:
   - .
   - /
   - ']'
-  - {t: '$$mdi:keyboard-return$$', h: '2'}
+  - {t: '$$mdi:keyboard-esc$$', h: '2'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -70,40 +70,40 @@ layers:
   - F10
   - F11
   - $$mdi:volume-high$$
-  - HOME
+  - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - END
-  - $$mdi:printer-outline$$
+  - '*'
   - '7'
   - '8'
   - '9'
-  - $$mdi:apple-keyboard-option$$
+  - +
   - $$mdi:skip-previous$$
   - $$mdi:volume-off$$
-  - {t: PG UP, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: PG UP, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PG DN
-  - APP
+  - .
   - '4'
   - '5'
   - '6'
   - '0'
   - $$mdi:play-pause$$
   - $$mdi:volume-low$$
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-tab$$
-  - INS
+  - /
   - '1'
   - '2'
   - '3'
-  - $$mdi:apple-keyboard-control$$
+  - '-'
   - $$mdi:skip-next$$
   - {t: ▽, type: trans}
   - {type: held}
@@ -126,41 +126,41 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - $$mdi:volume-off$$
-  - RW
-  - $$mdi:volume-high$$
-  - FF
-  - $$mdi:brightness-5$$
-  - F15
-  - F7
-  - F8
+  - $$mdi:skip-previous$$
+  - {t: '$$mdi:printer-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - F9
-  - F12
-  - ''
+  - F8
+  - F7
+  - F10
   - ''
   - $$mdi:play-pause$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-off$$
+  - $$mdi:brightness-5$$
+  - ''
+  - $$mdi:play-pause$$
+  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
+  - F6
+  - F5
+  - F4
+  - F11
+  - ''
   - $$mdi:skip-previous$$
   - $$mdi:volume-low$$
   - $$mdi:skip-next$$
   - $$mdi:brightness-7$$
-  - F14
-  - F4
-  - F5
-  - F6
-  - F11
   - ''
+  - $$mdi:skip-next$$
+  - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
+  - F3
+  - F2
+  - F1
+  - F12
   - ''
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:printer-outline$$
   - SLCK
   - PAUSE BREAK
-  - APP
-  - F13
-  - F1
-  - F2
-  - F3
-  - F10
+  - INS
   - ''
   - {type: held}
   - {t: ▽, type: trans}
@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - ''
-  - '!'
+  - $$mdi:apple-keyboard-control$$
   - '!'
   - \
   - '|'
@@ -196,14 +196,14 @@ layers:
   - \
   - ''
   - ''
-  - $$mdi:apple-keyboard-control$$
+  - '!'
   - '['
   - '{'
   - (
   - '`'
   - '`'
-  - )
-  - '}'
+  - '-'
+  - _
   - ']'
   - ''''
   - ''
@@ -214,16 +214,16 @@ layers:
   - )
   - '~'
   - ''
-  - ':'
+  - '='
   - <
   - '>'
   - '?'
   - ''
-  - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -285,9 +285,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
+- p: [48, 49]
+  k: {t: '$$mdi:keyboard-return$$', h: '3'}
+  l: ['0']
 - p: [48, 50]
   k: '4'
   l: ['0']
-- p: [49, 50]
-  k: {t: '$$mdi:keyboard-esc$$', h: '3'}
+- p: [51, 52]
+  k: {t: '$$mdi:microsoft-windows$$', h: 'Alt+$$mdi:apple-keyboard-shift$$'}
+  l: ['0']
+- p: [53, 54]
+  k: {t: '$$mdi:microsoft-windows$$', h: 'Alt+$$mdi:apple-keyboard-shift$$'}
   l: ['0']
