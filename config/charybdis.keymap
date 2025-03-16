@@ -43,7 +43,7 @@
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &kp EXCL            &kp EXCL            &kp BSLH            &kp PIPE            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp PIPE            &kp BSLH            &none
 &none               &kp LCTRL           &kp LBKT            &kp LBRC            &kp LPAR            &kp GRAVE               &kp GRAVE           &kp RPAR            &kp RBRC            &kp RBKT            &kp SQT             &none
-&none               &kp LALT            &kp RBKT            &kp RBRC            &kp RPAR            &kp TILDEdt               &none               &kp COLON           &kp LT              &kp GT              &kp QMARK           &none
+&none               &kp LALT            &kp RBKT            &kp RBRC            &kp RPAR            &kp TILDE               &none               &kp COLON           &kp LT              &kp GT              &kp QMARK           &none
                                                             &trans              &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &trans >; };
         layer_4 { bindings = <
