@@ -34,9 +34,9 @@
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
-&kp C_PREV          &kp LCTRL           &kp PLUS            &kp COLON           &kp EXCL            &kp BSLH                &kp CARET           &kp ASTRK           &kp SQT             &kp DQT             &kp DLLR            &none
+&kp C_PREV          &kp LCTRL           &kp PLUS            &kp COLON           &kp EXCL            &kp BSLH                &kp CARET           &kp QMARK           &kp SQT             &kp DQT             &kp DLLR            &none
 &kp C_NEXT          &kp EQUAL           &kp MINUS           &kp LT              &kp GT              &kp PIPE                &kp AMPS            &kp LPAR            &kp RPAR            &kp LBRC            &kp RBRC            &none
-&kp C_PP            &kp LALT            &kp UNDER           &kp TILDE           &kp GRAVE           &kp PRCNT               &kp AT              &kp LBKT            &kp RBKT            &kp POUND           &kp QMARK           &none
+&kp C_PP            &kp LALT            &kp UNDER           &kp TILDE           &kp GRAVE           &kp PRCNT               &kp AT              &kp LBKT            &kp RBKT            &kp POUND           &kp ASTRK           &none
                                                             &trans              &trans              &trans                  &trans              &trans
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
