@@ -246,11 +246,11 @@ layers:
   - BT SEL 2
   - BT SEL 3
   - BT SEL 4
-  - RGB SPI
+  - BL DEC
   - RGB HUI
   - RGB SAI
   - RGB BRI
-  - RGB EFR
+  - RGB SPI
   - ''
   - ''
   - BT DISC 0
@@ -258,23 +258,23 @@ layers:
   - BT DISC 2
   - BT DISC 3
   - BT DISC 4
-  - RGB SPD
+  - BL INC
   - RGB HUD
   - RGB SAD
   - RGB BRD
-  - RGB EFF
+  - RGB SPD
   - ''
   - ''
-  - OUT TOG
-  - BT PRV
   - BT CLR
+  - BT PRV
+  - OUT TOG
   - BT NXT
   - BT CLRALL
-  - studio unlock
-  - BL DEC
   - BL TOG
-  - BL INC
+  - RGB EFR
   - RGB TOG
+  - RGB EFF
+  - studio unlock
   - ''
   - {type: held}
   - boot loader
