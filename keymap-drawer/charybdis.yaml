@@ -253,16 +253,16 @@ layers:
   - RGB SPI
   - ''
   - ''
-  - BT CLR
+  - boot loader
   - BT PRV
   - OUT TOG
   - BT NXT
-  - BT CLRALL
+  - BT CLR
   - BL TOG
   - RGB EFR
   - RGB TOG
   - RGB EFF
-  - studio unlock
+  - boot loader
   - ''
   - ''
   - BT DISC 0
@@ -276,14 +276,14 @@ layers:
   - RGB BRD
   - RGB SPD
   - ''
-  - {t: ▽, type: trans}
-  - {t: boot loader, type: held}
+  - ''
   - {type: held}
   - {type: held}
-  - {t: boot loader, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
+  - ''
 combos:
 - p: [38, 40]
   k: $$mdi:mouse-scroll-wheel$$
