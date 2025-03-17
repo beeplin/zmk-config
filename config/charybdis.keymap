@@ -14,7 +14,7 @@
     behaviors {
         ms: mod_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&sk>; };
         ls: lyr_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&mo>, <&sk>; };
-        htd_C_S_S: htd_LCTRL_LSHFT_LSHFT { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&sk LCTRL LSHFT>, <&kp LSHFT>; };
+        ms_C_S_kp_S: ms_LCTRL_LSHFT_kp_LSHFT { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&ms LCTRL LSHFT>, <&kp LSHFT>; };
     };
     macros {
         macro_power: macro_power { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <100>; bindings = <&kp LG(X)>, <&kp U>; };
@@ -26,7 +26,7 @@
 &kp EQUAL           &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LBKT
 &kp LSHFT           &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp MINUS           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RBKT
-                                                            &ls 2 LGUI          &lt 1 SPACE         &htd_C_S_S              &mt LALT SPACE      &ms RSHFT RSHFT
+                                                            &ls 2 LGUI          &lt 1 SPACE         &ms_C_S_kp_S            &mt LALT SPACE      &ms RSHFT RSHFT
                                                                                 &kp LALT            &kp LSHFT               &kp RCTRL >; };
         layer_1 { bindings = <
 &kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
