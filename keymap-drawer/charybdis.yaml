@@ -87,7 +87,7 @@ layers:
   - F5
   - F4
   - F11
-  - 'power '
+  - macro power
   - $$mdi:skip-previous$$
   - $$mdi:volume-off$$
   - $$mdi:skip-next$$
