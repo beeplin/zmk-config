@@ -188,7 +188,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - +
   - ':'
-  - '?'
+  - '*'
   - \
   - ^
   - '&'
@@ -197,28 +197,28 @@ layers:
   - $
   - ''
   - $$mdi:play-pause$$
-  - '='
+  - '?'
   - '-'
-  - <
+  - '='
   - '>'
   - '|'
   - '!'
+  - '{'
   - (
   - )
-  - '{'
   - '}'
   - ''
   - $$mdi:skip-next$$
   - $$mdi:apple-keyboard-option$$
   - '~'
   - '`'
-  - _
+  - <
   - '%'
   - '@'
+  - _
   - '['
   - ']'
   - '#'
-  - '*'
   - ''
   - {type: held}
   - {type: held}
