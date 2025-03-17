@@ -75,7 +75,7 @@ layers:
   - F8
   - F7
   - F10
-  - ''
+  - studio unlock
   - $$mdi:printer-outline$$
   - $$mdi:volume-high$$
   - SLCK
@@ -87,7 +87,7 @@ layers:
   - F5
   - F4
   - F11
-  - ''
+  - '&power'
   - $$mdi:skip-previous$$
   - $$mdi:volume-off$$
   - $$mdi:skip-next$$
@@ -99,7 +99,7 @@ layers:
   - F2
   - F1
   - F12
-  - ''
+  - '&key_repeat'
   - APP
   - $$mdi:volume-low$$
   - PAUSE BREAK
