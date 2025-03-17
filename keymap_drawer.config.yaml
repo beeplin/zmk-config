@@ -268,8 +268,8 @@ parse_config:
     "&key_repeat":
       tap: "key repeat"
 
-    "&power":
-      tap: "power "
+    "&macro_power":
+      tap: "macro power"
 
   # ZMK
   zmk_keycode_map:
