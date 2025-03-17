@@ -115,63 +115,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:skip-previous$$
-  - $$mdi:apple-keyboard-control$$
-  - +
-  - ':'
-  - '?'
-  - \
-  - ^
-  - '&'
-  - '"'
-  - ''''
-  - $
-  - ''
-  - $$mdi:play-pause$$
-  - '='
-  - '-'
-  - <
-  - '>'
-  - '|'
-  - '!'
-  - (
-  - )
-  - '{'
-  - '}'
-  - ''
-  - $$mdi:skip-next$$
-  - $$mdi:apple-keyboard-option$$
-  - '~'
-  - '`'
-  - _
-  - '%'
-  - '@'
-  - '['
-  - ']'
-  - '#'
-  - '*'
-  - ''
-  - {type: held}
-  - '3'
-  - '4'
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '3':
   - '~'
   - '!'
   - '@'
@@ -221,10 +164,67 @@ layers:
   - $$mdi:brightness-7$$
   - '}'
   - {type: held}
+  - '3'
+  - '4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:skip-previous$$
+  - $$mdi:apple-keyboard-control$$
+  - +
+  - ':'
+  - '?'
+  - \
+  - ^
+  - '&'
+  - '"'
+  - ''''
+  - $
+  - ''
+  - $$mdi:play-pause$$
+  - '='
+  - '-'
+  - <
+  - '>'
+  - '|'
+  - '!'
+  - (
+  - )
+  - '{'
+  - '}'
+  - ''
+  - $$mdi:skip-next$$
+  - $$mdi:apple-keyboard-option$$
+  - '~'
+  - '`'
+  - _
+  - '%'
+  - '@'
+  - '['
+  - ']'
+  - '#'
+  - '*'
+  - ''
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
