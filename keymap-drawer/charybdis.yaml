@@ -74,8 +74,8 @@ layers:
   - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
-  - PGUP
-  - PGDN
+  - PG UP
+  - PG DN
   - /
   - '7'
   - '8'
