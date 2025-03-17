@@ -153,9 +153,9 @@ layers:
   - ''
   - $$mdi:skip-next$$
   - $$mdi:apple-keyboard-option$$
-  - _
   - '~'
   - '`'
+  - _
   - '%'
   - '@'
   - '['
