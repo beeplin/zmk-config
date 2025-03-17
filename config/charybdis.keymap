@@ -40,7 +40,7 @@
 &kp PLUS            &kp LCTRL           &kp F9              &kp F8              &kp F7              &kp F10                 &studio_unlock      &kp PSCRN           &kp C_VOL_UP        &kp SLCK            &kp C_BRI_UP        &kp LBRC
 &kp PSCRN           &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F11                 &macro_power        &kp C_PREV          &kp C_MUTE          &kp C_NEXT          &kp C_PP            &kp DQT
 &kp UNDER           &kp LALT            &kp F3              &kp F2              &kp F1              &kp F12                 &key_repeat         &kp K_APP           &kp C_VOL_DN        &kp PAUSE_BREAK     &kp C_BRI_DN        &kp RBRC
-                                                            &trans              &mo 3               &mo 4                   &trans              &trans
+                                                            &trans              &mo 3               &mo 4                   &kp LALT            &kp RCTRL
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
