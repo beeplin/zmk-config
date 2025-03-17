@@ -13,18 +13,6 @@ layers:
   - '9'
   - '0'
   - \
-  - $$mdi:apple-keyboard-shift$$
-  - A
-  - R
-  - S
-  - T
-  - G
-  - M
-  - N
-  - E
-  - I
-  - O
-  - ''''
   - '='
   - Q
   - W
@@ -37,6 +25,18 @@ layers:
   - Y
   - ;
   - '['
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - ''''
   - '-'
   - Z
   - X
