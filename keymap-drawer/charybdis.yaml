@@ -51,7 +51,7 @@ layers:
   - ']'
   - {t: '$$mdi:microsoft-windows$$', h: '2'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
+  - '&a LCTRL LSHFT LSHFT'
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
