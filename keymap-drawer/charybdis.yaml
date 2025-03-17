@@ -24,7 +24,7 @@ layers:
   - Y
   - ;
   - '['
-  - '-'
+  - $$mdi:apple-keyboard-shift$$
   - A
   - R
   - S
@@ -36,7 +36,7 @@ layers:
   - I
   - O
   - ''''
-  - $$mdi:apple-keyboard-shift$$
+  - '-'
   - Z
   - X
   - C
@@ -57,19 +57,19 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   '1':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:skip-previous$$
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '|'
+  - +
   - $$mdi:apple-keyboard-control$$
   - F9
   - F8
@@ -78,10 +78,10 @@ layers:
   - ''
   - $$mdi:printer-outline$$
   - $$mdi:volume-high$$
-  - APP
+  - SLCK
   - $$mdi:brightness-5$$
-  - ''
-  - $$mdi:play-pause$$
+  - '{'
+  - $$mdi:printer-outline$$
   - $$mdi:apple-keyboard-shift$$
   - F6
   - F5
@@ -89,22 +89,22 @@ layers:
   - F11
   - ''
   - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
   - $$mdi:volume-off$$
-  - ''
   - $$mdi:skip-next$$
+  - $$mdi:play-pause$$
+  - '"'
+  - _
   - $$mdi:apple-keyboard-option$$
   - F3
   - F2
   - F1
   - F12
   - ''
-  - SLCK
+  - APP
   - $$mdi:volume-low$$
   - PAUSE BREAK
   - $$mdi:brightness-7$$
-  - ''
+  - '}'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,7 +137,7 @@ layers:
   - '8'
   - '9'
   - +
-  - $$mdi:skip-previous$$
+  - $$mdi:brightness-5$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:arrow-left-bold$$
@@ -149,11 +149,11 @@ layers:
   - '5'
   - '6'
   - .
-  - $$mdi:play-pause$$
+  - APP
   - $$mdi:volume-low$$
   - {t: PG UP, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:mouse-right-click-outline$$
-  - '&mkp DOWN'
+  - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
   - PG DN
   - INS
@@ -161,7 +161,7 @@ layers:
   - '2'
   - '3'
   - '-'
-  - $$mdi:skip-next$$
+  - $$mdi:brightness-7$$
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -183,7 +183,7 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:brightness-5$$
+  - $$mdi:skip-previous$$
   - $$mdi:apple-keyboard-control$$
   - +
   - ':'
@@ -195,7 +195,7 @@ layers:
   - '"'
   - $
   - ''
-  - APP
+  - $$mdi:play-pause$$
   - '='
   - '-'
   - <
@@ -207,7 +207,7 @@ layers:
   - '{'
   - '}'
   - ''
-  - $$mdi:brightness-7$$
+  - $$mdi:skip-next$$
   - $$mdi:apple-keyboard-option$$
   - _
   - '~'
@@ -285,12 +285,12 @@ layers:
   - ''
   - ''
 combos:
-- p: [38, 40]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: ['2']
 - p: [48, 49]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
   l: ['0']
+- p: [38, 40]
+  k: $$mdi:mouse-scroll-wheel$$
+  l: ['2']
 - p: [49, 50, 51, 52]
   k: '4'
-  l: ['1']
+  l: ['2']
