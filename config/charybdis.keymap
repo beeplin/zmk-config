@@ -8,7 +8,7 @@
 
 &mt { quick-tap-ms = <180>; };
 &lt { quick-tap-ms = <180>; flavor = "hold-preferred"; };
-&sk { release-after-ms = <180>; quick-release; lazy; };
+&sk { release-after-ms = <2000>; quick-release; lazy; };
 
 / {
     behaviors {
