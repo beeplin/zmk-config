@@ -39,13 +39,13 @@
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
         /* optional features */
-        snipe-layers = <2>;
-        scroll-layers = <3>;
+        snipe-layers = <1>;
+        scroll-layers = <2>;
         // automouse-layer = <1>;
 
         /* optional: ball action on specific layers */
         arrows {
-            layers = <1>;
+            layers = <3>;
             bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
             /* optional: ball action configuration */
             tick = <10>;

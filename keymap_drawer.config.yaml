@@ -436,12 +436,11 @@ parse_config:
     RGUI: $$mdi:microsoft-windows$$
     RIGHT_GUI: $$mdi:microsoft-windows$$$
     PSCRN: $$mdi:printer-outline$$
-    PAGE_UP: "PgUp"
-    PG_UP: "PgUp"
-    PAGE_DOWN: PgDn"
-    PG_DN: "PgDn"
-    INSERT: "Ins"
-    INS: "Ins"
+    PAGE_UP: "PGUP"
+    PG_UP: "PGUP"
+    PAGE_DOWN: "PGDN"
+    PG_DN: "PGDN"
+    INSERT: "INS"
 
     # "Meh" key
     LS(LC(LALT)): $$mdi:star-three-points$$
