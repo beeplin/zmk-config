@@ -13,18 +13,6 @@ layers:
   - '9'
   - '0'
   - \
-  - '='
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - ;
-  - '['
   - $$mdi:apple-keyboard-shift$$
   - A
   - R
@@ -37,6 +25,18 @@ layers:
   - I
   - O
   - ''''
+  - '='
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - '['
   - '-'
   - Z
   - X
@@ -291,4 +291,4 @@ combos:
   l: ['0']
 - p: [40, 41]
   k: $$mdi:mouse-scroll-wheel$$
-  l: ['2']
+  l: ['1']
