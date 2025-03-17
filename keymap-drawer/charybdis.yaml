@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: charybdis}
 layers:
   '0':
   - '`'
@@ -48,8 +49,8 @@ layers:
   - .
   - /
   - ']'
-  - {t: '$$mdi:microsoft-windows$$', h: '1'}
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
+  - {t: '$$mdi:microsoft-windows$$', h: '2'}
+  - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -57,63 +58,6 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   '1':
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - +
-  - $$mdi:apple-keyboard-control$$
-  - F9
-  - F8
-  - F7
-  - F10
-  - studio unlock
-  - $$mdi:printer-outline$$
-  - $$mdi:volume-high$$
-  - SLCK
-  - $$mdi:brightness-5$$
-  - '{'
-  - $$mdi:printer-outline$$
-  - $$mdi:apple-keyboard-shift$$
-  - F6
-  - F5
-  - F4
-  - F11
-  - macro power
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-off$$
-  - $$mdi:skip-next$$
-  - $$mdi:play-pause$$
-  - '"'
-  - _
-  - $$mdi:apple-keyboard-option$$
-  - F3
-  - F2
-  - F1
-  - F12
-  - key repeat
-  - APP
-  - $$mdi:volume-low$$
-  - PAUSE BREAK
-  - $$mdi:brightness-7$$
-  - '}'
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '2':
   - F12
   - F1
   - F2
@@ -130,8 +74,8 @@ layers:
   - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
-  - $$mdi:backspace-reverse-outline$$
-  - END
+  - PGUP
+  - PGDN
   - /
   - '7'
   - '8'
@@ -151,12 +95,12 @@ layers:
   - .
   - APP
   - $$mdi:volume-low$$
-  - {t: PgUp, h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:mouse-right-click-outline$$
+  - {t: END, h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
-  - PgDn
-  - Ins
+  - $$mdi:mouse-right-click-outline$$
+  - INS
   - '1'
   - '2'
   - '3'
@@ -170,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '3':
+  '2':
   - ''
   - ''
   - ''
@@ -220,10 +164,67 @@ layers:
   - '*'
   - ''
   - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:alpha-w-box$$
   - _
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '|'
+  - +
+  - $$mdi:apple-keyboard-control$$
+  - F9
+  - F8
+  - F7
+  - F10
+  - studio unlock
+  - $$mdi:printer-outline$$
+  - $$mdi:volume-high$$
+  - SLCK
+  - $$mdi:brightness-5$$
+  - '{'
+  - $$mdi:printer-outline$$
+  - $$mdi:apple-keyboard-shift$$
+  - F6
+  - F5
+  - F4
+  - F11
+  - macro power
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-off$$
+  - $$mdi:skip-next$$
+  - $$mdi:play-pause$$
+  - '"'
+  - _
+  - $$mdi:apple-keyboard-option$$
+  - F3
+  - F2
+  - F1
+  - F12
+  - key repeat
+  - APP
+  - $$mdi:volume-low$$
+  - PAUSE BREAK
+  - $$mdi:brightness-7$$
+  - '}'
+  - {type: held}
+  - {type: held}
+  - '4'
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -253,7 +254,7 @@ layers:
   - RGB SPI
   - ''
   - ''
-  - boot loader
+  - ''
   - BT PRV
   - OUT TOG
   - BT NXT
@@ -262,7 +263,7 @@ layers:
   - RGB EFR
   - RGB TOG
   - RGB EFF
-  - boot loader
+  - ''
   - ''
   - ''
   - BT DISC 0
@@ -277,10 +278,10 @@ layers:
   - RGB SPD
   - ''
   - ''
+  - boot loader
   - {type: held}
-  - {type: held}
-  - {type: held}
-  - {type: held}
+  - ''
+  - boot loader
   - ''
   - ''
   - ''
@@ -288,9 +289,6 @@ combos:
 - p: [48, 49]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
   l: ['0']
-- p: [49, 50, 51, 52]
-  k: '4'
-  l: ['0']
-- p: [38, 40]
+- p: [40, 41]
   k: $$mdi:mouse-scroll-wheel$$
   l: ['2']
