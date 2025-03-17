@@ -265,6 +265,12 @@ parse_config:
     "&studio_unlock":
       tap: "studio unlock"
 
+    "&key_repeat":
+      tap: "key repeat"
+
+    "&power":
+      tap: "power "
+
   # ZMK
   zmk_keycode_map:
     # Symbols
@@ -430,15 +436,13 @@ parse_config:
     RGUI: $$mdi:microsoft-windows$$
     RIGHT_GUI: $$mdi:microsoft-windows$$$
     PSCRN: $$mdi:printer-outline$$
-    PAGE_UP:
-      tap: "PgUp"
-      # shifted: ""
-    PAGE_DOWN:
-      tap: "PgDn"
-      # shifted: ""
-    INSERT:
-      tap: "Ins"
-      # shifted: ""
+    PAGE_UP: "PgUp"
+    PG_UP: "PgUp"
+    PAGE_DOWN: PgDn"
+    PG_DN: "PgDn"
+    INSERT: "Ins"
+    INS: "Ins"
+
     # "Meh" key
     LS(LC(LALT)): $$mdi:star-three-points$$
 
