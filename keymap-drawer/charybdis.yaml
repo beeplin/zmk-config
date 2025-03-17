@@ -87,7 +87,7 @@ layers:
   - F5
   - F4
   - F11
-  - '&power'
+  - 'power '
   - $$mdi:skip-previous$$
   - $$mdi:volume-off$$
   - $$mdi:skip-next$$
@@ -99,7 +99,7 @@ layers:
   - F2
   - F1
   - F12
-  - '&key_repeat'
+  - key repeat
   - APP
   - $$mdi:volume-low$$
   - PAUSE BREAK
@@ -151,12 +151,12 @@ layers:
   - .
   - APP
   - $$mdi:volume-low$$
-  - {t: PG UP, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: PgUp, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
-  - PG DN
-  - INS
+  - PgDn
+  - Ins
   - '1'
   - '2'
   - '3'
@@ -191,8 +191,8 @@ layers:
   - \
   - ^
   - '&'
-  - ''''
   - '"'
+  - ''''
   - $
   - ''
   - $$mdi:play-pause$$
