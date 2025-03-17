@@ -59,8 +59,8 @@
     };
     combos { compatible = "zmk,combos";
         left_finger_12_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&ls 3 LALT>; };
+        both_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 50 51 52>; bindings = <&mo 4>; };
         left_finger_13_row_3 { require-prior-idle-ms = <(-1)>; layers = <2>; key-positions = <38 40>; bindings = <&mkp MCLK>; };
-        both_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <2>; key-positions = <49 50 51 52>; bindings = <&mo 4>; };
 
         // left_finger_4_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <13 25>; bindings = <&kp TILDE>; };
         // left_finger_3_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <14 26>; bindings = <&kp EXCL>; };
