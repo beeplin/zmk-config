@@ -165,7 +165,7 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '4'
   - $$mdi:alpha-w-box$$
   - _
   - {t: ▽, type: trans}
@@ -222,7 +222,7 @@ layers:
   - '}'
   - {type: held}
   - {type: held}
-  - '4'
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
@@ -277,7 +277,7 @@ layers:
   - RGB BRD
   - RGB SPD
   - ''
-  - ''
+  - {type: held}
   - boot loader
   - {type: held}
   - ''
