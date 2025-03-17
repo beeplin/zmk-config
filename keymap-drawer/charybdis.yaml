@@ -106,7 +106,7 @@ layers:
   - '3'
   - '-'
   - $$mdi:brightness-7$$
-  - {t: ▽, type: trans}
+  - '3'
   - {type: held}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-caps$$
@@ -164,7 +164,7 @@ layers:
   - '*'
   - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - '3'
   - '4'
   - $$mdi:alpha-w-box$$
   - _
