@@ -23,8 +23,8 @@
         compatible = "zmk,keymap";
         layer_0 { bindings = <
 &kp GRAVE           &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                  &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &kp BSLH
-&kp EQUAL           &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LBKT
 &kp LSHFT           &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
+&kp EQUAL           &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LBKT
 &kp MINUS           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RBKT
                                                             &ls 2 LGUI          &lt 1 SPACE         &ms LCTRL LSHFT         &mt LALT SPACE      &ms RSHFT RSHFT
                                                                                 &kp LALT            &kp LSHFT               &kp RCTRL >; };
@@ -59,7 +59,7 @@
     };
     combos { compatible = "zmk,combos";
         left_finger_12_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&ls 3 LALT>; };
-        left_finger_01_row_3 { require-prior-idle-ms = <(-1)>; layers = <2>; key-positions = <40 41>; bindings = <&mkp MCLK>; };
+        left_finger_01_row_3 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <40 41>; bindings = <&mkp MCLK>; };
 
         // left_finger_4_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <13 25>; bindings = <&kp TILDE>; };
         // left_finger_3_row_12 { require-prior-idle-ms = <(-1)>; layers = <0 1>; key-positions = <14 26>; bindings = <&kp EXCL>; };
