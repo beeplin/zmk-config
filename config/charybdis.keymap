@@ -16,29 +16,29 @@
         ls: lyr_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&mo>, <&sk>; };
     };
     macros {
-        macro_power: macro_power { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <100>; bindings = <&kp LG(X)>, <&kp U>; };
+        win_power: macro0 { compatible = "zmk,behavior-macro-one-param"; #binding-cells = <1>; wait-ms = <100>; bindings = <&kp LG(X)>, <&kp U>, <&macro_param_1to1>, <&kp MACRO_PLACEHOLDER>; };
     }; 
     keymap {
         compatible = "zmk,keymap";
         layer_0 { bindings = <
 &kp GRAVE           &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                  &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &kp BSLH
 &kp EQUAL           &kp Q               &kp W               &kp F               &kp P               &kp B                   &kp J               &kp L               &kp U               &kp Y               &kp SEMI            &kp LBKT
-&kp LSHFT           &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
-&kp MINUS           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RBKT
+&kp MINUS           &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
+&kp K_APP           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RBKT
                                                             &lt 2 LGUI          &lt 1 SPACE         &mt LCTRL LSHFT         &mt LALT SPACE      &lt 3 RSHFT
                                                                                 &kp LALT            &kp LSHFT               &kp RCTRL >; };
         layer_1 { bindings = <
 &kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
 &kp C_VOL_UP        &mt LCTRL HOME      &kp BSPC            &kp UP              &kp PG_UP           &kp PG_DN               &kp FSLH            &kp N7              &kp N8              &kp N9              &kp PLUS            &kp C_BRI_UP
-&kp C_MUTE          &mt LSHFT ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp TAB                 &kp PRCNT           &kp N4              &kp N5              &kp N6              &kp DOT             &kp K_APP
+&kp C_MUTE          &mt LSHFT ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp TAB                 &kp SPACE           &kp N4              &kp N5              &kp N6              &kp DOT             &kp K_APP
 &kp C_VOL_DN        &mt LALT END        &kp DEL             &kp DOWN            &mkp LCLK           &mkp RCLK               &kp ASTRK           &kp N1              &kp N2              &kp N3              &kp MINUS           &kp C_BRI_DN
                                                             &mo 3               &trans              &trans                  &kp CAPS            &kp N0
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
 &kp TILDE           &kp EXCL            &kp AT              &kp POUND           &kp DLLR            &kp PRCNT               &kp CARET           &kp AMPS            &kp ASTRK           &kp LPAR            &kp RPAR            &kp PIPE
-&kp PLUS            &kp LCTRL           &kp F9              &kp F8              &kp F7              &kp F10                 &studio_unlock      &kp PSCRN           &kp C_VOL_UP        &kp SLCK            &kp C_BRI_UP        &kp LBRC
-&kp PSCRN           &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F11                 &macro_power        &kp C_PREV          &kp C_MUTE          &kp C_NEXT          &kp C_PP            &kp DQT
-&kp UNDER           &kp LALT            &kp F3              &kp F2              &kp F1              &kp F12                 &key_repeat         &kp K_APP           &kp C_VOL_DN        &kp PAUSE_BREAK     &kp C_BRI_DN        &kp RBRC
+&kp PLUS            &kp LCTRL           &kp F9              &kp F8              &kp F7              &kp F10                 &win_power R        &kp PSCRN           &kp C_VOL_UP        &kp SLCK            &kp C_BRI_UP        &kp LBRC
+&kp PSCRN           &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F11                 &win_power S        &kp C_PREV          &kp C_MUTE          &kp C_NEXT          &kp C_PP            &kp DQT
+&kp UNDER           &kp LALT            &kp F3              &kp F2              &kp F1              &kp F12                 &win_power U        &kp K_APP           &kp C_VOL_DN        &kp PAUSE_BREAK     &kp C_BRI_DN        &kp RBRC
                                                             &trans              &mo 3               &mo 4                   &kp LALT            &kp RCTRL
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
@@ -57,9 +57,12 @@
                                                                                 &none               &none                   &none >; };
     };
     combos { compatible = "zmk,combos";
+        left_finger_12_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&lt 3 LALT>; };
         left_finger_01_row_1 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <16 17>; bindings = <&kp INS>; };
         left_finger_01_row_2 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <28 29>; bindings = <&key_repeat>; };
         left_finger_01_row_3 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <40 41>; bindings = <&mkp MCLK>; };
-        left_finger_12_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&lt  3 LALT>; };
+        rght_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <51 52>; bindings = <&caps_word>; };
+        rght_finger_0_row_12 { require-prior-idle-ms = <(-1)>; layers = <2>; key-positions = <18 30>; bindings = <&win_power I>; };
+        rght_finger_0_row_23 { require-prior-idle-ms = <(-1)>; layers = <2>; key-positions = <30 42>; bindings = <&win_power H>; };
     };
 };
