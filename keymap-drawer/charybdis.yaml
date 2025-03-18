@@ -221,7 +221,7 @@ layers:
   - '*'
   - ''
   - {t: '$$mdi:microsoft-windows$$', type: held alternate}
-  - {t: '$$mdi:apple-keyboard-option$$', type: held alternate}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$', type: held alternate}
   - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {type: held}
