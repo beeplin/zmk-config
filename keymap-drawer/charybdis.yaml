@@ -56,7 +56,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '3'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   '1':
   - F12
   - F1
@@ -74,7 +74,7 @@ layers:
   - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
-  - PG UP
+  - PGUP
   - PG DN
   - /
   - '7'
@@ -88,11 +88,11 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-space$$
+  - '*'
   - '4'
   - '5'
   - '6'
-  - .
+  - '0'
   - APP
   - $$mdi:volume-low$$
   - {t: END, h: '$$mdi:apple-keyboard-option$$'}
@@ -100,74 +100,74 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - '*'
+  - '-'
   - '1'
   - '2'
   - '3'
-  - '-'
+  - .
   - $$mdi:brightness-7$$
   - '3'
-  - {type: held}
+  - {t: '3', type: held}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-caps$$
-  - '0'
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - +
+  - BT CLR
+  - BT SEL 0
+  - BT SEL 1
+  - BT SEL 2
+  - BT SEL 3
+  - BT SEL 4
+  - BT DISC 4
+  - BT DISC 3
+  - BT DISC 2
+  - BT DISC 1
+  - BT DISC 0
+  - BT CLRALL
+  - BT PRV
   - $$mdi:apple-keyboard-control$$
   - F9
   - F8
   - F7
   - F10
-  - '&win_power R'
+  - ''
   - $$mdi:printer-outline$$
   - $$mdi:volume-high$$
   - SLCK
   - $$mdi:brightness-5$$
-  - '{'
-  - $$mdi:printer-outline$$
+  - BT NXT
+  - studio unlock
   - $$mdi:apple-keyboard-shift$$
   - F6
   - F5
   - F4
   - F11
-  - '&win_power S'
+  - win power
   - $$mdi:skip-previous$$
   - $$mdi:volume-off$$
   - $$mdi:skip-next$$
   - $$mdi:play-pause$$
-  - '"'
-  - _
+  - OUT TOG
+  - boot loader
   - $$mdi:apple-keyboard-option$$
   - F3
   - F2
   - F1
   - F12
-  - '&win_power U'
+  - ''
   - APP
   - $$mdi:volume-low$$
   - PAUSE BREAK
   - $$mdi:brightness-7$$
-  - '}'
-  - {type: held}
+  - boot loader
+  - {t: '3', type: held}
   - '3'
   - '4'
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,10 +221,10 @@ layers:
   - '#'
   - ''
   - {type: held alternate}
-  - {t: '$$mdi:apple-keyboard-control$$', type: held alternate}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-control$$', type: held}
+  - {t: '$$mdi:apple-keyboard-option$$', type: held alternate}
+  - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -289,6 +289,12 @@ combos:
 - p: [48, 49]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
   l: ['0']
+- p: [49, 50]
+  k: {t: '$$mdi:apple-keyboard-caps$$', h: '&lm 1 LCTRL'}
+  l: ['0']
+- p: [51, 52]
+  k: {t: '$$mdi:alpha-w-box$$', h: '&lm 3 LALT'}
+  l: ['0']
 - p: [16, 17]
   k: INS
   l: ['1']
@@ -301,9 +307,3 @@ combos:
 - p: [51, 52]
   k: $$mdi:alpha-w-box$$
   l: ['1']
-- p: [18, 30]
-  k: '&win_power I'
-  l: ['2']
-- p: [30, 42]
-  k: '&win_power H'
-  l: ['2']
