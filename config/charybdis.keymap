@@ -17,15 +17,15 @@
         win_power: win_power { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <100>; bindings = <&kp LG(X)>, <&kp U>; };
     }; 
     behaviors {
-        ms: modif_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&sk>; };
-        ls: layer_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&mo>, <&sk>; };
-        l1ct: lmt_1_ctrl { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&lm_1_ctrl>, <&kp>; };
-        l3ac: lmt_3_alt  { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&lm_3_alt>, <&caps_word>; };
+        ms: modif_sticky       { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&sk>; };
+        ls: layer_sticky       { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&mo>, <&sk>; };
+        lmt_1_ctrl: lmt_1_ctrl { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&lm_1_ctrl>, <&kp>; };
+        lmt_3_alt:  lmt_3_alt  { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&lm_3_alt>, <&caps_word>; };
     };
     combos { compatible = "zmk,combos";
         left_finger_12_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&lt 3 LALT>; };
-        left_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 50>; bindings = <&l1ct X CAPS>; };
-        rght_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <51 52>; bindings = <&l3ac X X>; };
+        left_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 50>; bindings = <&lmt_1_ctrl  X CAPS>; };
+        rght_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <51 52>; bindings = <&lmt_3_alt X X>; };
         left_finger_01_row_1 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <16 17>; bindings = <&kp INS>; };
         left_finger_01_row_2 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <28 29>; bindings = <&key_repeat>; };
         left_finger_01_row_3 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <40 41>; bindings = <&mkp MCLK>; };
