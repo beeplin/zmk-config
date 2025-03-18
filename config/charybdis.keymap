@@ -37,7 +37,7 @@
 &kp MINUS           &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp LSHFT           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RBKT
                                                             &ls 2 LGUI          &lt 1 SPACE         &ms LCTRL LSHFT         &mt LALT SPACE      &lt 3 RSHFT
-                                                                                &kp LALT            &kp LSHFT               &kp RSHFT >; };
+                                                                                &kp LALT            &kp LSHFT               &kp RCTRL >; };
         layer_1 { bindings = <
 &kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
 &kp C_VOL_UP        &mt LALT HOME       &kp BSPC            &kp UP              &kp PG_UP           &kp PG_DN               &kp FSLH            &kp N7              &kp N8              &kp N9              &kp PLUS            &kp C_BRI_UP
