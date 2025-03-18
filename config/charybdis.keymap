@@ -43,7 +43,7 @@
 &kp C_VOL_UP        &mt LCTRL HOME      &kp BSPC            &kp UP              &kp PG_UP           &kp DEL                 &kp FSLH            &kp N7              &kp N8              &kp N9              &kp PLUS            &kp C_BRI_UP
 &kp C_MUTE          &mt LSHFT ESC       &kp LEFT            &kp ENTER           &kp RIGHT           &kp PG_DN               &kp ASTRK           &kp N4              &kp N5              &kp N6              &kp N0              &kp K_APP
 &kp C_VOL_DN        &mt LALT END        &kp TAB             &kp DOWN            &mkp LCLK           &mkp RCLK               &kp MINUS           &kp N1              &kp N2              &kp N3              &kp DOT             &kp C_BRI_DN
-                                                            &mo 3               &none               &trans                  &trans              &kp RSHFT
+                                                            &mo 3               &none               &trans                  &trans              &kp RCTRL
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
 &bootloader         &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_DISC 4       &bt BT_DISC 3       &bt BT_DISC 2       &bt BT_DISC 1       &bt BT_DISC 0       &bootloader
@@ -58,7 +58,7 @@
 &none               &kp LCTRL           &kp PLUS            &kp COLON           &kp AMPS            &kp BSLH                &kp CARET           &kp QMARK           &kp DQT             &kp SQT             &kp DLLR            &none
 &none               &kp UNDER           &kp MINUS           &kp EQUAL           &kp GT              &kp PIPE                &kp EXCL            &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
 &none               &kp LALT            &kp TILDE           &kp GRAVE           &kp LT              &kp PRCNT               &kp AT              &kp POUND           &kp LBKT            &kp RBKT            &kp ASTRK           &none
-                                                            &kp LGUI            &kp LALT            &kp LCTRL               &kp LALT            &kp RCTRL
+                                                            &kp LGUI            &kp LALT            &kp LCTRL               &trans              &trans
                                                                                 &trans              &trans                  &trans >; };
         layer_4 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
