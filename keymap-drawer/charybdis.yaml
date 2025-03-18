@@ -25,7 +25,7 @@ layers:
   - Y
   - ;
   - '['
-  - $$mdi:apple-keyboard-shift$$
+  - '-'
   - A
   - R
   - S
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ''''
-  - '-'
+  - APP
   - Z
   - X
   - C
@@ -88,7 +88,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-tab$$
-  - '%'
+  - $$mdi:keyboard-space$$
   - '4'
   - '5'
   - '6'
@@ -133,7 +133,7 @@ layers:
   - F8
   - F7
   - F10
-  - studio unlock
+  - '&win_power R'
   - $$mdi:printer-outline$$
   - $$mdi:volume-high$$
   - SLCK
@@ -145,7 +145,7 @@ layers:
   - F5
   - F4
   - F11
-  - macro power
+  - '&win_power S'
   - $$mdi:skip-previous$$
   - $$mdi:volume-off$$
   - $$mdi:skip-next$$
@@ -157,7 +157,7 @@ layers:
   - F2
   - F1
   - F12
-  - key repeat
+  - '&win_power U'
   - APP
   - $$mdi:volume-low$$
   - PAUSE BREAK
@@ -286,6 +286,9 @@ layers:
   - ''
   - ''
 combos:
+- p: [48, 49]
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
+  l: ['0']
 - p: [16, 17]
   k: INS
   l: ['1']
@@ -295,6 +298,12 @@ combos:
 - p: [40, 41]
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
-- p: [48, 49]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
-  l: ['0']
+- p: [51, 52]
+  k: $$mdi:alpha-w-box$$
+  l: ['1']
+- p: [18, 30]
+  k: '&win_power I'
+  l: ['2']
+- p: [30, 42]
+  k: '&win_power H'
+  l: ['2']
