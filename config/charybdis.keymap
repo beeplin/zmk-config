@@ -56,8 +56,8 @@
 
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &kp LALT            &kp PLUS            &kp COLON           &kp QMARK           &kp BSLH                &kp CARET           &kp AMPS            &kp LBKT            &kp RBKT            &kp POUND           &none
-&none               &kp LCTRL           &kp MINUS           &kp EQUAL           &kp GT              &kp PIPE                &kp EXCL            &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
-&none               &kp AT              &kp TILDE           &kp GRAVE           &kp LT              &kp PRCNT               &kp DLLR            &kp UNDER           &kp DQT             &kp SQT             &kp ASTRK           &none
+&none               &kp LCTRL           &kp MINUS           &kp EQUAL           &kp GT              &kp PIPE                &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
+&none               &kp EXCL            &kp TILDE           &kp GRAVE           &kp LT              &kp PRCNT               &kp DLLR            &kp UNDER           &kp DQT             &kp SQT             &kp ASTRK           &none
                                                             &kp LGUI            &kp LALT            &kp LCTRL               &kp LALT            &kp RCTRL
                                                                                 &trans              &trans                  &trans >; };
         layer_4 { bindings = <
