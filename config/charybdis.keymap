@@ -14,11 +14,11 @@
     behaviors {
         ms: mod_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&sk>; };
         ls: lyr_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <180>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&mo>, <&sk>; };
-        td_2_LGUI_LGUI       : td0 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&ls 2 LGUI>, <&kp LGUI>; };
-        td_1_SPACE_SPACE     : td1 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&ls 1 SPACE>, <&kp SPACE>; };
-        td_LCTRL_LSHFT_LSHFT : td2 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&ms LCTRL LSHFT>, <&kp LSHFT>; };    
-        td_LALT_SPACE_LALT   : td3 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&mt LALT SPACE>, <&kp LALT>; };
-        td_3_RSHFT_RSHFT_CAPS: td4 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&ls 3 RSHFT>, <&mt RSHFT CAPS>, <&caps_word>; };    
+        td_2_LGUI_LGUI:        td0 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&ls 2 LGUI>, <&kp LGUI>; };
+        td_1_SPACE_SPACE:      td1 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&ls 1 SPACE>, <&kp SPACE>; };
+        td_LCTRL_LSHFT_LSHFT:  td2 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&ms LCTRL LSHFT>, <&kp LSHFT>; };
+        td_LALT_SPACE_LALT:    td3 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&mt LALT SPACE>, <&kp LALT>; };
+        td_3_RSHFT_RSHFT_CAPS: td4 { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; bindings = <&ls 3 RSHFT>, <&mt RSHFT CAPS>, <&caps_word>; };
     };
     macros {
         macro_power: macro_power { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <100>; bindings = <&kp LG(X)>, <&kp U>; };
