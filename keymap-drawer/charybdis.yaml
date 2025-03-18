@@ -293,7 +293,7 @@ combos:
   k: {t: '$$mdi:alpha-w-box$$', h: '&shft_alt X'}
   l: ['0']
 - p: [49, 50]
-  k: {t: '$$mdi:apple-keyboard-caps$$', h: '&mo1_ctrl X'}
+  k: {t: '$$mdi:apple-keyboard-caps$$', h: '&ctrl_mo1 X'}
   l: ['0']
 - p: [16, 17]
   k: INS
