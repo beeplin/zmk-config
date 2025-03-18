@@ -290,10 +290,10 @@ combos:
   k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
   l: ['0']
 - p: [49, 50]
-  k: {t: '$$mdi:apple-keyboard-caps$$', h: '&lm 1 LCTRL'}
+  k: {t: '$$mdi:apple-keyboard-caps$$', h: '&lm_1_ctrl X'}
   l: ['0']
 - p: [51, 52]
-  k: {t: '$$mdi:alpha-w-box$$', h: '&lm 3 LALT'}
+  k: {t: '$$mdi:alpha-w-box$$', h: '&lm_3_alt X'}
   l: ['0']
 - p: [16, 17]
   k: INS
