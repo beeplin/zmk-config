@@ -71,7 +71,7 @@ layers:
   - F10
   - F11
   - $$mdi:volume-high$$
-  - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: HOME, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - PGUP
@@ -83,7 +83,7 @@ layers:
   - +
   - $$mdi:brightness-5$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
@@ -95,7 +95,7 @@ layers:
   - '0'
   - APP
   - $$mdi:volume-low$$
-  - {t: END, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
@@ -110,7 +110,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -128,7 +128,7 @@ layers:
   - BT DISC 0
   - boot loader
   - $$mdi:skip-previous$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - F9
   - F8
   - F7
@@ -140,7 +140,7 @@ layers:
   - $$mdi:brightness-5$$
   - BT CLR
   - $$mdi:play-pause$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - F6
   - F5
   - F4
@@ -152,7 +152,7 @@ layers:
   - $$mdi:play-pause$$
   - OUT TOG
   - $$mdi:skip-next$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - F3
   - F2
   - F1
@@ -185,7 +185,7 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - +
   - ':'
   - '?'
@@ -197,7 +197,7 @@ layers:
   - $
   - ''
   - ''
-  - _
+  - $$mdi:apple-keyboard-control$$
   - '-'
   - '='
   - '>'
@@ -209,13 +209,13 @@ layers:
   - '}'
   - ''
   - ''
-  - $$mdi:apple-keyboard-option$$
+  - '#'
   - '~'
   - '`'
   - <
   - '%'
   - '@'
-  - '#'
+  - _
   - '['
   - ']'
   - '*'
@@ -223,8 +223,8 @@ layers:
   - {t: '$$mdi:microsoft-windows$$', type: held alternate}
   - {t: '$$mdi:apple-keyboard-option$$', type: held alternate}
   - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
-  - {type: held}
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-control$$', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
