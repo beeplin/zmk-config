@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ''''
-  - APP
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -75,7 +75,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - PGUP
-  - PG DN
+  - PGDN
   - /
   - '7'
   - '8'
@@ -107,7 +107,7 @@ layers:
   - .
   - $$mdi:brightness-7$$
   - '3'
-  - {t: '3', type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-control$$
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - BT CLR
+  - boot loader
   - BT SEL 0
   - BT SEL 1
   - BT SEL 2
@@ -126,8 +126,8 @@ layers:
   - BT DISC 2
   - BT DISC 1
   - BT DISC 0
-  - BT CLRALL
-  - BT PRV
+  - boot loader
+  - $$mdi:skip-previous$$
   - $$mdi:apple-keyboard-control$$
   - F9
   - F8
@@ -138,8 +138,8 @@ layers:
   - $$mdi:volume-high$$
   - SLCK
   - $$mdi:brightness-5$$
-  - BT NXT
-  - studio unlock
+  - BT CLR
+  - $$mdi:play-pause$$
   - $$mdi:apple-keyboard-shift$$
   - F6
   - F5
@@ -151,7 +151,7 @@ layers:
   - $$mdi:skip-next$$
   - $$mdi:play-pause$$
   - OUT TOG
-  - boot loader
+  - $$mdi:skip-next$$
   - $$mdi:apple-keyboard-option$$
   - F3
   - F2
@@ -162,8 +162,8 @@ layers:
   - $$mdi:volume-low$$
   - PAUSE BREAK
   - $$mdi:brightness-7$$
-  - boot loader
-  - {t: '3', type: held}
+  - studio unlock
+  - {type: held}
   - '3'
   - '4'
   - {t: ▽, type: trans}
@@ -184,11 +184,11 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:skip-previous$$
+  - ''
   - $$mdi:apple-keyboard-control$$
   - +
   - ':'
-  - '*'
+  - '?'
   - \
   - ^
   - '&'
@@ -196,8 +196,8 @@ layers:
   - ''''
   - $
   - ''
-  - $$mdi:play-pause$$
-  - '?'
+  - ''
+  - _
   - '-'
   - '='
   - '>'
@@ -208,19 +208,19 @@ layers:
   - )
   - '}'
   - ''
-  - $$mdi:skip-next$$
+  - ''
   - $$mdi:apple-keyboard-option$$
   - '~'
   - '`'
   - <
   - '%'
   - '@'
-  - _
+  - '#'
   - '['
   - ']'
-  - '#'
+  - '*'
   - ''
-  - {type: held alternate}
+  - {t: '$$mdi:microsoft-windows$$', type: held alternate}
   - {t: '$$mdi:apple-keyboard-option$$', type: held alternate}
   - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
@@ -303,7 +303,4 @@ combos:
   l: ['1']
 - p: [40, 41]
   k: $$mdi:mouse-scroll-wheel$$
-  l: ['1']
-- p: [51, 52]
-  k: $$mdi:alpha-w-box$$
   l: ['1']
