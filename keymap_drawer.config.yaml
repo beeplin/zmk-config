@@ -268,8 +268,8 @@ parse_config:
     "&key_repeat":
       tap: "key repeat"
 
-    "&macro_power":
-      tap: "macro power"
+    "&win_power":
+      tap: "win power"
 
   # ZMK
   zmk_keycode_map:
@@ -436,8 +436,10 @@ parse_config:
     RGUI: $$mdi:microsoft-windows$$
     RIGHT_GUI: $$mdi:microsoft-windows$$$
     PSCRN: $$mdi:printer-outline$$
-    PAGE_UP: "PG_UP"
-    PAGE_DOWN: "PG_DN"
+    PAGE_UP: "PGUP"
+    PG_UP: "PGUP"
+    PAGE_DOWN: "PGDN"
+    PG_DOWN: "PGDN"
     INSERT: "INS"
 
     # "Meh" key
