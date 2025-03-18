@@ -14,7 +14,7 @@
     macros {
         lm_1_ctrl: lm_1_ctrl { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &mo 1>, <&macro_press &kp LCTRL>, <&macro_pause_for_release>, <&macro_release &kp LCTRL>, <&macro_release &mo 1>; };
         shift_alt: shift_alt { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RSHFT>, <&macro_press &kp LALT>, <&macro_pause_for_release>, <&macro_release &kp LALT>, <&macro_release &kp RSHFT >; };
-        win_power: win_power { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <100>; bindings = <&kp LG(X)>, <&kp U> ; };
+        win_power: win_power { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <100>; bindings = <&kp LG(X)>, <&kp U>; };
     }; 
     behaviors {
         ms: modif_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&kp>, <&sk>; };
