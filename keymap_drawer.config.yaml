@@ -439,7 +439,7 @@ parse_config:
     PAGE_UP: "PGUP"
     PG_UP: "PGUP"
     PAGE_DOWN: "PGDN"
-    PG_DOWN: "PGDN"
+    PG_DN: "PGDN"
     INSERT: "INS"
 
     # "Meh" key
