@@ -37,7 +37,7 @@
 &kp LSHFT           &kp A               &kp R               &kp S               &kp T               &kp G                   &kp M               &kp N               &kp E               &kp I               &kp O               &kp SQT
 &kp MINUS           &kp Z               &kp X               &kp C               &kp D               &kp V                   &kp K               &kp H               &kp COMMA           &kp DOT             &kp FSLH            &kp RBKT
                                                             &ls 2 LGUI          &lt 1 SPACE         &ms LCTRL LSHFT         &mt LALT SPACE      &lt 3 RSHFT
-                                                                                &kp LALT            &kp LSHFT               &kp RCTRL >; };
+                                       &‘                                         &kp LALT            &kp LSHFT               &kp RCTRL >; };
         layer_1 { bindings = <
 &kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
 &kp C_VOL_UP        &mt LCTRL HOME      &kp BSPC            &kp UP              &kp PG_UP           &kp DEL                 &kp FSLH            &kp N7              &kp N8              &kp N9              &kp PLUS            &kp C_BRI_UP
@@ -56,7 +56,7 @@
 
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &kp LCTRL           &kp PLUS            &kp COLON           &kp QMARK           &kp BSLH                &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &none
-&none               &kp UNDER           &kp MINUS           &kp EQUAL           &kp GT              &kp PIPE                &kp AT              &kp LPAR            &kp LBRC            &kp RBRC            &kp RPAR            &none
+&none               &kp UNDER           &kp MINUS           &kp EQUAL           &kp GT              &kp PIPE                &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
 &none               &kp LALT            &kp TILDE           &kp GRAVE           &kp LT              &kp PRCNT               &kp POUND           &kp EXCL            &kp LBKT            &kp RBKT            &kp ASTRK           &none
                                                             &kp LGUI            &mt LALT SPACE      &kp LCTRL               &trans              &trans
                                                                                 &trans              &trans                  &trans >; };
