@@ -24,7 +24,7 @@
     };
     combos { compatible = "zmk,combos";
         left_finger_12_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&ls 3 LALT>; };
-        rght_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <51 52>; bindings = <&sa_cw X X>; };
+        rght_finger_01_row_4 { require-pr ior-idle-ms = <(-1)>; layers = <0>; key-positions = <51 52>; bindings = <&sa_cw X X>; };
         left_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 50>; bindings = <&c1_kp X CAPS>; };
         left_finger_01_row_1 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <16 17>; bindings = <&kp INS>; };
         left_finger_01_row_2 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <28 29>; bindings = <&key_repeat>; };
@@ -55,9 +55,9 @@
         layer_3 { bindings = <
 
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
-&none               &kp LCTRL           &kp PLUS            &kp EXCL            &kp PIPE            &kp BSLH                &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &none
-&none               &kp QMARK           &kp MINUS           &kp EQUAL           &kp GT              &kp COLON               &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
-&none               &kp LALT            &kp TILDE           &kp GRAVE           &kp LT              &kp PRCNT               &kp POUND           &kp UNDER           &kp LBKT            &kp RBKT            &kp ASTRK           &none
+&none               &kp LCTRL           &kp EXCL            &kp PLUS            &kp PIPE            &kp BSLH                &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &none
+&none               &kp QMARK           &kp LT              &kp EQUAL           &kp GT              &kp COLON               &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
+&none               &kp LALT            &kp TILDE           &kp MINUS           &kp GRAVE           &kp PRCNT               &kp POUND           &kp UNDER           &kp LBKT            &kp RBKT            &kp ASTRK           &none
                                                             &kp LGUI            &mt LALT SPACE      &kp LCTRL               &trans              &trans
                                                                                 &trans              &trans                  &trans >; };
         layer_4 { bindings = <
