@@ -24,7 +24,7 @@
     };
     combos { compatible = "zmk,combos";
         left_finger_12_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&ls 3 LALT>; };
-        rght_finger_01_row_4 { require-pr ior-idle-ms = <(-1)>; layers = <0>; key-positions = <51 52>; bindings = <&sa_cw X X>; };
+        rght_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <51 52>; bindings = <&sa_cw X X>; };
         left_finger_01_row_4 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 50>; bindings = <&c1_kp X CAPS>; };
         left_finger_01_row_1 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <16 17>; bindings = <&kp INS>; };
         left_finger_01_row_2 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <28 29>; bindings = <&key_repeat>; };
