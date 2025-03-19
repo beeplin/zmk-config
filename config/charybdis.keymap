@@ -55,9 +55,9 @@
         layer_3 { bindings = <
 
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
-&none               &kp LCTRL           &kp COLON           &kp PLUS            &kp PIPE            &kp BSLH                &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &none
+&none               &kp LCTRL           &kp COLON           &kp PLUS            &kp PIPE            &kp TILDE               &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &none
 &none               &kp QMARK           &kp LT              &kp EQUAL           &kp GT              &kp EXCL                &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
-&none               &kp LALT            &kp TILDE           &kp MINUS           &kp GRAVE           &kp PRCNT               &kp POUND           &kp UNDER           &kp LBKT            &kp RBKT            &kp ASTRK           &none
+&none               &kp LALT            &kp BSLH            &kp MINUS           &kp GRAVE           &kp PRCNT               &kp POUND           &kp UNDER           &kp LBKT            &kp RBKT            &kp ASTRK           &none
                                                             &kp LGUI            &mt LALT SPACE      &kp LCTRL               &trans              &kp RCTRL
                                                                                 &trans              &trans                  &trans >; };
         layer_4 { bindings = <
