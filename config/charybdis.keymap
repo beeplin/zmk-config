@@ -50,7 +50,7 @@
 &kp C_PREV          &kp LCTRL           &kp F9              &kp F8              &kp F7              &kp F10                 &none               &kp PSCRN           &kp C_VOL_UP        &kp SLCK            &kp C_BRI_UP        &bt BT_CLR 
 &kp C_PP            &kp LSHFT           &kp F6              &kp F5              &kp F4              &kp F11                 &win_power          &kp C_PREV          &kp C_MUTE          &kp C_NEXT          &kp C_PP            &out OUT_TOG
 &kp C_NEXT          &kp LALT            &kp F3              &kp F2              &kp F1              &kp F12                 &none               &kp K_APP           &kp C_VOL_DN        &kp PAUSE_BREAK     &kp C_BRI_DN        &studio_unlock
-                                                            &none               &mo 3               &mo 4                   &trans              &trans
+                                                            &none               &mo 3               &mo 4                   &trans              &kp RCTRL
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
 
@@ -58,7 +58,7 @@
 &none               &kp LCTRL           &kp EXCL            &kp PIPE            &kp PLUS            &kp BSLH                &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &none
 &none               &kp QMARK           &kp LT              &kp EQUAL           &kp GT              &kp COLON               &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
 &none               &kp LALT            &kp TILDE           &kp GRAVE           &kp MINUS           &kp PRCNT               &kp POUND           &kp UNDER           &kp LBKT            &kp RBKT            &kp ASTRK           &none
-                                                            &kp LGUI            &mt LALT SPACE      &kp LCTRL               &trans              &trans
+                                                            &kp LGUI            &mt LALT SPACE      &kp LCTRL               &trans              &kp RCTRL
                                                                                 &trans              &trans                  &trans >; };
         layer_4 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
