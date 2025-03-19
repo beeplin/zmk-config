@@ -186,9 +186,9 @@ layers:
   - ''
   - ''
   - $$mdi:apple-keyboard-control$$
-  - '`'
-  - +
   - '|'
+  - +
+  - '`'
   - '%'
   - ^
   - '&'
