@@ -25,7 +25,7 @@ layers:
   - Y
   - ;
   - '['
-  - $$mdi:apple-keyboard-shift$$
+  - '-'
   - A
   - R
   - S
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ''''
-  - '-'
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
