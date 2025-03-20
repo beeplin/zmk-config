@@ -71,7 +71,7 @@ layers:
   - F10
   - F11
   - $$mdi:volume-high$$
-  - {t: HOME, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - PGUP
@@ -83,7 +83,7 @@ layers:
   - +
   - $$mdi:brightness-5$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
@@ -128,7 +128,7 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - '`'
   - +
   - '~'
@@ -140,7 +140,7 @@ layers:
   - $
   - ''
   - ''
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - <
   - '='
   - '>'
@@ -185,7 +185,7 @@ layers:
   - BT DISC 0
   - boot loader
   - $$mdi:skip-previous$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - F9
   - F8
   - F7
@@ -197,7 +197,7 @@ layers:
   - $$mdi:brightness-5$$
   - BT CLR
   - $$mdi:play-pause$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - F6
   - F5
   - F4
