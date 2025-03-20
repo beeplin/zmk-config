@@ -115,6 +115,63 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-control$$
+  - '`'
+  - +
+  - '|'
+  - '%'
+  - ^
+  - '&'
+  - '"'
+  - ''''
+  - $
+  - ''
+  - ''
+  - '?'
+  - <
+  - '='
+  - '>'
+  - '!'
+  - '@'
+  - '{'
+  - (
+  - )
+  - '}'
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-option$$
+  - '~'
+  - '-'
+  - _
+  - \
+  - '#'
+  - ':'
+  - '['
+  - ']'
+  - '*'
+  - ''
+  - {type: held}
+  - '3'
+  - '4'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
   - boot loader
   - BT SEL 0
   - BT SEL 1
@@ -163,63 +220,6 @@ layers:
   - PAUSE BREAK
   - $$mdi:brightness-7$$
   - studio unlock
-  - {type: held}
-  - '3'
-  - '4'
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '3':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-control$$
-  - ':'
-  - +
-  - '|'
-  - \
-  - ^
-  - '&'
-  - '"'
-  - ''''
-  - $
-  - ''
-  - ''
-  - '?'
-  - <
-  - '='
-  - '>'
-  - '!'
-  - '@'
-  - '{'
-  - (
-  - )
-  - '}'
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-option$$
-  - '~'
-  - '-'
-  - '`'
-  - '%'
-  - '#'
-  - _
-  - '['
-  - ']'
-  - '*'
-  - ''
   - {t: '$$mdi:microsoft-windows$$', type: held}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$', type: held}
   - $$mdi:apple-keyboard-control$$
