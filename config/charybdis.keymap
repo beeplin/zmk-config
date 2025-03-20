@@ -43,8 +43,8 @@
         layer_2 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
 &none               &kp LCTRL           &kp GRAVE           &kp PLUS            &kp TILDE           &kp PRCNT               &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &none
-&none               &kp LALT            &kp LT              &kp EQUAL           &kp GT              &kp PIPE                &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
-&none               &kp QMARK           &kp EXCL            &kp MINUS           &kp UNDER           &kp BSLH                &kp POUND           &kp COLON           &kp LBKT            &kp RBKT            &kp ASTRK           &none
+&none               &kp LALT            &kp LT              &kp EQUAL           &kp GT              &kp EXCL                &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
+&none               &kp QMARK           &kp PIPE            &kp MINUS           &kp UNDER           &kp BSLH                &kp POUND           &kp COLON           &kp LBKT            &kp RBKT            &kp ASTRK           &none
                                                             &none               &mo 3               &mo 4                   &kp LALT            &mt RSHFT SPACE
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
