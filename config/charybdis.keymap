@@ -12,7 +12,7 @@
 
 / {
     macros {
-        win_power: win_power { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <100>; bindings = <&kp LG(X)>, <&kp U>; };
+        win_power: win_power { compatible = "zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <200>; bindings = <&kp LG(X)>, <&kp U>; };
     }; 
     behaviors {
         ls: layer_sticky { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&mo>, <&sk>; };
@@ -63,4 +63,3 @@
                                                                                 &none               &none                   &none >; };
     };
 };
- 
