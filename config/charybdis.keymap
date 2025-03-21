@@ -41,17 +41,17 @@
                                                             &mo 3               &none               &kp LCTRL               &mt LALT CAPS       &mt RSHFT SPACE
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
-&none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
-&none               &kp LCTRL           &kp GRAVE           &kp PLUS            &kp TILDE           &kp PRCNT               &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &none
-&none               &kp LALT            &kp LT              &kp EQUAL           &kp GT              &kp EXCL                &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &none
-&none               &kp QMARK           &kp PIPE            &kp MINUS           &kp UNDER           &kp BSLH                &kp POUND           &kp COLON           &kp LBKT            &kp RBKT            &kp ASTRK           &none
+&bt BT_CLR          &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_DISC 4       &bt BT_DISC 3       &bt BT_DISC 2       &bt BT_DISC 1       &bt BT_DISC 0       &bootloader
+&kp C_PREV          &kp LCTRL           &kp GRAVE           &kp PLUS            &kp TILDE           &kp PRCNT               &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &kp PSCRN
+&kp C_PP            &kp LALT            &kp LT              &kp EQUAL           &kp GT              &kp EXCL                &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &kp SLCK
+&kp C_NEXT          &kp QMARK           &kp PIPE            &kp MINUS           &kp UNDER           &kp BSLH                &kp POUND           &kp COLON           &kp LBKT            &kp RBKT            &kp ASTRK           &kp PAUSE_BREAK
                                                             &none               &mo 3               &mo 4                   &kp LALT            &mt RCTRL SPACE
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
-&bootloader         &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_DISC 4       &bt BT_DISC 3       &bt BT_DISC 2       &bt BT_DISC 1       &bt BT_DISC 0       &bootloader
-&kp C_PREV          &kp LCTRL           &kp F9              &kp F8              &kp F7              &kp F10                 &none               &kp PSCRN           &kp C_VOL_UP        &kp SLCK            &kp C_BRI_UP        &bt BT_CLR 
-&kp C_PP            &kp LALT            &kp F6              &kp F5              &kp F4              &kp F11                 &win_power          &kp C_PREV          &kp C_MUTE          &kp C_NEXT          &kp C_PP            &out OUT_TOG
-&kp C_NEXT          &kp LSHFT           &kp F3              &kp F2              &kp F1              &kp F12                 &none               &kp K_APP           &kp C_VOL_DN        &kp PAUSE_BREAK     &kp C_BRI_DN        &studio_unlock
+&none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
+&none               &kp LCTRL           &kp F9              &kp F8              &kp F7              &kp F10                 &none               &kp PSCRN           &kp C_VOL_UP        &kp SLCK            &kp C_BRI_UP        &none
+&none               &kp LALT            &kp F6              &kp F5              &kp F4              &kp F11                 &win_power          &kp C_PREV          &kp C_MUTE          &kp C_NEXT          &kp C_PP            &none
+&none               &kp LSHFT           &kp F3              &kp F2              &kp F1              &kp F12                 &none               &kp K_APP           &kp C_VOL_DN        &kp PAUSE_BREAK     &kp C_BRI_DN        &none
                                                             &kp LGUI            &mt LALT SPACE      &kp LCTRL               &kp LALT            &kp RSHFT
                                                                                 &trans              &trans                  &trans >; };
         layer_4 { bindings = <
@@ -63,3 +63,4 @@
                                                                                 &none               &none                   &none >; };
     };
 };
+ 
