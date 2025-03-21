@@ -115,64 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-control$$
-  - '`'
-  - +
-  - '~'
-  - '%'
-  - ^
-  - '&'
-  - '"'
-  - ''''
-  - $
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-option$$
-  - <
-  - '='
-  - '>'
-  - '!'
-  - '@'
-  - '{'
-  - (
-  - )
-  - '}'
-  - ''
-  - ''
-  - '?'
-  - '|'
-  - '-'
-  - _
-  - \
-  - '#'
-  - ':'
-  - '['
-  - ']'
-  - '*'
-  - ''
-  - {type: held}
-  - '3'
-  - '4'
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '3':
-  - boot loader
+  - BT CLR
   - BT SEL 0
   - BT SEL 1
   - BT SEL 2
@@ -186,6 +129,63 @@ layers:
   - boot loader
   - $$mdi:skip-previous$$
   - $$mdi:apple-keyboard-control$$
+  - '`'
+  - +
+  - '~'
+  - '%'
+  - ^
+  - '&'
+  - '"'
+  - ''''
+  - $
+  - $$mdi:printer-outline$$
+  - $$mdi:play-pause$$
+  - $$mdi:apple-keyboard-option$$
+  - <
+  - '='
+  - '>'
+  - '!'
+  - '@'
+  - '{'
+  - (
+  - )
+  - '}'
+  - SLCK
+  - $$mdi:skip-next$$
+  - '?'
+  - '|'
+  - '-'
+  - _
+  - \
+  - '#'
+  - ':'
+  - '['
+  - ']'
+  - '*'
+  - PAUSE BREAK
+  - {type: held}
+  - '3'
+  - '4'
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-control$$
   - F9
   - F8
   - F7
@@ -195,8 +195,8 @@ layers:
   - $$mdi:volume-high$$
   - SLCK
   - $$mdi:brightness-5$$
-  - BT CLR
-  - $$mdi:play-pause$$
+  - ''
+  - ''
   - $$mdi:apple-keyboard-option$$
   - F6
   - F5
@@ -207,8 +207,8 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:skip-next$$
   - $$mdi:play-pause$$
-  - OUT TOG
-  - $$mdi:skip-next$$
+  - ''
+  - ''
   - $$mdi:apple-keyboard-shift$$
   - F3
   - F2
@@ -219,7 +219,7 @@ layers:
   - $$mdi:volume-low$$
   - PAUSE BREAK
   - $$mdi:brightness-7$$
-  - studio unlock
+  - ''
   - {t: '$$mdi:microsoft-windows$$', type: held}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$', type: held}
   - $$mdi:apple-keyboard-control$$
