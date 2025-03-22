@@ -129,10 +129,10 @@ layers:
   - boot loader
   - $$mdi:skip-previous$$
   - $$mdi:apple-keyboard-control$$
-  - '`'
   - +
-  - '~'
-  - '%'
+  - ':'
+  - '!'
+  - \
   - ^
   - '&'
   - '"'
@@ -141,10 +141,10 @@ layers:
   - $$mdi:printer-outline$$
   - $$mdi:play-pause$$
   - $$mdi:apple-keyboard-option$$
-  - <
+  - '-'
   - '='
   - '>'
-  - '!'
+  - '|'
   - '@'
   - '{'
   - (
@@ -153,10 +153,10 @@ layers:
   - SLCK
   - $$mdi:skip-next$$
   - '?'
-  - '|'
-  - '-'
-  - ':'
-  - \
+  - '~'
+  - '`'
+  - <
+  - '%'
   - '#'
   - _
   - '['
@@ -167,7 +167,7 @@ layers:
   - '3'
   - '4'
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
