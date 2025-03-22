@@ -42,10 +42,10 @@
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
 &bt BT_CLR          &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4            &bt BT_DISC 4       &bt BT_DISC 3       &bt BT_DISC 2       &bt BT_DISC 1       &bt BT_DISC 0       &bootloader
-&kp C_PREV          &kp LCTRL           &kp GRAVE           &kp PLUS            &kp TILDE           &kp PRCNT               &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &kp PSCRN
-&kp C_PP            &kp LALT            &kp LT              &kp EQUAL           &kp GT              &kp EXCL                &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &kp SLCK
-&kp C_NEXT          &kp QMARK           &kp PIPE            &kp MINUS           &kp COLON           &kp BSLH                &kp POUND           &kp UNDER           &kp LBKT            &kp RBKT            &kp ASTRK           &kp PAUSE_BREAK
-                                                            &none               &mo 3               &mo 4                   &kp LALT            &mt RCTRL SPACE
+&kp C_PREV          &kp LCTRL           &kp PLUS            &kp COLON           &kp EXCL            &kp BSLH                &kp CARET           &kp AMPS            &kp DQT             &kp SQT             &kp DLLR            &kp PSCRN
+&kp C_PP            &kp LALT            &kp MINUS           &kp EQUAL           &kp GT              &kp PIPE                &kp AT              &kp LBRC            &kp LPAR            &kp RPAR            &kp RBRC            &kp SLCK
+&kp C_NEXT          &kp QMARK           &kp TILDE           &kp GRAVE           &kp LT              &kp PRCNT               &kp POUND           &kp UNDER           &kp LBKT            &kp RBKT            &kp ASTRK           &kp PAUSE_BREAK
+                                                            &none               &mo 3               &mo 4                   &kp LALT            &mt RSHFT SPACE
                                                                                 &trans              &trans                  &trans >; };
         layer_3 { bindings = <
 &none               &none               &none               &none               &none               &none                   &none               &none               &none               &none               &none               &none
