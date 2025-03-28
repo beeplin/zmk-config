@@ -71,7 +71,7 @@ layers:
   - F10
   - F11
   - $$mdi:volume-high$$
-  - PGUP
+  - {t: PGUP, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - HOME
@@ -95,7 +95,7 @@ layers:
   - '0'
   - APP
   - $$mdi:volume-low$$
-  - PGDN
+  - {t: PGDN, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-down-bold$$
   - '-'
