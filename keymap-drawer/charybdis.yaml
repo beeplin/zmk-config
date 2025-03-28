@@ -49,7 +49,7 @@ layers:
   - .
   - /
   - ']'
-  - {t: '$$mdi:apple-keyboard-option$$', h: '2'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:microsoft-windows$$'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -71,42 +71,42 @@ layers:
   - F10
   - F11
   - $$mdi:volume-high$$
-  - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
+  - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
-  - PGUP
-  - PGDN
-  - /
+  - HOME
+  - END
+  - '`'
   - '7'
   - '8'
   - '9'
-  - +
+  - '='
   - $$mdi:brightness-5$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:keyboard-esc$$
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-tab$$
-  - '*'
+  - ''''
   - '4'
   - '5'
   - '6'
   - '0'
   - APP
   - $$mdi:volume-low$$
-  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
+  - PGDN
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
-  - '-'
+  - '['
+  - ']'
+  - \
   - '1'
   - '2'
   - '3'
-  - .
+  - '-'
   - $$mdi:brightness-7$$
-  - '3'
+  - $$mdi:microsoft-windows$$
   - {type: held}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -115,120 +115,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - BT CLR
-  - BT SEL 0
-  - BT SEL 1
-  - BT SEL 2
-  - BT SEL 3
-  - BT SEL 4
-  - BT DISC 4
-  - BT DISC 3
-  - BT DISC 2
-  - BT DISC 1
-  - BT DISC 0
-  - boot loader
-  - $$mdi:skip-previous$$
-  - $$mdi:apple-keyboard-control$$
-  - +
-  - ':'
-  - '`'
-  - '%'
-  - ^
-  - '&'
-  - '"'
-  - ''''
-  - $
-  - $$mdi:printer-outline$$
-  - $$mdi:play-pause$$
-  - $$mdi:apple-keyboard-option$$
-  - '-'
-  - '='
-  - '>'
-  - '~'
-  - '@'
-  - '{'
-  - (
-  - )
-  - '}'
-  - SLCK
-  - $$mdi:skip-next$$
-  - '?'
-  - '!'
-  - '|'
-  - <
-  - \
-  - '#'
-  - _
-  - '['
-  - ']'
-  - '*'
-  - PAUSE BREAK
-  - {type: held}
-  - '3'
-  - '4'
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '3':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-control$$
-  - F9
-  - F8
-  - F7
-  - F10
-  - ''
-  - $$mdi:printer-outline$$
-  - $$mdi:volume-high$$
-  - SLCK
-  - $$mdi:brightness-5$$
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-option$$
-  - F6
-  - F5
-  - F4
-  - F11
-  - win power
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-off$$
-  - $$mdi:skip-next$$
-  - $$mdi:play-pause$$
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-shift$$
-  - F3
-  - F2
-  - F1
-  - F12
-  - ''
-  - APP
-  - $$mdi:volume-low$$
-  - PAUSE BREAK
-  - $$mdi:brightness-7$$
-  - ''
-  - {type: held}
-  - {type: held}
-  - ''
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '4':
   - ''
   - ''
   - ''
@@ -286,15 +172,84 @@ layers:
   - ''
   - ''
 combos:
-- p: [48, 49]
-  k: {t: '$$mdi:microsoft-windows$$', h: '3'}
+- p: [13, 25]
+  k: F1
+  l: ['0', '1']
+- p: [14, 26]
+  k: F2
+  l: ['0', '1']
+- p: [15, 27]
+  k: F3
+  l: ['0', '1']
+- p: [16, 28]
+  k: F4
+  l: ['0', '1']
+- p: [17, 29]
+  k: F5
+  l: ['0', '1']
+- p: [25, 37]
+  k: F11
   l: ['0']
-- p: [16, 17]
-  k: INS
-  l: ['1']
-- p: [28, 29]
-  k: key repeat
-  l: ['1']
-- p: [40, 41]
+- p: [26, 38]
+  k: F12
+  l: ['0', '1']
+- p: [27, 39]
+  k: $$mdi:mouse-right-click-outline$$
+  l: ['0', '1']
+- p: [28, 40]
+  k: $$mdi:mouse-left-click-outline$$
+  l: ['0', '1']
+- p: [29, 41]
   k: $$mdi:mouse-scroll-wheel$$
-  l: ['1']
+  l: ['0', '1']
+- p: [18, 30]
+  k: F6
+  l: ['0', '1']
+- p: [19, 31]
+  k: F7
+  l: ['0', '1']
+- p: [20, 32]
+  k: F8
+  l: ['0', '1']
+- p: [21, 33]
+  k: F9
+  l: ['0', '1']
+- p: [22, 34]
+  k: F10
+  l: ['0', '1']
+- p: [30, 42]
+  k: INS
+  l: ['0', '1']
+- p: [31, 43]
+  k: APP
+  l: ['0', '1']
+- p: [32, 44]
+  k: $$mdi:printer-outline$$
+  l: ['0', '1']
+- p: [33, 45]
+  k: SLCK
+  l: ['0', '1']
+- p: [34, 46]
+  k: PAUSE BREAK
+  l: ['0', '1']
+- p: [16, 17]
+  k: $$mdi:volume-high$$
+  l: ['0', '1']
+- p: [28, 29]
+  k: $$mdi:volume-off$$
+  l: ['0', '1']
+- p: [40, 41]
+  k: $$mdi:volume-low$$
+  l: ['0', '1']
+- p: [21, 22]
+  k: $$mdi:skip-previous$$
+  l: ['0', '1']
+- p: [33, 34]
+  k: $$mdi:play-pause$$
+  l: ['0', '1']
+- p: [45, 46]
+  k: $$mdi:skip-next$$
+  l: ['0', '1']
+- p: [48, 50]
+  k: '2'
+  l: ['0']
