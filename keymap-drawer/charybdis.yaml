@@ -71,16 +71,16 @@ layers:
   - F10
   - F11
   - $$mdi:volume-high$$
-  - {t: PGUP, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - PGDN
+  - PGUP
   - '`'
   - '7'
   - '8'
   - '9'
-  - ''''
+  - '0'
   - $$mdi:brightness-5$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -92,14 +92,14 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '0'
+  - ''''
   - APP
   - $$mdi:volume-low$$
-  - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
   - '='
   - $$mdi:arrow-down-bold$$
   - '-'
-  - END
+  - PGDN
   - \
   - '1'
   - '2'
