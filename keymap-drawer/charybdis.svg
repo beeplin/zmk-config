@@ -631,7 +631,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-12">
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="215" y="131" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
+<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="215" y="131" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="266" y="127" width="28" height="26" class="combo"/>
@@ -639,7 +639,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="210" y="183" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="215" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
+<use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="215" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
