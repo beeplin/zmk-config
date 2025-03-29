@@ -71,11 +71,11 @@ layers:
   - F10
   - F11
   - $$mdi:volume-high$$
-  - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
+  - PGUP
   - '='
   - $$mdi:arrow-up-bold$$
-  - PGUP
-  - PGDN
+  - HOME
+  - END
   - '`'
   - '7'
   - '8'
@@ -83,7 +83,7 @@ layers:
   - '0'
   - $$mdi:brightness-5$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
   - $$mdi:arrow-right-bold$$
@@ -95,7 +95,7 @@ layers:
   - ''''
   - APP
   - $$mdi:volume-low$$
-  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
+  - PGDN
   - '-'
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
