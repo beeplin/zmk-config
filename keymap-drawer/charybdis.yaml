@@ -74,8 +74,8 @@ layers:
   - {t: PGUP, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
-  - '='
-  - HOME
+  - $$mdi:backspace-reverse-outline$$
+  - PGDN
   - '`'
   - '7'
   - '8'
@@ -95,8 +95,8 @@ layers:
   - ''''
   - APP
   - $$mdi:volume-low$$
-  - {t: PGDN, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
+  - '='
   - $$mdi:arrow-down-bold$$
   - '-'
   - END
