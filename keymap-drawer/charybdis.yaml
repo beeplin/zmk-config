@@ -96,9 +96,9 @@ layers:
   - APP
   - $$mdi:volume-low$$
   - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
-  - '-'
-  - $$mdi:arrow-down-bold$$
   - '='
+  - $$mdi:arrow-down-bold$$
+  - '-'
   - END
   - '['
   - '1'
