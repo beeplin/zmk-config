@@ -202,11 +202,20 @@ combos:
 - p: [29, 41]
   k: F10
   l: ['0']
+- p: [15, 16]
+  k: $$mdi:mouse-scroll-wheel$$
+  l: ['0']
 - p: [16, 17]
   k: F11
   l: ['0']
+- p: [27, 28]
+  k: $$mdi:mouse-left-click-outline$$
+  l: ['0']
 - p: [28, 29]
   k: F12
+  l: ['0']
+- p: [39, 40]
+  k: $$mdi:mouse-right-click-outline$$
   l: ['0']
 - p: [40, 41]
   k: INS
