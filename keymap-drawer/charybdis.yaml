@@ -209,13 +209,13 @@ combos:
   k: F11
   l: ['0']
 - p: [27, 28]
-  k: $$mdi:mouse-left-click-outline$$
+  k: $$mdi:mouse-right-click-outline$$
   l: ['0']
 - p: [28, 29]
   k: Ctl+K
   l: ['0']
 - p: [39, 40]
-  k: $$mdi:mouse-right-click-outline$$
+  k: $$mdi:mouse-left-click-outline$$
   l: ['0']
 - p: [40, 41]
   k: F12
