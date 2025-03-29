@@ -218,7 +218,7 @@ combos:
   k: $$mdi:mouse-right-click-outline$$
   l: ['0']
 - p: [40, 41]
-  k: INS
+  k: key repeat
   l: ['0']
 - p: [18, 30]
   k: APP
@@ -236,7 +236,7 @@ combos:
   k: $$mdi:brightness-5$$
   l: ['0']
 - p: [30, 42]
-  k: $$mdi:apple-keyboard-caps$$
+  k: INS
   l: ['0']
 - p: [31, 43]
   k: $$mdi:skip-previous$$
@@ -271,6 +271,3 @@ combos:
 - p: [48, 50]
   k: '2'
   l: ['0']
-- p: [40, 41]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: ['1']
