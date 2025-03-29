@@ -98,9 +98,9 @@
                                                                                 &kp LGUI            &kp LSHFT               &kp RCTRL >; };
         layer_1 { bindings = <
 &kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
-&kp C_VOL_UP        &mt LCTRL PG_UP     &kp BSPC            &kp UP              &kp HOME            &kp END                 &kp GRAVE           &kp N7              &kp N8              &kp N9              &kp SQT             &kp C_BRI_UP
-&kp C_MUTE          &mt LALT ESC        &kp LEFT            &kp ENTER           &kp RIGHT           &kp TAB                 &kp LBKT            &kp N4              &kp N5              &kp N6              &kp N0              &kp K_APP
-&kp C_VOL_DN        &mt LSHIFT PG_DN    &kp DEL             &kp DOWN            &kp MINUS           &kp EQUAL               &kp RBKT            &kp N1              &kp N2              &kp N3              &kp BSLH            &kp C_BRI_DN
+&kp C_VOL_UP        &mt LCTRL PG_UP     &kp BSPC            &kp UP              &kp EQUAL           &kp HOME                &kp GRAVE           &kp N7              &kp N8              &kp N9              &kp N0              &kp C_BRI_UP
+&kp C_MUTE          &mt LALT ESC        &kp LEFT            &kp ENTER           &kp RIGHT           &kp TAB                 &kp BSLH            &kp N4              &kp N5              &kp N6              &kp SQT             &kp K_APP
+&kp C_VOL_DN        &mt LSHIFT PG_DN    &kp DEL             &kp DOWN            &kp MINUS           &kp END                 &kp LBKT            &kp N1              &kp N2              &kp N3              &kp RBKT            &kp C_BRI_DN
                                                             &kp LGUI            &none               &kp LCTRL               &mt LALT CAPS       &mt RSHFT SPACE
                                                                                 &trans              &trans                  &trans >; };
 //         layer_2 { bindings = <
