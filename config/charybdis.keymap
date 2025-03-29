@@ -32,7 +32,7 @@
 
         // left_finger_01_row_12 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <16 17 28 29>; bindings = <&kp INS>; };
 
-        left_finger_4_row_23 { require-prior-idle-ms = <(-1)>; layers = <0  >; key-positions = <25 37>; bindings = <&kp F11>; };
+        left_finger_4_row_23 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <25 37>; bindings = <&kp F11>; };
         left_finger_3_row_23 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <26 38>; bindings = <&kp F12>; };
         left_finger_2_row_23 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <27 39>; bindings = <&mkp RCLK>; };
         left_finger_1_row_23 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <28 40>; bindings = <&mkp LCLK>; };
@@ -98,9 +98,9 @@
                                                                                 &kp LGUI            &kp LSHFT               &kp RCTRL >; };
         layer_1 { bindings = <
 &kp F12             &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                  &kp F6              &kp F7              &kp F8              &kp F9              &kp F10             &kp F11
-&kp C_VOL_UP        &mt LCTRL PG_UP     &kp BSPC            &kp UP              &kp EQUAL           &kp HOME                &kp GRAVE           &kp N7              &kp N8              &kp N9              &kp N0              &kp C_BRI_UP
+&kp C_VOL_UP        &mt LCTRL PG_UP     &kp BSPC            &kp UP              &kp DEL             &kp PG_DN               &kp GRAVE           &kp N7              &kp N8              &kp N9              &kp N0              &kp C_BRI_UP
 &kp C_MUTE          &mt LALT ESC        &kp LEFT            &kp ENTER           &kp RIGHT           &kp TAB                 &kp BSLH            &kp N4              &kp N5              &kp N6              &kp SQT             &kp K_APP
-&kp C_VOL_DN        &mt LSHIFT PG_DN    &kp DEL             &kp DOWN            &kp MINUS           &kp END                 &kp LBKT            &kp N1              &kp N2              &kp N3              &kp RBKT            &kp C_BRI_DN
+&kp C_VOL_DN        &mt LSHIFT HOME     &kp EQUAL           &kp DOWN            &kp MINUS           &kp END                 &kp LBKT            &kp N1              &kp N2              &kp N3              &kp RBKT            &kp C_BRI_DN
                                                             &kp LGUI            &none               &kp LCTRL               &mt LALT CAPS       &mt RSHFT SPACE
                                                                                 &trans              &trans                  &trans >; };
 //         layer_2 { bindings = <
