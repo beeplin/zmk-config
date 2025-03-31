@@ -32,7 +32,7 @@
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
-&trans              &trans              &kp LSHFT           &kp LALT            &kp LCTRL           &trans                  &trans              &mkp LCLK           &mkp MCLK           &mkp RCLK           &trans              &trans
+&trans              &trans              &mkp RCLK           &mkp MCLK           &mkp LCLK           &trans                  &trans              &kp LCTRL           &kp LALT            &kp LSHFT           &trans              &trans
                                                             &trans              &trans              &trans                  &trans              &trans 
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
