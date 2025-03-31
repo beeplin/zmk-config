@@ -30,9 +30,9 @@
                                                                                 &kp LALT            &kp LSHFT               &kp RCTRL >; };
         layer_1 { bindings = <
 &trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
-&trans              &kp LCTRL           &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &kp LCTRL           &trans
-&trans              &kp LALT            &mkp RCLK           &mkp MCLK           &mkp LCLK           &trans                  &trans              &mkp LCLK           &mkp MCLK           &mkp RCLK           &kp LALT            &trans
-&trans              &kp LSHFT           &mkp RCLK           &mkp MCLK           &mkp LCLK           &trans                  &trans              &mkp LCLK           &mkp MCLK           &mkp RCLK           &kp LSHFT           &trans
+&trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
+&trans              &trans              &trans              &trans              &trans              &trans                  &trans              &trans              &trans              &trans              &trans              &trans
+&trans              &trans              &trans              &trans              &trans              &trans                  &trans              &mkp LCLK           &mkp MCLK           &mkp RCLK           &kp LSHFT           &trans
                                                             &trans              &trans              &trans                  &trans              &trans 
                                                                                 &trans              &trans                  &trans >; };
         layer_2 { bindings = <
