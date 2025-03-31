@@ -430,8 +430,6 @@ parse_config:
     RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
     RIGHT_COMMAND: $$mdi:apple-keyboard-command$$
-    LWIN: $$mdi:microsoft-windows$$
-    LEFT_WIN: $$mdi:microsoft-windows$$
     RG: $$mdi:microsoft-windows$$
     RGUI: $$mdi:microsoft-windows$$
     RIGHT_GUI: $$mdi:microsoft-windows$$$
