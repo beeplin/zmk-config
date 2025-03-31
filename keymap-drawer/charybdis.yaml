@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   '0':
-  - '`'
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
@@ -24,8 +24,8 @@ layers:
   - U
   - Y
   - ;
-  - '['
-  - $$mdi:apple-keyboard-caps$$
+  - ']'
+  - '-'
   - A
   - R
   - S
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ''''
-  - '-'
+  - '`'
   - Z
   - X
   - C
@@ -48,7 +48,7 @@ layers:
   - ','
   - .
   - /
-  - ']'
+  - '['
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:microsoft-windows$$'}
   - {t: '$$mdi:keyboard-space$$', h: '2'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
