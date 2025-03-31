@@ -259,20 +259,11 @@ combos:
 - p: [29, 41]
   k: F10
   l: ['0', '1']
-- p: [15, 16]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: ['0', '1']
 - p: [16, 17]
   k: F11
   l: ['0', '1']
-- p: [27, 28]
-  k: $$mdi:mouse-left-click-outline$$
-  l: ['0', '1']
 - p: [28, 29]
   k: F12
-  l: ['0', '1']
-- p: [39, 40]
-  k: $$mdi:mouse-right-click-outline$$
   l: ['0', '1']
 - p: [40, 41]
   k: F13
@@ -310,20 +301,11 @@ combos:
 - p: [18, 19]
   k: $$mdi:printer-outline$$
   l: ['0', '1']
-- p: [19, 20]
-  k: $$mdi:apple-keyboard-control$$
-  l: ['0', '1']
 - p: [30, 31]
   k: SLCK
   l: ['0', '1']
-- p: [31, 32]
-  k: $$mdi:apple-keyboard-option$$
-  l: ['0', '1']
 - p: [42, 43]
   k: PAUSE BREAK
-  l: ['0', '1']
-- p: [43, 44]
-  k: $$mdi:apple-keyboard-shift$$
   l: ['0', '1']
 - p: [48, 50]
   k: '3'
