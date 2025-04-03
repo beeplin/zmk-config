@@ -53,7 +53,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -109,7 +109,7 @@ layers:
   - '3'
   - {type: held}
   - $$mdi:apple-keyboard-control$$
-  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
+  - '&mc LALT CAPS'
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,7 +166,7 @@ layers:
   - {type: held}
   - '3'
   - '4'
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -223,7 +223,7 @@ layers:
   - {type: held}
   - {type: held}
   - ''
-  - $$mdi:apple-keyboard-option$$
+  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -288,6 +288,9 @@ layers:
 combos:
 - p: [48, 49]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
+  l: ['0']
+- p: [49, 50]
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&ctrl_mo1 X'}
   l: ['0']
 - p: [39, 40]
   k: $$mdi:mouse-scroll-wheel$$
