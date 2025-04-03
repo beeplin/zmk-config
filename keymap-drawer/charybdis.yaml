@@ -190,10 +190,10 @@ layers:
   - F8
   - F7
   - F10
-  - INS
   - $$mdi:printer-outline$$
+  - INS
   - $$mdi:volume-high$$
-  - SLCK
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:brightness-5$$
   - ''
   - ''
@@ -202,7 +202,7 @@ layers:
   - F5
   - F4
   - F11
-  - win power
+  - SLCK
   - $$mdi:skip-previous$$
   - $$mdi:volume-off$$
   - $$mdi:skip-next$$
@@ -214,10 +214,10 @@ layers:
   - F2
   - F1
   - F12
-  - $$mdi:apple-keyboard-caps$$
+  - PAUSE BREAK
   - APP
   - $$mdi:volume-low$$
-  - PAUSE BREAK
+  - win power
   - $$mdi:brightness-7$$
   - ''
   - {t: ▽, type: trans}
