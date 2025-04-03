@@ -289,15 +289,6 @@ combos:
 - p: [48, 49]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
   l: ['0']
-- p: [49, 50]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&ctrl_mo1 X'}
-  l: ['0']
-- p: [51, 52]
-  k: {t: '$$mdi:alpha-w-box$$', h: '&shft_alt X'}
-  l: ['0']
-- p: [51, 52]
-  k: {t: '$$mdi:apple-keyboard-caps$$', h: '&shft_alt X'}
-  l: ['1']
 - p: [39, 40]
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
