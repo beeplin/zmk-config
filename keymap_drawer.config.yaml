@@ -268,7 +268,7 @@ parse_config:
     "&key_repeat":
       tap: "key repeat"
 
-    "&win_power":
+    "&winpower":
       tap: "win power"
 
   # ZMK
