@@ -38,7 +38,7 @@
 &kp EQUAL       &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SEMI        &kp LBKT
 &kp MINUS       &kp A           &kp R           &kp S           &kp T           &kp G           &kp M           &kp N           &kp E           &kp I           &kp O           &kp SQT
 &kp GRAVE       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &kp DOT         &kp FSLH        &kp RBKT
-                                                &ls 2 LGUI      &lt 1 SPACE     &mt LCTRL TAB   &mt LALT TAB    &ms RSHFT RSHFT
+                                                &kp LGUI      &kp SPACE     &mt LCTRL TAB   &mt LALT TAB    &ms RSHFT RSHFT
                                                                 &kp LGUI        &kp LSHFT       &kp RCTRL >; };
 //    layer_1 { bindings = <
 // &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
