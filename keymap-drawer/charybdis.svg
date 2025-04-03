@@ -891,8 +891,8 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="210" y="183" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="215" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="271" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
 </g>
 </g>
 </g>

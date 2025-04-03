@@ -292,6 +292,6 @@ combos:
 - p: [49, 50]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&ctrl_mo1 X'}
   l: ['0']
-- p: [39, 40]
+- p: [40, 41]
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
