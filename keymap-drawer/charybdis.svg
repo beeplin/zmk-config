@@ -596,6 +596,13 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="424" y="299" class="combo tap layer-activator">3</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M318,285 l-32,-19" class="combo"/>
+<path d="M318,285 l32,19" class="combo"/>
+<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="318" y="285" class="combo tap layer-activator">4</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 456)" class="layer-1">
@@ -1758,9 +1765,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 </g>
-<g transform="translate(270, 257) rotate(30.0)" class="key keypos-48">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<g transform="translate(270, 257) rotate(30.0)" class="key held keypos-48">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(318, 285) rotate(30.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1769,9 +1776,9 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">boot</tspan><tspan x="0" dy="1.2em">loader</tspan>
 </text>
 </g>
-<g transform="translate(367, 313) rotate(30.0)" class="key keypos-50">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<g transform="translate(367, 313) rotate(30.0)" class="key held keypos-50">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(529, 313) rotate(-30.0)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
