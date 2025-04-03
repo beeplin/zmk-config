@@ -49,12 +49,12 @@ layers:
   - .
   - /
   - ']'
-  - {t: '$$mdi:microsoft-windows$$', h: '2'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:microsoft-windows$$'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:microsoft-windows$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   '1':
@@ -106,9 +106,9 @@ layers:
   - '3'
   - '-'
   - $$mdi:brightness-7$$
-  - '3'
+  - {t: ▽, type: trans}
   - {type: held}
-  - $$mdi:apple-keyboard-control$$
+  - trans
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
@@ -163,11 +163,11 @@ layers:
   - ']'
   - '*'
   - PAUSE BREAK
+  - {t: ▽, type: trans}
   - {type: held}
-  - '3'
-  - '4'
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,7 +190,7 @@ layers:
   - F8
   - F7
   - F10
-  - ''
+  - INS
   - $$mdi:printer-outline$$
   - $$mdi:volume-high$$
   - SLCK
@@ -214,80 +214,29 @@ layers:
   - F2
   - F1
   - F12
-  - ''
+  - $$mdi:apple-keyboard-caps$$
   - APP
   - $$mdi:volume-low$$
   - PAUSE BREAK
   - $$mdi:brightness-7$$
   - ''
+  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT SEL 0
-  - BT SEL 1
-  - BT SEL 2
-  - BT SEL 3
-  - BT SEL 4
-  - BL DEC
-  - RGB HUI
-  - RGB SAI
-  - RGB BRI
-  - RGB SPI
-  - ''
-  - ''
-  - BT CLR
-  - BT PRV
-  - OUT TOG
-  - BT NXT
-  - BT CLRALL
-  - BL TOG
-  - RGB EFR
-  - RGB TOG
-  - RGB EFF
-  - studio unlock
-  - ''
-  - ''
-  - BT DISC 0
-  - BT DISC 1
-  - BT DISC 2
-  - BT DISC 3
-  - BT DISC 4
-  - BL INC
-  - RGB HUD
-  - RGB SAD
-  - RGB BRD
-  - RGB SPD
-  - ''
-  - {type: held}
-  - boot loader
-  - {type: held}
-  - ''
-  - boot loader
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  '4': ['', '', '', '', '', '', '', '', '', '', '', '', '', BT SEL 0, BT SEL 1, BT SEL 2, BT SEL 3, BT SEL 4, BL DEC, RGB HUI, RGB SAI, RGB BRI, RGB SPI, '', '',
+    BT CLR, BT PRV, OUT TOG, BT NXT, BT CLRALL, BL TOG, RGB EFR, RGB TOG, RGB EFF, studio unlock, '', '', BT DISC 0, BT DISC 1, BT DISC 2, BT DISC 3, BT DISC 4, BL
+      INC, RGB HUD, RGB SAD, RGB BRD, RGB SPD, '', '', boot loader, '', '', boot loader, '', '', '']
 combos:
-- p: [48, 49]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
+- p: [49, 52]
+  k: '2'
+  l: ['0']
+- p: [49, 51]
+  k: '3'
   l: ['0']
 - p: [40, 41]
   k: $$mdi:mouse-scroll-wheel$$
