@@ -22,6 +22,7 @@
   combos { compatible="zmk,combos";
     both_finger_11_row_4_layer_0 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 52>; bindings = <&mo 2>; };
     both_finger_10_row_4_layer_0 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 51>; bindings = <&mo 3>; };
+    left_finger_02_row_4_layer_0 { require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 50>; bindings = <&mo 4>; };
     left_finger_01_row_3_layer_1 { require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <40 41>; bindings = <&mkp MCLK>; };
   };
   keymap { compatible="zmk,keymap";
