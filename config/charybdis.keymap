@@ -40,33 +40,33 @@
 &kp GRAVE       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &kp DOT         &kp FSLH        &kp RBKT
                                                 &ls 2 LGUI      &lt 1 SPACE     &mt LCTRL TAB   &mt LALT TAB    &ms RSHFT RSHFT
                                                                 &kp LGUI        &kp LSHFT       &kp RCTRL >; };
-   layer_1 { bindings = <
-&kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
-&kp C_VOL_UP    &mt LCTRL HOME  &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp LBKT        &kp N7          &kp N8          &kp N9          &kp PLUS        &kp C_BRI_UP
-&kp C_MUTE      &mt LALT ESC    &kp LEFT        &kp ENTER       &kp RIGHT       &kp TAB         &kp BSLH        &kp N4          &kp N5          &kp N6          &kp N0          &kp K_APP
-&kp C_VOL_DN    &mt LSHFT END   &mkp RCLK       &kp DOWN        &mkp LCLK       &kp PG_DN       &kp RBKT        &kp N1          &kp N2          &kp N3          &kp MINUS       &kp C_BRI_DN
-                                                &mo 3           &none           &kp LCTRL       &mt LALT INS    &mt RSHFT SPACE
-                                                                &trans          &trans          &trans >; };
-    layer_2 { bindings = <
-&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_DISC 4   &bt BT_DISC 3   &bt BT_DISC 2   &bt BT_DISC 1   &bt BT_DISC 0   &bootloader
-&kp C_PREV      &kp LCTRL       &kp PLUS        &kp COLON       &kp GRAVE       &kp PRCNT       &kp CARET       &kp AMPS        &kp DQT         &kp SQT         &kp DLLR        &kp PSCRN
-&kp C_PP        &kp LALT        &kp MINUS       &kp EQUAL       &kp GT          &kp TILDE       &kp AT          &kp LBRC        &kp LPAR        &kp RPAR        &kp RBRC        &kp SLCK
-&kp C_NEXT      &kp QMARK       &kp EXCL        &kp PIPE        &kp LT          &kp BSLH        &kp POUND       &kp UNDER       &kp LBKT        &kp RBKT        &kp ASTRK       &kp PAUSE_BREAK
-                                                &none           &mo 3           &mo 4           &kp LALT        &mt RCTRL SPACE
-                                                                &trans          &trans          &trans >; };
-    layer_3 { bindings = <
-&none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
-&none           &kp LCTRL       &kp F9          &kp F8          &kp F7          &kp F10         &none           &kp PSCRN       &kp C_VOL_UP    &kp SLCK        &kp C_BRI_UP    &none
-&none           &kp LALT        &kp F6          &kp F5          &kp F4          &kp F11         &winpower       &kp C_PREV      &kp C_MUTE      &kp C_NEXT      &kp C_PP        &none
-&none           &kp LSHFT       &kp F3          &kp F2          &kp F1          &kp F12         &none           &kp K_APP       &kp C_VOL_DN    &kp PAUSE_BREAK &kp C_BRI_DN    &none
-                                                &none           &none           &none           &kp LALT        &kp RSHFT
-                                                                &trans          &trans          &trans >; };
-    layer_4 { bindings = <
-&none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
-&none           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bl BL_DEC      &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &none
-&none           &bt BT_CLR      &bt BT_PRV      &out OUT_TOG    &bt BT_NXT      &bt BT_CLR_ALL  &bl BL_TOG      &rgb_ug RGB_EFR &rgb_ug RGB_TOG &rgb_ug RGB_EFF &studio_unlock  &none
-&none           &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3   &bt BT_DISC 4   &bl BL_INC      &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &none
-                                                &none           &bootloader     &none           &none           &bootloader
-                                                                &none           &none           &none >; };
+//    layer_1 { bindings = <
+// &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
+// &kp C_VOL_UP    &mt LCTRL HOME  &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp LBKT        &kp N7          &kp N8          &kp N9          &kp PLUS        &kp C_BRI_UP
+// &kp C_MUTE      &mt LALT ESC    &kp LEFT        &kp ENTER       &kp RIGHT       &kp TAB         &kp BSLH        &kp N4          &kp N5          &kp N6          &kp N0          &kp K_APP
+// &kp C_VOL_DN    &mt LSHFT END   &mkp RCLK       &kp DOWN        &mkp LCLK       &kp PG_DN       &kp RBKT        &kp N1          &kp N2          &kp N3          &kp MINUS       &kp C_BRI_DN
+//                                                 &mo 3           &none           &kp LCTRL       &mt LALT INS    &mt RSHFT SPACE
+//                                                                 &trans          &trans          &trans >; };
+//     layer_2 { bindings = <
+// &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_DISC 4   &bt BT_DISC 3   &bt BT_DISC 2   &bt BT_DISC 1   &bt BT_DISC 0   &bootloader
+// &kp C_PREV      &kp LCTRL       &kp PLUS        &kp COLON       &kp GRAVE       &kp PRCNT       &kp CARET       &kp AMPS        &kp DQT         &kp SQT         &kp DLLR        &kp PSCRN
+// &kp C_PP        &kp LALT        &kp MINUS       &kp EQUAL       &kp GT          &kp TILDE       &kp AT          &kp LBRC        &kp LPAR        &kp RPAR        &kp RBRC        &kp SLCK
+// &kp C_NEXT      &kp QMARK       &kp EXCL        &kp PIPE        &kp LT          &kp BSLH        &kp POUND       &kp UNDER       &kp LBKT        &kp RBKT        &kp ASTRK       &kp PAUSE_BREAK
+//                                                 &none           &mo 3           &mo 4           &kp LALT        &mt RCTRL SPACE
+//                                                                 &trans          &trans          &trans >; };
+//     layer_3 { bindings = <
+// &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
+// &none           &kp LCTRL       &kp F9          &kp F8          &kp F7          &kp F10         &none           &kp PSCRN       &kp C_VOL_UP    &kp SLCK        &kp C_BRI_UP    &none
+// &none           &kp LALT        &kp F6          &kp F5          &kp F4          &kp F11         &winpower       &kp C_PREV      &kp C_MUTE      &kp C_NEXT      &kp C_PP        &none
+// &none           &kp LSHFT       &kp F3          &kp F2          &kp F1          &kp F12         &none           &kp K_APP       &kp C_VOL_DN    &kp PAUSE_BREAK &kp C_BRI_DN    &none
+//                                                 &none           &none           &none           &kp LALT        &kp RSHFT
+//                                                                 &trans          &trans          &trans >; };
+//     layer_4 { bindings = <
+// &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
+// &none           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bl BL_DEC      &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &none
+// &none           &bt BT_CLR      &bt BT_PRV      &out OUT_TOG    &bt BT_NXT      &bt BT_CLR_ALL  &bl BL_TOG      &rgb_ug RGB_EFR &rgb_ug RGB_TOG &rgb_ug RGB_EFF &studio_unlock  &none
+// &none           &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3   &bt BT_DISC 4   &bl BL_INC      &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &none
+//                                                 &none           &bootloader     &none           &none           &bootloader
+//                                                                 &none           &none           &none >; };
   };
 };

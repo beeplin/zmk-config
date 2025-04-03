@@ -38,20 +38,20 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
-        /* optional features */
-        // automouse-layer = <1>;
-        scroll-layers = <2> ;
-        snipe-layers = <1>;
+        // /* optional features */
+        // // automouse-layer = <1>;
+        // scroll-layers = <2> ;
+        // snipe-layers = <1>;
 
-        /* optional: ball action on specific layers */
-        arrows {
-            layers = <3>;
-            bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
-            /* optional: ball action configuration */
-            tick = <20>;
-            wait-ms = <0>; 
-            tap-ms = <5>;
-        };
+        // /* optional: ball action on specific layers */
+        // arrows {
+        //     layers = <3>;
+        //     bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
+        //     /* optional: ball action configuration */
+        //     tick = <20>;
+        //     wait-ms = <0>; 
+        //     tap-ms = <5>;
+        // };
     };
 };
 
