@@ -38,7 +38,7 @@ timeout-ms = <80>;#include <dt-bindings/zmk/mouse.h>
                                                 // &ls 2 LGUI      &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT // FG: 2 at 48, 3 at 48-49 or combo. no kp GUI
    layer_1 { bindings = <
 &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
-&kp C_VOL_UP    &mt LCTRL GRAVE &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp LBKT        &kp N7          &kp N8          &kp N9          &kp EQUdAL       &kp C_BRI_UP
+&kp C_VOL_UP    &mt LCTRL GRAVE &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp LBKT        &kp N7          &kp N8          &kp N9          &kp EQUAL       &kp C_BRI_UP
 &kp C_MUTE      &mt LALT ESC    &kp LEFT        &kp ENTER       &kp RIGHT       &kp TAB         &kp SQT         &kp N4          &kp N5          &kp N6          &kp N0          &kp K_APP
 &kp C_VOL_DN    &mt LSHFT BSLH  &mkp RCLK       &kp DOWN        &mkp LCLK       &kp PG_DN       &kp RBKT        &kp N1          &kp N2          &kp N3          &kp MINUS       &kp C_BRI_DN
                                                 &trans          &trans          &trans          &lc 3 0         &lt 2 SPACE
@@ -60,9 +60,9 @@ timeout-ms = <80>;#include <dt-bindings/zmk/mouse.h>
                                                 // &trans          &mo 3           &trans          &trans          &trans // FG: 2 at 48, 3 at 48-49
     layer_3 { bindings = <
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
-&none           &kp LCTRL       &kp F9          &kp F8          &kp F7          &kp F10         &kp PSCRN       &kp INS         &kp C_VOL_UP    &kp CAPS        &kp C_BRI_UP    &none
-&none           &kp LALT        &kp F6          &kp F5          &kp F4          &kp F11         &kp SLCK        &kp C_PREV      &kp C_MUTE      &kp C_NEXT      &kp C_PP        &none
-&none           &kp LSHFT       &kp F3          &kp F2          &kp F1          &kp F12         &kp PAUSE_BREAK &kp K_APP       &kp C_VOL_DN    &winpower       &kp C_BRI_DN    &none
+&none           &kp LCTRL       &kp F9          &kp F8          &kp F7          &kp F10         &kp PSCRN       &kp HOME        &kp C_VOL_UP    &kp END         &kp C_BRI_UP    &none
+&none           &mt LALT K_APP  &kp F6          &kp F5          &kp F4          &kp F11         &kp SLCK        &kp C_PREV      &kp C_MUTE      &kp C_NEXT      &kp C_PP        &none
+&none           &kp LSHFT       &kp F3          &kp F2          &kp F1          &kp F12         &kp PAUSE_BREAK &kp INS         &kp C_VOL_DN    &kp CAPS        &kp C_BRI_DN    &none
                                                 &trans          &trans          &trans          &trans          &trans
                                                                 &trans          &trans          &trans >; };
     layer_4 { bindings = <
@@ -105,7 +105,7 @@ timeout-ms = <80>;#include <dt-bindings/zmk/mouse.h>
     // left_finger_34_row_2 { timeout-ms = <80>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <25 26>; bindings = <&kp >; };
     // left_finger_23_row_2 { timeout-ms = <80>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <26 27>; bindings = <&kp >; };
     // left_finger_12_row_2 { timeout-ms = <80>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <27 28>; bindings = <&kp >; };
-    left_finger_01_row_2 { timeout-ms = <80>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <28 29>; bindings = <&key_repeat>; };
+    left_finger_01_row_2 { timeout-ms = <80>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <28 29>; bindings = <&kp K_APP>; };
 
     // left_finger_34_row_3 { timeout-ms = <80>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <37 38>; bindings = <&kp >; };
     // left_finger_23_row_3 { timeout-ms = <80>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <38 39>; bindings = <&kp >; };
