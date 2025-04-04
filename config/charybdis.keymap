@@ -15,10 +15,8 @@
     winpower: winpower { compatible="zmk,behavior-macro"; #binding-cells = <0>; wait-ms = <200>; bindings = <&kp LG(X)>, <&kp U>; };
   };
   behaviors {
-    ls: layer_sk { compatible="zmk,behavior-hold-tap"; #binding-cells = <2>; tapping_term_ms = <200>; quick-tap-ms = <200>; flavor="hold-preferred"; bindings = <&mo>, <&sk>; };
-    lc: layer_cw { compatible="zmk,behavior-hold-tap"; #binding-cells = <2>; tapping_term_ms = <200>; quick-tap-ms = <200>; flavor="hold-preferred"; bindings = <&mo>, <&caps_word>; };
     ms: modif_sk { compatible="zmk,behavior-hold-tap"; #binding-cells = <2>; tapping_term_ms = <200>; quick-tap-ms = <200>; flavor="hold-preferred"; bindings = <&kp>, <&sk>; };
-    mc: modif_cw { compatible="zmk,behavior-hold-tap"; #binding-cells = <2>; tapping_term_ms = <200>; quick-tap-ms = <200>; flavor="hold-preferred"; bindings = <&kp>, <&caps_word>; };
+    lc: layer_cw { compatible="zmk,behavior-hold-tap"; #binding-cells = <2>; tapping_term_ms = <200>; quick-tap-ms = <200>; flavor="hold-preferred"; bindings = <&mo>, <&caps_word>; };
   };
   combos { compatible="zmk,combos";
     both_finger_11_row_4_layer_0 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 52>; bindings = <&lt 2 LSHFT>; };
@@ -32,14 +30,14 @@
 &kp EQUAL       &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SEMI        &kp LBKT
 &kp MINUS       &kp A           &kp R           &kp S           &kp T           &kp G           &kp M           &kp N           &kp E           &kp I           &kp O           &kp SQT
 &kp GRAVE       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &kp DOT         &kp FSLH        &kp RBKT
-                                                &ms LGUI LGUI   &lt 1 SPACE     &ms LCTRL LCTRL &ms LALT LALT   &ms RSHFT RSHFT
-                                                                &kp LALT        &kp LSHFT       &kp RCTRL >; };
+                                                &ms LGUI LGUI   &lt 1 SPACE     &ms LCTRL LCTRL &ms LALT LALT   &ms LSHFT LSHFT
+                                                                &kp LALT        &kp LSHFT       &kp LCTRL >; };
    layer_1 { bindings = <
 &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
 &kp C_VOL_UP    &mt LCTRL HOME  &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp LBKT        &kp N7          &kp N8          &kp N9          &kp PLUS        &kp C_BRI_UP
 &kp C_MUTE      &mt LALT ESC    &kp LEFT        &kp ENTER       &kp RIGHT       &kp TAB         &kp BSLH        &kp N4          &kp N5          &kp N6          &kp N0          &kp K_APP
 &kp C_VOL_DN    &mt LSHFT END   &mkp RCLK       &kp DOWN        &mkp LCLK       &kp PG_DN       &kp RBKT        &kp N1          &kp N2          &kp N3          &kp MINUS       &kp C_BRI_DN
-                                                &trans          &trans          &trans          &mc LALT CAPS   &kp RSHFT
+                                                &trans          &trans          &trans          &trans          &trans
                                                                 &trans          &trans          &trans >; };
     layer_2 { bindings = <
 &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_DISC 4   &bt BT_DISC 3   &bt BT_DISC 2   &bt BT_DISC 1   &bt BT_DISC 0   &bootloader
