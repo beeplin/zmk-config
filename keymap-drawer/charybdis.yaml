@@ -286,7 +286,7 @@ layers:
   - ''
   - ''
 combos:
-- p: [40, 41]
+- p: [28, 40]
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
 - p: [48, 50]
