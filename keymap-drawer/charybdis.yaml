@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   '0':
-  - $$mdi:keyboard-esc$$
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -25,7 +25,7 @@ layers:
   - Y
   - ;
   - '['
-  - '-'
+  - $$mdi:apple-keyboard-caps$$
   - A
   - R
   - S
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ''''
-  - '`'
+  - '-'
   - Z
   - X
   - C
@@ -49,9 +49,9 @@ layers:
   - .
   - /
   - ']'
-  - $$mdi:microsoft-windows$$
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:microsoft-windows$$'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
@@ -71,7 +71,7 @@ layers:
   - F10
   - F11
   - $$mdi:volume-high$$
-  - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '`', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
@@ -80,7 +80,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - +
+  - EQUdAL
   - $$mdi:brightness-5$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -88,14 +88,14 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-tab$$
-  - \
+  - ''''
   - '4'
   - '5'
   - '6'
   - '0'
   - APP
   - $$mdi:volume-low$$
-  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: \, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
@@ -109,8 +109,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:alpha-w-box$$', h: '3'}
+  - {t: '$$mdi:keyboard-space$$', h: '2'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -286,15 +286,102 @@ layers:
   - ''
   - ''
 combos:
+- p: [40, 41]
+  k: $$mdi:mouse-scroll-wheel$$
+  l: ['1']
+- p: [48, 50]
+  k: '4'
+  l: ['0']
+- p: [49, 50]
+  k: {t: key repeat, h: '&ctrl_mo1'}
+  l: ['0']
 - p: [49, 52]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '2'}
   l: ['0']
 - p: [49, 51]
-  k: {t: '$$mdi:alpha-w-box$$', h: '3'}
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
   l: ['0']
-- p: [48, 50]
-  k: '4'
+- p: [13, 25]
+  k: F8
+  l: ['0']
+- p: [14, 26]
+  k: F6
+  l: ['0']
+- p: [15, 27]
+  k: F5
+  l: ['0']
+- p: [16, 28]
+  k: F4
+  l: ['0']
+- p: [17, 29]
+  k: F11
+  l: ['0']
+- p: [25, 37]
+  k: F7
+  l: ['0']
+- p: [26, 38]
+  k: F3
+  l: ['0']
+- p: [27, 39]
+  k: F2
+  l: ['0']
+- p: [28, 40]
+  k: F1
+  l: ['0']
+- p: [29, 41]
+  k: F12
+  l: ['0']
+- p: [16, 17]
+  k: F10
+  l: ['0']
+- p: [28, 29]
+  k: key repeat
   l: ['0']
 - p: [40, 41]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: ['1']
+  k: F9
+  l: ['0']
+- p: [18, 30]
+  k: INS
+  l: ['0']
+- p: [19, 31]
+  k: HOME
+  l: ['0']
+- p: [20, 32]
+  k: $$mdi:volume-high$$
+  l: ['0']
+- p: [21, 33]
+  k: END
+  l: ['0']
+- p: [22, 34]
+  k: $$mdi:volume-off$$
+  l: ['0']
+- p: [30, 42]
+  k: $$mdi:apple-keyboard-caps$$
+  l: ['0']
+- p: [31, 43]
+  k: $$mdi:skip-previous$$
+  l: ['0']
+- p: [32, 44]
+  k: $$mdi:volume-low$$
+  l: ['0']
+- p: [33, 45]
+  k: $$mdi:skip-next$$
+  l: ['0']
+- p: [34, 46]
+  k: $$mdi:play-pause$$
+  l: ['0']
+- p: [18, 19]
+  k: $$mdi:printer-outline$$
+  l: ['0']
+- p: [30, 31]
+  k: SLCK
+  l: ['0']
+- p: [42, 43]
+  k: PAUSE BREAK
+  l: ['0']
+- p: [18, 19, 30, 31]
+  k: $$mdi:brightness-5$$
+  l: ['0']
+- p: [30, 31, 42, 43]
+  k: $$mdi:brightness-7$$
+  l: ['0']
