@@ -53,7 +53,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '2'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -109,8 +109,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:alpha-w-box$$', h: '3'}
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,7 +164,7 @@ layers:
   - '*'
   - PAUSE BREAK
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -221,9 +221,9 @@ layers:
   - $$mdi:brightness-7$$
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -294,12 +294,6 @@ combos:
   l: ['0']
 - p: [49, 50]
   k: {t: key repeat, h: '&ctrl_mo1'}
-  l: ['0']
-- p: [49, 52]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '2'}
-  l: ['0']
-- p: [49, 51]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: '3'}
   l: ['0']
 - p: [13, 25]
   k: F8
