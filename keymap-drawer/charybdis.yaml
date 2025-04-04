@@ -75,7 +75,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - '`'
+  - \
   - '['
   - '7'
   - '8'
@@ -99,7 +99,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
-  - \
+  - '`'
   - ']'
   - '1'
   - '2'
