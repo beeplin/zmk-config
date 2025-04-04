@@ -587,15 +587,17 @@ rect.held, rect.combo.held {
 <path d="M448,285 l-111,0" class="combo"/>
 <path d="M448,285 l111,0" class="combo"/>
 <rect rx="6" ry="6" x="434" y="272" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="439" y="276" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
 <a href="#x_x">
-<text x="448" y="285" class="combo tap layer-activator">2</text>
+<text x="448" y="296" class="combo hold layer-activator">2</text>
 </a></g>
 <g class="combo combopos-1">
 <path d="M424,299 l-87,-12" class="combo"/>
 <path d="M424,299 l87,12" class="combo"/>
 <rect rx="6" ry="6" x="410" y="286" width="28" height="26" class="combo"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="415" y="290" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 <a href="#x_x">
-<text x="424" y="299" class="combo tap layer-activator">3</text>
+<text x="424" y="310" class="combo hold layer-activator">3</text>
 </a></g>
 <g class="combo combopos-2">
 <path d="M318,285 l-32,-19" class="combo"/>
