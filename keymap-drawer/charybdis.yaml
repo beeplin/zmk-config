@@ -71,11 +71,11 @@ layers:
   - F10
   - F11
   - $$mdi:volume-high$$
-  - {t: '`', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: PGUP, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - PGUP
+  - '`'
   - '['
   - '7'
   - '8'
@@ -95,11 +95,11 @@ layers:
   - '0'
   - APP
   - $$mdi:volume-low$$
-  - {t: \, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: PGDN, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-left-click-outline$$
-  - PGDN
+  - \
   - ']'
   - '1'
   - '2'
