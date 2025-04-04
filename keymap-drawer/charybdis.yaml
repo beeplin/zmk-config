@@ -287,10 +287,10 @@ layers:
   - ''
 combos:
 - p: [49, 52]
-  k: '2'
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '2'}
   l: ['0']
 - p: [49, 51]
-  k: '3'
+  k: {t: '$$mdi:alpha-w-box$$', h: '3'}
   l: ['0']
 - p: [48, 50]
   k: '4'
