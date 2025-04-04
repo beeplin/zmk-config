@@ -24,12 +24,13 @@
     kr: c1_kr { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; tapping-term-ms = <200>; quick-tap-ms = <200>; flavor = "hold-preferred"; bindings = <&ctrl_mo1>, <&key_repeat>; };
   };
   keymap { compatible="zmk,keymap";
+  // D
     layer_0 { bindings = <
 &kp GRAVE       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp BSLH
 &kp EQUAL       &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SEMI        &kp LBKT
 &kp CAPS        &kp A           &kp R           &kp S           &kp T           &kp G           &kp M           &kp N           &kp E           &kp I           &kp O           &kp SQT
 &kp MINUS       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &kp DOT         &kp FSLH        &kp RBKT
-                                                &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT
+                                                &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ls 2 LSHFT
                                                                 &kp LALT        &kp LSHFT       &kp LCTRL >; };
                                                 // &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT // AB: 2 at 49-52, 3 at 49-51 or combo. hard mo2
                                                 // &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ls 2 LSHFT     // CD: 2 at 52, 3 at 49-52 or combo. no kp SHFT
@@ -40,7 +41,7 @@
 &kp C_VOL_UP    &mt LCTRL PG_UP &kp BSPC        &kp UP          &kp DEL         &kp GRAVE       &kp BSLH        &kp N7          &kp N8          &kp N9          &kp EQUAL       &kp C_BRI_UP
 &kp C_MUTE      &mt LALT ESC    &kp LEFT        &kp ENTER       &kp RIGHT       &kp TAB         &kp SQT         &kp N4          &kp N5          &kp N6          &kp N0          &kp K_APP
 &kp C_VOL_DN    &mt LSHFT PG_DN &mkp RCLK       &kp DOWN        &mkp LCLK       &kp LBKT        &kp RBKT        &kp N1          &kp N2          &kp N3          &kp MINUS       &kp C_BRI_DN
-                                                &trans          &trans          &trans          &lc 3 0         &lt 2 SPACE
+                                                &trans          &trans          &trans          &mc LALT 0      &mt LSHFT SPACE 
                                                                 &trans          &trans          &trans >; };
                                                 // &trans          &trans          &trans          &lc 3 0         &lt 2 SPACE     // A: 2 at 49-52, 3 at 49-51
                                                 // &trans          &trans          &trans          &mc LALT 0      &lt 2 SPACE     // B: 2 at 49-52, 3 at combo
@@ -78,8 +79,8 @@
     left_finger_02_row_4 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 50>; bindings = <&mo 4>; };
     left_finger_01_row_4 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 50>; bindings = <&kr 0 0 >; };
     
-    both_finger_11_row_4 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 52>; bindings = <&lt 2 LSHFT>; }; // AB
-    both_finger_10_row_4 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 51>; bindings = <&lt 3 LALT>; };  // A
+    // both_finger_11_row_4 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 52>; bindings = <&lt 2 LSHFT>; }; // AB
+    // both_finger_10_row_4 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 51>; bindings = <&lt 3 LALT>; };  // A
     // both_finger_11_row_4 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 52>; bindings = <&lt 3 LSHFT>; }; // C
     // rght_finger_01_row_4 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <51 52>; bindings = <&kp LS(LALT)>; }; // E
     // left_finger_12_row_4 { timeout-ms = <80>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 49>; bindings = <&ls 3 LALT>; };   // F
