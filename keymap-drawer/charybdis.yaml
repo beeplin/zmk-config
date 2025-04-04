@@ -80,7 +80,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - EQUdAL
+  - '='
   - $$mdi:brightness-5$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -191,13 +191,13 @@ layers:
   - F7
   - F10
   - $$mdi:printer-outline$$
-  - INS
+  - HOME
   - $$mdi:volume-high$$
-  - $$mdi:apple-keyboard-caps$$
+  - END
   - $$mdi:brightness-5$$
   - ''
   - ''
-  - $$mdi:apple-keyboard-option$$
+  - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
   - F6
   - F5
   - F4
@@ -215,9 +215,9 @@ layers:
   - F1
   - F12
   - PAUSE BREAK
-  - APP
+  - INS
   - $$mdi:volume-low$$
-  - win power
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:brightness-7$$
   - ''
   - {t: ▽, type: trans}
@@ -335,7 +335,7 @@ combos:
   k: F10
   l: ['0']
 - p: [28, 29]
-  k: key repeat
+  k: APP
   l: ['0']
 - p: [40, 41]
   k: F9
