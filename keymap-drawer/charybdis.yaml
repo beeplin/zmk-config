@@ -191,9 +191,9 @@ layers:
   - F7
   - F10
   - $$mdi:printer-outline$$
-  - $$mdi:brightness-5$$
-  - INS
   - $$mdi:brightness-7$$
+  - INS
+  - $$mdi:brightness-5$$
   - HOME
   - ''
   - ''
@@ -203,9 +203,9 @@ layers:
   - F4
   - F11
   - SLCK
-  - $$mdi:volume-high$$
-  - $$mdi:volume-off$$
   - $$mdi:volume-low$$
+  - $$mdi:volume-off$$
+  - $$mdi:volume-high$$
   - $$mdi:apple-keyboard-caps$$
   - ''
   - ''
@@ -341,13 +341,13 @@ combos:
   k: INS
   l: ['0']
 - p: [19, 31]
-  k: $$mdi:volume-high$$
+  k: $$mdi:volume-low$$
   l: ['0']
 - p: [20, 32]
   k: $$mdi:volume-off$$
   l: ['0']
 - p: [21, 33]
-  k: $$mdi:volume-low$$
+  k: $$mdi:volume-high$$
   l: ['0']
 - p: [22, 34]
   k: HOME

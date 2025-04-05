@@ -658,7 +658,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="630" y="99" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="635" y="103" height="18" width="18.0" class="combo tap glyph mdi:volume-high"/>
+<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="635" y="103" height="18" width="18.0" class="combo tap glyph mdi:volume-low"/>
 </g>
 <g class="combo combopos-18">
 <rect rx="6" ry="6" x="686" y="99" width="28" height="26" class="combo"/>
@@ -666,7 +666,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-19">
 <rect rx="6" ry="6" x="742" y="99" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="747" y="103" height="18" width="18.0" class="combo tap glyph mdi:volume-low"/>
+<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="747" y="103" height="18" width="18.0" class="combo tap glyph mdi:volume-high"/>
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="798" y="99" width="28" height="26" class="combo"/>
@@ -1414,7 +1414,7 @@ rect.held, rect.combo.held {
 <g transform="translate(644, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:brightness-5" xlink:href="#mdi:brightness-5" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:brightness-5"/>
+<use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:brightness-7"/>
 </g>
 <g transform="translate(700, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1424,7 +1424,7 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:brightness-7"/>
+<use href="#mdi:brightness-5" xlink:href="#mdi:brightness-5" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:brightness-5"/>
 </g>
 <g transform="translate(812, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1473,7 +1473,7 @@ rect.held, rect.combo.held {
 <g transform="translate(644, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:volume-high"/>
+<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:volume-low"/>
 </g>
 <g transform="translate(700, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1483,7 +1483,7 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 140)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:volume-low"/>
+<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:volume-high"/>
 </g>
 <g transform="translate(812, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
