@@ -191,10 +191,10 @@ layers:
   - F7
   - F10
   - $$mdi:printer-outline$$
-  - $$mdi:brightness-7$$
-  - INS
-  - $$mdi:brightness-5$$
   - HOME
+  - INS
+  - END
+  - $$mdi:brightness-5$$
   - ''
   - ''
   - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
@@ -218,7 +218,7 @@ layers:
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
-  - END
+  - $$mdi:brightness-7$$
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -338,7 +338,7 @@ combos:
   k: APP
   l: ['0']
 - p: [18, 30]
-  k: INS
+  k: HOME
   l: ['0']
 - p: [19, 31]
   k: $$mdi:volume-low$$
@@ -350,10 +350,10 @@ combos:
   k: $$mdi:volume-high$$
   l: ['0']
 - p: [22, 34]
-  k: HOME
+  k: INS
   l: ['0']
 - p: [30, 42]
-  k: $$mdi:apple-keyboard-caps$$
+  k: END
   l: ['0']
 - p: [31, 43]
   k: $$mdi:skip-previous$$
@@ -365,7 +365,7 @@ combos:
   k: $$mdi:skip-next$$
   l: ['0']
 - p: [34, 46]
-  k: END
+  k: $$mdi:apple-keyboard-caps$$
   l: ['0']
 - p: [18, 19]
   k: $$mdi:printer-outline$$
