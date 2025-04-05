@@ -64,8 +64,8 @@
                                                 // &trans          &m1s LGUI LALT  &trans          &trans          &trans // G: 2 at 48, 3 at combo
     layer_3 { bindings = <
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
-&none           &kp LCTRL       &kp F9          &kp F8          &kp F7          &kp F10         &kp PSCRN       &kp C_BRI_UP    &kp INS         &kp C_BRI_DN    &kp HOME        &none
-&none           &mt LALT K_APP  &kp F6          &kp F5          &kp F4          &kp F11         &kp SLCK        &kp C_VOL_UP    &kp C_MUTE      &kp C_VOL_DN    &kp CAPS        &none
+&none           &kp LCTRL       &kp F9          &kp F8          &kp F7          &kp F10         &kp PSCRN       &kp C_BRI_DN    &kp INS         &kp C_BRI_UP    &kp HOME        &none
+&none           &mt LALT K_APP  &kp F6          &kp F5          &kp F4          &kp F11         &kp SLCK        &kp C_VOL_DN    &kp C_MUTE      &kp C_VOL_UP    &kp CAPS        &none
 &none           &kp LSHFT       &kp F3          &kp F2          &kp F1          &kp F12         &kp PAUSE_BREAK &kp C_PREV      &kp C_PP        &kp C_NEXT      &kp END         &none
                                                 &trans          &trans          &trans          &trans          &trans
                                                                 &trans          &trans          &trans >; };
@@ -124,9 +124,9 @@
     // left_finger_01_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <28 29 40 41>; bindings = <&kp >; };
 
     rght_finger_0_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <18 30>; bindings = <&kp INS>; };
-    rght_finger_1_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <19 31>; bindings = <&kp C_VOL_UP>; };
+    rght_finger_1_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <19 31>; bindings = <&kp C_VOL_DN>; };
     rght_finger_2_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <20 32>; bindings = <&kp C_MUTE>; };
-    rght_finger_3_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <21 33>; bindings = <&kp C_VOL_DN>; };
+    rght_finger_3_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <21 33>; bindings = <&kp C_VOL_UP>; };
     rght_finger_4_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <22 34>; bindings = <&kp HOME>; };
 
     rght_finger_0_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <30 42>; bindings = <&kp CAPS>; };
