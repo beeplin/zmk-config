@@ -314,7 +314,7 @@ combos:
   k: F7
   l: ['0']
 - p: [25, 37]
-  k: F10
+  k: APP
   l: ['0']
 - p: [26, 38]
   k: F3
@@ -329,13 +329,13 @@ combos:
   k: F8
   l: ['0']
 - p: [16, 17]
-  k: F11
+  k: F10
   l: ['0']
 - p: [28, 29]
-  k: F12
+  k: F11
   l: ['0']
 - p: [40, 41]
-  k: APP
+  k: F12
   l: ['0']
 - p: [18, 30]
   k: HOME
@@ -350,10 +350,10 @@ combos:
   k: $$mdi:volume-high$$
   l: ['0']
 - p: [22, 34]
-  k: INS
+  k: END
   l: ['0']
 - p: [30, 42]
-  k: END
+  k: INS
   l: ['0']
 - p: [31, 43]
   k: $$mdi:skip-previous$$
