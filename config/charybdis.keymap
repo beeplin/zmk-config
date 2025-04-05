@@ -126,7 +126,7 @@
     rght_finger_0_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <18 30>; bindings = <&kp INS>; };
     rght_finger_1_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <19 31>; bindings = <&kp C_VOL_UP>; };
     rght_finger_2_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <20 32>; bindings = <&kp C_MUTE>; };
-    rght_finger_3_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <21 33>; bindings = <&kp C_VOL_DNEND>; };
+    rght_finger_3_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <21 33>; bindings = <&kp C_VOL_DN>; };
     rght_finger_4_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <22 34>; bindings = <&kp HOME>; };
 
     rght_finger_0_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <30 42>; bindings = <&kp CAPS>; };
