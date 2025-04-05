@@ -347,7 +347,7 @@ combos:
   k: $$mdi:volume-off$$
   l: ['0']
 - p: [21, 33]
-  k: VOL DNEND
+  k: $$mdi:volume-low$$
   l: ['0']
 - p: [22, 34]
   k: HOME
