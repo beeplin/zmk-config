@@ -293,7 +293,7 @@ combos:
   k: '4'
   l: ['0']
 - p: [49, 50]
-  k: {t: key repeat, h: '&ctrl_mo1'}
+  k: '&c1k 0 0'
   l: ['0']
 - p: [13, 25]
   k: F8
