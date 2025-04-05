@@ -31,12 +31,12 @@
 &kp EQUAL       &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SEMI        &kp LBKT
 &kp CAPS        &kp A           &kp R           &kp S           &kp T           &kp G           &kp M           &kp N           &kp E           &kp I           &kp O           &kp SQT
 &kp MINUS       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &kp DOT         &kp FSLH        &kp RBKT
-                                                &ls 2 LALT      &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT
+                                                &ls 2 LGUI      &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT
                                                                 &kp LALT        &kp LSHFT       &kp LCTRL >; };
                                                 // &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT // AB: 2 at 49-52, 3 at 49-51 or combo. hard mo2
                                                 // &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ls 2 LSHFT     // CD: 2 at 52, 3 at 49-52 or combo. no kp SHFT
                                                 // &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &ls 3 LALT      &ls 2 LSHFT     // E:  2 at 52, 3 at 51. no kp SHFT, no kp ALT
-                                                // &ls 2 LALT      &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT // FG: 2 at 48, 3 at 48-49 or combo. no kp GUI
+                                                // &ls 2 LGUI      &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT // FG: 2 at 48, 3 at 48-49 or combo. no kp GUI
    layer_1 { bindings = <
 &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
 &kp C_VOL_UP    &mt LCTRL PG_UP &kp BSPC        &kp UP          &kp DEL         &kp GRAVE       &kp BSLH        &kp N7          &kp N8          &kp N9          &kp EQUAL       &kp C_BRI_UP
