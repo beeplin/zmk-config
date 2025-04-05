@@ -40,7 +40,7 @@
    layer_1 { bindings = <
 &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
 &kp C_VOL_UP    &mt LCTRL PG_UP &kp BSPC        &kp UP          &kp DEL         &kp GRAVE       &kp BSLH        &kp N7          &kp N8          &kp N9          &kp EQUAL       &kp C_BRI_UP
-&kp C_MUTE      &mt LALT ESC    &kp LEFT        &kp ENTER       &kp RIGHT       &kp TAB         &kp SQT         &kp N4          &kp N5          &kp N6          &kp N0          &kp K_APP
+&kp C_MUTE      &mt LALT ESC    &kp LEFT        &kp ENTER       &kp RIGHT       &kp TAB         &kp SQT         &kp N4          &kp N5          &kp N6          &kp N0          &kp INS
 &kp C_VOL_DN    &mt LSHFT PG_DN &mkp RCLK       &kp DOWN        &mkp LCLK       &kp LBKT        &kp RBKT        &kp N1          &kp N2          &kp N3          &kp MINUS       &kp C_BRI_DN
                                                 &m1s LGUI LALT  &trans          &trans          &mc LALT 0      &mt LSHFT SPACE
                                                                 &trans          &trans          &trans >; };
@@ -64,9 +64,9 @@
                                                 // &trans          &m1s LGUI LALT  &trans          &trans          &trans // G: 2 at 48, 3 at combo
     layer_3 { bindings = <
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
-&none           &kp LCTRL       &kp F9          &kp F8          &kp F7          &kp F10         &kp PSCRN       &kp HOME        &kp C_VOL_UP    &kp END         &kp C_BRI_UP    &none
-&none           &mt LALT K_APP  &kp F6          &kp F5          &kp F4          &kp F11         &kp SLCK        &kp C_PREV      &kp C_MUTE      &kp C_NEXT      &kp C_PP        &none
-&none           &kp LSHFT       &kp F3          &kp F2          &kp F1          &kp F12         &kp PAUSE_BREAK &kp INS         &kp C_VOL_DN    &kp CAPS        &kp C_BRI_DN    &none
+&none           &kp LCTRL       &kp F9          &kp F8          &kp F7          &kp F10         &kp PSCRN       &kp C_BRI_UP    &kp INS         &kp C_BRI_DN    &kp HOME        &none
+&none           &mt LALT K_APP  &kp F6          &kp F5          &kp F4          &kp F11         &kp SLCK        &kp C_VOL_UP    &kp C_MUTE      &kp C_VOL_DN    &kp CAPS        &none
+&none           &kp LSHFT       &kp F3          &kp F2          &kp F1          &kp F12         &kp PAUSE_BREAK &kp C_PREV      &kp C_PP        &kp C_NEXT      &kp END         &none
                                                 &trans          &trans          &trans          &trans          &trans
                                                                 &trans          &trans          &trans >; };
                                                 // &trans          &trans          &trans          &trans          &trans // ABCDFG
@@ -124,16 +124,16 @@
     // left_finger_01_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <28 29 40 41>; bindings = <&kp >; };
 
     rght_finger_0_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <18 30>; bindings = <&kp INS>; };
-    rght_finger_1_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <19 31>; bindings = <&kp HOME>; };
-    rght_finger_2_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <20 32>; bindings = <&kp C_VOL_UP>; };
-    rght_finger_3_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <21 33>; bindings = <&kp END>; };
-    rght_finger_4_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <22 34>; bindings = <&kp C_MUTE>; };
+    rght_finger_1_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <19 31>; bindings = <&kp C_VOL_UP>; };
+    rght_finger_2_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <20 32>; bindings = <&kp C_MUTE>; };
+    rght_finger_3_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <21 33>; bindings = <&kp C_VOL_DNEND>; };
+    rght_finger_4_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <22 34>; bindings = <&kp HOME>; };
 
     rght_finger_0_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <30 42>; bindings = <&kp CAPS>; };
     rght_finger_1_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <31 43>; bindings = <&kp C_PREV>; };
-    rght_finger_2_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <32 44>; bindings = <&kp C_VOL_DN>; };
+    rght_finger_2_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <32 44>; bindings = <&kp C_PP>; };
     rght_finger_3_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <33 45>; bindings = <&kp C_NEXT>; };
-    rght_finger_4_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <34 46>; bindings = <&kp C_PP>; };
+    rght_finger_4_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <34 46>; bindings = <&kp END>; };
 
     rght_finger_01_row_1 { timeout-ms = <50>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <18 19>; bindings = <&kp PSCRN>; };
     // rght_finger_12_row_1 { timeout-ms = <50>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <19 20>; bindings = <&kp >; };
