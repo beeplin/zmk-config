@@ -192,7 +192,7 @@ layers:
   - F10
   - $$mdi:printer-outline$$
   - HOME
-  - INS
+  - $$mdi:apple-keyboard-caps$$
   - END
   - $$mdi:brightness-5$$
   - ''
@@ -206,7 +206,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
-  - $$mdi:apple-keyboard-caps$$
+  - INS
   - ''
   - ''
   - $$mdi:apple-keyboard-shift$$
