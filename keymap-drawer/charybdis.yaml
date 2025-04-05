@@ -49,11 +49,11 @@ layers:
   - .
   - /
   - ']'
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:microsoft-windows$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '2'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '2'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -106,7 +106,7 @@ layers:
   - '3'
   - '-'
   - $$mdi:brightness-7$$
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -163,11 +163,11 @@ layers:
   - ']'
   - '*'
   - PAUSE BREAK
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -293,7 +293,10 @@ combos:
   k: '4'
   l: ['0']
 - p: [49, 50]
-  k: {t: key repeat, h: '&lm1 LCTRL'}
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
+  l: ['0']
+- p: [48, 49]
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '&lm1 LGUI'}
   l: ['0']
 - p: [13, 25]
   k: F8
