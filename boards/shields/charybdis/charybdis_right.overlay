@@ -40,12 +40,18 @@
 
         /* optional features */
         // automouse-layer = <1>;
-        scroll-layers = <1> ;
-        // snipe-layers = <1>;
+
+        // // ABCDE
+        // // snipe-layers = <1>;
+        // scroll-layers = <1> ;
+
+        // FG
+        snipe-layers = <1>;
+        scroll-layers = <2> ;
 
         /* optional: ball action on specific layers */
         arrows {
-            layers = <3>;
+            layers = <4>;
             bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
             /* optional: ball action configuration */
             tick = <20>;
