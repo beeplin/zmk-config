@@ -80,15 +80,19 @@
                                                                 &none           &none           &none >; };
   };
   combos { compatible = "zmk,combos";
-    layer_1_left_finger_1_row_23  { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <28 40>;       bindings = <&mkp MCLK>; };
+    layer_1_left_finger_1_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <28 40>;       bindings = <&mkp MCLK>; };
+    layer_1_rght_finger_1_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <19 31>; bindings = <&kp C_BRI_DN>; };
+    layer_1_rght_finger_3_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <21 33>; bindings = <&kp C_BRI_UP>; };
+
+    layer_1_both_finger_0_row_1 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <17 18>; bindings = <&bt BT_SEL 0>; };
+    layer_1_both_finger_0_row_2 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <29 30>; bindings = <&bt BT_SEL 1>; };
+    layer_1_both_finger_0_row_3 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <41 42>; bindings = <&bt BT_SEL 2>; };
+
+    layer_1_both_finger_0_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <17 18 29 30>; bindings = <&bt BT_CLR>; };
+    layer_1_both_finger_0_row_23 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <29 30 41 42>; bindings = <&out OUT_TOG>; };
+
     layer_1_left_finger_01_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <16 17 28 29>; bindings = <&bootloader>; };
     layer_1_rght_finger_01_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <18 19 30 31>; bindings = <&bootloader>; };
-    layer_1_both_finger_0_row_1   { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <17 18>; bindings = <&bt BT_SEL 0>; };
-    layer_1_both_finger_0_row_2   { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <29 30>; bindings = <&bt BT_SEL 1>; };
-    layer_1_both_finger_0_row_3   { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <41 42>; bindings = <&bt BT_SEL 2>; };
-    layer_1_both_finger_0_row_12  { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <17 18 29 30>; bindings = <&bt BT_CLR>; };
-    layer_1_rght_finger_1_row_12  { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <19 31>; bindings = <&kp C_BRI_DN>; };
-    layer_1_rght_finger_3_row_12  { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <21 33>; bindings = <&kp C_BRI_UP>; };
 
     // left_finger_02_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <48 50>; bindings = <&mo 4>; };
     // left_finger_01_row_4 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <0>; key-positions = <49 50>; bindings = <&m1t LCTRL LSHFT >; };

@@ -217,25 +217,25 @@ parse_config:
 
     # Bluetooth
     "&bt BT_SEL 0":
-      tap: "BT SEL 0"
+      tap: "BT SEL0"
     "&bt BT_SEL 1":
-      tap: "BT SEL 1"
+      tap: "BT SEL1"
     "&bt BT_SEL 2":
-      tap: "BT SEL 2"
+      tap: "BT SEL2"
     "&bt BT_SEL 3":
-      tap: "BT SEL 3"
+      tap: "BT SEL3"
     "&bt BT_SEL 4":
-      tap: "BT SEL 4"
+      tap: "BT SEL4"
     "&bt BT_DISC 0":
-      tap: "BT DISC 0"
+      tap: "BT DISC0"
     "&bt BT_DISC 1":
-      tap: "BT DISC 1"
+      tap: "BT DISC1"
     "&bt BT_DISC 2":
-      tap: "BT DISC 2"
+      tap: "BT DISC2"
     "&bt BT_DISC 3":
-      tap: "BT DISC 3"
+      tap: "BT DISC3"
     "&bt BT_DISC 4":
-      tap: "BT DISC 4"
+      tap: "BT DISC4"
     "&bt BT_PRV":
       tap: "BT PRV"
     "&bt BT_NXT":
