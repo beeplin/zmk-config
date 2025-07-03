@@ -254,7 +254,7 @@ combos:
   k: BT CLR
   l: ['1']
 - p: [29, 30, 41, 42]
-  k: OUT TOG
+  k: OUT TOGz
   l: ['1']
 - p: [16, 17, 28, 29]
   k: boot loader
@@ -278,7 +278,7 @@ combos:
   k: F7
   l: ['0']
 - p: [25, 37]
-  k: APP
+  k: $$mdi:apple-keyboard-caps$$
   l: ['0']
 - p: [26, 38]
   k: F3
@@ -329,7 +329,7 @@ combos:
   k: $$mdi:skip-next$$
   l: ['0']
 - p: [34, 46]
-  k: $$mdi:apple-keyboard-caps$$
+  k: APP
   l: ['0']
 - p: [18, 19]
   k: $$mdi:printer-outline$$
