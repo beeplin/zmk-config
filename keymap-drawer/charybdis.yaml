@@ -116,16 +116,16 @@ layers:
   - {t: ▽, type: trans}
   '2':
   - BT CLR
-  - BT SEL 0
-  - BT SEL 1
-  - BT SEL 2
-  - BT SEL 3
-  - BT SEL 4
-  - BT DISC 4
-  - BT DISC 3
-  - BT DISC 2
-  - BT DISC 1
-  - BT DISC 0
+  - BT SEL0
+  - BT SEL1
+  - BT SEL2
+  - BT SEL3
+  - BT SEL4
+  - BT DISC4
+  - BT DISC3
+  - BT DISC2
+  - BT DISC1
+  - BT DISC0
   - boot loader
   - $$mdi:skip-previous$$
   - $$mdi:apple-keyboard-control$$
@@ -228,36 +228,39 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4': ['', '', '', '', '', '', '', '', '', '', '', '', '', BT SEL 0, BT SEL 1, BT SEL 2, BT SEL 3, BT SEL 4, BL DEC, RGB HUI, RGB SAI, RGB BRI, RGB SPI, '', '',
-    BT CLR, BT PRV, OUT TOG, BT NXT, BT CLRALL, BL TOG, RGB EFR, RGB TOG, RGB EFF, studio unlock, '', '', BT DISC 0, BT DISC 1, BT DISC 2, BT DISC 3, BT DISC 4, BL
-      INC, RGB HUD, RGB SAD, RGB BRD, RGB SPD, '', '', boot loader, '', '', boot loader, '', '', '']
+  '4': ['', '', '', '', '', '', '', '', '', '', '', '', '', BT SEL0, BT SEL1, BT SEL2, BT SEL3, BT SEL4, BL DEC, RGB HUI, RGB SAI, RGB BRI, RGB SPI, '', '', BT CLR,
+    BT PRV, OUT TOG, BT NXT, BT CLRALL, BL TOG, RGB EFR, RGB TOG, RGB EFF, studio unlock, '', '', BT DISC0, BT DISC1, BT DISC2, BT DISC3, BT DISC4, BL INC, RGB HUD,
+    RGB SAD, RGB BRD, RGB SPD, '', '', boot loader, '', '', boot loader, '', '', '']
 combos:
 - p: [28, 40]
   k: $$mdi:mouse-scroll-wheel$$
-  l: ['1']
-- p: [16, 17, 28, 29]
-  k: boot loader
-  l: ['1']
-- p: [18, 19, 30, 31]
-  k: boot loader
-  l: ['1']
-- p: [17, 18]
-  k: BT SEL 0
-  l: ['1']
-- p: [29, 30]
-  k: BT SEL 1
-  l: ['1']
-- p: [41, 42]
-  k: BT SEL 2
-  l: ['1']
-- p: [17, 18, 29, 30]
-  k: BT CLR
   l: ['1']
 - p: [19, 31]
   k: $$mdi:brightness-7$$
   l: ['1']
 - p: [21, 33]
   k: $$mdi:brightness-5$$
+  l: ['1']
+- p: [17, 18]
+  k: BT SEL0
+  l: ['1']
+- p: [29, 30]
+  k: BT SEL1
+  l: ['1']
+- p: [41, 42]
+  k: BT SEL2
+  l: ['1']
+- p: [17, 18, 29, 30]
+  k: BT CLR
+  l: ['1']
+- p: [29, 30, 41, 42]
+  k: OUT TOG
+  l: ['1']
+- p: [16, 17, 28, 29]
+  k: boot loader
+  l: ['1']
+- p: [18, 19, 30, 31]
+  k: boot loader
   l: ['1']
 - p: [13, 25]
   k: F9
