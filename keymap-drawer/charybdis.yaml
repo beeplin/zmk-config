@@ -289,6 +289,30 @@ combos:
 - p: [28, 40]
   k: $$mdi:mouse-scroll-wheel$$
   l: ['1']
+- p: [16, 17, 28, 29]
+  k: boot loader
+  l: ['1']
+- p: [18, 19, 30, 31]
+  k: boot loader
+  l: ['1']
+- p: [17, 18]
+  k: BT SEL 0
+  l: ['1']
+- p: [29, 30]
+  k: BT SEL 1
+  l: ['1']
+- p: [41, 42]
+  k: BT SEL 2
+  l: ['1']
+- p: [17, 18, 29, 30]
+  k: BT CLR
+  l: ['1']
+- p: [19, 31]
+  k: $$mdi:brightness-7$$
+  l: ['1']
+- p: [21, 33]
+  k: $$mdi:brightness-5$$
+  l: ['1']
 - p: [48, 50]
   k: '4'
   l: ['0']
@@ -375,10 +399,4 @@ combos:
   l: ['0']
 - p: [42, 43]
   k: PAUSE BREAK
-  l: ['0']
-- p: [18, 19, 30, 31]
-  k: $$mdi:brightness-5$$
-  l: ['0']
-- p: [30, 31, 42, 43]
-  k: $$mdi:brightness-7$$
   l: ['0']

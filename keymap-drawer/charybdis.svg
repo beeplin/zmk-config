@@ -704,14 +704,6 @@ rect.held, rect.combo.held {
 <tspan x="616" dy="-0.6em">PAUSE</tspan><tspan x="616" dy="1.2em">BREAK</tspan>
 </text>
 </g>
-<g class="combo combopos-29">
-<rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
-<use href="#mdi:brightness-5" xlink:href="#mdi:brightness-5" x="607" y="103" height="18" width="18.0" class="combo tap glyph mdi:brightness-5"/>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="602" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="607" y="159" height="18" width="18.0" class="combo tap glyph mdi:brightness-7"/>
-</g>
 </g>
 </g>
 <g transform="translate(40, 456)" class="layer-1">
@@ -1010,6 +1002,60 @@ rect.held, rect.combo.held {
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="238" y="155" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="243" y="159" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="266" y="99" width="28" height="26" class="combo"/>
+<text x="280" y="112" class="combo tap">
+<tspan x="280" dy="-0.6em">boot</tspan><tspan x="280" dy="1.2em">loader</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="99" width="28" height="26" class="combo"/>
+<text x="616" y="112" class="combo tap">
+<tspan x="616" dy="-0.6em">boot</tspan><tspan x="616" dy="1.2em">loader</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<path d="M448,84 l-121,0" class="combo"/>
+<path d="M448,84 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="71" width="28" height="26" class="combo"/>
+<text x="448" y="84" class="combo tap">
+<tspan x="448" dy="-0.6em">BT</tspan><tspan x="448" dy="1.2em">…</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<path d="M448,140 l-121,0" class="combo"/>
+<path d="M448,140 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="127" width="28" height="26" class="combo"/>
+<text x="448" y="140" class="combo tap">
+<tspan x="448" dy="-0.6em">BT</tspan><tspan x="448" dy="1.2em">…</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<path d="M448,196 l-121,0" class="combo"/>
+<path d="M448,196 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="183" width="28" height="26" class="combo"/>
+<text x="448" y="196" class="combo tap">
+<tspan x="448" dy="-0.6em">BT</tspan><tspan x="448" dy="1.2em">…</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<path d="M448,112 l-122,-24" class="combo"/>
+<path d="M448,112 l122,-24" class="combo"/>
+<path d="M448,112 l-122,24" class="combo"/>
+<path d="M448,112 l122,24" class="combo"/>
+<rect rx="6" ry="6" x="434" y="99" width="28" height="26" class="combo"/>
+<text x="448" y="112" class="combo tap">
+<tspan x="448" dy="-0.6em">BT</tspan><tspan x="448" dy="1.2em">CLR</tspan>
+</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="630" y="99" width="28" height="26" class="combo"/>
+<use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="635" y="103" height="18" width="18.0" class="combo tap glyph mdi:brightness-7"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="742" y="99" width="28" height="26" class="combo"/>
+<use href="#mdi:brightness-5" xlink:href="#mdi:brightness-5" x="747" y="103" height="18" width="18.0" class="combo tap glyph mdi:brightness-5"/>
 </g>
 </g>
 </g>
