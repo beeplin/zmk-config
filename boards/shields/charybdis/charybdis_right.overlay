@@ -46,8 +46,8 @@
         // scroll-layers = <1> ;
 
         // FG
-        snipe-layers = <1>;
-        scroll-layers = <2> ;
+        // snipe-layers = <1>;
+        scroll-layers = <1> ;
 
         /* optional: ball action on specific layers */
         arrows {

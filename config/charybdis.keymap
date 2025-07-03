@@ -31,7 +31,7 @@
 &kp EQUAL       &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SEMI        &kp LBKT
 &kp CAPS        &kp A           &kp R           &kp S           &kp T           &kp G           &kp M           &kp N           &kp E           &kp I           &kp O           &kp SQT
 &kp MINUS       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &kp DOT         &kp FSLH        &kp RBKT
-                                                &ls 2 LGUI      &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT
+                                                &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &kp LSHFT
                                                                 &kp LALT        &kp LSHFT       &kp LCTRL >; };
                                                 // &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ms LSHFT LSHFT // AB: 2 at 49-52, 3 at 49-51 or combo. hard mo2
                                                 // &ms LGUI LALT   &lt 1 SPACE     &ms LCTRL LSHFT &kp LALT        &ls 2 LSHFT     // CD: 2 at 52, 3 at 49-52 or combo. no kp SHFT
