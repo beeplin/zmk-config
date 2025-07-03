@@ -332,7 +332,7 @@ combos:
   k: BT CLR
   l: ['1']
 - p: [29, 30, 41, 42]
-  k: OUT TOGz
+  k: OUT TOG
   l: ['1']
 - p: [16, 17, 28, 29]
   k: boot loader
