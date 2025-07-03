@@ -635,43 +635,43 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="574" y="99" width="28" height="26" class="combo"/>
-<text x="588" y="112" class="combo tap">HOME</text>
+<text x="588" y="112" class="combo tap">INS</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="630" y="99" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="635" y="103" height="18" width="18.0" class="combo tap glyph mdi:volume-low"/>
+<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="635" y="103" height="18" width="18.0" class="combo tap glyph mdi:skip-previous"/>
 </g>
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="686" y="99" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="691" y="103" height="18" width="18.0" class="combo tap glyph mdi:volume-off"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="691" y="103" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="742" y="99" width="28" height="26" class="combo"/>
-<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="747" y="103" height="18" width="18.0" class="combo tap glyph mdi:volume-high"/>
+<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="747" y="103" height="18" width="18.0" class="combo tap glyph mdi:skip-next"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="798" y="99" width="28" height="26" class="combo"/>
-<text x="812" y="112" class="combo tap">END</text>
+<text x="812" y="112" class="combo tap">APP</text>
 </g>
 <g class="combo combopos-18">
 <rect rx="6" ry="6" x="574" y="155" width="28" height="26" class="combo"/>
-<text x="588" y="168" class="combo tap">INS</text>
+<text x="588" y="168" class="combo tap">HOME</text>
 </g>
 <g class="combo combopos-19">
 <rect rx="6" ry="6" x="630" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="635" y="159" height="18" width="18.0" class="combo tap glyph mdi:skip-previous"/>
+<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="635" y="159" height="18" width="18.0" class="combo tap glyph mdi:volume-low"/>
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="686" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="691" y="159" height="18" width="18.0" class="combo tap glyph mdi:play-pause"/>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="691" y="159" height="18" width="18.0" class="combo tap glyph mdi:volume-off"/>
 </g>
 <g class="combo combopos-21">
 <rect rx="6" ry="6" x="742" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="747" y="159" height="18" width="18.0" class="combo tap glyph mdi:skip-next"/>
+<use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="747" y="159" height="18" width="18.0" class="combo tap glyph mdi:volume-high"/>
 </g>
 <g class="combo combopos-22">
 <rect rx="6" ry="6" x="798" y="155" width="28" height="26" class="combo"/>
-<text x="812" y="168" class="combo tap">APP</text>
+<text x="812" y="168" class="combo tap">END</text>
 </g>
 <g class="combo combopos-23">
 <rect rx="6" ry="6" x="602" y="71" width="28" height="26" class="combo"/>
@@ -986,12 +986,12 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="243" y="159" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="630" y="99" width="28" height="26" class="combo"/>
-<use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="635" y="103" height="18" width="18.0" class="combo tap glyph mdi:brightness-7"/>
+<rect rx="6" ry="6" x="630" y="155" width="28" height="26" class="combo"/>
+<use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="635" y="159" height="18" width="18.0" class="combo tap glyph mdi:brightness-7"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="742" y="99" width="28" height="26" class="combo"/>
-<use href="#mdi:brightness-5" xlink:href="#mdi:brightness-5" x="747" y="103" height="18" width="18.0" class="combo tap glyph mdi:brightness-5"/>
+<rect rx="6" ry="6" x="742" y="155" width="28" height="26" class="combo"/>
+<use href="#mdi:brightness-5" xlink:href="#mdi:brightness-5" x="747" y="159" height="18" width="18.0" class="combo tap glyph mdi:brightness-5"/>
 </g>
 <g class="combo combopos-3">
 <path d="M448,84 l-121,0" class="combo"/>
