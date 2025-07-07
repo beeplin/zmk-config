@@ -101,7 +101,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - '['
   - ']'
-  - '1'
+  - {t: '1', s: (}
   - '2'
   - '3'
   - '-'
