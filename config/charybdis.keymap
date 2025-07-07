@@ -23,7 +23,7 @@
     lc:  mo_cw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&mo>, <&caps_word>; };
     m1t: m1_kp { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&kp>; quick-tap-ms = <200>; };
     m1s: m1_sk { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&sk>; };
-    aa: aa    { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp N1>, <&kp LPAR>; mods = <(MOD_LSFT|MOD_RSFT)>; };
+    aa: aa    { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp N5>, <&kp LPAR>; mods = <(MOD_LSFT|MOD_RSFT)>; };
   };
   keymap { compatible="zmk,keymap";
   // G
@@ -41,7 +41,7 @@
    layer_1 { bindings = <
 &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
 &kp C_VOL_UP    &mt LCTRL PG_UP &kp BSPC        &kp UP          &kp DEL         &kp GRAVE       &kp BSLH        &kp N7          &kp N8          &kp N9          &kp EQUAL       &kp C_BRI_UP
-&kp C_MUTE      &mt LALT ESC    &kp LEFT        &kp ENTER       &kp RIGHT       &kp TAB         &kp SQT         &kp N4          &kp N5          &kp N6          &kp N0          &kp INS
+&kp C_MUTE      &mt LALT ESC    &kp LEFT        &kp ENTER       &kp RIGHT       &kp TAB         &kp SQT         &kp N4          &aa             &kp N6          &kp N0          &kp INS
 &kp C_VOL_DN    &mt LSHFT PG_DN &mkp RCLK       &kp DOWN        &mkp LCLK       &kp LBKT        &kp RBKT        &aa             &kp N2          &kp N3          &kp MINUS       &kp C_BRI_DN
                                                 &trans          &trans          &trans          &mc LALT 0      &mt LSHFT SPACE
                                                                 &trans          &trans          &trans >; };
