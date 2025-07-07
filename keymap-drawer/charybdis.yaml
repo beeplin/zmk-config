@@ -90,7 +90,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - ''''
   - '4'
-  - '5'
+  - {t: '5', s: (}
   - '6'
   - '0'
   - INS
@@ -101,7 +101,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - '['
   - ']'
-  - {t: '1', s: (}
+  - {t: '5', s: (}
   - '2'
   - '3'
   - '-'
