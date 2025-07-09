@@ -144,7 +144,7 @@
     // rght_finger_23_row_2 { timeout-ms = <50>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <32 33>; bindings = <&kp >; };
     // rght_finger_34_row_2 { timeout-ms = <50>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <33 34>; bindings = <&kp >; };
 
-    rght_finger_01_row_3 { timeout-ms = <50>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <42 43>; bindings = <&none>; };
+    rght_finger_01_row_3 { timeout-ms = <50>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <42 43>; bindings = <&key_repeat>; };
     // rght_finger_12_row_3 { timeout-ms = <50>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <43 44>; bindings = <&kp >; };
     // rght_finger_23_row_3 { timeout-ms = <50>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <44 45>; bindings = <&kp >; };
     // rght_finger_34_row_3 { timeout-ms = <50>; require-prior-idle-ms = <180>; layers = <0>; key-positions = <45 46>; bindings = <&kp >; };
