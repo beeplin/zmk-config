@@ -287,7 +287,7 @@ combos:
   k: PAUSE BREAK
   l: ['0']
 - p: [30, 42]
-  k: '&mkp MB4'
+  k: MB4
   l: ['0']
 - p: [31, 43]
   k: $$mdi:mouse-left-click-outline$$
@@ -299,7 +299,7 @@ combos:
   k: $$mdi:mouse-right-click-outline$$
   l: ['0']
 - p: [34, 46]
-  k: '&mkp MB5'
+  k: MB5
   l: ['0']
 - p: [18, 19]
   k: $$mdi:pan-up$$
@@ -388,9 +388,9 @@ combos:
 - p: [42, 43]
   k: BT CLR
   l: ['1']
-- p: [16, 17, 28, 29]
+- p: [28, 29, 40, 41]
   k: boot loader
   l: ['1']
-- p: [18, 19, 30, 31]
+- p: [30, 31, 42, 43]
   k: boot loader
   l: ['1']
