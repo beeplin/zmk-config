@@ -126,7 +126,7 @@ layers:
   - BT DISC2
   - BT DISC1
   - BT DISC0
-  - boot loader
+  - boot ldr
   - $$mdi:skip-previous$$
   - $$mdi:apple-keyboard-control$$
   - +
@@ -230,7 +230,7 @@ layers:
   - {t: ▽, type: trans}
   '4': ['', '', '', '', '', '', '', '', '', '', '', '', '', BT SEL0, BT SEL1, BT SEL2, BT SEL3, BT SEL4, BL DEC, RGB HUI, RGB SAI, RGB BRI, RGB SPI, '', '', BT CLR,
     BT PRV, OUT TOG, BT NXT, BT CLRALL, BL TOG, RGB EFR, RGB TOG, RGB EFF, studio unlock, '', '', BT DISC0, BT DISC1, BT DISC2, BT DISC3, BT DISC4, BL INC, RGB HUD,
-    RGB SAD, RGB BRD, RGB SPD, '', '', boot loader, '', '', boot loader, '', '', '']
+    RGB SAD, RGB BRD, RGB SPD, '', '', boot ldr, '', '', boot ldr, '', '', '']
 combos:
 - p: [13, 25]
   k: F6
@@ -308,7 +308,7 @@ combos:
   k: $$mdi:pan-down$$
   l: ['0']
 - p: [42, 43]
-  k: ''
+  k: key repeat
   l: ['0']
 - p: [13, 25]
   k: HOME
@@ -389,8 +389,8 @@ combos:
   k: BT CLR
   l: ['1']
 - p: [28, 29, 40, 41]
-  k: boot loader
+  k: boot ldr
   l: ['1']
 - p: [30, 31, 42, 43]
-  k: boot loader
+  k: boot ldr
   l: ['1']
