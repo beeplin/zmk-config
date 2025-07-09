@@ -198,6 +198,10 @@ parse_config:
       tap: $$mdi:mouse-right-click-outline$$
     "&mkp MCLK":
       tap: $$mdi:mouse-scroll-wheel$$
+    "&mkp MB4":
+      tap: "MB4"
+    "&mkp MB5":
+      tap: "MB5"
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
     "&kt RSHIFT":
