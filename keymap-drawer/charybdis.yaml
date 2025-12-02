@@ -1,18 +1,18 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   '0':
-  - $$mdi:keyboard-esc$$
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - F11
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - $$mdi:play-pause$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-off$$
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -58,19 +58,19 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:microsoft-windows$$
   '1':
-  - F11
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - $$mdi:skip-previous$$
-  - $$mdi:skip-next$$
-  - $$mdi:play-pause$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:volume-off$$
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-esc$$
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -81,7 +81,7 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
+  - \
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
@@ -93,8 +93,8 @@ layers:
   - K
   - L
   - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -105,7 +105,7 @@ layers:
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
