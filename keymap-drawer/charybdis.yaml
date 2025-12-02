@@ -163,10 +163,10 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {type: held}
   - '&lm3 LALT'
-  - {t: KP PLUS, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ▽, type: trans}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
