@@ -1,31 +1,31 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   '0':
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - \
-  - '='
+  - F11
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - $$mdi:play-pause$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-off$$
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - F
   - P
   - B
-  - J
+  - K
   - L
   - U
   - Y
   - ;
   - '['
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
   - S
@@ -37,137 +37,137 @@ layers:
   - I
   - O
   - ''''
-  - '-'
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - D
   - V
-  - K
+  - J
   - H
   - ','
   - .
   - /
-  - ']'
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:microsoft-windows$$'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-esc$$', h: '2'}
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:microsoft-windows$$
+  - $$mdi:apple-keyboard-option$$
   '1':
   - F12
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
   - F6
   - F7
   - F8
   - F9
   - F10
-  - F11
-  - $$mdi:volume-high$$
-  - {t: PGUP, h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:printer-outline$$
+  - SLCK
+  - PAUSE BREAK
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
+  - APP
+  - {t: ▽, type: trans}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - '`'
-  - \
-  - '7'
-  - '8'
-  - '9'
+  - PGUP
+  - HOME
+  - INS
+  - '-'
   - '='
-  - $$mdi:brightness-5$$
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - $$mdi:keyboard-tab$$
-  - ''''
-  - '4'
-  - '5'
-  - '6'
-  - '0'
-  - INS
-  - $$mdi:volume-low$$
-  - {t: PGDN, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:mouse-left-click-outline$$
+  - PGDN
+  - END
   - '['
   - ']'
+  - \
+  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
-  - '-'
-  - $$mdi:brightness-7$$
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - '&lm2 LALT'
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - BT CLR
-  - BT SEL0
-  - BT SEL1
-  - BT SEL2
-  - BT SEL3
-  - BT SEL4
-  - BT DISC4
-  - BT DISC3
-  - BT DISC2
-  - BT DISC1
-  - BT DISC0
-  - boot ldr
-  - $$mdi:skip-previous$$
-  - $$mdi:apple-keyboard-control$$
-  - +
-  - ':'
-  - '`'
-  - '%'
-  - ^
-  - '&'
-  - '"'
-  - ''''
-  - $
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - SLEEP
+  - F9
+  - F10
+  - F11
+  - F12
   - $$mdi:printer-outline$$
-  - $$mdi:play-pause$$
-  - $$mdi:apple-keyboard-option$$
-  - '-'
-  - '='
-  - '>'
-  - '~'
-  - '@'
-  - '{'
-  - (
-  - )
-  - '}'
+  - $$mdi:skip-previous$$
+  - MB4
+  - $$mdi:pan-up$$
+  - MB5
+  - $$mdi:volume-high$$
+  - $$mdi:brightness-5$$
+  - {t: ▽, type: trans}
+  - F5
+  - F6
+  - F7
+  - F8
   - SLCK
   - $$mdi:skip-next$$
-  - '?'
-  - '!'
-  - '|'
-  - <
-  - \
-  - '#'
-  - _
-  - '['
-  - ']'
-  - '*'
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-right$$
+  - $$mdi:volume-low$$
+  - $$mdi:brightness-7$$
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
   - PAUSE BREAK
+  - $$mdi:play-pause$$
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - $$mdi:volume-off$$
   - {t: ▽, type: trans}
+  - '3'
+  - $$mdi:apple-keyboard-option$$
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: APP, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -185,212 +185,46 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:apple-keyboard-control$$
-  - F9
-  - F8
-  - F7
-  - F10
-  - $$mdi:printer-outline$$
-  - HOME
-  - INS
-  - END
-  - $$mdi:brightness-5$$
+  - BT SEL0
+  - BT SEL1
+  - BT SEL2
+  - BT SEL3
+  - BT SEL4
+  - BL DEC
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
+  - RGB SPI
   - ''
   - ''
-  - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
-  - F6
-  - F5
-  - F4
-  - F11
-  - SLCK
-  - $$mdi:volume-low$$
-  - $$mdi:volume-off$$
-  - $$mdi:volume-high$$
-  - $$mdi:apple-keyboard-caps$$
+  - BT CLR
+  - BT PRV
+  - OUT TOG
+  - BT NXT
+  - BT CLRALL
+  - BL TOG
+  - RGB EFR
+  - RGB TOG
+  - RGB EFF
+  - studio unlock
   - ''
   - ''
-  - $$mdi:apple-keyboard-shift$$
-  - F3
-  - F2
-  - F1
-  - F12
-  - PAUSE BREAK
-  - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
-  - $$mdi:brightness-7$$
+  - BT DISC0
+  - BT DISC1
+  - BT DISC2
+  - BT DISC3
+  - BT DISC4
+  - BL INC
+  - RGB HUD
+  - RGB SAD
+  - RGB BRD
+  - RGB SPD
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '4': ['', '', '', '', '', '', '', '', '', '', '', '', '', BT SEL0, BT SEL1, BT SEL2, BT SEL3, BT SEL4, BL DEC, RGB HUI, RGB SAI, RGB BRI, RGB SPI, '', '', BT CLR,
-    BT PRV, OUT TOG, BT NXT, BT CLRALL, BL TOG, RGB EFR, RGB TOG, RGB EFF, studio unlock, '', '', BT DISC0, BT DISC1, BT DISC2, BT DISC3, BT DISC4, BL INC, RGB HUD,
-    RGB SAD, RGB BRD, RGB SPD, '', '', boot ldr, '', '', boot ldr, '', '', '']
-combos:
-- p: [13, 25]
-  k: F6
-  l: ['0']
-- p: [14, 26]
-  k: F7
-  l: ['0']
-- p: [15, 27]
-  k: F8
-  l: ['0']
-- p: [16, 28]
-  k: F9
-  l: ['0']
-- p: [17, 29]
-  k: F10
-  l: ['0']
-- p: [25, 37]
-  k: F1
-  l: ['0']
-- p: [26, 38]
-  k: F2
-  l: ['0']
-- p: [27, 39]
-  k: F3
-  l: ['0']
-- p: [28, 40]
-  k: F4
-  l: ['0']
-- p: [29, 41]
-  k: F5
-  l: ['0']
-- p: [16, 17]
-  k: $$mdi:apple-keyboard-caps$$
-  l: ['0']
-- p: [28, 29]
-  k: F12
-  l: ['0']
-- p: [40, 41]
-  k: F11
-  l: ['0']
-- p: [18, 30]
-  k: $$mdi:pan-left$$
-  l: ['0']
-- p: [19, 31]
-  k: $$mdi:pan-right$$
-  l: ['0']
-- p: [20, 32]
-  k: $$mdi:printer-outline$$
-  l: ['0']
-- p: [21, 33]
-  k: SLCK
-  l: ['0']
-- p: [22, 34]
-  k: PAUSE BREAK
-  l: ['0']
-- p: [30, 42]
-  k: MB4
-  l: ['0']
-- p: [31, 43]
-  k: $$mdi:mouse-left-click-outline$$
-  l: ['0']
-- p: [32, 44]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: ['0']
-- p: [33, 45]
-  k: $$mdi:mouse-right-click-outline$$
-  l: ['0']
-- p: [34, 46]
-  k: MB5
-  l: ['0']
-- p: [18, 19]
-  k: $$mdi:pan-up$$
-  l: ['0']
-- p: [30, 31]
-  k: $$mdi:pan-down$$
-  l: ['0']
-- p: [42, 43]
-  k: key repeat
-  l: ['0']
-- p: [13, 25]
-  k: HOME
-  l: ['1']
-- p: [14, 26]
-  k: $$mdi:skip-previous$$
-  l: ['1']
-- p: [15, 27]
-  k: $$mdi:play-pause$$
-  l: ['1']
-- p: [16, 28]
-  k: $$mdi:skip-next$$
-  l: ['1']
-- p: [17, 29]
-  k: $$mdi:brightness-5$$
-  l: ['1']
-- p: [25, 37]
-  k: END
-  l: ['1']
-- p: [26, 38]
-  k: $$mdi:volume-low$$
-  l: ['1']
-- p: [27, 39]
-  k: $$mdi:volume-off$$
-  l: ['1']
-- p: [28, 40]
-  k: $$mdi:volume-high$$
-  l: ['1']
-- p: [29, 41]
-  k: $$mdi:brightness-7$$
-  l: ['1']
-- p: [16, 17]
-  k: INS
-  l: ['1']
-- p: [28, 29]
-  k: APP
-  l: ['1']
-- p: [40, 41]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: ['1']
-- p: [18, 30]
-  k: BT DISC0
-  l: ['1']
-- p: [19, 31]
-  k: BT DISC1
-  l: ['1']
-- p: [20, 32]
-  k: BT DISC2
-  l: ['1']
-- p: [21, 33]
-  k: BT DISC3
-  l: ['1']
-- p: [22, 34]
-  k: BT DISC4
-  l: ['1']
-- p: [30, 42]
-  k: BT SEL0
-  l: ['1']
-- p: [31, 43]
-  k: BT SEL1
-  l: ['1']
-- p: [32, 44]
-  k: BT SEL2
-  l: ['1']
-- p: [33, 45]
-  k: BT SEL3
-  l: ['1']
-- p: [34, 46]
-  k: BT SEL4
-  l: ['1']
-- p: [18, 19]
-  k: BT CLRALL
-  l: ['1']
-- p: [30, 31]
-  k: OUT TOG
-  l: ['1']
-- p: [42, 43]
-  k: BT CLR
-  l: ['1']
-- p: [28, 29, 40, 41]
-  k: boot ldr
-  l: ['1']
-- p: [30, 31, 42, 43]
-  k: boot ldr
-  l: ['1']
+  - {type: held}
+  - boot ldr
+  - {type: held}
+  - ''
+  - boot ldr
+  - ''
+  - ''
+  - ''
