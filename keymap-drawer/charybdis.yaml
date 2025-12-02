@@ -54,9 +54,9 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '2'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:microsoft-windows$$
-  - $$mdi:apple-keyboard-option$$
   '1':
   - F12
   - F6
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PGDN
   - END
@@ -137,7 +137,7 @@ layers:
   - MB4
   - $$mdi:pan-up$$
   - MB5
-  - $$mdi:volume-high$$
+  - {t: '$$mdi:volume-high$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:brightness-5$$
   - {t: ▽, type: trans}
   - F5
@@ -149,7 +149,7 @@ layers:
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
-  - $$mdi:volume-low$$
+  - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:brightness-7$$
   - {t: ▽, type: trans}
   - F1
@@ -158,10 +158,10 @@ layers:
   - F4
   - PAUSE BREAK
   - $$mdi:play-pause$$
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - $$mdi:volume-off$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:volume-off$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - '3'
   - $$mdi:apple-keyboard-option$$
