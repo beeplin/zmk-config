@@ -275,12 +275,12 @@ layers:
   - BL DEC
   - BL TOG
   - BL INC
-  - studio unlock
+  - {t: '1', h: toggle}
   - ''
   - {type: held}
   - boot ldr
   - {type: held}
-  - {t: '1', h: toggle}
+  - ''
   - boot ldr
   - ''
   - ''
