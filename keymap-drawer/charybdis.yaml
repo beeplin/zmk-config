@@ -190,7 +190,7 @@ layers:
   - BT SEL2
   - BT SEL3
   - BT SEL4
-  - '&bl RGB_EFR'
+  - RGB EFR
   - RGB HUI
   - RGB SAI
   - RGB BRI
@@ -202,7 +202,7 @@ layers:
   - BT DISC2
   - BT DISC3
   - BT DISC4
-  - '&bl RGB_EFF'
+  - RGB EFF
   - RGB HUD
   - RGB SAD
   - RGB BRD
@@ -214,7 +214,7 @@ layers:
   - OUT TOG
   - BT NXT
   - BT CLRALL
-  - '&bl RGB_TOG'
+  - RGB TOG
   - BL DEC
   - BL TOG
   - BL INC
