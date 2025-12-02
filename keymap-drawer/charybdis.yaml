@@ -70,7 +70,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
-  - $$mdi:keyboard-tab$$
+  - {t: ▽, type: trans}
   - Q
   - W
   - F
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - '&lm3 LALT'
-  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: KP PLUS, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -223,7 +223,7 @@ layers:
   - '4'
   - $$mdi:apple-keyboard-option$$
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
