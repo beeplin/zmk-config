@@ -187,4 +187,4 @@
 //     layer_1_left_finger_01_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
 //     layer_1_rght_finger_01_row_12 { timeout-ms = <50>; require-prior-idle-ms = <(-1)>; layers = <1>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
 //   };
-// };
+};
