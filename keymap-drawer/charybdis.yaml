@@ -13,7 +13,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
-  - $$mdi:keyboard-tab$$
+  - (
   - Q
   - W
   - F
@@ -24,7 +24,7 @@ layers:
   - U
   - Y
   - ;
-  - '['
+  - )
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
@@ -36,7 +36,7 @@ layers:
   - E
   - I
   - O
-  - ''''
+  - _
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -49,10 +49,10 @@ layers:
   - .
   - /
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - {t: '$$mdi:keyboard-esc$$', h: '2'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: '2'}
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -70,7 +70,7 @@ layers:
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - APP
-  - {t: ▽, type: trans}
+  - '{'
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -81,7 +81,7 @@ layers:
   - '-'
   - '='
   - '`'
-  - {t: ▽, type: trans}
+  - '}'
   - {t: ▽, type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
@@ -93,7 +93,7 @@ layers:
   - ']'
   - \
   - ''''
-  - {t: ▽, type: trans}
+  - '>'
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -133,11 +133,11 @@ layers:
   - F11
   - F12
   - $$mdi:printer-outline$$
-  - $$mdi:skip-previous$$
+  - $$mdi:volume-high$$
   - MB4
   - $$mdi:pan-up$$
   - MB5
-  - {t: '$$mdi:volume-high$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:brightness-5$$
   - {t: ▽, type: trans}
   - F5
@@ -145,11 +145,11 @@ layers:
   - F7
   - F8
   - SLCK
-  - $$mdi:skip-next$$
+  - $$mdi:volume-low$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
-  - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:brightness-7$$
   - {t: ▽, type: trans}
   - F1
@@ -157,11 +157,11 @@ layers:
   - F3
   - F4
   - PAUSE BREAK
-  - $$mdi:play-pause$$
+  - $$mdi:volume-off$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:volume-off$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - '3'
   - $$mdi:apple-keyboard-option$$
@@ -190,23 +190,11 @@ layers:
   - BT SEL2
   - BT SEL3
   - BT SEL4
-  - BL DEC
+  - '&bl RGB_EFR'
   - RGB HUI
   - RGB SAI
   - RGB BRI
   - RGB SPI
-  - ''
-  - ''
-  - BT CLR
-  - BT PRV
-  - OUT TOG
-  - BT NXT
-  - BT CLRALL
-  - BL TOG
-  - RGB EFR
-  - RGB TOG
-  - RGB EFF
-  - studio unlock
   - ''
   - ''
   - BT DISC0
@@ -214,11 +202,23 @@ layers:
   - BT DISC2
   - BT DISC3
   - BT DISC4
-  - BL INC
+  - '&bl RGB_EFF'
   - RGB HUD
   - RGB SAD
   - RGB BRD
   - RGB SPD
+  - ''
+  - ''
+  - BT CLR
+  - BT PRV
+  - OUT TOG
+  - BT NXT
+  - BT CLRALL
+  - '&bl RGB_TOG'
+  - BL DEC
+  - BL TOG
+  - BL INC
+  - studio unlock
   - ''
   - {type: held}
   - boot ldr
