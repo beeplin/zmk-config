@@ -16,35 +16,35 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - F
-  - P
-  - B
-  - K
-  - L
-  - U
-  - Y
-  - ;
-  - '['
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
-  - A
-  - R
-  - S
-  - T
-  - G
-  - M
-  - N
   - E
+  - R
+  - T
+  - Y
+  - U
   - I
   - O
+  - P
+  - \
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
-  - D
   - V
-  - J
-  - H
+  - B
+  - N
+  - M
   - ','
   - .
   - /
@@ -70,7 +70,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - F
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - '&lm3 LALT'
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -224,7 +224,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: APP, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
