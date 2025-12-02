@@ -1,19 +1,19 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   '0':
-  - F11
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - $$mdi:skip-previous$$
-  - $$mdi:skip-next$$
-  - $$mdi:play-pause$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:volume-off$$
-  - (
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - F
@@ -24,7 +24,7 @@ layers:
   - U
   - Y
   - ;
-  - )
+  - '['
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
@@ -36,7 +36,7 @@ layers:
   - E
   - I
   - O
-  - _
+  - ''''
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -50,14 +50,71 @@ layers:
   - /
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '2'}
+  - {t: '$$mdi:keyboard-space$$', h: '2'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '3'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:microsoft-windows$$
   '1':
+  - F11
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - $$mdi:play-pause$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-off$$
+  - {t: ▽, type: trans}
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - K
+  - L
+  - U
+  - Y
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - J
+  - H
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '2':
   - F12
   - F6
   - F7
@@ -70,7 +127,7 @@ layers:
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - APP
-  - '{'
+  - {t: ▽, type: trans}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -78,10 +135,10 @@ layers:
   - PGUP
   - HOME
   - INS
-  - '-'
-  - '='
+  - \
+  - ''''
   - '`'
-  - '}'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
@@ -90,10 +147,10 @@ layers:
   - PGDN
   - END
   - '['
+  - '-'
+  - '='
   - ']'
-  - \
-  - ''''
-  - '>'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -108,13 +165,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - '&lm2 LALT'
+  - '&lm3 LALT'
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '2':
+  '3':
   - ''
   - ''
   - ''
@@ -127,7 +184,7 @@ layers:
   - ''
   - ''
   - ''
-  - SLEEP
+  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
@@ -163,7 +220,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
-  - '3'
+  - '4'
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: ▽, type: trans}
@@ -171,7 +228,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '3':
+  '4':
   - ''
   - ''
   - ''
@@ -223,7 +280,7 @@ layers:
   - {type: held}
   - boot ldr
   - {type: held}
-  - ''
+  - {t: '1', h: toggle}
   - boot ldr
   - ''
   - ''
