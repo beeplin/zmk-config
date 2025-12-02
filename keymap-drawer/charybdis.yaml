@@ -16,35 +16,35 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - B
+  - K
+  - L
+  - U
+  - Y
+  - ;
   - \
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
+  - R
   - S
-  - D
-  - F
+  - T
   - G
-  - H
-  - J
-  - K
-  - L
-  - ;
+  - M
+  - N
+  - E
+  - I
+  - O
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
+  - D
   - V
-  - B
-  - N
-  - M
+  - J
+  - H
   - ','
   - .
   - /
@@ -73,35 +73,35 @@ layers:
   - {t: ▽, type: trans}
   - Q
   - W
-  - F
-  - P
-  - B
-  - K
-  - L
-  - U
+  - E
+  - R
+  - T
   - Y
-  - ;
+  - U
+  - I
+  - O
+  - P
   - {t: ▽, type: trans}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
-  - R
   - S
-  - T
+  - D
+  - F
   - G
-  - M
-  - N
-  - E
-  - I
-  - O
+  - H
+  - J
+  - K
+  - L
+  - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Z
   - X
   - C
-  - D
   - V
-  - J
-  - H
+  - B
+  - N
+  - M
   - ','
   - .
   - /
