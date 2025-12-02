@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   '0':
-  - '`'
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
@@ -25,7 +25,7 @@ layers:
   - Y
   - ;
   - '['
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
   - S
@@ -36,7 +36,7 @@ layers:
   - E
   - I
   - O
-  - ''''
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -82,7 +82,7 @@ layers:
   - Y
   - ;
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
   - S
@@ -172,18 +172,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
   - {t: ▽, type: trans}
   - F9
   - F10
