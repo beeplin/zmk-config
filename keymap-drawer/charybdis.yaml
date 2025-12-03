@@ -109,7 +109,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - '&lm2 LALT'
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
