@@ -82,7 +82,7 @@ layers:
   - '='
   - \
   - ']'
-  - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -109,24 +109,24 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: '|', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '|', h: '$$mdi:microsoft-windows$$'}
   - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - F12
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
+  - boot ldr
+  - BT SEL0
+  - BT SEL1
+  - BT SEL2
+  - BT SEL3
+  - BT SEL4
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - boot ldr
   - win power
   - F9
   - F10
@@ -149,7 +149,7 @@ layers:
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
-  - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:skip-next$$
   - $$mdi:brightness-7$$
   - {t: ▽, type: trans}
   - F1
@@ -161,12 +161,12 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:play-pause$$
   - {t: ▽, type: trans}
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: APP, h: '$$mdi:microsoft-windows$$'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {type: held}
