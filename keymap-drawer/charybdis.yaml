@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - '&lm2 LALT'
+  - {t: ▽, type: trans}
   - {t: '|', h: '$$mdi:apple-keyboard-control$$'}
   - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
