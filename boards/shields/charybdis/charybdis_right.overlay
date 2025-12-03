@@ -58,7 +58,7 @@
         /* NOTE: apply this mode if you need 250Hz with direct USB connection. */
 
         /* optional features */
-        automouse-layer = <1>;
+        // automouse-layer = <1>;
         scroll-layers = <2>;
         snipe-layers = <3>;
 
