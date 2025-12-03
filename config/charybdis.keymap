@@ -38,16 +38,16 @@
     layer_1 { bindings = <
 &kp F12         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp C_BRI_DN    &kp C_BRI_UP    &kp K_APP
 &kp HOME        &kp END         &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp INS         &kp GRAVE       &kp MINUS       &kp EQUAL       &kp BSLH        &kp RBKT
-&kp LCTRL       &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &kp GT          &kp LBRC        &kp LPAR        &kp RPAR        &kp RBRC        &kp KP_PLUS
+&trans          &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &kp GT          &kp LBRC        &kp LPAR        &kp RPAR        &kp RBRC        &kp KP_PLUS
 &trans          &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &trans
-                                                &trans          &trans          &trans          &mt RCTRL PIPE  &mt RSHFT UNDER
+                                                &trans          &trans          &trans          &mt RGUI PIPE   &mt RSHFT UNDER
                                                                 &trans          &trans          &trans >; };
     layer_2 { bindings = <
-&kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10          &kp F11
-&winpower       &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &kp C_VOL_UP    &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV       &kp C_BRI_UP
-&trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &kp C_VOL_DN    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT &mt LCTRL C_NEXT &kp C_BRI_DN
-&trans          &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &kp C_MUTE      &mkp LCLK       &mkp MCLK       &mkp RCLK       &mt LSHFT C_PP   &trans
-                                                &mo 3           &trans          &trans          &mt RCTRL K_APP &mt RSHFT CAPS
+&bootloader     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &none           &none           &none           &none           &bootloader
+&winpower       &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &kp C_VOL_UP    &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV      &kp C_BRI_UP
+&trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &kp C_VOL_DN    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT &kp C_NEXT      &kp C_BRI_DN
+&trans          &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &kp C_MUTE      &mkp LCLK       &mkp MCLK       &mkp RCLK       &kp C_PP        &trans
+                                                &mo 3           &trans          &trans          &mt RGUI K_APP  &mt RSHFT CAPS
                                                                 &trans          &trans          &trans >; };
     layer_3 { bindings = <
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
