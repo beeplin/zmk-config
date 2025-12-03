@@ -40,24 +40,19 @@
 
         /* optional features */
 
-        // // ABCDE
-        // // snipe-layers = <1>;
-        // scroll-layers = <1> ;
-
-        // FG
-        automouse-layer = <1>;
+        // automouse-layer = <1>;
         scroll-layers = <2>;
         snipe-layers = <3>;
 
         /* optional: ball action on specific layers */
-        // arrows {
-        //     layers = <4>;
-        //     bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
-        //     /* optional: ball action configuration */
-        //     tick = <20>;
-        //     wait-ms = <0>; 
-        //     tap-ms = <5>;
-        // };
+        arrows {
+            layers = <4>;
+            bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
+            /* optional: ball action configuration */
+            tick = <20>;
+            wait-ms = <0>; 
+            tap-ms = <5>;
+        };
     };
 };
 
