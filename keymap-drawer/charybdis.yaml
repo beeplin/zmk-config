@@ -24,8 +24,8 @@ layers:
   - U
   - Y
   - ;
-  - \
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - '['
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
   - S
@@ -36,7 +36,7 @@ layers:
   - E
   - I
   - O
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - ;
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -49,14 +49,14 @@ layers:
   - .
   - /
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '2'}
-  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:microsoft-windows$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:alpha-w-box$$', h: '2'}
+  - $$mdi:apple-keyboard-option$$
   '1':
   - F12
   - F6
@@ -70,30 +70,30 @@ layers:
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - APP
-  - {t: ▽, type: trans}
-  - $$mdi:keyboard-tab$$
+  - HOME
+  - END
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PGUP
-  - HOME
   - INS
-  - \
-  - ''''
   - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - '='
+  - \
+  - ']'
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PGDN
-  - END
-  - '['
-  - '-'
-  - '='
-  - ']'
-  - {t: ▽, type: trans}
+  - '>'
+  - '{'
+  - (
+  - )
+  - '}'
+  - KP PLUS
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -106,11 +106,11 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
   - {type: held}
   - '&lm2 LALT'
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '|', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,7 +127,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
+  - win power
   - F9
   - F10
   - F11
@@ -164,12 +164,12 @@ layers:
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - '3'
-  - $$mdi:apple-keyboard-option$$
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   '3':
   - ''
@@ -222,9 +222,9 @@ layers:
   - ''
   - {type: held}
   - boot ldr
-  - {type: held}
+  - ''
   - ''
   - boot ldr
   - ''
-  - ''
+  - {type: held}
   - ''
