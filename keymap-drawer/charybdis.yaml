@@ -24,7 +24,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '[', s: '{'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
@@ -36,7 +36,7 @@ layers:
   - E
   - I
   - O
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
@@ -67,7 +67,7 @@ layers:
   - $$mdi:printer-outline$$
   - SLCK
   - PAUSE BREAK
-  - $$mdi:brightness-7$$
+  - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
   - APP
   - {t: '$$mdi:transfer$$', type: trans}
@@ -145,12 +145,12 @@ layers:
   - F7
   - F8
   - SLCK
-  - {t: '$$mdi:volume-low$$', s: '$$mdi:brightness-7$$'}
+  - {t: '$$mdi:volume-low$$', s: '$$mdi:brightness-4$$'}
   - HOME
   - $$mdi:pan-down$$
   - END
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:brightness-7$$
+  - $$mdi:brightness-4$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
