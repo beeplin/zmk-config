@@ -44,17 +44,17 @@
 &mt LCTRL ESC   &kp A           &kp R           &kp S           &kp T           &kp G           &kp M           &kp N           &kp E           &kp I           &kp O           &kp SQT
 &sk LSHFT       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp J           &kp H           &kp COMMA       &kp DOT         &kp FSLH        &kp RSHFT
                                                 &ms LALT LGUI   &lt 1 SPACE     &ls 2 LCTRL     &mt RCTRL ESC   &sk RSHFT
-                                                                &kp LSHFT       &mt LCTRL ESC   &kp RGUI >; };
+                                                                &sk LSHFT       &mt LCTRL ESC   &kp RGUI >; };
     layer_1 { bindings = <
 &kp F12         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp C_BRI_DN    &kp C_BRI_UP    &kp K_APP
-&trans          &kp TAB         &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp INS         &kp BSLH        &mnud           &eqpl           &kp GRAVE       &kp RBKT
-&trans          &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &gtex           &brcs           &pars           &bkts           &kp SQT         &kp UNDER
+&trans          &kp TAB         &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp INS         &kp BSLH        &mnud           &eqpl           &kp GRAVE       &kp HOME
+&trans          &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &gtex           &brcs           &pars           &bkts           &kp SQT         &kp END
 &trans          &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &trans
                                                 &trans          &trans          &lm2 LALT       &mc RCTRL 0     &mt RSHFT SPACE
                                                                 &trans          &trans          &trans >; };
     layer_2 { bindings = <
 &bootloader     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &none           &none           &none           &none           &bootloader
-&pwr S          &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &vubu           &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV      &kp C_BRI_UP
+&pwr S          &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &vubu           &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV       &kp C_BRI_UP
 &trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &vdbd           &kp HOME        &msc SCRL_DOWN  &kp END         &mt RCTRL C_NEXT &kp C_BRI_DN
 &trans          &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &vmsl           &mkp LCLK       &mkp MCLK       &mkp RCLK       &mt RSHFT C_PP  &trans
                                                 &mo 3           &kp LALT        &trans          &mt RCTRL CAPS  &mt RSHFT K_APP

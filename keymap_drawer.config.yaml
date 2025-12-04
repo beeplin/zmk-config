@@ -249,31 +249,26 @@ parse_config:
     "&bt BT_CLR_ALL":
       tap: "BT CLRALL"
 
+    # Others
     "&out OUT_TOG":
       tap: "OUT TOG"
-
     "&bl BL_TOG":
       tap: "BL TOG"
     "&bl BL_INC":
       tap: "BL INC"
     "&bl BL_DEC":
       tap: "BL DEC"
-
     "&sys_reset":
       type: bootloader
       tap: "sys reset"
-
     "&bootloader":
       tap: "boot ldr"
-
     "&studio_unlock":
       tap: "studio unlock"
-
     "&key_repeat":
       tap: "key repeat"
-
     "&pwr S":
-      tap: $$mdi:power-standby$$
+      tap: $$mdi:power-sleep$$
 
   # ZMK
   zmk_keycode_map:
@@ -508,8 +503,8 @@ parse_config:
     K_FIND: $$mdi:apple-finder$$
 
     # Numpad
-    KP_PLUS: "N+"
-    KP_MINUS: "N-"
+    KP_PLUS: $$mdi:plus-box$$
+    KP_MINUS: $$mdi:minus-box$$
 
     # Command +
     LG(A):
