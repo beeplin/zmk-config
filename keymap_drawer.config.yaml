@@ -503,8 +503,9 @@ parse_config:
     K_FIND: $$mdi:apple-finder$$
 
     # Numpad
-    KP_PLUS: $$mdi:plus-circle$$
-    KP_MINUS: $$mdi:minus-circle$$
+    KP_PLUS: $$mdi:plus-circle-outline$$
+    KP_MINUS: $$mdi:minus-circle-outline$$
+    KP_ASTERISK: $$mdi:asterisk-circle-outline$$
 
     # Command +
     LG(A):
