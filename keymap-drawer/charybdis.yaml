@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ''''
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
   - C
@@ -49,13 +49,13 @@ layers:
   - .
   - /
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:microsoft-windows$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: '2'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:alpha-w-box$$', h: '2'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-option$$
   '1':
   - F12
@@ -70,17 +70,17 @@ layers:
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - APP
-  - HOME
-  - END
+  - {t: ▽, type: trans}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PGUP
   - INS
-  - '`'
-  - '-'
-  - '='
   - \
+  - {t: KP MINUS, s: _}
+  - {t: '=', s: KP PLUS}
+  - '`'
   - ']'
   - {t: ▽, type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -88,12 +88,12 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PGDN
-  - '>'
-  - '{'
-  - (
-  - )
-  - '}'
-  - KP PLUS
+  - {t: '>', s: '!'}
+  - {t: '{', s: '}'}
+  - {t: (, s: )}
+  - {t: '[', s: ']'}
+  - ''''
+  - _
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -108,9 +108,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: '|', h: '$$mdi:microsoft-windows$$'}
-  - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
+  - '&lm2 LALT'
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,7 +127,7 @@ layers:
   - ''
   - ''
   - boot ldr
-  - win power
+  - '&pwr S'
   - F9
   - F10
   - F11
@@ -146,9 +146,9 @@ layers:
   - F8
   - SLCK
   - $$mdi:volume-low$$
-  - $$mdi:pan-left$$
+  - HOME
   - $$mdi:pan-down$$
-  - $$mdi:pan-right$$
+  - END
   - $$mdi:skip-next$$
   - $$mdi:brightness-7$$
   - {t: ▽, type: trans}
@@ -163,13 +163,13 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:play-pause$$
   - {t: ▽, type: trans}
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: APP, h: '$$mdi:microsoft-windows$$'}
+  - {t: '&pwr S', h: '3'}
+  - $$mdi:apple-keyboard-option$$
+  - {type: held}
+  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
   - ''
@@ -222,9 +222,9 @@ layers:
   - ''
   - {type: held}
   - boot ldr
-  - ''
+  - {type: held}
   - ''
   - boot ldr
   - ''
-  - {type: held}
+  - ''
   - ''
