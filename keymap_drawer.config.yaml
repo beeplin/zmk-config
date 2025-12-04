@@ -268,7 +268,7 @@ parse_config:
     "&key_repeat":
       tap: "key repeat"
     "&pwr S":
-      tap: $$mdi:power-sleep$$
+      tap: $$mdi:power-standby$$
 
   # ZMK
   zmk_keycode_map:
