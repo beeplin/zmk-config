@@ -33,6 +33,9 @@
     mnud: mnud { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp KP_MINUS>, <&kp UNDER>; };
     eqpl: eqpl { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp EQUAL>, <&kp KP_PLUS>; };
     gtex: gtex { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp GT>, <&kp EXCL>; };
+    vubu: vubu { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_UP>, <&kp C_BRI_UP>; };
+    vdbd: vdbd { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_DN>, <&kp C_BRI_DN>; };
+    vmsl: vmsl { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_MUTE>, <&pwr S >; };
   };
   keymap { compatible="zmk,keymap";
     layer_0 { bindings = <
@@ -51,10 +54,10 @@
                                                                 &trans          &trans          &trans >; };
     layer_2 { bindings = <
 &bootloader     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &none           &none           &none           &none           &bootloader
-&pwr S          &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &kp C_VOL_UP    &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV      &kp C_BRI_UP
-&trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &kp C_VOL_DN    &kp HOME        &msc SCRL_DOWN  &kp END         &kp C_NEXT      &kp C_BRI_DN
-&trans          &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &kp C_MUTE      &mkp LCLK       &mkp MCLK       &mkp RCLK       &kp C_PP        &trans
-                                                &lpw 3 S        &kp LALT        &trans          &mt RCTRL CAPS  &mt RSHFT K_APP
+&pwr S          &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &vubu           &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV      &kp C_BRI_UP
+&trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &vdbd           &kp HOME        &msc SCRL_DOWN  &kp END         &mt RCTRL C_NEXT &kp C_BRI_DN
+&trans          &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &vmsl           &mkp LCLK       &mkp MCLK       &mkp RCLK       &mt RSHFT C_PP  &trans
+                                                &mo 3           &kp LALT        &trans          &mt RCTRL CAPS  &mt RSHFT K_APP
                                                                 &trans          &trans          &trans >; };
     layer_3 { bindings = <
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
