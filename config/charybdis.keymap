@@ -67,4 +67,4 @@
                                                 &none           &bootloader     &none           &none           &bootloader
                                                                 &none           &none           &none >; };
   };
-}
+};
