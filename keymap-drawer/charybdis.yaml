@@ -133,7 +133,7 @@ layers:
   - F11
   - F12
   - $$mdi:printer-outline$$
-  - $$mdi:volume-high$$
+  - {t: '$$mdi:volume-high$$', s: '$$mdi:brightness-5$$'}
   - MB4
   - $$mdi:pan-up$$
   - MB5
@@ -145,11 +145,11 @@ layers:
   - F7
   - F8
   - SLCK
-  - $$mdi:volume-low$$
+  - {t: '$$mdi:volume-low$$', s: '$$mdi:brightness-7$$'}
   - HOME
   - $$mdi:pan-down$$
   - END
-  - $$mdi:skip-next$$
+  - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:brightness-7$$
   - {t: ▽, type: trans}
   - F1
@@ -157,13 +157,13 @@ layers:
   - F3
   - F4
   - PAUSE BREAK
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:volume-off$$', s: '&pwr S'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:play-pause$$
+  - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
-  - {t: '&pwr S', h: '3'}
+  - '3'
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
