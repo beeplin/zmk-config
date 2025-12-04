@@ -27,15 +27,18 @@
     lpw: mo_pw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&mo>, <&pwr>; };
     m1t: m1_kp { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&kp>; quick-tap-ms = <200>; };
     m1s: m1_sk { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&sk>; };
-    brcs: brcs { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBRC>, <&kp RBRC>; };
-    pars: pars { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LPAR>, <&kp RPAR>; };
-    bkts: bkts { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBKT>, <&kp RBKT>; };
-    mnud: mnud { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp KP_MINUS>, <&kp UNDER>; };
-    eqpl: eqpl { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp EQUAL>, <&kp KP_PLUS>; };
-    gtex: gtex { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp GT>, <&kp EXCL>; };
-    vubu: vubu { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_UP>, <&kp C_BRI_UP>; };
-    vdbd: vdbd { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_DN>, <&kp C_BRI_DN>; };
-    vmsl: vmsl { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_MUTE>, <&pwr S >; };
+    mm_BSLH_AMPS:   mm_BSLH_AMPS   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp BSLH>,     <&kp AMPS>; };
+    mm_KSUB_KMULT:  mm_KSUB_KMULT  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp KP_MINUS>, <&kp KP_ASTERISK>; };
+    mm_EQUAL_KPLUS: mm_EQUAL_KPLUS { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp EQUAL>,    <&kp KP_PLUS>; };
+    mm_GT_EXCL:     mm_GT_EXCL     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp GT>,       <&kp EXCL>; };
+    mm_LBRC_RBRC:   mm_LBRC_RBRC   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBRC>,     <&kp RBRC>; };
+    mm_LPAR_RPAR:   mm_LPAR_RPAR   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LPAR>,     <&kp RPAR>; };
+    mm_LBKT_RBKT:   mm_LBKT_RBKT   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBKT>,     <&kp RBKT>; };
+    mm_N7_PIPE:     mm_N7_PIPE     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N7>,       <&kp PIPE>; };
+    mm_N8_UNDER:    mm_N8_UNDER    { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N8>,       <&kp UNDER>; };
+    mm_VOLUP_BRIUP: mm_VOLUP_BRIUP { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_UP>, <&kp C_BRI_UP>; };
+    mm_VOLDN_BRIDN: mm_VOLDN_BRIDN { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_DN>, <&kp C_BRI_DN>; };
+    mm_MUTE_SLEEP:  mm_MUTE_SLEEP  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_MUTE>, <&pwr S >; };
   };
   keymap { compatible="zmk,keymap";
     layer_0 { bindings = <
@@ -47,16 +50,16 @@
                                                                 &sk LSHFT       &mt LCTRL ESC   &kp RGUI >; };
     layer_1 { bindings = <
 &kp F12         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp C_BRI_DN    &kp C_BRI_UP    &pwr S
-&kp K_APP       &kp TAB         &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp INS         &kp BSLH        &mnud           &eqpl           &kp GRAVE       &kp HOME
-&trans          &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &gtex           &brcs           &pars           &bkts           &kp SQT         &kp END
-&trans          &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &trans
+&kp K_APP       &kp TAB         &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp GRAVE       &mm_BSLH_AMPS   &mm_KSUB_KMULT  &mm_EQUAL_KPLUS &kp INS         &kp HOME
+&trans          &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &mm_GT_EXCL     &mm_LBRC_RBRC   &mm_LPAR_RPAR   &mm_LBKT_RBKT   &kp SQT         &kp END
+&trans          &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &mm_N7_PIPE     &mm_N7_PIPE     &kp N9          &kp N0          &trans
                                                 &trans          &trans          &lm2 LALT       &mc RCTRL 0     &trans
                                                                 &trans          &trans          &trans >; };
     layer_2 { bindings = <
 &bootloader     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &none           &none           &none           &none           &bootloader
-&pwr S          &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &vubu           &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV       &kp C_BRI_UP
-&trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &vdbd           &kp HOME        &msc SCRL_DOWN  &kp END         &mt RCTRL C_NEXT &kp C_BRI_DN
-&trans          &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &vmsl           &mkp LCLK       &mkp MCLK       &mkp RCLK       &mt RSHFT C_PP  &trans
+&pwr S          &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &mm_VOLUP_BRIUP &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV       &kp C_BRI_UP
+&trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &mm_VOLDN_BRIDN &kp HOME        &msc SCRL_DOWN  &kp END         &mt RCTRL C_NEXT &kp C_BRI_DN
+&trans          &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &mm_MUTE_SLEEP  &mkp LCLK       &mkp MCLK       &mkp RCLK       &mt RSHFT C_PP  &trans
                                                 &mo 3           &kp LALT        &trans          &mt RCTRL CAPS  &mt RSHFT K_APP
                                                                 &trans          &trans          &trans >; };
     layer_3 { bindings = <
