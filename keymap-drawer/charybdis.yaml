@@ -78,8 +78,8 @@ layers:
   - PGUP
   - {t: '`', s: '~'}
   - {t: \, s: '&'}
-  - {t: '$$mdi:minus-circle$$', s: KP ASTERISK}
-  - {t: '=', s: '$$mdi:plus-circle$$'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:asterisk-circle-outline$$'}
+  - {t: '=', s: '$$mdi:plus-circle-outline$$'}
   - INS
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
