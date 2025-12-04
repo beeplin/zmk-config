@@ -23,8 +23,8 @@ layers:
   - L
   - U
   - Y
-  - ;
-  - '['
+  - {t: ;, s: ':'}
+  - {t: '[', s: '{'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
@@ -36,7 +36,7 @@ layers:
   - E
   - I
   - O
-  - ''''
+  - {t: '''', s: '"'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
@@ -45,9 +45,9 @@ layers:
   - V
   - J
   - H
-  - ','
-  - .
-  - /
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
@@ -70,19 +70,19 @@ layers:
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - APP
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PGUP
   - INS
-  - \
-  - {t: KP MINUS, s: _}
-  - {t: '=', s: KP PLUS}
-  - '`'
-  - ']'
-  - {t: ▽, type: trans}
+  - {t: \, s: '|'}
+  - {t: N-, s: _}
+  - {t: '=', s: N+}
+  - {t: '`', s: '~'}
+  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -92,28 +92,28 @@ layers:
   - {t: '{', s: '}'}
   - {t: (, s: )}
   - {t: '[', s: ']'}
-  - ''''
+  - {t: '''', s: '"'}
   - _
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - '&lm2 LALT'
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - boot ldr
   - BT SEL0
@@ -122,12 +122,12 @@ layers:
   - BT SEL3
   - BT SEL4
   - BT CLR
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - boot ldr
-  - '&pwr S'
+  - $$mdi:power-standby$$
   - F9
   - F10
   - F11
@@ -139,7 +139,7 @@ layers:
   - MB5
   - $$mdi:skip-previous$$
   - $$mdi:brightness-5$$
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F5
   - F6
   - F7
@@ -151,40 +151,40 @@ layers:
   - END
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:brightness-7$$
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
   - F4
   - PAUSE BREAK
-  - {t: '$$mdi:volume-off$$', s: '&pwr S'}
+  - {t: '$$mdi:volume-off$$', s: '$$mdi:power-standby$$'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '3'
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: APP, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   '3':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - BT SEL0
   - BT SEL1
   - BT SEL2
@@ -195,8 +195,8 @@ layers:
   - RGB SAI
   - RGB BRI
   - RGB SPI
-  - ''
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - BT DISC0
   - BT DISC1
   - BT DISC2
@@ -207,8 +207,8 @@ layers:
   - RGB SAD
   - RGB BRD
   - RGB SPD
-  - ''
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - BT CLR
   - BT PRV
   - OUT TOG
@@ -219,12 +219,12 @@ layers:
   - BL TOG
   - BL INC
   - studio unlock
-  - ''
-  - {type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - boot ldr
-  - {type: held}
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - boot ldr
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
