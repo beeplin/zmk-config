@@ -54,7 +54,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-control$$', h: '2'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:microsoft-windows$$
   '1':
@@ -78,10 +78,10 @@ layers:
   - PGUP
   - INS
   - {t: \, s: '|'}
-  - {t: N-, s: _}
-  - {t: '=', s: N+}
+  - {t: '$$mdi:minus-box$$', s: _}
+  - {t: '=', s: '$$mdi:plus-box$$'}
   - {t: '`', s: '~'}
-  - {t: ']', s: '}'}
+  - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
@@ -93,7 +93,7 @@ layers:
   - {t: (, s: )}
   - {t: '[', s: ']'}
   - {t: '''', s: '"'}
-  - _
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - boot ldr
-  - $$mdi:power-standby$$
+  - $$mdi:power-sleep$$
   - F9
   - F10
   - F11
@@ -157,7 +157,7 @@ layers:
   - F3
   - F4
   - PAUSE BREAK
-  - {t: '$$mdi:volume-off$$', s: '$$mdi:power-standby$$'}
+  - {t: '$$mdi:volume-off$$', s: '$$mdi:power-sleep$$'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
