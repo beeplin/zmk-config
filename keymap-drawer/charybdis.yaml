@@ -53,7 +53,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '2'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:microsoft-windows$$
@@ -69,8 +69,8 @@ layers:
   - PAUSE BREAK
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
+  - $$mdi:power-sleep$$
   - APP
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -78,8 +78,8 @@ layers:
   - PGUP
   - INS
   - {t: \, s: '|'}
-  - {t: '$$mdi:minus-box$$', s: _}
-  - {t: '=', s: '$$mdi:plus-box$$'}
+  - {t: '$$mdi:minus-circle$$', s: _}
+  - {t: '=', s: '$$mdi:plus-circle$$'}
   - {t: '`', s: '~'}
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
@@ -110,7 +110,7 @@ layers:
   - {type: held}
   - '&lm2 LALT'
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
