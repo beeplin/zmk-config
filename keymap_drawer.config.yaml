@@ -492,9 +492,9 @@ parse_config:
     # Settings
     C_BRI_UP: $$mdi:brightness-5$$
     C_BRIGHTNESS_INC: $$mdi:brightness-5$$
-    C_BRI_DN: $$mdi:brightness-7$$
-    C_BRI_DEC: $$mdi:brightness-7$$
-    C_BRIGHTNESS_DEC: $$mdi:brightness-7$$
+    C_BRI_DN: $$mdi:brightness-4$$
+    C_BRI_DEC: $$mdi:brightness-4$$
+    C_BRIGHTNESS_DEC: $$mdi:brightness-4$$
 
     # System
     C_POWER: $$mdi:power-standby$$
