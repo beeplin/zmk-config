@@ -503,8 +503,8 @@ parse_config:
     K_FIND: $$mdi:apple-finder$$
 
     # Numpad
-    KP_PLUS: $$mdi:plus-box$$
-    KP_MINUS: $$mdi:minus-box$$
+    KP_PLUS: $$mdi:plus-circle$$
+    KP_MINUS: $$mdi:minus-circle$$
 
     # Command +
     LG(A):
