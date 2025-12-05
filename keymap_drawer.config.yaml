@@ -505,7 +505,9 @@ parse_config:
     # Numpad
     KP_PLUS: $$mdi:plus-circle-outline$$
     KP_MINUS: $$mdi:minus-circle-outline$$
+    KP_: $$mdi:minus-circle-outline$$
     KP_ASTERISK: $$mdi:asterisk-circle-outline$$
+    KP_MULTIPLY: $$mdi:asterisk-circle-outline$$
 
     # Command +
     LG(A):
