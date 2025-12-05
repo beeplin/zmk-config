@@ -28,7 +28,7 @@
     m1t: m1_kp { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&kp>; quick-tap-ms = <200>; };
     m1s: m1_sk { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&sk>; };
     mm_BSLH_AMPS:   mm_BSLH_AMPS   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp BSLH>,     <&kp AMPS>; };
-    mm_KSUB_KMULT:  mm_KSUB_KMULT  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp KP_MINUS>, <&kp KP_ASTERISK>; };
+    mm_KSUB_KMULT:  mm_KSUB_KMULT  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp KP_SUBTRACT>, <&kp KP_MULTIPLY>; };
     mm_EQUAL_KPLUS: mm_EQUAL_KPLUS { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp EQUAL>,    <&kp KP_PLUS>; };
     mm_GT_EXCL:     mm_GT_EXCL     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp GT>,       <&kp EXCL>; };
     mm_LBRC_RBRC:   mm_LBRC_RBRC   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBRC>,     <&kp RBRC>; };
@@ -61,9 +61,9 @@
     layer_2 { bindings = <
 &bootloader     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &bt BT_PRV      &out OUT_TOG    &bt BT_NXT      &bt BT_CLR_ALL   &bootloader
 &trans          &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &mm_VOLUP_BRIUP &mkp MB4        &msc SCRL_UP    &mkp MB5        &mt RALT C_PREV  &trans
-&trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &mm_VOLDN_BRIDN &kp HOME        &msc SCRL_DOWN  &kp END         &mt RCTRL C_NEXT &trans
+&trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &mm_VOLDN_BRIDN &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT &mt RCTRL C_NEXT &trans
 &trans          &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &mm_MUTE_SLEEP  &mkp LCLK       &mkp MCLK       &mkp RCLK       &mt RSHFT C_PP   &trans
-                                                &mo 3           &kp LALT        &trans          &mt RCTRL CAPS  &mt LSHFT K_APP
+                                                &mo 3           &kp LALT        &trans          &mt RCTRL CAPS  &trans
                                                                 &trans          &trans          &trans >; };
     layer_3 { bindings = <
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none            &none
