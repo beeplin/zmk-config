@@ -78,7 +78,7 @@ layers:
   - PGUP
   - {t: '`', s: '~'}
   - {t: \, s: '&'}
-  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:asterisk-circle-outline$$'}
+  - {t: KP SUBTRACT, s: KP MULTIPLY}
   - {t: '=', s: '$$mdi:plus-circle-outline$$'}
   - INS
   - {t: '$$mdi:transfer$$', type: trans}
@@ -146,9 +146,9 @@ layers:
   - F8
   - SLCK
   - {t: '$$mdi:volume-low$$', s: '$$mdi:brightness-4$$'}
-  - HOME
+  - $$mdi:pan-left$$
   - $$mdi:pan-down$$
-  - END
+  - $$mdi:pan-right$$
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -167,7 +167,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: APP, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
