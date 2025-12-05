@@ -37,11 +37,11 @@
     mm_LPAR_RPAR:   mm_LPAR_RPAR   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LPAR>, <&kp RPAR>; };
     mm_LBKT_RBKT:   mm_LBKT_RBKT   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBKT>, <&kp RBKT>; };
     mm_SQT_DQT:     mm_SQT_DQT     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp SQT>, <&kp DQT>; };
-    mm_N1_CAPS:     mm_N1_CAPS     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N1>, <&kp CAPS>; };
+    mm_N1_CAPS:     mm_N1_CAPS     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N1>, <&kp CAPS>; keep-mods = <(MOD_RSFT)>; };
     mm_N2_HOME:     mm_N2_HOME     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N2>, <&kp HOME>; keep-mods = <(MOD_RSFT)>; };
     mm_N3_INS:      mm_N3_INS      { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N3>, <&kp INS>; keep-mods = <(MOD_RSFT)>; };
     mm_N4_END:      mm_N4_END      { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N4>, <&kp END>; keep-mods = <(MOD_RSFT)>; };
-    mm_N5_APP:      mm_N5_APP      { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N5>, <&kp K_APP>; };
+    mm_N5_APP:      mm_N5_APP      { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N5>, <&kp K_APP>; keep-mods = <(MOD_RSFT)>; };
     mm_N6_CARET:    mm_N6_CARET    { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N6>, <&kp CARET>; };
     mm_N7_PIPE:     mm_N7_PIPE     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N7>, <&kp PIPE>; };
     mm_N8_UNDER:    mm_N8_UNDER    { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp N8>, <&kp UNDER>; };
@@ -63,7 +63,7 @@
 &kp F12         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp C_BRI_DN    &kp C_BRI_UP     &pwr S
 &trans          &kp TAB         &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &mm_PRCNT_TILDE &mm_BSLH_AMPS   &mm_KSUB_KMULT  &mm_EQUAL_KPLUS &mm_POUND_GRAVE  &trans
 &trans          &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &mm_GT_EXCL     &mm_LBRC_RBRC   &mm_LPAR_RPAR   &mm_LBKT_RBKT   &mm_SQT_DQT      &trans
-&trans          &mm_N1_CAPS     &mm_N2_HOME     &mm_N3_INS      &mm_N4_END      &mm_N5_APP      &mm_N6_CARET    &mm_N7_PIPE     &mm_N8_UNDER    &mm_N9_AT       &mm_N0_DLLR       &trans
+&trans          &mm_N1_CAPS     &mm_N2_HOME     &mm_N3_INS      &mm_N4_END      &mm_N5_APP      &mm_N6_CARET    &mm_N7_PIPE     &mm_N8_UNDER    &mm_N9_AT       &mm_N0_DLLR      &trans
                                                 &trans          &trans          &lm2 LALT       &mc RCTRL 0     &mt LSHFT SPACE
                                                                 &trans          &trans          &trans >; };
     layer_2 { bindings = <
