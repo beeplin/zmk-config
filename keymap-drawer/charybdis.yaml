@@ -13,7 +13,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - Q
   - W
   - F
@@ -24,7 +24,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
@@ -36,7 +36,7 @@ layers:
   - E
   - I
   - O
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
@@ -70,7 +70,7 @@ layers:
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
   - $$mdi:power-standby$$
-  - APP
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:asterisk-circle-outline$$'}
   - {t: '=', s: '$$mdi:plus-circle-outline$$'}
   - INS
-  - HOME
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
@@ -93,7 +93,7 @@ layers:
   - {t: (, s: )}
   - {t: '[', s: ']'}
   - {t: '''', s: '"'}
-  - END
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: HOME}
   - {t: '2', s: '@'}
@@ -103,7 +103,7 @@ layers:
   - {t: '6', s: ^}
   - {t: '7', s: '|'}
   - {t: '8', s: _}
-  - {t: '9', s: (}
+  - {t: '9', s: APP}
   - {t: '0', s: END}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -122,12 +122,12 @@ layers:
   - BT SEL3
   - BT SEL4
   - BT CLR
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - BT PRV
+  - OUT TOG
+  - BT NXT
+  - BT CLRALL
   - boot ldr
-  - $$mdi:power-standby$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - F9
   - F10
   - F11
@@ -138,7 +138,7 @@ layers:
   - $$mdi:pan-up$$
   - MB5
   - $$mdi:skip-previous$$
-  - $$mdi:brightness-5$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F5
   - F6
@@ -150,7 +150,7 @@ layers:
   - $$mdi:pan-down$$
   - END
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:brightness-4$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
