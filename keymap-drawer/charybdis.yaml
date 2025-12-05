@@ -95,11 +95,11 @@ layers:
   - {t: '''', s: '"'}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: ' 1 ', s: APP}
+  - {t: ' 1 ', s: '$$mdi:apple-keyboard-caps$$'}
   - {t: ' 2 ', s: HOME}
   - {t: ' 3 ', s: INS}
   - {t: ' 4 ', s: END}
-  - {t: ' 5 ', s: '$$mdi:apple-keyboard-caps$$'}
+  - {t: ' 5 ', s: APP}
   - {t: ' 6 ', s: ^}
   - {t: ' 7 ', s: '|'}
   - {t: ' 8 ', s: _}
