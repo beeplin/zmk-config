@@ -262,7 +262,7 @@ parse_config:
       type: bootloader
       tap: "sys reset"
     "&bootloader":
-      tap: "boot ldr"
+      tap: "boot loader"
     "&studio_unlock":
       tap: "studio unlock"
     "&key_repeat":
