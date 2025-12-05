@@ -95,16 +95,16 @@ layers:
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: HOME}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '|'}
-  - {t: '8', s: _}
-  - {t: '9', s: APP}
-  - {t: '0', s: END}
+  - {t: N1, s: HOME}
+  - {t: N2, s: '@'}
+  - {t: N3, s: '#'}
+  - {t: N4, s: $}
+  - {t: N5, s: '%'}
+  - {t: N6, s: ^}
+  - {t: N7, s: '|'}
+  - {t: N8, s: _}
+  - {t: N9, s: APP}
+  - {t: N0, s: END}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
