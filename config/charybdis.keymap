@@ -50,7 +50,7 @@
 &mt LCTRL ESC   &kp A           &kp R           &kp S           &kp T           &kp G           &kp M           &kp N           &kp E           &kp I           &kp O            &kp RCTRL
 &sk LSHFT       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp J           &kp H           &kp COMMA       &kp DOT         &kp FSLH         &kp RSHFT
                                                 &ms LALT LGUI   &lt 1 SPACE     &ls 2 LCTRL     &mt RCTRL ESC   &mt RSHFT SPACE
-                                                                &sk LSHFT       &kp LCTRL       &kp RGUI >; };
+                                                                &kp LSHFT       &kp LCTRL       &kp RGUI >; };
     layer_1 { bindings = <
 &kp F12         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp C_BRI_DN    &kp C_BRI_UP     &pwr S
 &trans          &kp TAB         &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp GRAVE       &mm_BSLH_AMPS   &mm_KSUB_KMULT  &mm_EQUAL_KPLUS &kp INS          &trans
