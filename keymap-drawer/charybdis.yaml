@@ -78,7 +78,7 @@ layers:
   - PGUP
   - {t: '`', s: '~'}
   - {t: \, s: '&'}
-  - {t: KP SUBTRACT, s: KP MULTIPLY}
+  - {t: KP SUBTRACT, s: '$$mdi:asterisk-circle-outline$$'}
   - {t: '=', s: '$$mdi:plus-circle-outline$$'}
   - INS
   - {t: '$$mdi:transfer$$', type: trans}
