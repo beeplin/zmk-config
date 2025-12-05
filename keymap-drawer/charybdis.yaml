@@ -7,12 +7,12 @@ layers:
   - F3
   - F4
   - F5
-  - $$mdi:skip-previous$$
-  - $$mdi:skip-next$$
-  - $$mdi:play-pause$$
+  - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - $$mdi:volume-off$$
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - Q
   - W
@@ -76,11 +76,11 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PGUP
-  - {t: '`', s: '~'}
+  - {t: '%', s: '~'}
   - {t: \, s: '&'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:asterisk-circle-outline$$'}
   - {t: '=', s: '$$mdi:plus-circle-outline$$'}
-  - INS
+  - {t: '#', s: '`'}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -95,16 +95,16 @@ layers:
   - {t: '''', s: '"'}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: ' 1 ', s: HOME}
-  - {t: ' 2 ', s: '@'}
-  - {t: ' 3 ', s: '#'}
-  - {t: ' 4 ', s: $}
-  - {t: ' 5 ', s: '%'}
+  - {t: ' 1 ', s: APP}
+  - {t: ' 2 ', s: HOME}
+  - {t: ' 3 ', s: INS}
+  - {t: ' 4 ', s: END}
+  - {t: ' 5 ', s: '$$mdi:apple-keyboard-caps$$'}
   - {t: ' 6 ', s: ^}
   - {t: ' 7 ', s: '|'}
   - {t: ' 8 ', s: _}
-  - {t: ' 9 ', s: APP}
-  - {t: ' 0 ', s: END}
+  - {t: ' 9 ', s: '@'}
+  - {t: ' 0 ', s: $}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {type: held}
