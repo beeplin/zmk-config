@@ -1244,13 +1244,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:menu-down-outline" xlink:href="#mdi:menu-down-outline" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down-outline"/>
 </g>
-<g class="combo combopos-0">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
-<a href="#x_x">
-<text x="318" y="285" class="combo tap layer-activator">4</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(40, 1367)" class="layer-3">
@@ -1565,13 +1558,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:menu-down-outline" xlink:href="#mdi:menu-down-outline" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down-outline"/>
 </g>
-<g class="combo combopos-0">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
-<a href="#x_x">
-<text x="318" y="285" class="combo tap layer-activator">4</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(40, 1822)" class="layer-4">
@@ -1909,13 +1895,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 </g>
-<g class="combo combopos-0">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
-<a href="#x_x">
-<text x="318" y="285" class="combo tap layer-activator">4</text>
-</a></g>
 </g>
 </g>
 </svg>
