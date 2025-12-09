@@ -184,7 +184,7 @@ layers:
   - BT NXT
   - BT CLRALL
   - boot loader
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - $$mdi:power-standby$$
   - F9
   - F10
   - F11
@@ -195,7 +195,7 @@ layers:
   - $$mdi:pan-up$$
   - MB5
   - $$mdi:skip-previous$$
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - $$mdi:brightness-5$$
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - F5
   - F6
@@ -207,7 +207,7 @@ layers:
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
   - $$mdi:skip-next$$
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - $$mdi:brightness-4$$
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - F1
   - F2
@@ -219,11 +219,11 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:play-pause$$
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - '4'
-  - $$mdi:apple-keyboard-option$$
+  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
