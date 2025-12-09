@@ -32,6 +32,9 @@
     mm_VOLDN_BRIDN: mm_VOLDN_BRIDN { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_DN>, <&kp C_BRI_DN>; };
     mm_MUTE_SLEEP:  mm_MUTE_SLEEP  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_MUTE>, <&pwr S >; };
   };
+  combos { compatible = "zmk,combos"; 
+    cfg { timeout-ms = <50>; key-positions = <48 49 50>; bindings = <&mo 4>; }; 
+  };
   keymap { compatible="zmk,keymap";
     layer_0 { bindings = <
 &kp GRAVE       &kp 1           &kp 2           &kp 3           &kp 4           &kp 5           &kp 6           &kp 7           &kp 8           &kp 9           &kp 0           &kp MINUS
@@ -59,14 +62,14 @@
 &pwr S          &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &mm_VOLUP_BRIUP &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV      &kp C_BRI_UP
 &trans          &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &mm_VOLDN_BRIDN &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT &kp C_NEXT      &kp C_BRI_DN
 &trans          &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &mm_MUTE_SLEEP  &mkp LCLK       &mkp MCLK       &mkp RCLK       &kp C_PP        &kp RSHIFT
-                                                &mo 4           &mt LALT INS    &trans          &trans          &trans
+                                                &trans          &mt LALT INS    &trans          &trans          &trans
                                                                 &trans          &trans          &trans >; };
     layer_4 { bindings = <
-&none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
+&bootloader     &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &bootloader
 &none           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &rgb_ug RGB_EFR &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &none
 &none           &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3   &bt BT_DISC 4   &rgb_ug RGB_EFF &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &none
-&none           &bt BT_CLR      &bt BT_PRV      &out OUT_TOG    &bt BT_NXT      &bt BT_CLR_ALL  &rgb_ug RGB_TOG &bl BL_DEC      &bl BL_TOG      &bl BL_INC      &tog 1          &none
-                                                &none           &bootloader     &none           &none           &bootloader
+&bootloader     &bootloader     &bt BT_PRV      &out OUT_TOG    &bt BT_NXT      &bt BT_CLR      &rgb_ug RGB_TOG &bl BL_DEC      &bl BL_TOG      &bl BL_INC      &bootloader     &bootloader
+                                                &none           &none           &none           &to 1           &to 0
                                                                 &none           &none           &none >; };
   };
 };
