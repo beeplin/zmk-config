@@ -9,7 +9,7 @@
 
 &mt { quick-tap-ms = <200>; };
 &lt { quick-tap-ms = <200>; flavor = "hold-preferred"; };
-&sk { release-after-ms = <2000>; quick-release; lazy; };
+&sk { release-after-ms = <2000>; quick-release; };
 
 / {
   macros {
