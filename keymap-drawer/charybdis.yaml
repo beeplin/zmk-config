@@ -220,7 +220,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:play-pause$$
   - $$mdi:apple-keyboard-shift$$
-  - '4'
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
@@ -229,6 +229,7 @@ layers:
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   '4':
+  - boot loader
   - {type: none}
   - {type: none}
   - {type: none}
@@ -239,8 +240,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
+  - boot loader
   - {type: none}
   - BT SEL0
   - BT SEL1
@@ -265,23 +265,26 @@ layers:
   - RGB BRD
   - RGB SPD
   - {type: none}
-  - {type: none}
-  - BT CLR
+  - boot loader
+  - boot loader
   - BT PRV
   - OUT TOG
   - BT NXT
-  - BT CLRALL
+  - BT CLR
   - RGB TOG
   - BL DEC
   - BL TOG
   - BL INC
+  - boot loader
+  - boot loader
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {t: '1', h: toggle}
-  - {type: none}
-  - {type: held}
-  - boot loader
-  - {type: held}
-  - {type: none}
-  - boot loader
+  - {t: '0', h: toggle}
   - {type: none}
   - {type: none}
   - {type: none}
+combos:
+- p: [48, 49, 50]
+  k: '4'
