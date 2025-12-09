@@ -127,18 +127,18 @@ layers:
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
   - $$mdi:power-standby$$
-  - AC BACK
-  - HOME
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PGUP
-  - {t: '`', s: '~'}
-  - {t: \, s: '|'}
-  - {t: '$$mdi:minus-circle-outline$$', s: _}
+  - {t: '%', s: '~'}
+  - {t: \, s: '&'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:asterisk-circle-outline$$'}
   - {t: '=', s: '$$mdi:plus-circle-outline$$'}
-  - END
-  - AC FORWARD
+  - {t: '#', s: '`'}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
