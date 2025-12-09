@@ -151,23 +151,23 @@ layers:
   - {t: '[', s: ']'}
   - {t: '''', s: '"'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ' 1 ', s: '!'}
-  - {t: ' 2 ', s: '@'}
-  - {t: ' 3 ', s: '#'}
-  - {t: ' 4 ', s: $}
-  - {t: ' 5 ', s: '%'}
-  - 6 T
-  - {t: ' 7 ', s: '&'}
-  - {t: ' 8 ', s: '*'}
-  - {t: ' 9 ', s: (}
-  - {t: ' 0 ', s: )}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: ' 1 ', s: '$$mdi:apple-keyboard-caps$$'}
+  - {t: ' 2 ', s: HOME}
+  - {t: ' 3 ', s: INS}
+  - {t: ' 4 ', s: END}
+  - {t: ' 5 ', s: APP}
+  - {t: ' 6 ', s: ^}
+  - {t: ' 7 ', s: '|'}
+  - {t: ' 8 ', s: _}
+  - {t: ' 9 ', s: '@'}
+  - {t: ' 0 ', s: $}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {type: held}
-  - {t: INS, h: '&lm3 LALT'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - '&lm3 LALT'
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
