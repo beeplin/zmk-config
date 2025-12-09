@@ -37,11 +37,11 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
-  - V
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
   - C
+  - V
   - B
   - N
   - M
@@ -51,11 +51,11 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-esc$$', h: '3'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-caps$$
   - $$mdi:microsoft-windows$$
   '1':
   - F11
@@ -70,7 +70,7 @@ layers:
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - Q
   - W
   - F
@@ -81,7 +81,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '[', s: '{'}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - R
@@ -93,7 +93,7 @@ layers:
   - E
   - I
   - O
-  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
@@ -108,11 +108,11 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '2'}
-  - {t: '$$mdi:keyboard-tab$$', h: '3'}
+  - {t: '$$mdi:keyboard-esc$$', h: '3'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:microsoft-windows$$
   '2':
   - F12
@@ -127,19 +127,19 @@ layers:
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
   - $$mdi:power-standby$$
-  - AC BACK
-  - HOME
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PGUP
-  - {t: '`', s: '~'}
-  - {t: \, s: '|'}
-  - {t: '$$mdi:minus-circle-outline$$', s: _}
+  - {t: '%', s: '~'}
+  - {t: \, s: '&'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:asterisk-circle-outline$$'}
   - {t: '=', s: '$$mdi:plus-circle-outline$$'}
-  - END
-  - AC FORWARD
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '#', s: '`'}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -150,24 +150,24 @@ layers:
   - {t: (, s: )}
   - {t: '[', s: ']'}
   - {t: '''', s: '"'}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ' 1 ', s: '!'}
-  - {t: ' 2 ', s: '@'}
-  - {t: ' 3 ', s: '#'}
-  - {t: ' 4 ', s: $}
-  - {t: ' 5 ', s: '%'}
-  - 6 T
-  - {t: ' 7 ', s: '&'}
-  - {t: ' 8 ', s: '*'}
-  - {t: ' 9 ', s: (}
-  - {t: ' 0 ', s: )}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: ' 1 ', s: '$$mdi:apple-keyboard-caps$$'}
+  - {t: ' 2 ', s: HOME}
+  - {t: ' 3 ', s: INS}
+  - {t: ' 4 ', s: END}
+  - {t: ' 5 ', s: APP}
+  - {t: ' 6 ', s: ^}
+  - {t: ' 7 ', s: '|'}
+  - {t: ' 8 ', s: _}
+  - {t: ' 9 ', s: '@'}
+  - {t: ' 0 ', s: $}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {type: held}
-  - INS
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - '&lm3 LALT'
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
@@ -184,7 +184,7 @@ layers:
   - BT NXT
   - BT CLRALL
   - boot loader
-  - $$mdi:power-standby$$
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - F9
   - F10
   - F11
@@ -195,7 +195,7 @@ layers:
   - $$mdi:pan-up$$
   - MB5
   - $$mdi:skip-previous$$
-  - $$mdi:brightness-5$$
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - F5
   - F6
@@ -207,7 +207,7 @@ layers:
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
   - $$mdi:skip-next$$
-  - $$mdi:brightness-4$$
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - F1
   - F2
@@ -219,11 +219,11 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:play-pause$$
-  - $$mdi:apple-keyboard-shift$$
-  - '4'
-  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
-  - {type: held}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - '4'
+  - $$mdi:apple-keyboard-option$$
+  - {type: held}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
