@@ -67,6 +67,15 @@
       reg = <0>;
     };
   };
+   
+  trackball_listener { compatible = "zmk,input-listener"; device = <&trackball_split>;
+    move   { layers = <0 1>; input-processors = <&auto_mouse_layer 0 400>; };
+    scroll { layers = <2>;   input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 3>, <&zip_xy_to_scroll_mapper>; };
+    snipe  { layers = <3>;   input-processors = <&zip_xy_scaler 1 3>; };
+  };
+   auto_mouse_layer: auto_mouse_layer {
+    compatible = "zmk,input-processor-temp-layer"; #input-processor-cells = <2>; require-prior-idle-ms = <500>;
+  };
 };
 
 &trackball_split {
