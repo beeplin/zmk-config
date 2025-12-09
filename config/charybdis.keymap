@@ -10,7 +10,7 @@
 &mt { quick-tap-ms = <200>; };
 &lt { quick-tap-ms = <200>; flavor = "hold-preferred"; };
 &sk { release-after-ms = <2000>; quick-release; };
-&caps_word { continue-list = <UNDERSCORE MINUS KP_SUBTRACT>; };
+&caps_word { continue-list = <BSPC UNDER MINUS KP_SUBTRACT>; };
 
 / {
   macros {
