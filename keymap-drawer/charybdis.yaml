@@ -157,7 +157,7 @@ layers:
   - {t: ' 3 ', s: '#'}
   - {t: ' 4 ', s: $}
   - {t: ' 5 ', s: '%'}
-  - 6 T
+  - {t: ' 6 ', s: ^}
   - {t: ' 7 ', s: '&'}
   - {t: ' 8 ', s: '*'}
   - {t: ' 9 ', s: (}
@@ -165,7 +165,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {type: held}
-  - '&mt3 LALT INS'
+  - {t: INS, h: '&lm3 LALT'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
