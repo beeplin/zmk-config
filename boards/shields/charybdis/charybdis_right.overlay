@@ -57,6 +57,10 @@
     };
 };
 
+&trackball_split {
+    device = <&trackball>;
+};
+
 / {
   split_inputs {
     #address-cells = <1>;
@@ -68,8 +72,3 @@
     };
   };
 };
-
-&trackball_split {
-    device = <&trackball>;
-};
-
