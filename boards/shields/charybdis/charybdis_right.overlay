@@ -57,7 +57,7 @@
     };
 };
 
-&trackball {
+&trackball_split {
     device = <&trackball>;
 };
 
@@ -71,4 +71,4 @@
       reg = <0>;
     };
   };
-}
+};
