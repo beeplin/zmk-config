@@ -26,10 +26,12 @@
     lc:  mo_cw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&mo>, <&caps_word>; };
     lp:  mo_pw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&mo>, <&pwr>; };
     m1t: m1_kp { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&kp>; quick-tap-ms = <200>; };
+    mt3: m3_kp { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm3>, <&kp>; quick-tap-ms = <200>; };
     m1s: m1_sk { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&sk>; };
     mm_PRCNT_TILDE: mm_PRCNT_TILDE { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp PRCNT>, <&kp TILDE>; };
     mm_BSLH_AMPS:   mm_BSLH_AMPS   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp BSLH>, <&kp AMPS>; };
     mm_KSUB_KMULT:  mm_KSUB_KMULT  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp KP_SUBTRACT>, <&kp KP_MULTIPLY>; };
+    mm_KSUB_UNDER:  mm_KSUB_UNDER  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp KP_SUBTRACT>, <&kp UNDER>; };
     mm_EQUAL_KPLUS: mm_EQUAL_KPLUS { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp EQUAL>, <&kp KP_PLUS>; };
     mm_POUND_GRAVE: mm_POUND_GRAVE { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp POUND>, <&kp GRAVE>; };
     mm_GT_EXCL:     mm_GT_EXCL     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp GT>, <&kp EXCL>; };
@@ -68,10 +70,10 @@
                                                                 &sk LSHFT       &mt LCTRL ESC   &kp RGUI >; };
     layer_2 { bindings = <
 &kp F12         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp C_BRI_DN    &kp C_BRI_UP    &pwr S
-&trans          &kp TAB         &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &mm_PRCNT_TILDE &mm_BSLH_AMPS   &mm_KSUB_KMULT  &mm_EQUAL_KPLUS &mm_POUND_GRAVE &trans
-&trans          &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &mm_GT_EXCL     &mm_LBRC_RBRC   &mm_LPAR_RPAR   &mm_LBKT_RBKT   &mm_SQT_DQT     &trans
-&trans          &mm_N1_CAPS     &mm_N2_HOME     &mm_N3_INS      &mm_N4_END      &mm_N5_APP      &mm_N6_CARET    &mm_N7_PIPE     &mm_N8_UNDER    &mm_N9_AT       &mm_N0_DLLR     &trans
-                                                &trans          &trans          &lm3 LALT       &mc RCTRL 0     &mt LSHFT SPACE
+&kp C_AC_BACK   &kp HOME        &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp GRAVE       &kp BSLH        &mm_KSUB_UNDER  &mm_EQUAL_KPLUS &kp END         &kp C_AC_FORWARD
+&mt LCTRL CAPS  &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &mm_GT_EXCL     &mm_LBRC_RBRC   &mm_LPAR_RPAR   &mm_LBKT_RBKT   &kp SQT         &kp SPACE
+&mc LSHFT 0     &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6     T    &kp N7          &kp N8          &kp N9          &kp N0          &kp RSHFT
+                                                &trans          &trans          &mt3 LALT INS   &mt LCTRL CAPS  &mc LSHFT 0
                                                                 &trans          &trans          &trans >; };
     layer_3 { bindings = <
 &bootloader     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &bt BT_PRV      &out OUT_TOG    &bt BT_NXT      &bt BT_CLR_ALL  &bootloader
