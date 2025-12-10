@@ -172,18 +172,18 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '3':
-  - boot loader
-  - BT SEL0
-  - BT SEL1
-  - BT SEL2
-  - BT SEL3
-  - BT SEL4
-  - BT CLR
-  - BT PRV
-  - OUT TOG
-  - BT NXT
-  - BT CLRALL
-  - boot loader
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - $$mdi:power-standby$$
   - F9
   - F10
