@@ -40,7 +40,7 @@
 
         /* optional features */
 
-        // automouse-layer = <1>;
+        automouse-layer = <1>;
         scroll-layers = <2>;
         snipe-layers = <3>;
 
