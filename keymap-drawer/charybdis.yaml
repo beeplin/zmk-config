@@ -220,12 +220,12 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:play-pause$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - '4'
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
-  - '4'
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   '4':
@@ -277,11 +277,11 @@ layers:
   - BL INC
   - boot loader
   - boot loader
-  - {type: none}
+  - {type: held}
   - {type: none}
   - {type: held}
   - {type: none}
   - {type: none}
-  - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
