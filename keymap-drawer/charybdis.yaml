@@ -126,7 +126,7 @@ layers:
   - PAUSE BREAK
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
-  - '&pwr S'
+  - $$mdi:power-standby$$
   - BACK
   - HOME
   - {t: '$$mdi:backspace$$', type: backspace}
