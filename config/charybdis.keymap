@@ -49,7 +49,7 @@
                                                 &trans          &trans          &trans          &trans          &trans
                                                                 &trans          &trans          &trans >; };
     layer_2 { bindings = <
-&kp F12         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp C_BRI_DN    &kp C_BRI_UP    &win_sleep7
+&kp F12         &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &kp C_BRI_DN    &kp C_BRI_UP    &win_sleep
 &kp K_BACK      &kp HOME        &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp GRAVE       &kp BSLH        &mm_KSUB_UNDER  &mm_EQUAL_KPLUS &kp END         &kp K_FORWARD
 &mt LCTRL CAPS  &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &mm_GT_EXCL     &mm_LBRC_RBRC   &mm_LPAR_RPAR   &mm_LBKT_RBKT   &kp SQT         &kp SPACE
 &mc LSHFT 0     &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp RSHFT
