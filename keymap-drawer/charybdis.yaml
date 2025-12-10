@@ -126,7 +126,7 @@ layers:
   - PAUSE BREAK
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
-  - $$mdi:power-standby$$
+  - '&pwr S'
   - BACK
   - HOME
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -184,7 +184,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - '&win_sleep'
+  - $$mdi:power-standby$$
   - F9
   - F10
   - F11
@@ -214,7 +214,7 @@ layers:
   - F3
   - F4
   - PAUSE BREAK
-  - {t: '$$mdi:volume-off$$', s: '&win_sleep'}
+  - {t: '$$mdi:volume-off$$', s: '$$mdi:power-standby$$'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
