@@ -267,7 +267,7 @@ parse_config:
       tap: "studio unlock"
     "&key_repeat":
       tap: "key repeat"
-    "&pwr S":
+    "&win_sleep":
       tap: $$mdi:power-standby$$
 
   # ZMK
