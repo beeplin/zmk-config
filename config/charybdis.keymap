@@ -59,8 +59,8 @@
 &kp K_APP       &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &mm_VOLUP_BRIUP &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV      &kp C_BRI_UP
 &kp LCTRL       &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &mm_VOLDN_BRIDN &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT &kp C_NEXT      &kp C_BRI_DN
 &kp LSHFT       &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &mm_MUTE_SLEEP  &mkp LCLK       &mkp MCLK       &mkp RCLK       &kp C_PP        &kp RSHIFT
-                                                &trans          &mt LALT INS    &trans          &kp LCTRL       &kp LSHFT
-                                                                &mo 4           &trans          &trans >; };
+                                                &mo 4           &mt LALT INS    &trans          &kp LCTRL       &kp LSHFT
+                                                                &trans          &trans          &trans >; };
     layer_4 { bindings = <
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
 &none           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &rgb_ug RGB_EFR &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &none
