@@ -1,6 +1,12 @@
 #include "charybdis.dtsi"
 #include <dt-bindings/zmk/keys.h>
 
+#define BASE 0
+#define AUTO_MOUSE 1
+#define FN1 2
+#define FN2 3
+#define CFG 4
+
 &transform0 {
     col-offset = <6>;
 };
@@ -40,13 +46,13 @@
 
         /* optional features */
 
-        automouse-layer = <1>;
-        scroll-layers = <2>;
-        snipe-layers = <3>;
+        automouse-layer = <AUTO_MOUSE>;
+        scroll-layers = <FN1>;
+        snipe-layers = <FN2>;
 
         /* optional: ball action on specific layers */
         arrows {
-            layers = <4>;
+            layers = <CFG>;
             bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
             /* optional: ball action configuration */
             tick = <20>;
