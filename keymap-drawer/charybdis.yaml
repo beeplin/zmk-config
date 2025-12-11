@@ -1,18 +1,18 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   '0':
-  - F11
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - $$mdi:volume-off$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
+  - {t: '`', s: '~'}
+  - {t: ' 1 ', s: '!'}
+  - {t: ' 2 ', s: '@'}
+  - {t: ' 3 ', s: '#'}
+  - {t: ' 4 ', s: $}
+  - {t: ' 5 ', s: '%'}
+  - {t: ' 6 ', s: ^}
+  - {t: ' 7 ', s: '&'}
+  - {t: ' 8 ', s: '*'}
+  - {t: ' 9 ', s: (}
+  - {t: ' 0 ', s: )}
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -116,18 +116,18 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   '2':
   - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - F6
   - F7
   - F8
   - F9
   - F10
-  - $$mdi:printer-outline$$
-  - SLCK
-  - PAUSE BREAK
-  - $$mdi:brightness-4$$
-  - $$mdi:brightness-5$$
-  - $$mdi:power-standby$$
-  - BACK
+  - F11
+  - AC BACK
   - HOME
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -138,7 +138,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', s: _}
   - {t: '=', s: '$$mdi:plus-circle-outline$$'}
   - END
-  - FORWARD
+  - AC FORWARD
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
