@@ -1,11 +1,11 @@
 #include "charybdis.dtsi"
 #include <dt-bindings/zmk/keys.h>
 
-// #define BASE 0
-// #define MOUSE 1
-// #define FN1 2
-// #define FN2 3
-// #define CFG 4
+#define BASE 0
+#define MOUSE 1
+#define FN1 2
+#define FN2 3
+#define CFG 4
 
 &transform0 {
     col-offset = <6>;
