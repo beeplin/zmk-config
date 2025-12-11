@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/mouse.h>
 
 #define BASE 0
-#define AUTO_MOUSE 1
+#define MOUSE 1
 #define FN1 2
 #define FN2 3
 #define CFG 4
@@ -39,36 +39,36 @@
     mm_VOLDN_BRIDN: mm_VOLDN_BRIDN { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_DN>, <&kp C_BRI_DN>; };
     mm_MUTE_SLEEP:  mm_MUTE_SLEEP  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_MUTE>, <&win_sleep>; };
   };
-  keymap { compatible="zmk,keymap";
-    BASE { bindings = <
+  keymap { compatible = "zmk,keymap";
+    BASE { label = "BASE"; bindings = <
 &kp GRAVE       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp MINUS
 &kp TAB         &kp Q           &kp W           &kp F           &kp P           &kp B           &kp K           &kp L           &kp U           &kp Y           &kp SEMI        &kp LBKT
 &mt LCTRL ESC   &kp A           &kp R           &kp S           &kp T           &kp G           &kp M           &kp N           &kp E           &kp I           &kp O           &kp SQT
 &sk LSHFT       &kp Z           &kp X           &kp C           &kp D           &kp V           &kp J           &kp H           &kp COMMA       &kp DOT         &kp FSLH        &kp RSHFT
                                                 &ms LALT LGUI   &lt FN1 SPACE   &lt FN2 TAB     &mt LCTRL ESC   &sk LSHFT
                                                                 &sk LSHFT       &mt LCTRL ESC   &kp RGUI >; };
-    AUTO_MOUSE { bindings = <
+    MOUSE { label = "MOUSE"; bindings = <
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &mkp LCLK       &mkp MCLK       &mkp RCLK       &trans          &trans
                                                 &trans          &trans          &trans          &trans          &trans
                                                                 &trans          &trans          &trans >; };
-    FN1 { bindings = <
+    FN1 { label = "FN1"; bindings = <
 &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
 &kp C_AC_BACK   &kp HOME        &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp GRAVE       &kp BSLH        &mm_KSUB_UNDER  &mm_EQUAL_KPLUS &kp END         &kp C_AC_FORWARD
 &mt LCTRL CAPS  &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &mm_GT_EXCL     &mm_LBRC_RBRC   &mm_LPAR_RPAR   &mm_LBKT_RBKT   &kp SQT         &kp SPACE
 &mc LSHFT 0     &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp RSHFT
                                                 &trans          &trans          &mt3 LALT INS   &mt LCTRL CAPS  &mc LSHFT 0
                                                                 &trans          &trans          &trans >; };
-    FN2 { bindings = <
+    FN2 { label = "FN2"; bindings = <
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
 &win_sleep      &kp F9          &kp F10         &kp F11         &kp F12         &kp PSCRN       &mm_VOLUP_BRIUP &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp C_PREV      &kp C_BRI_UP
 &kp LCTRL       &kp F5          &kp F6          &kp F7          &kp F8          &kp SLCK        &mm_VOLDN_BRIDN &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT &kp C_NEXT      &kp C_BRI_DN
 &kp LSHFT       &kp F1          &kp F2          &kp F3          &kp F4          &kp PAUSE_BREAK &mm_MUTE_SLEEP  &mkp LCLK       &mkp MCLK       &mkp RCLK       &kp C_PP        &kp RSHIFT
                                                 &lt CFG K_APP   &mt LALT INS    &trans          &kp LCTRL       &kp LSHFT
                                                                 &trans          &trans          &trans >; };
-    CFG { bindings = <
+    CFG { label = "CFG"; bindings = <
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
 &none           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &rgb_ug RGB_EFR &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &none
 &none           &bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3   &bt BT_DISC 4   &rgb_ug RGB_EFF &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &none

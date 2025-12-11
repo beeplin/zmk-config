@@ -2,7 +2,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
-#define AUTO_MOUSE 1
+#define MOUSE 1
 #define FN1 2
 #define FN2 3
 #define CFG 4
@@ -46,7 +46,7 @@
 
         /* optional features */
 
-        automouse-layer = <AUTO_MOUSE>;
+        automouse-layer = <MOUSE>;
         scroll-layers = <FN1>;
         snipe-layers = <FN2>;
 
