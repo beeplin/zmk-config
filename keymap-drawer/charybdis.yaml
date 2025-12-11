@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  '0':
+  BASE:
   - {t: '`', s: '~'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -50,14 +50,14 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
-  - {t: '$$mdi:keyboard-tab$$', h: '3'}
+  - {t: '$$mdi:keyboard-space$$', h: FN1}
+  - {t: '$$mdi:keyboard-tab$$', h: FN2}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:microsoft-windows$$
-  '1':
+  MOUSE:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -114,7 +114,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  '2':
+  FN1:
   - F12
   - F1
   - F2
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  '3':
+  FN2:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -220,7 +220,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:play-pause$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: APP, h: '4'}
+  - {t: APP, h: CFG}
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
   - $$mdi:apple-keyboard-control$$
@@ -228,7 +228,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  '4':
+  CFG:
   - {type: none}
   - {type: none}
   - {type: none}
