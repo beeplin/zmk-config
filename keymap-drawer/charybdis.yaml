@@ -241,7 +241,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - BT PRV
   - BT SEL0
   - BT SEL1
   - BT SEL2
@@ -252,8 +252,8 @@ layers:
   - RGB SAI
   - RGB BRI
   - RGB SPI
-  - {type: none}
-  - {type: none}
+  - RGB ON
+  - BT NXT
   - BT DISC0
   - BT DISC1
   - BT DISC2
@@ -264,7 +264,7 @@ layers:
   - RGB SAD
   - RGB BRD
   - RGB SPD
-  - {type: none}
+  - RGB OFF
   - boot loader
   - boot loader
   - BT PRV
