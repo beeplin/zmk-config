@@ -1829,15 +1829,15 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="299" y="227" width="28" height="26" class="combo"/>
-<text x="313" y="240" class="combo tap">
-<tspan x="313" dy="-0.6em">boot</tspan><tspan x="313" dy="1.2em">loader</tspan>
+<rect rx="6" ry="6" x="294" y="155" width="28" height="26" class="combo"/>
+<text x="308" y="168" class="combo tap">
+<tspan x="308" dy="-0.6em">boot</tspan><tspan x="308" dy="1.2em">loader</tspan>
 </text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="569" y="227" width="28" height="26" class="combo"/>
-<text x="583" y="240" class="combo tap">
-<tspan x="583" dy="-0.6em">boot</tspan><tspan x="583" dy="1.2em">loader</tspan>
+<rect rx="6" ry="6" x="574" y="155" width="28" height="26" class="combo"/>
+<text x="588" y="168" class="combo tap">
+<tspan x="588" dy="-0.6em">boot</tspan><tspan x="588" dy="1.2em">loader</tspan>
 </text>
 </g>
 </g>
