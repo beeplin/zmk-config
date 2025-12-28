@@ -1,7 +1,7 @@
 #include "charybdis.dtsi"
 #include <dt-bindings/zmk/keys.h>
 
-#define QWERTY 0
+#define KANATA 0
 #define COLMAK 1
 #define EXTRA1 2
 #define EXTRA2 3
@@ -47,7 +47,7 @@
 
         /* optional features */
 
-        automouse-layer = <AMOUSE>;
+        // automouse-layer = <AMOUSE>;
         scroll-layers = <EXTRA1>;
         snipe-layers = <EXTRA2>;
 

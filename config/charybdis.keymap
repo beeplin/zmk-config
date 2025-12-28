@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/mouse.h>
 
-#define QWERTY 0
+#define KANATA 0
 #define COLMAK 1
 #define EXTRA1 2
 #define EXTRA2 3
@@ -45,12 +45,12 @@
     // mm_MUTE_SLEEP:  mm_MUTE_SLEEP  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_MUTE>, <&win_sleep>; };
   };
   combos { compatible = "zmk,combos";
-    to_config_layer { timeout-ms = <50>; key-positions = <49 50 51 52>; bindings = <&to CONFIG>;  layers = <QWERTY COLMAK>; };
+    to_config_layer { timeout-ms = <50>; key-positions = <49 50 51 52>; bindings = <&to CONFIG>;  layers = <KANATA COLMAK>; };
     left_bootloader { timeout-ms = <50>; key-positions = <41 50>;       bindings = <&bootloader>; layers = <CONFIG>; };
     rght_bootloader { timeout-ms = <50>; key-positions = <42 51>;       bindings = <&bootloader>; layers = <CONFIG>; };
   };
   keymap { compatible = "zmk,keymap";
-    QWERTY { label = "QWERTY"; bindings = <
+    KANATA { label = "KANATA"; bindings = <
 &kp GRAVE       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp MINUS
 &kp TAB         &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &kp P           &kp LBKT
 &kp CAPS        &kp A           &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp SQT
@@ -83,7 +83,7 @@
 &none           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_CLR      &kp ESC         &kp PG_UP       &kp UP          &kp PG_DN       &kp DEL         &none
 &none           &rgb_ug RGB_EFR &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &kp L           &kp LEFT        &kp DOWN        &kp RIGHT       &kp ENTER       &none
 &none           &rgb_ug RGB_EFF &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &kp F           &mkp LCLK       &mkp MCLK       &mkp RCLK       &kp F11         &none
-                                                &to QWERTY      &rgb_ug RGB_TOG &to COLMAK      &mkp LCLK       &mt LALT SPACE
+                                                &to KANATA      &rgb_ug RGB_TOG &to COLMAK      &mkp LCLK       &mt LALT SPACE
                                                                 &none           &none           &none >; };
     AMOUSE { label = "AMOUSE"; bindings = <
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
