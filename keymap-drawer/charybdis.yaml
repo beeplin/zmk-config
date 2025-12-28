@@ -127,7 +127,7 @@ layers:
   - F9
   - F10
   - F11
-  - $$mdi:keyboard-space$$
+  - INS
   - HOME
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -138,7 +138,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: '$$mdi:plus-circle-outline$$'}
   - END
-  - AC BACK
+  - {t: ']', s: '}'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
@@ -150,7 +150,7 @@ layers:
   - {t: (, s: )}
   - {t: '[', s: ']'}
   - {t: '''', s: '"'}
-  - AC FORWARD
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
