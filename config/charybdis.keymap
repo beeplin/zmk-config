@@ -65,16 +65,16 @@
                                                 &ms LALT LGUI  &lt EXTRA1 SPACE &lt EXTRA2 TAB  &mt LCTRL ESC   &sq LSHFT
                                                                 &sq LSHFT       &mt LCTRL ESC   &kp LGUI >; };
     EXTRA1 { label = "EXTRA1"; bindings = <
-&kp F11         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F12
+&kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
 &kp C_AC_BACK   &kp HOME        &kp BSPC        &kp UP          &kp DEL         &kp PG_UP       &kp GRAVE       &kp BSLH        &kp MINUS       &mm_EQUAL_KPLUS &kp END         &kp C_AC_FORWARD
 &mt LCTRL CAPS  &kp ENTER       &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_DN       &mm_GT_EXCL     &mm_LBRC_RBRC   &mm_LPAR_RPAR   &mm_LBKT_RBKT   &kp SQT         &kp SPACE
 &mc LSHFT 0     &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp RSHFT
                                                 &trans          &trans          &mt3 LALT INS   &mt LCTRL CAPS  &mc LSHFT 0
                                                                 &trans          &trans          &trans >; };
     EXTRA2 { label = "EXTRA2"; bindings = <
-&kp F23         &kp F13         &kp F14         &kp F15         &kp F16         &kp F17         &kp F18         &kp F19         &kp F20         &kp F21         &kp F22         &kp F24
-&win_sleep      &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp C_BRI_DN    &msc SCRL_UP    &kp C_BRI_UP    &kp C_VOL_UP    &kp INS
-&kp LCTRL       &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp SLCK        &mkp MB4        &msc SCRL_DOWN  &mkp MB5        &kp C_VOL_DN    &kp ESC
+&kp F24         &kp F13         &kp F14         &kp F15         &kp F16         &kp F17         &kp F18         &kp F19         &kp F20         &kp F21         &kp F22         &kp F23
+&win_sleep      &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp PSCRN       &kp C_BRI_DN    &msc SCRL_UP    &kp C_BRI_UP    &kp C_VOL_UP    &mkp MB4
+&kp LCTRL       &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp SLCK        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT &kp C_VOL_DN    &mkp MB5
 &kp LSHFT       &kp F11         &mkp RCLK       &mkp MCLK       &mkp LCLK       &kp F12         &kp PAUSE_BREAK &kp C_PREV      &kp C_PP        &kp C_NEXT      &kp C_MUTE      &kp RSHIFT
                                                 &kp K_APP       &mt LALT INS    &trans          &kp LCTRL       &kp LSHFT
                                                                 &trans          &trans          &trans >; };
