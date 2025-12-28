@@ -172,19 +172,19 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   EXTRA2:
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - APP
+  - F23
+  - F13
+  - F14
+  - F15
+  - F16
+  - F17
+  - F18
+  - F19
+  - F20
+  - F21
+  - F23
+  - F24
+  - $$mdi:power-standby$$
   - F6
   - F7
   - F8
@@ -195,7 +195,7 @@ layers:
   - $$mdi:pan-up$$
   - $$mdi:brightness-5$$
   - $$mdi:volume-high$$
-  - $$mdi:brightness-5$$
+  - INS
   - $$mdi:apple-keyboard-control$$
   - F1
   - F2
@@ -207,7 +207,7 @@ layers:
   - $$mdi:pan-down$$
   - MB5
   - $$mdi:volume-low$$
-  - $$mdi:brightness-4$$
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-shift$$
   - F11
   - $$mdi:mouse-right-click-outline$$
