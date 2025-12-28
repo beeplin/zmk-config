@@ -42,9 +42,9 @@
     // mm_MUTE_SLEEP:  mm_MUTE_SLEEP  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_MUTE>, <&win_sleep>; };
   };
   combos { compatible = "zmk,combos";
-    to_config_layer { timeout-ms = <50>; key-positions = <48 49 50>; bindings = <&to CONFIG>; };
-    left_bootloader { timeout-ms = <50>; key-positions = <38 39 40>; bindings = <&bootloader>; layers = <CONFIG>; };
-    left_bootloader { timeout-ms = <50>; key-positions = <43 44 45>; bindings = <&bootloader>; layers = <CONFIG>; };
+    to_config_layer { timeout-ms = <50>; key-positions = <49 50 51 52>; bindings = <&to CONFIG>;  layers = <QWERTY COLMAK>};
+    left_bootloader { timeout-ms = <50>; key-positions = <41 50>;       bindings = <&bootloader>; layers = <CONFIG>; };
+    rght_bootloader { timeout-ms = <50>; key-positions = <42 51>;       bindings = <&bootloader>; layers = <CONFIG>; };
   };
   keymap { compatible = "zmk,keymap";
     QWERTY { label = "QWERTY"; bindings = <
