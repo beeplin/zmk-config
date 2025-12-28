@@ -46,8 +46,8 @@
   };
   combos { compatible = "zmk,combos";
     to_config_layer { timeout-ms = <50>; key-positions = <49 50 51 52>; bindings = <&to CONFIG>;  layers = <KANATA COLMAK>; };
-    left_bootloader { timeout-ms = <50>; key-positions = <29 41>;       bindings = <&bootloader>; layers = <CONFIG>; };
-    rght_bootloader { timeout-ms = <50>; key-positions = <30 42>;       bindings = <&bootloader>; layers = <CONFIG>; };
+    left_bootloader { timeout-ms = <50>; key-positions = <41 49>;       bindings = <&bootloader>; layers = <CONFIG>; };
+    rght_bootloader { timeout-ms = <50>; key-positions = <42 52>;       bindings = <&bootloader>; layers = <CONFIG>; };
   };
   keymap { compatible = "zmk,keymap";
     KANATA { label = "KANATA"; bindings = <
