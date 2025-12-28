@@ -289,9 +289,9 @@ combos:
 - p: [49, 50, 51, 52]
   k: {t: CONFIG, h: toggle}
   l: [KANATA, COLMAK]
-- p: [41, 50]
+- p: [41, 49]
   k: boot loader
   l: [CONFIG]
-- p: [42, 51]
+- p: [42, 52]
   k: boot loader
   l: [CONFIG]
