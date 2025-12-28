@@ -1,6 +1,63 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  BASE:
+  QWERTY:
+  - {t: '`', s: '~'}
+  - {t: ' 1 ', s: '!'}
+  - {t: ' 2 ', s: '@'}
+  - {t: ' 3 ', s: '#'}
+  - {t: ' 4 ', s: $}
+  - {t: ' 5 ', s: '%'}
+  - {t: ' 6 ', s: ^}
+  - {t: ' 7 ', s: '&'}
+  - {t: ' 8 ', s: '*'}
+  - {t: ' 9 ', s: (}
+  - {t: ' 0 ', s: )}
+  - {t: '-', s: _}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '[', s: '{'}
+  - $$mdi:apple-keyboard-caps$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - V
+  - Z
+  - X
+  - C
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:microsoft-windows$$
+  COLMAK:
   - {t: '`', s: '~'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -50,72 +107,15 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: FN1}
-  - {t: '$$mdi:keyboard-tab$$', h: FN2}
+  - {t: '$$mdi:keyboard-space$$', h: EXTRA1}
+  - {t: '$$mdi:keyboard-tab$$', h: EXTRA2}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:microsoft-windows$$
-  MOUSE:
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  FN1:
-  - F12
+  EXTRA1:
+  - F11
   - F1
   - F2
   - F3
@@ -126,7 +126,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - F12
   - AC BACK
   - HOME
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -135,7 +135,7 @@ layers:
   - PGUP
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
-  - {t: '$$mdi:minus-circle-outline$$', s: _}
+  - {t: '-', s: _}
   - {t: '=', s: '$$mdi:plus-circle-outline$$'}
   - END
   - AC FORWARD
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  FN2:
+  EXTRA2:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -184,43 +184,43 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:power-standby$$
-  - F9
-  - F10
-  - F11
-  - F12
-  - $$mdi:printer-outline$$
-  - {t: '$$mdi:volume-high$$', s: '$$mdi:brightness-5$$'}
-  - MB4
-  - $$mdi:pan-up$$
-  - MB5
-  - $$mdi:skip-previous$$
-  - $$mdi:brightness-5$$
-  - $$mdi:apple-keyboard-control$$
-  - F5
+  - APP
   - F6
   - F7
   - F8
-  - SLCK
-  - {t: '$$mdi:volume-low$$', s: '$$mdi:brightness-4$$'}
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-right$$
-  - $$mdi:skip-next$$
+  - F9
+  - F10
+  - $$mdi:printer-outline$$
   - $$mdi:brightness-4$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:pan-up$$
+  - $$mdi:brightness-5$$
+  - $$mdi:volume-high$$
+  - $$mdi:brightness-5$$
+  - $$mdi:apple-keyboard-control$$
   - F1
   - F2
   - F3
   - F4
-  - PAUSE BREAK
-  - {t: '$$mdi:volume-off$$', s: '$$mdi:power-standby$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:play-pause$$
+  - F5
+  - SLCK
+  - MB4
+  - $$mdi:pan-down$$
+  - MB5
+  - $$mdi:volume-low$$
+  - $$mdi:brightness-4$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: APP, h: CFG}
+  - F11
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-left-click-outline$$
+  - F12
+  - PAUSE BREAK
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
+  - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-shift$$
+  - APP
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
   - $$mdi:apple-keyboard-control$$
@@ -228,7 +228,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  CFG:
+  CONFIG:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -241,47 +241,113 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - BT PRV
+  - {type: none}
   - BT SEL0
   - BT SEL1
   - BT SEL2
   - BT SEL3
-  - BT SEL4
+  - BT CLR
+  - $$mdi:keyboard-esc$$
+  - PGUP
+  - $$mdi:arrow-up-bold$$
+  - PGDN
+  - $$mdi:backspace-reverse-outline$$
+  - {type: none}
+  - {type: none}
   - RGB EFR
   - RGB HUI
   - RGB SAI
   - RGB BRI
   - RGB SPI
-  - RGB ON
-  - BT NXT
-  - BT DISC0
-  - BT DISC1
-  - BT DISC2
-  - BT DISC3
-  - BT DISC4
+  - L
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: none}
+  - {type: none}
   - RGB EFF
   - RGB HUD
   - RGB SAD
   - RGB BRD
   - RGB SPD
-  - RGB OFF
-  - boot loader
-  - boot loader
-  - BT PRV
-  - OUT TOG
-  - BT NXT
-  - BT CLR
+  - F
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - F11
+  - {type: none}
+  - {t: QWERTY, h: toggle}
   - RGB TOG
-  - BL DEC
-  - BL TOG
-  - BL INC
-  - boot loader
-  - boot loader
-  - {type: held}
-  - {type: none}
-  - {type: held}
+  - {t: COLMAK, h: toggle}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
+  AMOUSE:
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+combos:
+- p: [48, 49, 50]
+  k: {t: CONFIG, h: toggle}
+- p: [38, 39, 40]
+  k: boot loader
+  l: [CONFIG]
+- p: [43, 44, 45]
+  k: boot loader
+  l: [CONFIG]
