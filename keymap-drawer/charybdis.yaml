@@ -115,7 +115,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:microsoft-windows$$
   EXTRA1:
-  - F11
+  - F12
   - F1
   - F2
   - F3
@@ -126,7 +126,7 @@ layers:
   - F8
   - F9
   - F10
-  - F12
+  - F11
   - AC BACK
   - HOME
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   EXTRA2:
-  - F23
+  - F24
   - F13
   - F14
   - F15
@@ -183,7 +183,7 @@ layers:
   - F20
   - F21
   - F22
-  - F24
+  - F23
   - $$mdi:power-standby$$
   - F6
   - F7
@@ -195,7 +195,7 @@ layers:
   - $$mdi:pan-up$$
   - $$mdi:brightness-5$$
   - $$mdi:volume-high$$
-  - INS
+  - MB4
   - $$mdi:apple-keyboard-control$$
   - F1
   - F2
@@ -203,11 +203,11 @@ layers:
   - F4
   - F5
   - SLCK
-  - MB4
+  - $$mdi:pan-left$$
   - $$mdi:pan-down$$
-  - MB5
+  - $$mdi:pan-right$$
   - $$mdi:volume-low$$
-  - $$mdi:keyboard-esc$$
+  - MB5
   - $$mdi:apple-keyboard-shift$$
   - F11
   - $$mdi:mouse-right-click-outline$$
