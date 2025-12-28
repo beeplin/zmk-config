@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  QWERTY:
+  KANATA:
   - {t: '`', s: '~'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -277,7 +277,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - F11
   - {type: none}
-  - {t: QWERTY, h: toggle}
+  - {t: KANATA, h: toggle}
   - RGB TOG
   - {t: COLMAK, h: toggle}
   - $$mdi:mouse-left-click-outline$$
@@ -345,7 +345,7 @@ layers:
 combos:
 - p: [49, 50, 51, 52]
   k: {t: CONFIG, h: toggle}
-  l: [QWERTY, COLMAK]
+  l: [KANATA, COLMAK]
 - p: [41, 50]
   k: boot loader
   l: [CONFIG]
