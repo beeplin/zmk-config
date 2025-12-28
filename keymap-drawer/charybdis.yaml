@@ -220,7 +220,7 @@ layers:
   - $$mdi:skip-next$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-shift$$
-  - APP
+  - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
   - $$mdi:apple-keyboard-control$$
