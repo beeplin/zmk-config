@@ -607,12 +607,14 @@ rect.held, rect.combo.held {
 <use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:microsoft-windows"/>
 </g>
 <g class="combo combopos-0">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
+<path d="M448,299 l-111,-12" class="combo"/>
+<path d="M448,299 l-63,11" class="combo"/>
+<path d="M448,299 l63,11" class="combo"/>
+<path d="M448,299 l111,-12" class="combo"/>
+<rect rx="6" ry="6" x="434" y="286" width="28" height="26" class="combo"/>
 <a href="#CONFIG">
-<text x="318" y="285" class="combo tap layer-activator">CONFIG</text>
-</a><text x="318" y="296" class="combo hold">toggle</text>
+<text x="448" y="299" class="combo tap layer-activator">CONFIG</text>
+</a><text x="448" y="310" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -929,12 +931,14 @@ rect.held, rect.combo.held {
 <use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:microsoft-windows"/>
 </g>
 <g class="combo combopos-0">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
+<path d="M448,299 l-111,-12" class="combo"/>
+<path d="M448,299 l-63,11" class="combo"/>
+<path d="M448,299 l63,11" class="combo"/>
+<path d="M448,299 l111,-12" class="combo"/>
+<rect rx="6" ry="6" x="434" y="286" width="28" height="26" class="combo"/>
 <a href="#CONFIG">
-<text x="318" y="285" class="combo tap layer-activator">CONFIG</text>
-</a><text x="318" y="296" class="combo hold">toggle</text>
+<text x="448" y="299" class="combo tap layer-activator">CONFIG</text>
+</a><text x="448" y="310" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1248,14 +1252,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down"/>
 </g>
-<g class="combo combopos-0">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
-<a href="#CONFIG">
-<text x="318" y="285" class="combo tap layer-activator">CONFIG</text>
-</a><text x="318" y="296" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1367)" class="layer-EXTRA2">
@@ -1530,14 +1526,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down"/>
-</g>
-<g class="combo combopos-0">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
-<a href="#CONFIG">
-<text x="318" y="285" class="combo tap layer-activator">CONFIG</text>
-</a><text x="318" y="296" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1841,27 +1829,19 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 </g>
 <g class="combo combopos-0">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
-<a href="#CONFIG">
-<text x="318" y="285" class="combo tap layer-activator">CONFIG</text>
-</a><text x="318" y="296" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M196,196 l-37,0" class="combo"/>
-<path d="M196,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
-<text x="196" y="196" class="combo tap">
-<tspan x="196" dy="-0.6em">boot</tspan><tspan x="196" dy="1.2em">loader</tspan>
+<path d="M337,254 l-21,-42" class="combo"/>
+<path d="M337,254 l21,42" class="combo"/>
+<rect rx="6" ry="6" x="323" y="241" width="28" height="26" class="combo"/>
+<text x="337" y="254" class="combo tap">
+<tspan x="337" dy="-0.6em">boot</tspan><tspan x="337" dy="1.2em">loader</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
-<path d="M700,196 l-37,0" class="combo"/>
-<path d="M700,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="686" y="183" width="28" height="26" class="combo"/>
-<text x="700" y="196" class="combo tap">
-<tspan x="700" dy="-0.6em">boot</tspan><tspan x="700" dy="1.2em">loader</tspan>
+<g class="combo combopos-1">
+<path d="M559,254 l21,-42" class="combo"/>
+<path d="M559,254 l-21,42" class="combo"/>
+<rect rx="6" ry="6" x="545" y="241" width="28" height="26" class="combo"/>
+<text x="559" y="254" class="combo tap">
+<tspan x="559" dy="-0.6em">boot</tspan><tspan x="559" dy="1.2em">loader</tspan>
 </text>
 </g>
 </g>
@@ -2148,14 +2128,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:menu-down" xlink:href="#mdi:menu-down" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:menu-down"/>
-</g>
-<g class="combo combopos-0">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
-<a href="#CONFIG">
-<text x="318" y="285" class="combo tap layer-activator">CONFIG</text>
-</a><text x="318" y="296" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
