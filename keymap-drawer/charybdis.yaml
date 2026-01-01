@@ -195,7 +195,7 @@ layers:
   - $$mdi:pan-up$$
   - $$mdi:brightness-5$$
   - $$mdi:volume-high$$
-  - MB4
+  - $$mdi:pan-left$$
   - $$mdi:apple-keyboard-control$$
   - F1
   - F2
@@ -203,11 +203,11 @@ layers:
   - F4
   - F5
   - SLCK
-  - $$mdi:pan-left$$
+  - MB4
   - $$mdi:pan-down$$
-  - $$mdi:pan-right$$
-  - $$mdi:volume-low$$
   - MB5
+  - $$mdi:volume-low$$
+  - $$mdi:pan-right$$
   - $$mdi:apple-keyboard-shift$$
   - F11
   - $$mdi:mouse-right-click-outline$$
