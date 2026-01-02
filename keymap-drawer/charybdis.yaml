@@ -191,11 +191,11 @@ layers:
   - F9
   - F10
   - $$mdi:printer-outline$$
-  - $$mdi:brightness-4$$
+  - MB4
   - $$mdi:pan-up$$
-  - $$mdi:brightness-5$$
+  - MB5
   - $$mdi:volume-high$$
-  - $$mdi:pan-left$$
+  - $$mdi:brightness-5$$
   - $$mdi:apple-keyboard-control$$
   - F1
   - F2
@@ -203,11 +203,11 @@ layers:
   - F4
   - F5
   - SLCK
-  - MB4
+  - $$mdi:pan-left$$
   - $$mdi:pan-down$$
-  - MB5
-  - $$mdi:volume-low$$
   - $$mdi:pan-right$$
+  - $$mdi:volume-low$$
+  - $$mdi:brightness-4$$
   - $$mdi:apple-keyboard-shift$$
   - F11
   - $$mdi:mouse-right-click-outline$$
@@ -271,17 +271,17 @@ layers:
   - RGB SAD
   - RGB BRD
   - RGB SPD
-  - F
+  - $$mdi:keyboard-tab$$
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:keyboard-space$$
   - $$mdi:mouse-right-click-outline$$
-  - F11
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {type: none}
   - {t: KANATA, h: toggle}
   - RGB TOG
   - {t: COLMAK, h: toggle}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F11, h: '$$mdi:apple-keyboard-option$$'}
   - {type: none}
   - {type: none}
   - {type: none}
