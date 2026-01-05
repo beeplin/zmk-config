@@ -146,8 +146,8 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -203,8 +203,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PGDN
   - MB4
-  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - MB5
   - SLCK
@@ -329,8 +329,8 @@ layers:
   - RGB BRD
   - RGB SPD
   - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
+  - $$mdi:keyboard-space$$
   - $$mdi:mouse-right-click-outline$$
   - F4
   - {type: none}
