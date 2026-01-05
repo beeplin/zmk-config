@@ -247,41 +247,41 @@ layers:
   - F8
   - F7
   - {t: '$$mdi:volume-high$$', s: '$$mdi:skip-previous$$'}
-  - KP MULTIPLY
+  - KP MINUS
   - KP 7
   - KP 8
   - KP 9
   - KP PLUS
   - $$mdi:brightness-5$$
-  - {t: KP NLCK, h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-control$$
   - F11
   - F6
   - F5
   - F4
   - {t: '$$mdi:volume-low$$', s: '$$mdi:skip-next$$'}
-  - KP DIVIDE
+  - KP MULTIPLY
   - KP 4
   - KP 5
   - KP 6
-  - KP MINUS
+  - KP ENTER
   - $$mdi:brightness-4$$
-  - {t: KP ENTER, h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - F10
   - F3
   - F2
   - F1
   - {t: '$$mdi:volume-off$$', s: '$$mdi:play-pause$$'}
-  - KP DOT
+  - KP DIVIDE
   - KP 1
   - KP 2
   - KP 3
-  - KP 0
-  - $$mdi:power-standby$$
-  - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
+  - KP DOT
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
-  - {t: KP NLCK, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: KP ENTER, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: KP 0, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
