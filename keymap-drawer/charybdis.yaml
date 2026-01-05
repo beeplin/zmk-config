@@ -246,42 +246,42 @@ layers:
   - F9
   - F8
   - F7
-  - {t: '$$mdi:volume-high$$', s: '$$mdi:brightness-5$$'}
-  - $$mdi:asterisk-circle-outline$$
+  - {t: '$$mdi:volume-high$$', s: '$$mdi:skip-previous$$'}
+  - KP MULTIPLY
   - KP 7
   - KP 8
   - KP 9
-  - $$mdi:plus-circle-outline$$
-  - $$mdi:skip-previous$$
-  - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
+  - KP PLUS
+  - $$mdi:brightness-5$$
+  - {t: KP NLCK, h: '$$mdi:apple-keyboard-control$$'}
   - F11
+  - F6
   - F5
   - F4
-  - F4
-  - {t: '$$mdi:volume-low$$', s: '$$mdi:brightness-4$$'}
+  - {t: '$$mdi:volume-low$$', s: '$$mdi:skip-next$$'}
   - KP DIVIDE
   - KP 4
   - KP 5
   - KP 6
-  - $$mdi:minus-circle-outline$$
-  - $$mdi:skip-next$$
-  - $$mdi:apple-keyboard-shift$$
+  - KP MINUS
+  - $$mdi:brightness-4$$
+  - {t: KP ENTER, h: '$$mdi:apple-keyboard-shift$$'}
   - F10
   - F3
   - F2
   - F1
-  - {t: '$$mdi:volume-off$$', s: '$$mdi:power-standby$$'}
+  - {t: '$$mdi:volume-off$$', s: '$$mdi:play-pause$$'}
   - KP DOT
   - KP 1
-  - KP 3
+  - KP 2
   - KP 3
   - KP 0
-  - $$mdi:play-pause$$
+  - $$mdi:power-standby$$
   - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
-  - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: KP NLCK, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: KP ENTER, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
