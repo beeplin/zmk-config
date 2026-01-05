@@ -69,7 +69,7 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
-  - {t: '-', s: _}
+  - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -105,7 +105,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ']', s: '}'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: EXTRA1}
   - {t: '$$mdi:keyboard-tab$$', h: EXTRA2}
@@ -114,8 +114,65 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:microsoft-windows$$
+  AUTOMS:
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
   EXTRA1:
-  - F12
+  - F11
   - F1
   - F2
   - F3
@@ -126,31 +183,31 @@ layers:
   - F8
   - F9
   - F10
-  - F11
-  - INS
+  - F12
   - HOME
+  - END
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PGUP
+  - $$mdi:keyboard-space$$
   - {t: '`', s: '~'}
-  - {t: \, s: '|'}
   - {t: '-', s: _}
-  - {t: '=', s: '$$mdi:plus-circle-outline$$'}
-  - END
-  - {t: ']', s: '}'}
+  - {t: '=', s: +}
+  - {t: \, s: '|'}
+  - $$mdi:printer-outline$$
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PGDN
-  - {t: '>', s: '!'}
-  - {t: '{', s: '}'}
-  - {t: (, s: )}
-  - {t: '[', s: ']'}
-  - {t: '''', s: '"'}
-  - $$mdi:keyboard-space$$
+  - MB4
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - MB5
+  - SLCK
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -162,7 +219,7 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
-  - $$mdi:apple-keyboard-shift$$
+  - PAUSE BREAK
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - {t: INS, h: '&lm3 LALT'}
@@ -172,7 +229,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   EXTRA2:
-  - F24
+  - F23
   - F13
   - F14
   - F15
@@ -183,47 +240,47 @@ layers:
   - F20
   - F21
   - F22
-  - F23
-  - $$mdi:power-standby$$
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - $$mdi:printer-outline$$
-  - MB4
-  - $$mdi:pan-up$$
-  - MB5
-  - $$mdi:volume-high$$
-  - $$mdi:brightness-5$$
-  - $$mdi:apple-keyboard-control$$
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - SLCK
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-right$$
-  - $$mdi:volume-low$$
-  - $$mdi:brightness-4$$
-  - $$mdi:apple-keyboard-shift$$
-  - F11
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-left-click-outline$$
+  - F24
+  - APP
   - F12
-  - PAUSE BREAK
+  - F9
+  - F8
+  - F7
+  - {t: '$$mdi:volume-high$$', s: '$$mdi:brightness-5$$'}
+  - $$mdi:asterisk-circle-outline$$
+  - KP 7
+  - KP 8
+  - KP 9
+  - $$mdi:plus-circle-outline$$
   - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
+  - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
+  - F11
+  - F5
+  - F4
+  - F4
+  - {t: '$$mdi:volume-low$$', s: '$$mdi:brightness-4$$'}
+  - KP DIVIDE
+  - KP 4
+  - KP 5
+  - KP 6
+  - $$mdi:minus-circle-outline$$
   - $$mdi:skip-next$$
-  - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-shift$$
+  - F10
+  - F3
+  - F2
+  - F1
+  - {t: '$$mdi:volume-off$$', s: '$$mdi:power-standby$$'}
+  - KP DOT
+  - KP 1
+  - KP 3
+  - KP 3
+  - KP 0
+  - $$mdi:play-pause$$
   - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
-  - $$mdi:apple-keyboard-control$$
+  - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
