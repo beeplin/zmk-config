@@ -62,14 +62,14 @@
     AUTOMS { label = "AUTOMS"; bindings = <
 &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
 &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
-&trans            &trans            &trans            &trans            &trans            &trans            &trans            &mkp MCLK         &mkp LCLK         &mkp RCLK         &trans            &trans
+&trans            &trans            &trans            &trans            &trans            &trans            &trans            &mkp LCLK         &mkp MCLK         &mkp RCLK         &trans            &trans
 &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
                                                       &trans            &trans            &trans            &trans            &trans
                                                                         &trans            &trans            &trans >; };
-    EXTRA1 { label = "EXTRA1"; bindings = < 
+    EXTRA1 { label = "EXTRA1"; bindings = <  
 &kp F11           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp F12
 &kp HOME          &kp END           &kp BSPC          &kp UP            &kp DEL           &kp PG_UP         &kp SPACE         &kp GRAVE         &kp MINUS         &kp EQUAL         &kp BSLH          &kp PSCRN
-&mt LCTRL CAPS    &kp ENTER         &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &mkp MB4          &mkp MCLK         &mkp LCLK         &mkp RCLK         &mkp MB5          &kp SLCK
+&mt LCTRL CAPS    &kp ENTER         &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &mkp MB4          &mkp LCLK         &mkp MCLK         &mkp RCLK         &mkp MB5          &kp SLCK
 &mc LSHFT 0       &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp PAUSE_BREAK
                                                       &trans            &trans            &mt3 LALT INS     &mt RCTRL CAPS    &mc RSHFT 0
                                                                         &trans            &trans            &trans >; };
@@ -84,7 +84,7 @@
 &none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none
 &none             &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_CLR        &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &none
 &none             &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &none
-&none             &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &kp SPACE         &mkp LCLK         &mkp RCLK         &kp F4            &none
+&none             &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &none
                                                       &to KANATA        &rgb_ug RGB_TOG   &to COLMAK        &mt LCTRL F       &mt LALT F11
                                                                         &none             &none             &none >; };
   };
