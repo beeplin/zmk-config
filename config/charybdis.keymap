@@ -57,8 +57,8 @@
 &kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp K             &kp L             &kp U             &kp Y             &kp SEMI          &kp LBKT
 &mt LCTRL ESC     &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp SQT
 &sq LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp J             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &kp RBKT
-                                                      &ms LALT LGUI     &lt EXTRA1 SPACE  &lt EXTRA2 TAB    &mt LCTRL ESC     &sq LSHFT
-                                                                        &sq LSHFT         &mt LCTRL ESC     &kp LGUI >; };
+                                                      &ms LALT LGUI     &lt EXTRA1 SPACE  &lt EXTRA2 TAB    &mt RCTRL ESC     &sq RSHFT
+                                                                        &sq LSHFT         &mt LCTRL ESC     &kp RGUI >; };
     AUTOMS { label = "AUTOMS"; bindings = <
 &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
 &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
@@ -71,14 +71,14 @@
 &kp HOME          &kp END           &kp BSPC          &kp UP            &kp DEL           &kp PG_UP         &kp SPACE         &kp GRAVE         &kp MINUS         &kp EQUAL         &kp BSLH          &kp PSCRN
 &mt LCTRL CAPS    &kp ENTER         &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &mkp MB4          &mkp LCLK         &mkp MCLK         &mkp RCLK         &mkp MB5          &kp SLCK
 &mc LSHFT 0       &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp PAUSE_BREAK
-                                                      &trans            &trans            &mt3 LALT INS     &mt LCTRL CAPS    &mc LSHFT 0
+                                                      &trans            &trans            &mt3 LALT INS     &mt RCTRL CAPS    &mc RSHFT 0
                                                                         &trans            &trans            &trans >; };
     EXTRA2 { label = "EXTRA2"; bindings = <
 &kp F23           &kp F13           &kp F14           &kp F15           &kp F16           &kp F17           &kp F18           &kp F19           &kp F20           &kp F21           &kp F22           &kp F24
-&kp K_APP         &kp F12           &kp F9            &kp F8            &kp F7            &mm_VOLUP_PREV    &kp KP_MULTIPLY   &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp C_BRI_UP
-&mt LCTRL KP_NLCK &kp F11           &kp F6            &kp F5            &kp F4            &mm_VOLDN_NEXT    &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_MINUS      &kp C_BRI_DN
-&mt LSHFT KP_ENTER&kp F10           &kp F3            &kp F2            &kp F1            &mm_MUTE_PP       &kp KP_DOT        &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_N0         &win_sleep
-                                                      &mt LALT K_APP    &mt LALT INS      &trans            &mt LCTRL KP_NLCK &mt LSHFT KP_ENTER
+&kp K_APP         &kp F12           &kp F9            &kp F8            &kp F7            &mm_VOLUP_PREV    &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp C_BRI_UP
+&kp LCTRL         &kp F11           &kp F6            &kp F5            &kp F4            &mm_VOLDN_NEXT    &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &kp C_BRI_DN
+&kp LSHFT         &kp F10           &kp F3            &kp F2            &kp F1            &mm_MUTE_PP       &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &kp RALT
+                                                      &trans            &mt LALT INS      &trans            &mt RCTRL KP_NUM  &mt RSHFT KP_N0
                                                                         &trans            &trans            &trans >; };
     CONFIG { label = "CONFIG"; bindings = <
 &none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none
