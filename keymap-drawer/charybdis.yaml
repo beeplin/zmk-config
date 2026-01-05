@@ -332,7 +332,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-right-click-outline$$
-  - W
+  - F4
   - {type: none}
   - {t: KANATA, h: toggle}
   - RGB TOG
