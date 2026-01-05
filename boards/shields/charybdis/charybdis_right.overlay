@@ -3,10 +3,10 @@
 
 #define KANATA 0
 #define COLMAK 1
-#define AUTOMS 2
-#define EXTRA1 3
-#define EXTRA2 4
-#define CONFIG 5
+#define EXTRA1 2
+#define EXTRA2 3
+#define CONFIG 4
+#define AUTOMS 5
 
 &transform0 {
     col-offset = <6>;
