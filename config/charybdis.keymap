@@ -35,9 +35,9 @@
     mm_LBRC_RBRC:   mm_LBRC_RBRC   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBRC>, <&kp RBRC>; };
     mm_LPAR_RPAR:   mm_LPAR_RPAR   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LPAR>, <&kp RPAR>; };
     mm_LBKT_RBKT:   mm_LBKT_RBKT   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBKT>, <&kp RBKT>; };
-    mm_VOLUP_BRIUP: mm_VOLUP_BRIUP { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_UP>, <&kp C_BRI_UP>; };
-    mm_VOLDN_BRIDN: mm_VOLDN_BRIDN { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_VOL_DN>, <&kp C_BRI_DN>; };
-    mm_MUTE_SLEEP:  mm_MUTE_SLEEP  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_MUTE>, <&win_sleep>; };
+    mm_VOLUP_PREV:  mm_VOLUP_PREV  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_VOL_UP>, <&kp C_PREV>; };
+    mm_VOLDN_NEXT:  mm_VOLDN_NEXT  { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_VOL_DN>, <&kp C_NEXT>; };
+    mm_MUTE_PP:     mm_MUTE_PP     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RSFT)>; bindings = <&kp C_MUTE>,   <&kp C_PP>; };
   };
   combos { compatible = "zmk,combos";
     to_config_layer { timeout-ms = <50>; key-positions = <49 50 51 52>; bindings = <&to CONFIG>;  layers = <KANATA COLMAK>; };
@@ -75,10 +75,10 @@
                                                                         &trans            &trans            &trans >; };
     EXTRA2 { label = "EXTRA2"; bindings = <
 &kp F23           &kp F13           &kp F14           &kp F15           &kp F16           &kp F17           &kp F18           &kp F19           &kp F20           &kp F21           &kp F22           &kp F24
-&kp K_APP         &kp F12           &kp F9            &kp F8            &kp F7            &mm_VOLUP_BRIUP   &kp KP_MULTIPLY   &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp C_PREV
-&mt LCTRL KP_NUM  &kp F11           &kp F5            &kp F4            &kp F4            &mm_VOLDN_BRIDN   &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_MINUS      &kp C_NEXT
-&kp LSHFT         &kp F10           &kp F3            &kp F2            &kp F1            &mm_MUTE_SLEEP    &kp KP_DOT        &kp KP_N1         &kp KP_N3         &kp KP_N3         &kp KP_N0         &kp C_PP
-                                                      &mt LALT K_APP    &mt LALT INS      &trans            &mt LCTRL KP_NUM  &kp LSHFT
+&kp K_APP         &kp F12           &kp F9            &kp F8            &kp F7            &mm_VOLUP_PREV    &kp KP_MULTIPLY   &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp C_BRI_UP
+&mt LCTRL KP_NLCK &kp F11           &kp F6            &kp F5            &kp F4            &mm_VOLDN_NEXT    &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_MINUS      &kp C_BRI_DN
+&mt LSHFT KP_ENTER&kp F10           &kp F3            &kp F2            &kp F1            &mm_MUTE_PP       &kp KP_DOT        &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_N0         &win_sleep
+                                                      &mt LALT K_APP    &mt LALT INS      &trans            &mt LCTRL KP_NLCK &mt LSHFT KP_ENTER
                                                                         &trans            &trans            &trans >; };
     CONFIG { label = "CONFIG"; bindings = <
 &none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none
