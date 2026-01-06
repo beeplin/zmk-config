@@ -232,9 +232,9 @@ combos:
 - p: [49, 50, 51, 52]
   k: {t: SPECIAL, h: toggle}
   l: [COLEMAK]
-- p: [29, 41]
+- p: [28, 29, 40, 41]
   k: boot loader
   l: [SPECIAL]
-- p: [30, 42]
+- p: [30, 31, 42, 43]
   k: boot loader
   l: [SPECIAL]
