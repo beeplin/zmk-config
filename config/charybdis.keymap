@@ -42,8 +42,8 @@
   };
   combos { compatible = "zmk,combos";
     to_config_layer { timeout-ms = <50>; key-positions = <49 50 51 52>; bindings = <&to SPECIAL>; layers = <COLEMAK>; };
-    left_bootloader { timeout-ms = <50>; key-positions = <40 41>;       bindings = <&bootloader>; layers = <SPECIAL>; };
-    rght_bootloader { timeout-ms = <50>; key-positions = <42 43>;       bindings = <&bootloader>; layers = <SPECIAL>; };
+    left_bootloader { timeout-ms = <50>; key-positions = <29 41>;       bindings = <&bootloader>; layers = <SPECIAL>; };
+    rght_bootloader { timeout-ms = <50>; key-positions = <30 42>;       bindings = <&bootloader>; layers = <SPECIAL>; };
   };
   keymap { compatible = "zmk,keymap";
     COLEMAK { label = "COLEMAK"; bindings = <
