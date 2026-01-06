@@ -2,9 +2,9 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #define COLEMAK 0
-#define SPECIAL 1
-#define EXTRA_1 2
-#define EXTRA_2 3
+#define EXTRA_1 1
+#define EXTRA_2 2
+#define SPECIAL 3
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>

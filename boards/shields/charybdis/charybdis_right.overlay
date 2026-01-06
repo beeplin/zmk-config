@@ -2,9 +2,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define COLEMAK 0
-#define SPECIAL 1
-#define EXTRA_1 2
-#define EXTRA_2 3
+#define EXTRA_1 1
+#define EXTRA_2 2
+#define SPECIAL 3
+
 
 &transform0 {
     col-offset = <6>;
