@@ -50,70 +50,13 @@ layers:
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: SPECIAL}
-  - {t: '$$mdi:keyboard-tab$$', h: EXTRA_1}
+  - {t: '$$mdi:keyboard-space$$', h: EXTRA_1}
+  - {t: '$$mdi:keyboard-tab$$', h: EXTRA_2}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:microsoft-windows$$
-  SPECIAL:
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - BT SEL0
-  - BT SEL1
-  - BT SEL2
-  - BT SEL3
-  - BT SEL4
-  - $$mdi:keyboard-esc$$
-  - PGUP
-  - $$mdi:arrow-up-bold$$
-  - PGDN
-  - $$mdi:backspace-reverse-outline$$
-  - {type: none}
-  - {type: none}
-  - RGB EFR
-  - RGB HUI
-  - RGB SAI
-  - RGB BRI
-  - RGB SPI
-  - L
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
-  - {type: none}
-  - RGB EFF
-  - RGB HUD
-  - RGB SAD
-  - RGB BRD
-  - RGB SPD
-  - $$mdi:keyboard-tab$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:mouse-right-click-outline$$
-  - F4
-  - {type: none}
-  - BT CLR
-  - {t: RGB TOG, type: held}
-  - {t: COLEMAK, h: toggle}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F11, h: '$$mdi:apple-keyboard-option$$'}
-  - {type: none}
-  - {type: none}
-  - {type: none}
   EXTRA_1:
   - F11
   - F1
@@ -164,8 +107,8 @@ layers:
   - {t: ' 0 ', s: )}
   - PAUSE BREAK
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: INS, h: '&lm3 LALT', type: held}
+  - {type: held}
+  - {t: INS, h: '&lm3 LALT'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -222,19 +165,76 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {type: held}
   - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
   - {t: KP 0, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
+  SPECIAL:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - BT SEL0
+  - BT SEL1
+  - BT SEL2
+  - BT SEL3
+  - BT SEL4
+  - $$mdi:keyboard-esc$$
+  - PGUP
+  - $$mdi:arrow-up-bold$$
+  - PGDN
+  - $$mdi:backspace-reverse-outline$$
+  - {type: none}
+  - {type: none}
+  - RGB EFR
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
+  - RGB SPI
+  - L
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: none}
+  - {type: none}
+  - RGB EFF
+  - RGB HUD
+  - RGB SAD
+  - RGB BRD
+  - RGB SPD
+  - $$mdi:keyboard-tab$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:mouse-right-click-outline$$
+  - F4
+  - {type: none}
+  - BT CLR
+  - RGB TOG
+  - {t: COLEMAK, h: toggle}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F11, h: '$$mdi:apple-keyboard-option$$'}
+  - {type: none}
+  - {type: none}
+  - {type: none}
 combos:
 - p: [49, 50, 51, 52]
-  k: {t: EXTRA_2, h: toggle}
+  k: {t: SPECIAL, h: toggle}
   l: [COLEMAK]
 - p: [41, 49]
   k: boot loader
-  l: [EXTRA_2]
+  l: [SPECIAL]
 - p: [42, 52]
   k: boot loader
-  l: [EXTRA_2]
+  l: [SPECIAL]
