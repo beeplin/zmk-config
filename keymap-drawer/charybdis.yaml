@@ -1,63 +1,6 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  KANATA:
-  - {t: '`', s: '~'}
-  - {t: ' 1 ', s: '!'}
-  - {t: ' 2 ', s: '@'}
-  - {t: ' 3 ', s: '#'}
-  - {t: ' 4 ', s: $}
-  - {t: ' 5 ', s: '%'}
-  - {t: ' 6 ', s: ^}
-  - {t: ' 7 ', s: '&'}
-  - {t: ' 8 ', s: '*'}
-  - {t: ' 9 ', s: (}
-  - {t: ' 0 ', s: )}
-  - {t: '-', s: _}
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '[', s: '{'}
-  - $$mdi:apple-keyboard-caps$$
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
-  - V
-  - Z
-  - X
-  - C
-  - B
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-caps$$
-  - $$mdi:microsoft-windows$$
-  COLMAK:
+  COLEMAK:
   - {t: '`', s: '~'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -76,7 +19,7 @@ layers:
   - F
   - P
   - B
-  - K
+  - J
   - L
   - U
   - Y
@@ -100,21 +43,78 @@ layers:
   - C
   - D
   - V
-  - J
+  - K
   - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: EXTRA1}
-  - {t: '$$mdi:keyboard-tab$$', h: EXTRA2}
+  - {t: '$$mdi:keyboard-space$$', h: EXTRA_1}
+  - {t: '$$mdi:keyboard-tab$$', h: EXTRA_2}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:microsoft-windows$$
-  AUTOMS:
+  SPECIAL:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - BT SEL0
+  - BT SEL1
+  - BT SEL2
+  - BT SEL3
+  - BT SEL4
+  - $$mdi:keyboard-esc$$
+  - PGUP
+  - $$mdi:arrow-up-bold$$
+  - PGDN
+  - $$mdi:backspace-reverse-outline$$
+  - {type: none}
+  - {type: none}
+  - RGB EFR
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
+  - RGB SPI
+  - L
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: none}
+  - {type: none}
+  - RGB EFF
+  - RGB HUD
+  - RGB SAD
+  - RGB BRD
+  - RGB SPD
+  - $$mdi:keyboard-tab$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:mouse-right-click-outline$$
+  - F4
+  - {type: none}
+  - BT CLR
+  - RGB TOG
+  - OUT TOG
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F11, h: '$$mdi:apple-keyboard-option$$'}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  AUTOMSE:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  EXTRA1:
+  EXTRA_1:
   - F11
   - F1
   - F2
@@ -228,7 +228,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  EXTRA2:
+  EXTRA_2:
   - F23
   - F13
   - F14
@@ -285,70 +285,13 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  CONFIG:
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - BT SEL0
-  - BT SEL1
-  - BT SEL2
-  - BT SEL3
-  - BT CLR
-  - $$mdi:keyboard-esc$$
-  - PGUP
-  - $$mdi:arrow-up-bold$$
-  - PGDN
-  - $$mdi:backspace-reverse-outline$$
-  - {type: none}
-  - {type: none}
-  - RGB EFR
-  - RGB HUI
-  - RGB SAI
-  - RGB BRI
-  - RGB SPI
-  - L
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
-  - {type: none}
-  - RGB EFF
-  - RGB HUD
-  - RGB SAD
-  - RGB BRD
-  - RGB SPD
-  - $$mdi:keyboard-tab$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:mouse-right-click-outline$$
-  - F4
-  - {type: none}
-  - {t: KANATA, h: toggle}
-  - RGB TOG
-  - {t: COLMAK, h: toggle}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F11, h: '$$mdi:apple-keyboard-option$$'}
-  - {type: none}
-  - {type: none}
-  - {type: none}
 combos:
 - p: [49, 50, 51, 52]
-  k: {t: CONFIG, h: toggle}
-  l: [KANATA, COLMAK]
+  k: {t: SPECIAL, h: toggle}
+  l: [COLEMAK, SPECIAL]
 - p: [41, 49]
   k: boot loader
-  l: [CONFIG]
+  l: [SPECIAL]
 - p: [42, 52]
   k: boot loader
-  l: [CONFIG]
+  l: [SPECIAL]
