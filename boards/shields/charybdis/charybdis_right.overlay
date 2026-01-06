@@ -46,9 +46,9 @@
 
         /* optional features */
 
-        automouse-layer = <AUTOMS>;
-        scroll-layers = <EXTRA1>;
-        snipe-layers = <EXTRA2>;
+        automouse-layer = <AUTOMSE>;
+        scroll-layers = <EXTRA_1>;
+        snipe-layers = <EXTRA_2>;
 
         /* optional: ball action on specific layers */
         // arrows {
