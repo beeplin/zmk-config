@@ -36,7 +36,7 @@
     mm_LBKT_RBKT:   mm_LBKT_RBKT   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBKT>, <&kp RBKT>; };
     mm_PRV_BUP:     mm_PRV_BUP     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_PREV>, <&kp C_BRI_UP>; };
     mm_NXT_BDN:     mm_NXT_BDN     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_NEXT>, <&kp C_BRI_DN>; };
-    mm_PP_SLEP:     mm_PP_SLEP     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_PP>,   <&win_sleep>; };
+    mm_PP_SLEP:     mm_PP_SLEP     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_PP>,   <&>; };
     mm_VUP_PRV_BUP: mm_VUP_PRV_BUP { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_VOL_UP>, <&mm_PRV_BUP>; };
     mm_VDN_NXT_BDN: mm_VDN_NXT_BDN { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_VOL_DN>, <&mm_NXT_BDN>; };
     mm_MUT_PP_SLEP: mm_MUT_PP_SLEP { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_MUTE>,   <&mm_PP_SLEP>; };
@@ -77,10 +77,10 @@
                                                                         &trans            &trans            &trans >; };
     EXTRA_2 { label = "EXTRA_2"; bindings = <
 &kp F23           &kp F13           &kp F14           &kp F15           &kp F16           &kp F17           &kp F18           &kp F19           &kp F20           &kp F21           &kp F22           &kp F24
-&kp K_APP         &kp F12           &kp F9            &kp F8            &kp F7            &mm_VUP_PRV_BUP   &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp C_AL_MAIL
-&kp LCTRL         &kp F11           &kp F6            &kp F5            &kp F4            &mm_VDN_NXT_BDN   &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &kp C_AL_CALC
-&kp LSHFT         &kp F10           &kp F3            &kp F2            &kp F1            &mm_MUT_PP_SLEP   &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &kp RALT
-                                                      &trans            &mt LALT INS      &trans            &mt RCTRL KP_NUM  &mt RSHFT KP_N0
+&kp LALT          &kp F12           &kp F9            &kp F8            &kp F7            &mm_VUP_PRV_BUP   &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp RALT
+&kp LCTRL         &kp F11           &kp F6            &kp F5            &kp F4            &mm_VDN_NXT_BDN   &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &kp RCTRL
+&kp LSHFT         &kp F10           &kp F3            &kp F2            &kp F1            &mm_MUT_PP_SLEP   &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &kp RSHFT
+                                                      &mt LALT K_APP    &mt LALT INS      &trans            &mt RCTRL KP_NUM  &mt RSHFT KP_N0
                                                                         &trans            &trans            &trans >; };
   };
 };
