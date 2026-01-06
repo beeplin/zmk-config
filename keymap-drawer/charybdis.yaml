@@ -229,7 +229,7 @@ layers:
   - {type: none}
   - {type: none}
 combos:
-- p: [49, 50, 51, 52]
+- p: [48, 49, 50, 51, 52]
   k: {t: SPECIAL, h: toggle}
   l: [COLEMAK]
 - p: [28, 29, 40, 41]
