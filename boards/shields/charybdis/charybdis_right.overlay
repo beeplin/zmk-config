@@ -3,9 +3,8 @@
 
 #define COLEMAK 0
 #define SPECIAL 1
-#define AUTOMSE 2
-#define EXTRA_1 3
-#define EXTRA_2 4
+#define EXTRA_1 2
+#define EXTRA_2 3
 
 &transform0 {
     col-offset = <6>;
@@ -46,7 +45,7 @@
 
         /* optional features */
 
-        automouse-layer = <AUTOMSE>;
+        // automouse-layer = <AUTOMSE>;
         scroll-layers = <EXTRA_1>;
         snipe-layers = <EXTRA_2>;
 

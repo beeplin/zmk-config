@@ -3,9 +3,8 @@
 
 #define COLEMAK 0
 #define SPECIAL 1
-#define AUTOMSE 2
-#define EXTRA_1 3
-#define EXTRA_2 4
+#define EXTRA_1 2
+#define EXTRA_2 3
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
@@ -61,13 +60,6 @@
 &none             &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &none
                                                       &bt BT_CLR        &rgb_ug RGB_TOG   &to COLEMAK       &mt LCTRL F       &mt LALT F11
                                                                         &none             &none             &none >; };
-    AUTOMSE { label = "AUTOMSE"; bindings = <
-&trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
-&trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
-&trans            &trans            &trans            &trans            &trans            &trans            &trans            &mkp LCLK         &mkp MCLK         &mkp RCLK         &trans            &trans
-&trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
-                                                      &trans            &trans            &trans            &trans            &trans
-                                                                        &trans            &trans            &trans >; };
     EXTRA_1 { label = "EXTRA_1"; bindings = <  
 &kp F11           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp F12
 &kp HOME          &kp END           &kp BSPC          &kp UP            &kp DEL           &kp PG_UP         &kp SPACE         &kp GRAVE         &kp MINUS         &kp EQUAL         &kp BSLH          &kp PSCRN
