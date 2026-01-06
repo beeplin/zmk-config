@@ -42,9 +42,9 @@
     mm_MUT_PP_SLEP: mm_MUT_PP_SLEP { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_MUTE>,   <&mm_PP_SLEP>; };
   };
   combos { compatible = "zmk,combos";
-    to_config_layer { timeout-ms = <50>; key-positions = <49 50 51 52>; bindings = <&tog SPECIAL>;  layers = <COLEMAK SPECIAL>; };
-    left_bootloader { timeout-ms = <50>; key-positions = <41 49>;       bindings = <&bootloader>; layers = <SPECIAL>; };
-    rght_bootloader { timeout-ms = <50>; key-positions = <42 52>;       bindings = <&bootloader>; layers = <SPECIAL>; };
+    to_config_layer { timeout-ms = <50>; key-positions = <49 50 51 52>; bindings = <&tog SPECIAL>; layers = <COLEMAK SPECIAL>; };
+    left_bootloader { timeout-ms = <50>; key-positions = <41 49>;       bindings = <&bootloader>;  layers = <SPECIAL>; };
+    rght_bootloader { timeout-ms = <50>; key-positions = <42 52>;       bindings = <&bootloader>;  layers = <SPECIAL>; };
   };
   keymap { compatible = "zmk,keymap";
     COLEMAK { label = "COLEMAK"; bindings = <
