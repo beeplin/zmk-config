@@ -53,13 +53,6 @@
 &sq LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp J             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &kp RBKT
                                                       &ms LALT LGUI     &lt EXTRA_1 SPACE &lt EXTRA_2 TAB   &mt RCTRL ESC     &sq RSHFT
                                                                         &sq LSHFT         &mt LCTRL ESC     &kp RGUI >; };
-    SPECIAL { label = "SPECIAL"; bindings = <
-&none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none
-&none             &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &none
-&none             &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &none
-&none             &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &none
-                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to COLEMAK       &mt LCTRL F       &mt LALT F11
-                                                                        &none             &none             &none >; };
     EXTRA_1 { label = "EXTRA_1"; bindings = <  
 &kp F11           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp F12
 &kp HOME          &kp END           &kp BSPC          &kp UP            &kp DEL           &kp PG_UP         &kp SPACE         &kp GRAVE         &kp MINUS         &kp EQUAL         &kp BSLH          &kp PSCRN
@@ -74,5 +67,12 @@
 &kp LSHFT         &kp F10           &kp F3            &kp F2            &kp F1            &mm_MUT_PP_CALC   &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &kp RSHFT
                                                       &mt LALT K_APP    &mt LALT INS      &trans            &mt RCTRL KP_NUM  &mt RSHFT KP_N0
                                                                         &trans            &trans            &trans >; };
+    SPECIAL { label = "SPECIAL"; bindings = <
+&none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none             &none
+&none             &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &none
+&none             &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &none
+&none             &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &none
+                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to COLEMAK       &mt LCTRL F       &mt LALT F11
+                                                                        &none             &none             &none >; };
   };
 };
