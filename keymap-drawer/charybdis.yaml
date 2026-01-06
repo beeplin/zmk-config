@@ -50,8 +50,8 @@ layers:
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: EXTRA_1}
-  - {t: '$$mdi:keyboard-tab$$', h: EXTRA_2}
+  - {t: '$$mdi:keyboard-space$$', h: SPECIAL}
+  - {t: '$$mdi:keyboard-tab$$', h: EXTRA_1}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -107,7 +107,7 @@ layers:
   - F4
   - {type: none}
   - BT CLR
-  - RGB TOG
+  - {t: RGB TOG, type: held}
   - {t: COLEMAK, h: toggle}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F11, h: '$$mdi:apple-keyboard-option$$'}
@@ -164,8 +164,8 @@ layers:
   - {t: ' 0 ', s: )}
   - PAUSE BREAK
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {type: held}
-  - {t: INS, h: '&lm3 LALT'}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: INS, h: '&lm3 LALT', type: held}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -222,7 +222,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
-  - {type: held}
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
   - {t: KP 0, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -230,11 +230,11 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
 combos:
 - p: [49, 50, 51, 52]
-  k: {t: SPECIAL, h: toggle}
+  k: {t: EXTRA_2, h: toggle}
   l: [COLEMAK]
 - p: [41, 49]
   k: boot loader
-  l: [SPECIAL]
+  l: [EXTRA_2]
 - p: [42, 52]
   k: boot loader
-  l: [SPECIAL]
+  l: [EXTRA_2]
