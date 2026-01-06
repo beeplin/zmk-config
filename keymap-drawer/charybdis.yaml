@@ -108,7 +108,7 @@ layers:
   - {type: none}
   - BT CLR
   - RGB TOG
-  - OUT TOG
+  - {t: COLEMAK, h: toggle}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F11, h: '$$mdi:apple-keyboard-option$$'}
   - {type: none}
@@ -241,7 +241,7 @@ layers:
   - F21
   - F22
   - F24
-  - APP
+  - $$mdi:apple-keyboard-option$$
   - F12
   - F9
   - F8
@@ -252,7 +252,7 @@ layers:
   - KP 8
   - KP 9
   - KP PLUS
-  - AL MAIL
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - F11
   - F6
@@ -264,7 +264,7 @@ layers:
   - KP 5
   - KP 6
   - KP ENTER
-  - AL CALC
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - F10
   - F3
@@ -276,8 +276,8 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
   - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
@@ -288,7 +288,7 @@ layers:
 combos:
 - p: [49, 50, 51, 52]
   k: {t: SPECIAL, h: toggle}
-  l: [COLEMAK, SPECIAL]
+  l: [COLEMAK]
 - p: [41, 49]
   k: boot loader
   l: [SPECIAL]
