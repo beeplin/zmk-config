@@ -19,7 +19,7 @@ layers:
   - F
   - P
   - B
-  - J
+  - K
   - L
   - U
   - Y
@@ -43,7 +43,7 @@ layers:
   - C
   - D
   - V
-  - K
+  - J
   - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
@@ -252,7 +252,7 @@ layers:
   - KP 8
   - KP 9
   - KP PLUS
-  - $$mdi:brightness-5$$
+  - AL MAIL
   - $$mdi:apple-keyboard-control$$
   - F11
   - F6
@@ -264,7 +264,7 @@ layers:
   - KP 5
   - KP 6
   - KP ENTER
-  - $$mdi:brightness-4$$
+  - AL CALC
   - $$mdi:apple-keyboard-shift$$
   - F10
   - F3
