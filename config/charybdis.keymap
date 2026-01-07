@@ -52,7 +52,7 @@
     mclk            { timeout-ms = <50>; key-positions = <26 27>;          bindings = <&mkp MCLK>;        layers = <COLEMAK>; };
     lclk            { timeout-ms = <50>; key-positions = <27 28>;          bindings = <&mkp LCLK>;        layers = <COLEMAK>; };
     ins             { timeout-ms = <50>; key-positions = <37 38>;          bindings = <&kp INS>;          layers = <COLEMAK>; };
-    home            { timeout-ms = <50>; key-positions = <38 39>;          bindings = <&kp home>;         layers = <COLEMAK>; };
+    home            { timeout-ms = <50>; key-positions = <38 39>;          bindings = <&kp HOME>;         layers = <COLEMAK>; };
     end             { timeout-ms = <50>; key-positions = <39 40>;          bindings = <&kp END>;          layers = <COLEMAK>; };
     prev            { timeout-ms = <50>; key-positions = <19 20>;          bindings = <&kp C_PREV>;       layers = <COLEMAK>; };
     vup             { timeout-ms = <50>; key-positions = <20 21>;          bindings = <&kp C_VOL_UP>;     layers = <COLEMAK>; };
