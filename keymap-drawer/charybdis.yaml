@@ -54,8 +54,8 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: EXTRA_2}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:microsoft-windows$$
   EXTRA_1:
   - F11
@@ -106,9 +106,9 @@ layers:
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
   - PAUSE BREAK
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {type: held}
-  - {t: INS, h: '&lm3 LALT'}
+  - {t: INS, h: '&lm2 LALT'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -163,7 +163,7 @@ layers:
   - KP 3
   - KP DOT
   - $$mdi:apple-keyboard-shift$$
-  - {t: APP, h: '$$mdi:apple-keyboard-option$$'}
+  - APP
   - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - {type: held}
   - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
@@ -172,19 +172,19 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   SPECIAL:
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - BT PRV
+  - BT DISC0
+  - BT DISC1
+  - BT DISC2
+  - BT DISC3
+  - BT DISC4
+  - {t: ' 1 ', s: '!'}
+  - HOME
+  - INS
+  - END
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: ' 0 ', s: )}
+  - BT NXT
   - BT SEL0
   - BT SEL1
   - BT SEL2
@@ -195,8 +195,8 @@ layers:
   - $$mdi:arrow-up-bold$$
   - PGDN
   - $$mdi:backspace-reverse-outline$$
-  - {type: none}
-  - {type: none}
+  - {t: '=', s: +}
+  - RGB ON
   - RGB EFR
   - RGB HUI
   - RGB SAI
@@ -207,8 +207,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
-  - {type: none}
+  - {t: '-', s: _}
+  - RGB OFF
   - RGB EFF
   - RGB HUD
   - RGB SAD
@@ -219,15 +219,15 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-right-click-outline$$
   - F4
-  - {type: none}
+  - $$mdi:apple-keyboard-shift$$
   - BT CLR
   - RGB TOG
   - {t: COLEMAK, h: toggle}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F11, h: '$$mdi:apple-keyboard-option$$'}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
 combos:
 - p: [48, 49, 50, 51, 52]
   k: {t: SPECIAL, h: toggle}
