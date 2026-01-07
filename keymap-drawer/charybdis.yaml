@@ -251,7 +251,7 @@ combos:
   k: INS
   l: [COLEMAK]
 - p: [38, 39]
-  k: home
+  k: HOME
   l: [COLEMAK]
 - p: [39, 40]
   k: END
