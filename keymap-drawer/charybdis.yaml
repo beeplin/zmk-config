@@ -178,12 +178,12 @@ layers:
   - BT DISC2
   - BT DISC3
   - BT DISC4
-  - {t: ' 1 ', s: '!'}
+  - $$mdi:microsoft-windows$$
   - HOME
   - INS
   - END
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: ' 0 ', s: )}
+  - {t: ' 1 ', s: '!'}
   - BT NXT
   - BT SEL0
   - BT SEL1
@@ -219,7 +219,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-right-click-outline$$
   - F4
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ' 0 ', h: '$$mdi:apple-keyboard-shift$$', s: )}
   - BT CLR
   - RGB TOG
   - {t: COLEMAK, h: toggle}
