@@ -30,7 +30,7 @@
     mc:   kp_cw  { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&kp>, <&caps_word>; };
     ls:   mo_sk  { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&mo>, <&sk>; };
     ms:   kp_sk  { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&kp>, <&sk>; };
-    lm1s: lm2_sk { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&sk>; quick-tap-ms = <200>; };
+    lm1s: lm1_sk { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm1>, <&sk>; quick-tap-ms = <200>; };
     lm2s: lm2_sk { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lm2>, <&sk>; quick-tap-ms = <200>; };
     mm_EQUAL_KPLUS: mm_EQUAL_KPLUS { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp EQUAL>, <&kp KP_PLUS>; };
     mm_GT_EXCL:     mm_GT_EXCL     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp GT>, <&kp EXCL>; };
@@ -92,10 +92,10 @@
                                                       &kp SPACE         &trans            &trans            &mt RCTRL KP_NUM  &mt RSHFT KP_N0
                                                                         &trans            &trans            &trans >; };
     SPECIAL { label = "SPECIAL"; bindings = <
-&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp N1            &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N0
+&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp LGUI          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
 &bt BT_NXT        &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &kp EQUAL
 &rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &kp MINUS
-&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &kp RSHIFT
+&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &mt RSHIFT N0
                                                       &bt BT_CLR        &rgb_ug RGB_TOG   &to COLEMAK       &mt LCTRL F       &mt LALT F11
                                                                         &trans            &trans            &trans >; };
   };
