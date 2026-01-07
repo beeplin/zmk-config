@@ -80,7 +80,7 @@ layers:
   - INS
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - {t: '`', s: '~'}
   - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: END, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -89,9 +89,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PGDN
   - END
-  - {t: '`', s: '~'}
   - {t: '-', s: _}
   - {t: '=', s: +}
+  - {t: \, s: '|'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
