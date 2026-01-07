@@ -230,10 +230,10 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
 combos:
 - p: [13, 14]
-  k: $$mdi:apple-keyboard-caps$$
+  k: MB4
   l: [COLEMAK]
 - p: [14, 15]
-  k: MB4
+  k: $$mdi:apple-keyboard-caps$$
   l: [COLEMAK]
 - p: [15, 16]
   k: MB5
