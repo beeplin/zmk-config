@@ -45,8 +45,8 @@
     mm_MUT_PP_CALC: mm_MUT_PP_CALC { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_MUTE>,   <&mm_PP_CALC>; };
   };
   combos { compatible = "zmk,combos";
-    caps            { timeout-ms = <50>; key-positions = <13 14>;          bindings = <&kp CAPS>;         layers = <COLEMAK>; };
-    mb4             { timeout-ms = <50>; key-positions = <14 15>;          bindings = <&mkp MB4>;         layers = <COLEMAK>; };
+    mb4             { timeout-ms = <50>; key-positions = <13 14>;          bindings = <&mkp MB4>;         layers = <COLEMAK>; };
+    caps            { timeout-ms = <50>; key-positions = <14 15>;          bindings = <&kp CAPS>;         layers = <COLEMAK>; };
     mb5             { timeout-ms = <50>; key-positions = <15 16>;          bindings = <&mkp MB5>;         layers = <COLEMAK>; };
     rclk            { timeout-ms = <50>; key-positions = <25 26>;          bindings = <&mkp RCLK>;        layers = <COLEMAK>; };
     mclk            { timeout-ms = <50>; key-positions = <26 27>;          bindings = <&mkp MCLK>;        layers = <COLEMAK>; };
