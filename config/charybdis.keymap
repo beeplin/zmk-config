@@ -82,14 +82,14 @@
 &mt LALT HOME     &kp TAB           &kp BSPC          &kp UP            &kp DEL           &kp PG_UP         &kp HOME          &kp INS           &kp LBKT          &kp RBKT          &kp BSLH          &mt RALT C_PREV
 &mt LCTRL END     &kp ENTER         &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &kp END           &kp GRAVE         &kp MINUS         &kp EQUAL         &kp SQT           &mt RCTRL C_NEXT
 &mt LSHFT INS     &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &mt RSHIFT C_PP
-                                                      &trans            &trans            &trans            &mt RCTRL K_APP   &mt RSHFT SPACE
+                                                      &trans            &trans            &trans            &ms RCTRL RALT    &mt RSHFT SPACE
                                                                         &trans            &trans            &trans >; };
     EXTRA_2 { label = "EXTRA_2"; bindings = <
 &kp F23           &kp F13           &kp F14           &kp F15           &kp F16           &kp F17           &kp F18           &kp F19           &kp F20           &kp F21           &kp F22           &kp F24
 &mt LALT C_VOL_UP &kp F12           &kp F9            &kp F8            &kp F7            &kp PSCRN         &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &mt RALT C_BRI_UP
 &mt LCTRL C_VOL_DN&kp F11           &kp F6            &kp F5            &kp F4            &kp SLCK          &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &mt RCTRL C_BRI_DN
 &mt LSHFT C_MUTE  &kp F10           &kp F3            &kp F2            &kp F1            &kp PAUSE_BREAK   &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &mt RSHIFT C_AL_CALC
-                                                      &kp SPACE         &trans            &trans            &mt RCTRL KP_NUM  &mt RSHFT KP_N0
+                                                      &kp K_APP         &trans            &trans            &mt RCTRL KP_NUM  &mt RSHFT KP_N0
                                                                         &trans            &trans            &trans >; };
     SPECIAL { label = "SPECIAL"; bindings = <
 &bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp LGUI          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
