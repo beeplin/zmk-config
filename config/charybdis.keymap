@@ -39,64 +39,85 @@
     mm_LBKT_RBKT:   mm_LBKT_RBKT   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBKT>, <&kp RBKT>; };
     mm_PRV_BUP:     mm_PRV_BUP     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_PREV>, <&kp C_BRI_UP>; };
     mm_NXT_BDN:     mm_NXT_BDN     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_NEXT>, <&kp C_BRI_DN>; };
-    mm_PP_CALC:     mm_PP_CALC     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_PP>,   <&kp C_AL_CALC>; };
+    mm_PP_SLEP:     mm_PP_SLEP     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_PP>, <&win_sleep>; };
     mm_VUP_PRV_BUP: mm_VUP_PRV_BUP { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_VOL_UP>, <&mm_PRV_BUP>; };
     mm_VDN_NXT_BDN: mm_VDN_NXT_BDN { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_VOL_DN>, <&mm_NXT_BDN>; };
-    mm_MUT_PP_CALC: mm_MUT_PP_CALC { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_MUTE>,   <&mm_PP_CALC>; };
+    mm_MUT_PP_SLEP: mm_MUT_PP_SLEP { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_MUTE>, <&mm_PP_SLEP>; };
   };
   combos { compatible = "zmk,combos";
-    space           { timeout-ms = <30>; key-positions = <13 14>;          bindings = <&kp SPACE>;        layers = <COLEMAK>; };
-    mb4             { timeout-ms = <30>; key-positions = <14 15>;          bindings = <&mkp MB4>;         layers = <COLEMAK>; };
-    mb5             { timeout-ms = <30>; key-positions = <15 16>;          bindings = <&mkp MB5>;         layers = <COLEMAK>; };
-    rclk            { timeout-ms = <30>; key-positions = <25 26>;          bindings = <&mkp RCLK>;        layers = <COLEMAK>; };
-    mclk            { timeout-ms = <30>; key-positions = <26 27>;          bindings = <&mkp MCLK>;        layers = <COLEMAK>; };
-    lclk            { timeout-ms = <30>; key-positions = <27 28>;          bindings = <&mkp LCLK>;        layers = <COLEMAK>; };
-    ins             { timeout-ms = <30>; key-positions = <37 38>;          bindings = <&kp INS>;          layers = <COLEMAK>; };
-    home            { timeout-ms = <30>; key-positions = <38 39>;          bindings = <&kp HOME>;         layers = <COLEMAK>; };
-    end             { timeout-ms = <30>; key-positions = <39 40>;          bindings = <&kp END>;          layers = <COLEMAK>; };
-    prev            { timeout-ms = <30>; key-positions = <19 20>;          bindings = <&kp C_PREV>;       layers = <COLEMAK>; };
-    vup             { timeout-ms = <30>; key-positions = <20 21>;          bindings = <&kp C_VOL_UP>;     layers = <COLEMAK>; };
-    bup             { timeout-ms = <30>; key-positions = <21 22>;          bindings = <&kp C_BRI_UP>;     layers = <COLEMAK>; };
-    next            { timeout-ms = <30>; key-positions = <31 32>;          bindings = <&kp C_NEXT>;       layers = <COLEMAK>; };
-    vdn             { timeout-ms = <30>; key-positions = <32 33>;          bindings = <&kp C_VOL_DN>;     layers = <COLEMAK>; };
-    bdn             { timeout-ms = <30>; key-positions = <33 34>;          bindings = <&kp C_BRI_DN>;     layers = <COLEMAK>; };
-    pp              { timeout-ms = <30>; key-positions = <43 44>;          bindings = <&kp C_PP>;         layers = <COLEMAK>; };
-    mute            { timeout-ms = <30>; key-positions = <44 45>;          bindings = <&kp C_MUTE>;       layers = <COLEMAK>; };
-    calc            { timeout-ms = <30>; key-positions = <45 46>;          bindings = <&kp C_AL_CALC>;    layers = <COLEMAK>; };
-    lm1s_lalt_lshft { timeout-ms = <30>; key-positions = <48 49>;          bindings = <&lm1s LALT LSHFT>; layers = <COLEMAK>; };
-    lm2s_lalt_lctrl { timeout-ms = <30>; key-positions = <49 50>;          bindings = <&lm2s LALT LCTRL>; layers = <COLEMAK>; };
-    to_config_layer { timeout-ms = <30>; key-positions = <48 49 50 51 52>; bindings = <&to SPECIAL>;      layers = <COLEMAK>; };
-    left_bootloader { timeout-ms = <30>; key-positions = <28 29 40 41>;    bindings = <&bootloader>;      layers = <SPECIAL>; };
-    rght_bootloader { timeout-ms = <30>; key-positions = <30 31 42 43>;    bindings = <&bootloader>;      layers = <SPECIAL>; };
+    layer_0_left_row_3_col_34  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <13 14>;          bindings = <&kp ESC>; };
+    layer_0_left_row_3_col_23  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <14 15>;          bindings = <&kp TAB>; };
+    layer_0_left_row_3_col_12  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <15 16>;          bindings = <&kp INS>; };
+    layer_0_left_row_3_col_01  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <16 17>;          bindings = <&mm_VUP_PRV_BUP>; };
+    layer_0_left_row_2_col_34  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <25 26>;          bindings = <&mkp RCLK>; };
+    layer_0_left_row_2_col_23  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <26 27>;          bindings = <&mkp MCLK>; };
+    layer_0_left_row_2_col_12  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <27 28>;          bindings = <&mkp LCLK>; };
+    layer_0_left_row_2_col_01  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <28 29>;          bindings = <&mm_VDN_NXT_BDN>; };
+    layer_0_left_row_1_col_34  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <37 38>;          bindings = <&kp CAPS>; };
+    layer_0_left_row_1_col_23  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <38 39>;          bindings = <&kp SPACE>; };
+    layer_0_left_row_1_col_12  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <39 40>;          bindings = <&kp ENTER>; };
+    layer_0_left_row_1_col_01  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <40 41>;          bindings = <&mm_MUT_PP_SLEP>; };
+
+    layer_0_rght_row_3_col_12  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <19 20>;          bindings = <&mkp MB4>; };
+    layer_0_rght_row_3_col_23  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <20 21>;          bindings = <&msc SCRL_UP>; };
+    layer_0_rght_row_3_col_34  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <21 22>;          bindings = <&mkp MB5>; };
+    layer_0_rght_row_2_col_12  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <31 32>;          bindings = <&msc SCRL_LEFT>; };
+    layer_0_rght_row_2_col_23  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <32 33>;          bindings = <&msc SCRL_DOWN>; };
+    layer_0_rght_row_2_col_34  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <33 34>;          bindings = <&msc SCRL_RIGHT>; };
+    layer_0_rght_row_1_col_12  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <43 44>;          bindings = <&kp PSCRN>; };
+    layer_0_rght_row_1_col_23  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <45 46>;          bindings = <&kp SLCK>; };
+    layer_0_rght_row_1_col_34  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <47 48>;          bindings = <&kp PAUSE_BREAK>; };
+
+    layer_0_left_row_0_col_12  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <48 49>;          bindings = <&lm1s LALT LGUI>; };
+    layer_0_left_row_0_col_01  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <49 50>;          bindings = <&lm1s LCTRL LSHFT>; };
+    layer_0_rght_row_0_col_01  { timeout-ms = <30>;                     key-positions = <51 52>;          bindings = <&ms RC(RSHFT) RALT>; };
+
+    layer_0_left_row_0_col_012 { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <48 49 50>;       bindings = <&to EXTRA_2>; };
+    layer_0_both_row_0_col_012 { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <48 49 50 51 52>; bindings = <&to SPECIAL>; };
+    layer_0_left_row_12_col_01 { timeout-ms = <30>; layers = <SPECIAL>; key-positions = <28 29 40 41>;    bindings = <&bootloader>; };
+    layer_0_rght_row_12_col_01 { timeout-ms = <30>; layers = <SPECIAL>; key-positions = <30 31 42 43>;    bindings = <&bootloader>; };
+
+    layer_1_left_row_3_col_34  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <13 14>;          bindings = <&kp F9>; };
+    layer_1_left_row_3_col_23  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <14 15>;          bindings = <&kp F8>; };
+    layer_1_left_row_3_col_12  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <15 16>;          bindings = <&kp F7>; };
+    layer_1_left_row_3_col_01  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <16 17>;          bindings = <&kp F12>; };
+    layer_1_left_row_2_col_34  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <25 26>;          bindings = <&kp F6>; };
+    layer_1_left_row_2_col_23  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <26 27>;          bindings = <&kp F5>; };
+    layer_1_left_row_2_col_12  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <27 28>;          bindings = <&kp F4>; };
+    layer_1_left_row_2_col_01  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <28 29>;          bindings = <&kp F11>; };
+    layer_1_left_row_1_col_34  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <37 38>;          bindings = <&kp F3>; };
+    layer_1_left_row_1_col_23  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <38 39>;          bindings = <&kp F2>; };
+    layer_1_left_row_1_col_12  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <39 40>;          bindings = <&kp F1>; };
+    layer_1_left_row_1_col_01  { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <40 41>;          bindings = <&kp F10>; };
   };
   keymap { compatible = "zmk,keymap";
     COLEMAK { label = "COLEMAK"; bindings = <
-&kp GRAVE         &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp BSLH
-&kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp LBKT
-&mt LCTRL ESC     &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp SQT
-&sq LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &kp RBKT
-                                                      &ms LALT LGUI     &lt EXTRA_1 SPACE &lt EXTRA_2 ESC   &mt RCTRL CAPS    &sq RSHFT
-                                                                        &kp LSHFT         &kp LCTRL         &kp RGUI >; };
+&kp C_AC_BACK     &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp C_AC_FORWARD
+&kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp BSPC
+&mt LCTRL ESC     &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp ENTER
+&mt LSHFT CAPS    &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &mt RSHFT INS
+                                                      &sq LALT          &lt EXTRA_1 SPACE &sq LCTRL         &sq RCTRL         &sq RSHFT
+                                                                        &sq LSHFT         &sq LGUI          &sq RGUI >; };
     EXTRA_1 { label = "EXTRA_1"; bindings = <  
 &kp F11           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp F12
-&mt LALT HOME     &kp TAB           &kp BSPC          &kp UP            &kp DEL           &kp PG_UP         &kp HOME          &kp INS           &kp LBKT          &kp RBKT          &kp GRAVE         &mt RALT C_PREV
-&mt LCTRL END     &kp ENTER         &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &kp END           &kp MINUS         &kp EQUAL         &kp BSLH          &kp SQT           &mt RCTRL C_NEXT
-&mt LSHFT INS     &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &mt RSHIFT C_PP
-                                                      &trans            &trans            &trans            &ms RCTRL RALT    &mt RSHFT SPACE
+&trans            &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp GRAVE         &kp BSLH          &mm_LBRC_RBRC     &kp LBKT          &kp RBKT          &trans
+&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &mm_GT_EXCL       &mm_LPAR_RPAR     &kp MINUS         &mm_EQUAL_KPLUS   &kp SQT           &trans
+&mt LSHFT INS     &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &trans
+                                                      &trans            &trans            &trans            &mt RCTRL K_APP   &mt RSHFT SPACE
                                                                         &trans            &trans            &trans >; };
     EXTRA_2 { label = "EXTRA_2"; bindings = <
 &kp F23           &kp F13           &kp F14           &kp F15           &kp F16           &kp F17           &kp F18           &kp F19           &kp F20           &kp F21           &kp F22           &kp F24
-&mt LALT C_VOL_UP &kp F12           &kp F9            &kp F8            &kp F7            &kp PSCRN         &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &mt RALT C_BRI_UP
-&mt LCTRL C_VOL_DN&kp F11           &kp F6            &kp F5            &kp F4            &kp SLCK          &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &mt RCTRL C_BRI_DN
-&mt LSHFT C_MUTE  &kp F10           &kp F3            &kp F2            &kp F1            &kp PAUSE_BREAK   &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &mt RSHIFT C_AL_CALC
-                                                      &kp K_APP         &trans            &trans            &mt RCTRL KP_NUM  &mt RSHFT KP_N0
+&trans            &kp F12           &kp F9            &kp F8            &kp F7            &kp PSCRN         &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &trans
+&trans            &kp F11           &kp F6            &kp F5            &kp F4            &kp SLCK          &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &trans
+&trans            &kp F10           &kp F3            &kp F2            &kp F1            &kp PAUSE_BREAK   &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &trans
+                                                      &trans            &trans            &to COLEMAK       &mt RCTRL KP_NUM  &mt RSHFT KP_N0
                                                                         &trans            &trans            &trans >; };
     SPECIAL { label = "SPECIAL"; bindings = <
-&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp LGUI          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
+&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp RGUI          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
 &bt BT_NXT        &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &kp EQUAL
 &rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &kp MINUS
 &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &mt RSHIFT N0
-                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to COLEMAK       &mt LCTRL F       &mt LALT F11
+                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to COLEMAK       &mt RCTRL F       &mt RSHFT F11
                                                                         &trans            &trans            &trans >; };
   };
 };
