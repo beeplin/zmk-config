@@ -67,7 +67,6 @@
 
     layer_0_left_row_0_col_12 { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <48 49>; bindings = <&lm1s LALT LGUI>; };
     layer_0_left_row_0_col_01 { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <49 50>; bindings = <&lm1s LCTRL LSHFT>; };
-    layer_0_both_row_0_col_0  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <50 51>; bindings = <&to EXTRA_2>; };
     layer_0_rght_row_0_col_01 { timeout-ms = <30>;                     key-positions = <51 52>; bindings = <&rcss 0 RALT>; };
 
     layer_1_left_row_3_col_01 { timeout-ms = <30>; layers = <EXTRA_1>; key-positions = <16 17>; bindings = <&kp F12>; };
@@ -90,6 +89,7 @@
     layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <49 50 51 52>; bindings = <&to SPECIAL>; };
     layer_0_left_row_12_col_01 { timeout-ms = <30>; layers = <SPECIAL>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
     layer_0_rght_row_12_col_01 { timeout-ms = <30>; layers = <SPECIAL>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
+    layer_0_both_row_0_col_0   { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <50 51>;       bindings = <&to EXTRA_2>; };
   };
   keymap { compatible = "zmk,keymap";
     COLEMAK { label = "COLEMAK"; bindings = <
@@ -114,10 +114,10 @@
                                                       &trans            &trans            &to COLEMAK       &mt RCTRL KP_NUM  &mt RSHFT KP_N0
                                                                         &trans            &trans            &trans >; };
     SPECIAL { label = "SPECIAL"; bindings = <
-&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp RGUI          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
+&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp CAPS          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
 &bt BT_NXT        &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &kp EQUAL
 &rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &kp MINUS
-&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &mt RSHIFT N0
+&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &mt RGUI N0
                                                       &bt BT_CLR        &rgb_ug RGB_TOG   &to COLEMAK       &mt RCTRL F       &mt RSHFT F11
                                                                         &trans            &trans            &trans >; };
   };
