@@ -78,7 +78,7 @@ layers:
   - HOME
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
-  - {t: '{', s: RlBRC}
+  - {t: '{', s: '}'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-option$$
