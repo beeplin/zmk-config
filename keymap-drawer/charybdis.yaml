@@ -295,10 +295,10 @@ combos:
 - p: [43, 44]
   k: $$mdi:mouse-left-click-outline$$
   l: [COLEMAK]
-- p: [45, 46]
+- p: [44, 45]
   k: $$mdi:mouse-scroll-wheel$$
   l: [COLEMAK]
-- p: [46, 47]
+- p: [45, 46]
   k: $$mdi:mouse-right-click-outline$$
   l: [COLEMAK]
 - p: [48, 49]
