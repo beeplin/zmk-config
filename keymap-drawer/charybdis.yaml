@@ -70,7 +70,7 @@ layers:
   - F9
   - F10
   - F12
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -127,7 +127,7 @@ layers:
   - F21
   - F22
   - F24
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - F12
   - F9
   - F8
@@ -139,7 +139,7 @@ layers:
   - KP 9
   - KP PLUS
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - F11
   - F6
   - F5
@@ -151,7 +151,7 @@ layers:
   - KP 6
   - KP ENTER
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
   - F10
   - F3
   - F2
