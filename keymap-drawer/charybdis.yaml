@@ -307,6 +307,9 @@ combos:
 - p: [49, 50]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
   l: [COLEMAK]
+- p: [50, 51]
+  k: {t: EXTRA_2, h: toggle}
+  l: [COLEMAK]
 - p: [51, 52]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '&rcs'}
 - p: [16, 17]
@@ -354,9 +357,6 @@ combos:
 - p: [42, 43]
   k: PAUSE BREAK
   l: [EXTRA_1]
-- p: [48, 49, 50]
-  k: {t: EXTRA_2, h: toggle}
-  l: [COLEMAK]
 - p: [49, 50, 51, 52]
   k: {t: SPECIAL, h: toggle}
   l: [COLEMAK]

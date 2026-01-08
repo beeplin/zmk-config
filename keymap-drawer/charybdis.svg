@@ -718,17 +718,17 @@ rect.held, rect.combo.held {
 <text x="342" y="310" class="combo hold"><tspan style="font-size: 60%">&amp;lm1 LCTRL</tspan></text>
 </g>
 <g class="combo combopos-26">
+<path d="M448,313 l-63,0" class="combo"/>
+<path d="M448,313 l63,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="300" width="28" height="26" class="combo"/>
+<a href="#EXTRA_2">
+<text x="448" y="313" class="combo tap layer-activator"><tspan style="font-size: 86%">EXTRA_2</tspan></text>
+</a><text x="448" y="324" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-27">
 <rect rx="6" ry="6" x="540" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="545" y="290" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 <text x="554" y="310" class="combo hold">&amp;rcs</text>
-</g>
-<g class="combo combopos-27">
-<path d="M318,285 l-32,-19" class="combo"/>
-<path d="M318,285 l32,19" class="combo"/>
-<rect rx="6" ry="6" x="304" y="272" width="28" height="26" class="combo"/>
-<a href="#EXTRA_2">
-<text x="318" y="285" class="combo tap layer-activator"><tspan style="font-size: 86%">EXTRA_2</tspan></text>
-</a><text x="318" y="296" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-28">
 <path d="M448,299 l-111,-12" class="combo"/>
