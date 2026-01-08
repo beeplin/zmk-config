@@ -38,6 +38,36 @@
     mm_LBRC_RBRC:   mm_LBRC_RBRC   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBRC>, <&kp RBRC>; };
     mm_LPAR_RPAR:   mm_LPAR_RPAR   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LPAR>, <&kp RPAR>; };
   };
+  keymap { compatible = "zmk,keymap";
+    BASE { label = "BASE"; bindings = <
+&kp C_AC_BACK     &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp C_AC_FORWARD
+&kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp BSPC
+&ms LCTRL LCTRL   &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp ENTER
+&ms LSHFT LSHFT   &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &kp RSHFT
+                                                      &ms LALT LALT     &lt FN_1 SPACE    &ms LCTRL LCTRL   &ms RCTRL RCTRL   &ms RSHFT RSHFT
+                                                                        &ms LSHFT LSHFT   &ms LGUI LGUI     &ms RGUI RGUI >; };
+    FN_1 { label = "FN_1"; bindings = <  
+&kp F11           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp F12
+&mt LALT ESC      &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp GRAVE         &kp BSLH          &mm_LBRC_RBRC     &kp LBKT          &kp RBKT          &kp RALT
+&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &mm_GT_EXCL       &mm_LPAR_RPAR     &kp MINUS         &mm_EQUAL_KPLUS   &kp SQT           &kp RCTRL
+&mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp RSHFT
+                                                      &trans            &trans            &trans            &mt RCTRL K_APP   &mt RSHFT SPACE
+                                                                        &trans            &trans            &trans >; };
+    FN_2 { label = "FN_2"; bindings = <
+&kp F23           &kp F13           &kp F14           &kp F15           &kp F16           &kp F17           &kp F18           &kp F19           &kp F20           &kp F21           &kp F22           &kp F24
+&mt LALT ESC      &kp F12           &kp F9            &kp F8            &kp F7            &kp PSCRN         &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp RALT
+&mt LCTRL ENTER   &kp F11           &kp F6            &kp F5            &kp F4            &kp SLCK          &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &kp RCTRL
+&mt LSHFT INS     &kp F10           &kp F3            &kp F2            &kp F1            &kp PAUSE_BREAK   &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &kp RSHFT
+                                                      &trans            &trans            &to BASE          &mt RCTRL KP_NUM  &mt RSHFT KP_N0
+                                                                        &trans            &trans            &trans >; };
+    FN_3 { label = "FN_3"; bindings = <
+&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp CAPS          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
+&bt BT_NXT        &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &kp EQUAL
+&rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &kp MINUS
+&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &mt RGUI N0
+                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to BASE          &mt RCTRL F       &mt RSHFT F11
+                                                                        &trans            &trans            &trans >; };
+  };
   combos { compatible = "zmk,combos";
     layer_0_left_row_3_col_01  { timeout-ms = <40>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp C_VOL_UP>; };
     layer_0_left_row_3_col_12  { timeout-ms = <40>; layers = <BASE>; key-positions = <15 16>; bindings = <&kp INS>; };
@@ -90,35 +120,5 @@
     layer_0_left_row_12_col_01 { timeout-ms = <40>; layers = <FN_3>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
     layer_0_rght_row_12_col_01 { timeout-ms = <40>; layers = <FN_3>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
     layer_0_both_row_0_col_0   { timeout-ms = <40>; layers = <BASE>; key-positions = <50 51>;       bindings = <&to FN_2>; };
-  };
-  keymap { compatible = "zmk,keymap";
-    BASE { label = "BASE"; bindings = <
-&kp C_AC_BACK     &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp C_AC_FORWARD
-&kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp BSPC
-&ms LCTRL LCTRL   &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp ENTER
-&ms LSHFT LSHFT   &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &kp RSHFT
-                                                      &ms LALT LALT     &lt FN_1 SPACE    &ms LCTRL LCTRL   &ms RCTRL RCTRL   &ms RSHFT RSHFT
-                                                                        &ms LSHFT LSHFT   &ms LGUI LGUI     &ms RGUI RGUI >; };
-    FN_1 { label = "FN_1"; bindings = <  
-&kp F11           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp F12
-&mt LALT ESC      &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp GRAVE         &kp BSLH          &mm_LBRC_RBRC     &kp LBKT          &kp RBKT          &kp RALT
-&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &mm_GT_EXCL       &mm_LPAR_RPAR     &kp MINUS         &mm_EQUAL_KPLUS   &kp SQT           &kp RCTRL
-&mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp RSHFT
-                                                      &trans            &trans            &trans            &mt RCTRL K_APP   &mt RSHFT SPACE
-                                                                        &trans            &trans            &trans >; };
-    FN_2 { label = "FN_2"; bindings = <
-&kp F23           &kp F13           &kp F14           &kp F15           &kp F16           &kp F17           &kp F18           &kp F19           &kp F20           &kp F21           &kp F22           &kp F24
-&mt LALT ESC      &kp F12           &kp F9            &kp F8            &kp F7            &kp PSCRN         &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp RALT
-&mt LCTRL ENTER   &kp F11           &kp F6            &kp F5            &kp F4            &kp SLCK          &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &kp RCTRL
-&mt LSHFT INS     &kp F10           &kp F3            &kp F2            &kp F1            &kp PAUSE_BREAK   &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &kp RSHFT
-                                                      &trans            &trans            &to BASE          &mt RCTRL KP_NUM  &mt RSHFT KP_N0
-                                                                        &trans            &trans            &trans >; };
-    FN_3 { label = "FN_3"; bindings = <
-&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp CAPS          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
-&bt BT_NXT        &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &kp EQUAL
-&rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &kp MINUS
-&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &mt RGUI N0
-                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to BASE          &mt RCTRL F       &mt RSHFT F11
-                                                                        &trans            &trans            &trans >; };
   };
 };
