@@ -78,7 +78,7 @@ layers:
   - HOME
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
-  - {t: '{', s: '}'}
+  - {t: '{', s: RlBRC}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-option$$
@@ -239,7 +239,7 @@ combos:
   k: $$mdi:keyboard-tab$$
   l: [BASE]
 - p: [13, 14]
-  k: $$mdi:keyboard-esc$$
+  k: $$mdi:apple-keyboard-caps$$
   l: [BASE]
 - p: [28, 29]
   k: $$mdi:volume-low$$
@@ -248,10 +248,10 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [BASE]
 - p: [26, 27]
-  k: $$mdi:keyboard-space$$
+  k: $$mdi:keyboard-esc$$
   l: [BASE]
 - p: [25, 26]
-  k: $$mdi:apple-keyboard-caps$$
+  k: $$mdi:keyboard-space$$
   l: [BASE]
 - p: [40, 41]
   k: $$mdi:volume-off$$
