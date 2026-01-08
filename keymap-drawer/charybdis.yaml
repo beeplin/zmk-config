@@ -229,41 +229,41 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
 combos:
-- p: [13, 14]
-  k: $$mdi:keyboard-esc$$
-  l: [COLEMAK]
-- p: [14, 15]
-  k: $$mdi:keyboard-tab$$
+- p: [16, 17]
+  k: $$mdi:volume-high$$
   l: [COLEMAK]
 - p: [15, 16]
   k: INS
   l: [COLEMAK]
-- p: [16, 17]
-  k: $$mdi:volume-high$$
+- p: [14, 15]
+  k: $$mdi:keyboard-tab$$
   l: [COLEMAK]
-- p: [25, 26]
-  k: $$mdi:mouse-right-click-outline$$
-  l: [COLEMAK]
-- p: [26, 27]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: [COLEMAK]
-- p: [27, 28]
-  k: $$mdi:mouse-left-click-outline$$
+- p: [13, 14]
+  k: $$mdi:keyboard-esc$$
   l: [COLEMAK]
 - p: [28, 29]
   k: $$mdi:volume-low$$
   l: [COLEMAK]
-- p: [37, 38]
-  k: $$mdi:apple-keyboard-caps$$
+- p: [27, 28]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [COLEMAK]
-- p: [38, 39]
+- p: [26, 27]
   k: $$mdi:keyboard-space$$
   l: [COLEMAK]
-- p: [39, 40]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [25, 26]
+  k: $$mdi:apple-keyboard-caps$$
   l: [COLEMAK]
 - p: [40, 41]
   k: $$mdi:volume-off$$
+  l: [COLEMAK]
+- p: [39, 40]
+  k: $$mdi:mouse-left-click-outline$$
+  l: [COLEMAK]
+- p: [38, 39]
+  k: $$mdi:mouse-scroll-wheel$$
+  l: [COLEMAK]
+- p: [37, 38]
+  k: $$mdi:mouse-right-click-outline$$
   l: [COLEMAK]
 - p: [18, 19]
   k: $$mdi:skip-previous$$
@@ -308,42 +308,42 @@ combos:
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
   l: [COLEMAK]
 - p: [51, 52]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
-- p: [13, 14]
-  k: F9
-  l: [EXTRA_1]
-- p: [14, 15]
-  k: F8
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '&rcs'}
+- p: [16, 17]
+  k: F12
   l: [EXTRA_1]
 - p: [15, 16]
   k: F7
   l: [EXTRA_1]
-- p: [16, 17]
-  k: F12
+- p: [14, 15]
+  k: F8
   l: [EXTRA_1]
-- p: [25, 26]
-  k: F6
-  l: [EXTRA_1]
-- p: [26, 27]
-  k: F5
-  l: [EXTRA_1]
-- p: [27, 28]
-  k: F4
+- p: [13, 14]
+  k: F9
   l: [EXTRA_1]
 - p: [28, 29]
   k: F11
   l: [EXTRA_1]
-- p: [37, 38]
-  k: F3
+- p: [27, 28]
+  k: F4
   l: [EXTRA_1]
-- p: [38, 39]
-  k: F2
+- p: [26, 27]
+  k: F5
+  l: [EXTRA_1]
+- p: [25, 26]
+  k: F6
+  l: [EXTRA_1]
+- p: [40, 41]
+  k: F10
   l: [EXTRA_1]
 - p: [39, 40]
   k: F1
   l: [EXTRA_1]
-- p: [40, 41]
-  k: F10
+- p: [38, 39]
+  k: F2
+  l: [EXTRA_1]
+- p: [37, 38]
+  k: F3
   l: [EXTRA_1]
 - p: [18, 19]
   k: $$mdi:printer-outline$$
@@ -357,7 +357,7 @@ combos:
 - p: [48, 49, 50]
   k: {t: EXTRA_2, h: toggle}
   l: [COLEMAK]
-- p: [48, 49, 50, 51, 52]
+- p: [49, 50, 51, 52]
   k: {t: SPECIAL, h: toggle}
   l: [COLEMAK]
 - p: [28, 29, 40, 41]
