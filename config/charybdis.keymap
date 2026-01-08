@@ -68,8 +68,8 @@
     layer_0_rght_row_2_col_34  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <33 34>; bindings = <&msc SCRL_RIGHT>; };
     layer_0_rght_row_1_col_01  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <42 43>; bindings = <&kp C_PP>; };
     layer_0_rght_row_1_col_12  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <43 44>; bindings = <&mkp LCLK>; };
-    layer_0_rght_row_1_col_23  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <45 46>; bindings = <&mkp MCLK>; };
-    layer_0_rght_row_1_col_34  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <46 47>; bindings = <&mkp RCLK>; };
+    layer_0_rght_row_1_col_23  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <44 45>; bindings = <&mkp MCLK>; };
+    layer_0_rght_row_1_col_34  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <45 46>; bindings = <&mkp RCLK>; };
 
     layer_0_left_row_0_col_12  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <48 49>; bindings = <&lm1s LALT LGUI>; };
     layer_0_left_row_0_col_01  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <49 50>; bindings = <&lm1s LCTRL LSHFT>; };
