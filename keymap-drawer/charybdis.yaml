@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  COLEMAK:
+  BASE:
   - AC BACK
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -50,14 +50,14 @@ layers:
   - {t: /, s: '?'}
   - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-space$$', h: EXTRA_1}
+  - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
-  EXTRA_1:
+  FN_1:
   - F11
   - F1
   - F2
@@ -70,7 +70,7 @@ layers:
   - F9
   - F10
   - F12
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -81,7 +81,7 @@ layers:
   - {t: '{', s: '}'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - PGDN
   - $$mdi:arrow-left-bold$$
@@ -93,7 +93,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: KP PLUS}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -105,7 +105,7 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -114,7 +114,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  EXTRA_2:
+  FN_2:
   - F23
   - F13
   - F14
@@ -138,7 +138,7 @@ layers:
   - KP 8
   - KP 9
   - KP PLUS
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:menu-down$$', type: trans}
   - F11
   - F6
@@ -150,7 +150,7 @@ layers:
   - KP 5
   - KP 6
   - KP ENTER
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:menu-down$$', type: trans}
   - F10
   - F3
@@ -162,16 +162,16 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: COLEMAK, h: toggle}
+  - {t: BASE, h: toggle}
   - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
   - {t: KP 0, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  SPECIAL:
+  FN_3:
   - BT PRV
   - BT DISC0
   - BT DISC1
@@ -222,7 +222,7 @@ layers:
   - {t: ' 0 ', h: '$$mdi:microsoft-windows$$', s: )}
   - BT CLR
   - RGB TOG
-  - {t: COLEMAK, h: toggle}
+  - {t: BASE, h: toggle}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F11, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -231,138 +231,138 @@ layers:
 combos:
 - p: [16, 17]
   k: $$mdi:volume-high$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [15, 16]
   k: INS
-  l: [COLEMAK]
+  l: [BASE]
 - p: [14, 15]
   k: $$mdi:keyboard-tab$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [13, 14]
   k: $$mdi:keyboard-esc$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [28, 29]
   k: $$mdi:volume-low$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [27, 28]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [COLEMAK]
+  l: [BASE]
 - p: [26, 27]
   k: $$mdi:keyboard-space$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [25, 26]
   k: $$mdi:apple-keyboard-caps$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [40, 41]
   k: $$mdi:volume-off$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [39, 40]
   k: $$mdi:mouse-left-click-outline$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [38, 39]
   k: $$mdi:mouse-scroll-wheel$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [37, 38]
   k: $$mdi:mouse-right-click-outline$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [18, 19]
   k: $$mdi:skip-previous$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [19, 20]
   k: MB4
-  l: [COLEMAK]
+  l: [BASE]
 - p: [20, 21]
   k: $$mdi:pan-up$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [21, 22]
   k: MB5
-  l: [COLEMAK]
+  l: [BASE]
 - p: [30, 31]
   k: $$mdi:skip-next$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [31, 32]
   k: $$mdi:pan-left$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [32, 33]
   k: $$mdi:pan-down$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [33, 34]
   k: $$mdi:pan-right$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [42, 43]
   k: $$mdi:play-pause$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [43, 44]
   k: $$mdi:mouse-left-click-outline$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [44, 45]
   k: $$mdi:mouse-scroll-wheel$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [45, 46]
   k: $$mdi:mouse-right-click-outline$$
-  l: [COLEMAK]
+  l: [BASE]
 - p: [48, 49]
   k: {t: '$$mdi:microsoft-windows$$', h: '&lm1 LALT'}
-  l: [COLEMAK]
+  l: [BASE]
 - p: [49, 50]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
-  l: [COLEMAK]
+  l: [BASE]
 - p: [51, 52]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '&rcs'}
 - p: [16, 17]
   k: F12
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [15, 16]
   k: F7
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [14, 15]
   k: F8
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [13, 14]
   k: F9
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [28, 29]
   k: F11
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [27, 28]
   k: F4
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [26, 27]
   k: F5
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [25, 26]
   k: F6
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [40, 41]
   k: F10
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [39, 40]
   k: F1
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [38, 39]
   k: F2
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [37, 38]
   k: F3
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [18, 19]
   k: $$mdi:printer-outline$$
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [30, 31]
   k: SLCK
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [42, 43]
   k: PAUSE BREAK
-  l: [EXTRA_1]
+  l: [FN_1]
 - p: [49, 50, 51, 52]
-  k: {t: SPECIAL, h: toggle}
-  l: [COLEMAK]
+  k: {t: FN_3, h: toggle}
+  l: [BASE]
 - p: [28, 29, 40, 41]
   k: boot loader
-  l: [SPECIAL]
+  l: [FN_3]
 - p: [30, 31, 42, 43]
   k: boot loader
-  l: [SPECIAL]
+  l: [FN_3]
 - p: [50, 51]
-  k: {t: EXTRA_2, h: toggle}
-  l: [COLEMAK]
+  k: {t: FN_2, h: toggle}
+  l: [BASE]
