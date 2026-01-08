@@ -239,7 +239,7 @@ combos:
   k: INS
   l: [COLEMAK]
 - p: [16, 17]
-  k: {t: '$$mdi:volume-high$$', s: '$$mdi:skip-previous$$'}
+  k: $$mdi:volume-high$$
   l: [COLEMAK]
 - p: [25, 26]
   k: $$mdi:mouse-right-click-outline$$
@@ -251,7 +251,7 @@ combos:
   k: $$mdi:mouse-left-click-outline$$
   l: [COLEMAK]
 - p: [28, 29]
-  k: {t: '$$mdi:volume-low$$', s: '$$mdi:skip-next$$'}
+  k: $$mdi:volume-low$$
   l: [COLEMAK]
 - p: [37, 38]
   k: $$mdi:apple-keyboard-caps$$
@@ -263,7 +263,10 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [COLEMAK]
 - p: [40, 41]
-  k: {t: '$$mdi:volume-off$$', s: '$$mdi:play-pause$$'}
+  k: $$mdi:volume-off$$
+  l: [COLEMAK]
+- p: [18, 19]
+  k: $$mdi:skip-previous$$
   l: [COLEMAK]
 - p: [19, 20]
   k: MB4
@@ -274,6 +277,9 @@ combos:
 - p: [21, 22]
   k: MB5
   l: [COLEMAK]
+- p: [30, 31]
+  k: $$mdi:skip-next$$
+  l: [COLEMAK]
 - p: [31, 32]
   k: $$mdi:pan-left$$
   l: [COLEMAK]
@@ -283,14 +289,17 @@ combos:
 - p: [33, 34]
   k: $$mdi:pan-right$$
   l: [COLEMAK]
+- p: [42, 43]
+  k: $$mdi:play-pause$$
+  l: [COLEMAK]
 - p: [43, 44]
-  k: $$mdi:printer-outline$$
+  k: $$mdi:mouse-left-click-outline$$
   l: [COLEMAK]
 - p: [45, 46]
-  k: SLCK
+  k: $$mdi:mouse-scroll-wheel$$
   l: [COLEMAK]
-- p: [47, 48]
-  k: PAUSE BREAK
+- p: [46, 47]
+  k: $$mdi:mouse-right-click-outline$$
   l: [COLEMAK]
 - p: [48, 49]
   k: {t: '$$mdi:microsoft-windows$$', h: '&lm1 LALT'}
@@ -300,18 +309,6 @@ combos:
   l: [COLEMAK]
 - p: [51, 52]
   k: {t: '$$mdi:apple-keyboard-option$$', h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
-- p: [48, 49, 50]
-  k: {t: EXTRA_2, h: toggle}
-  l: [COLEMAK]
-- p: [48, 49, 50, 51, 52]
-  k: {t: SPECIAL, h: toggle}
-  l: [COLEMAK]
-- p: [28, 29, 40, 41]
-  k: boot loader
-  l: [SPECIAL]
-- p: [30, 31, 42, 43]
-  k: boot loader
-  l: [SPECIAL]
 - p: [13, 14]
   k: F9
   l: [EXTRA_1]
@@ -348,3 +345,24 @@ combos:
 - p: [40, 41]
   k: F10
   l: [EXTRA_1]
+- p: [18, 19]
+  k: $$mdi:printer-outline$$
+  l: [EXTRA_1]
+- p: [30, 31]
+  k: SLCK
+  l: [EXTRA_1]
+- p: [42, 43]
+  k: PAUSE BREAK
+  l: [EXTRA_1]
+- p: [48, 49, 50]
+  k: {t: EXTRA_2, h: toggle}
+  l: [COLEMAK]
+- p: [48, 49, 50, 51, 52]
+  k: {t: SPECIAL, h: toggle}
+  l: [COLEMAK]
+- p: [28, 29, 40, 41]
+  k: boot loader
+  l: [SPECIAL]
+- p: [30, 31, 42, 43]
+  k: boot loader
+  l: [SPECIAL]
