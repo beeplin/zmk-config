@@ -37,13 +37,6 @@
     mm_GT_EXCL:     mm_GT_EXCL     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp GT>, <&kp EXCL>; };
     mm_LBRC_RBRC:   mm_LBRC_RBRC   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBRC>, <&kp RBRC>; };
     mm_LPAR_RPAR:   mm_LPAR_RPAR   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LPAR>, <&kp RPAR>; };
-    mm_LBKT_RBKT:   mm_LBKT_RBKT   { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp LBKT>, <&kp RBKT>; };
-    mm_PRV_BUP:     mm_PRV_BUP     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_PREV>, <&kp C_BRI_UP>; };
-    mm_NXT_BDN:     mm_NXT_BDN     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_NEXT>, <&kp C_BRI_DN>; };
-    mm_PP_SLEP:     mm_PP_SLEP     { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LSFT|MOD_RSFT)>; bindings = <&kp C_PP>, <&win_sleep>; };
-    mm_VUP_PRV_BUP: mm_VUP_PRV_BUP { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_VOL_UP>, <&mm_PRV_BUP>; };
-    mm_VDN_NXT_BDN: mm_VDN_NXT_BDN { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_VOL_DN>, <&mm_NXT_BDN>; };
-    mm_MUT_PP_SLEP: mm_MUT_PP_SLEP { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; mods = <(MOD_LCTL|MOD_RCTL)>; bindings = <&kp C_MUTE>, <&mm_PP_SLEP>; };
   };
   combos { compatible = "zmk,combos";
     layer_0_left_row_3_col_01  { timeout-ms = <30>; layers = <COLEMAK>; key-positions = <16 17>; bindings = <&kp C_VOL_UP>; };
