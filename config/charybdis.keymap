@@ -51,7 +51,7 @@
 &kp INS           &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp GRAVE         &kp BSLH          &mm_LBRC_RBRC     &kp LBKT          &kp RBKT          &kp PSCRN
 &mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &mm_GT_EXCL       &mm_LPAR_RPAR     &kp MINUS         &mm_EQUAL_KPLUS   &kp SQT           &kp SLCK
 &mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp PAUSE_BREAK
-                                                      &trans            &trans            &trans            &mt RCTRL K_APP   &mt RSHFT SPACE
+                                                      &trans            &trans            &trans            &mt RCTRL K_APP   &sq RSHFT
                                                                         &trans            &trans            &kp SPACE >; };
     FN_2 { label = "FN_2"; bindings = <
 &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
