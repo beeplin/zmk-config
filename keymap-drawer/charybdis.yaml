@@ -233,13 +233,13 @@ combos:
   k: $$mdi:volume-high$$
   l: [BASE]
 - p: [15, 16]
-  k: $$mdi:apple-keyboard-caps$$
+  k: INS
   l: [BASE]
 - p: [14, 15]
   k: $$mdi:keyboard-tab$$
   l: [BASE]
 - p: [13, 14]
-  k: INS
+  k: $$mdi:apple-keyboard-caps$$
   l: [BASE]
 - p: [28, 29]
   k: $$mdi:volume-low$$
