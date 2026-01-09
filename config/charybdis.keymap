@@ -112,8 +112,8 @@
     layer_1_rght_row_2_col_01  { timeout-ms = <40>; layers = <FN_1>; key-positions = <30 31>; bindings = <&kp SLCK>; };
     layer_1_rght_row_1_col_01  { timeout-ms = <40>; layers = <FN_1>; key-positions = <42 43>; bindings = <&kp PAUSE_BREAK>; };
 
-    layer_0_left_row_0_col_12  { timeout-ms = <40>; layers = <BASE>; key-positions = <48 49>; bindings = <&lm1s LALT LGUI>; };
-    layer_0_left_row_0_col_01  { timeout-ms = <40>; layers = <BASE>; key-positions = <49 50>; bindings = <&lm1s LCTRL LSHFT>; };
+    layer_0_left_row_0_col_12  { timeout-ms = <40>; layers = <BASE>; key-positions = <48 49>; bindings = <&lm1s LALT LSHFT>; };
+    layer_0_left_row_0_col_01  { timeout-ms = <40>; layers = <BASE>; key-positions = <49 50>; bindings = <&lm1s LCTRL LGUI>; };
     layer_0_rght_row_0_col_01  { timeout-ms = <40>;                  key-positions = <51 52>; bindings = <&rcss 0 RALT>; };
 
     layer_0_both_row_0_col_01  { timeout-ms = <40>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
