@@ -70,7 +70,7 @@ layers:
   - F9
   - F10
   - F12
-  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
+  - INS
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -81,7 +81,7 @@ layers:
   - {t: '{', s: '}'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - key repeat
+  - $$mdi:printer-outline$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - PGDN
   - $$mdi:arrow-left-bold$$
@@ -93,7 +93,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: KP PLUS}
   - {t: '''', s: '"'}
-  - $$mdi:keyboard-space$$
+  - SLCK
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -105,7 +105,7 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - PAUSE BREAK
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:keyboard-space$$
   FN_2:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
