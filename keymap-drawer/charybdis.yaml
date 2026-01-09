@@ -236,7 +236,7 @@ combos:
   k: INS
   l: [BASE]
 - p: [14, 15]
-  k: $$mdi:keyboard-tab$$
+  k: $$mdi:keyboard-esc$$
   l: [BASE]
 - p: [13, 14]
   k: $$mdi:apple-keyboard-caps$$
@@ -245,10 +245,10 @@ combos:
   k: $$mdi:volume-low$$
   l: [BASE]
 - p: [27, 28]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  k: $$mdi:keyboard-tab$$
   l: [BASE]
 - p: [26, 27]
-  k: $$mdi:keyboard-esc$$
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [BASE]
 - p: [25, 26]
   k: $$mdi:keyboard-space$$
