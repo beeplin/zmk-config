@@ -70,13 +70,13 @@
   };
   combos { compatible = "zmk,combos";
     layer_0_left_row_3_col_01  { timeout-ms = <40>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp C_VOL_UP>; };
-    layer_0_left_row_3_col_12  { timeout-ms = <40>; layers = <BASE>; key-positions = <15 16>; bindings = <&kp INS>; };
+    layer_0_left_row_3_col_12  { timeout-ms = <40>; layers = <BASE>; key-positions = <15 16>; bindings = <&kp SPACE>; };
     layer_0_left_row_3_col_23  { timeout-ms = <40>; layers = <BASE>; key-positions = <14 15>; bindings = <&kp ESC>; };
-    layer_0_left_row_3_col_34  { timeout-ms = <40>; layers = <BASE>; key-positions = <13 14>; bindings = <&kp CAPS>; };
+    layer_0_left_row_3_col_34  { timeout-ms = <40>; layers = <BASE>; key-positions = <13 14>; bindings = <&kp INS>; };
     layer_0_left_row_2_col_01  { timeout-ms = <40>; layers = <BASE>; key-positions = <28 29>; bindings = <&kp C_VOL_DN>; };
     layer_0_left_row_2_col_12  { timeout-ms = <20>; layers = <BASE>; key-positions = <27 28>; bindings = <&kp TAB>; };
     layer_0_left_row_2_col_23  { timeout-ms = <20>; layers = <BASE>; key-positions = <26 27>; bindings = <&kp ENTER>; };
-    layer_0_left_row_2_col_34  { timeout-ms = <20>; layers = <BASE>; key-positions = <25 26>; bindings = <&kp SPACE>; };
+    layer_0_left_row_2_col_34  { timeout-ms = <20>; layers = <BASE>; key-positions = <25 26>; bindings = <&kp CAPS>; };
     layer_0_left_row_1_col_01  { timeout-ms = <40>; layers = <BASE>; key-positions = <40 41>; bindings = <&kp C_MUTE>; };
     layer_0_left_row_1_col_12  { timeout-ms = <40>; layers = <BASE>; key-positions = <39 40>; bindings = <&mkp LCLK>; };
     layer_0_left_row_1_col_23  { timeout-ms = <40>; layers = <BASE>; key-positions = <38 39>; bindings = <&mkp MCLK>; };
