@@ -347,10 +347,10 @@ combos:
   k: PAUSE BREAK
   l: [FN_1]
 - p: [48, 49]
-  k: {t: '$$mdi:microsoft-windows$$', h: '&lm1 LALT'}
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LALT'}
   l: [BASE]
 - p: [49, 50]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
+  k: {t: '$$mdi:microsoft-windows$$', h: '&lm1 LCTRL'}
   l: [BASE]
 - p: [51, 52]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '&rcs'}
