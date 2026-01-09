@@ -54,9 +54,9 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:microsoft-windows$$
-  - $$mdi:microsoft-windows$$
+  - $$mdi:apple-keyboard-option$$
   FN_1:
   - F11
   - F1
@@ -81,7 +81,7 @@ layers:
   - {t: '{', s: '}'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $$mdi:apple-keyboard-option$$
+  - key repeat
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - PGDN
   - $$mdi:arrow-left-bold$$
@@ -93,7 +93,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: KP PLUS}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -105,7 +105,7 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -115,19 +115,19 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   FN_2:
-  - F23
-  - F13
-  - F14
-  - F15
-  - F16
-  - F17
-  - F18
-  - F19
-  - F20
-  - F21
-  - F22
-  - F24
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
   - F12
   - F9
   - F8
@@ -138,8 +138,8 @@ layers:
   - KP 8
   - KP 9
   - KP PLUS
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
   - F11
   - F6
   - F5
@@ -150,8 +150,8 @@ layers:
   - KP 5
   - KP 6
   - KP ENTER
-  - $$mdi:apple-keyboard-control$$
-  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
   - F10
   - F3
   - F2
@@ -162,7 +162,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: BASE, h: toggle}
@@ -347,10 +347,10 @@ combos:
   k: PAUSE BREAK
   l: [FN_1]
 - p: [48, 49]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LALT'}
+  k: {t: '$$mdi:microsoft-windows$$', h: '&lm1 LALT'}
   l: [BASE]
 - p: [49, 50]
-  k: {t: '$$mdi:microsoft-windows$$', h: '&lm1 LCTRL'}
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
   l: [BASE]
 - p: [51, 52]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '&rcs'}
