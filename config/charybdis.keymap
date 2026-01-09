@@ -40,7 +40,7 @@
   };
   keymap { compatible = "zmk,keymap";
     BASE { label = "BASE"; bindings = <
-&kp C_AC_BACK     &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp C_AC_FORWARD
+&kp KP_MINUS      &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp KP_PLUS
 &kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp BSPC
 &mt LCTRL ESC     &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp ENTER
 &kp LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &kp RSHFT
@@ -48,9 +48,9 @@
                                                                         &kp LGUI          &kp LSHFT         &kp RALT >; };
     FN_1 { label = "FN_1"; bindings = <  
 &kp F11           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp F12
-&kp INS           &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp GRAVE         &kp BSLH          &mm_LBRC_RBRC     &kp LBKT          &kp RBKT          &kp PSCRN
-&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &mm_GT_EXCL       &mm_LPAR_RPAR     &kp MINUS         &mm_EQUAL_KPLUS   &kp SQT           &kp SLCK
-&mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp PAUSE_BREAK
+&kp INS           &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp GRAVE         &kp BSLH          &kp LBRC          &kp LBKT          &kp RBKT          &kp RBRC
+&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GT            &kp LPAR          &kp MINUS         &kp EQUAL         &kp SQT           &kp RPAR
+&mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp RSHFT
                                                       &trans            &trans            &trans            &mt RCTRL K_APP   &mt RSHFT SPACE
                                                                         &trans            &trans            &trans >; };
     FN_2 { label = "FN_2"; bindings = <
