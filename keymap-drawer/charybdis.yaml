@@ -110,10 +110,10 @@ layers:
   - {type: held}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:menu-down$$', type: trans}
   FN_2:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
