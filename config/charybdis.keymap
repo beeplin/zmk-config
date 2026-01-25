@@ -35,28 +35,28 @@
 &kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp BSPC
 &mt LCTRL ESC     &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp ENTER
 &kp LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &mt RSHFT CAPS
-                                                      &kp LALT          &lt FN_1 SPACE    &kp LCTRL         &kp RCTRL         &kp RSHFT
+                                                      &kp LALT          &lt FN_1 SPACE    &sq LCTRL         &kp RGUI          &kp RSHFT
                                                                         &kp LGUI          &kp LSHFT         &kp RALT >; };
     FN_1 { label = "FN_1"; bindings = <  
 &kp F11           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &kp F12
 &kp INS           &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp GRAVE         &kp BSLH          &kp LBRC          &kp LBKT          &kp RBKT          &kp RBRC
 &mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GT            &kp LPAR          &kp MINUS         &kp EQUAL         &kp SQT           &kp RPAR
 &sq LSHFT         &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp_cw RSHFT 0
-                                                      &trans            &trans            &trans            &mt RCTRL K_APP   &mt RSHFT SPACE
+                                                      &trans            &trans            &trans            &mt RGUI K_APP    &mt RSHFT SPACE
                                                                         &trans            &trans            &trans >; };
     FN_2 { label = "FN_2"; bindings = <
 &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans
 &trans            &kp F12           &kp F9            &kp F8            &kp F7            &kp PSCRN         &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &trans
 &trans            &kp F11           &kp F6            &kp F5            &kp F4            &kp SLCK          &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &trans
 &trans            &kp F10           &kp F3            &kp F2            &kp F1            &kp PAUSE_BREAK   &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &trans
-                                                      &trans            &trans            &to BASE          &mt RCTRL KP_NUM  &mt RSHFT KP_N0
+                                                      &trans            &trans            &to BASE          &mt RGUI KP_NUM   &mt RSHFT KP_N0
                                                                         &trans            &trans            &trans >; };
     FN_3 { label = "FN_3"; bindings = <
 &bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp CAPS          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
 &bt BT_NXT        &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &kp EQUAL
 &rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &kp MINUS
-&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &kp SPACE         &mkp RCLK         &kp F4            &mt RGUI N0
-                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to BASE          &mt RCTRL F       &mt RSHFT F11
+&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &mkp MCLK         &mkp RCLK         &kp F4            &mt RGUI N0
+                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to BASE          &mt RCTRL F       &mt RSHFT SPACE
                                                                         &trans            &trans            &trans >; };
   };
   combos { compatible = "zmk,combos";
@@ -110,6 +110,6 @@
     layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
     layer_0_left_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
     layer_0_rght_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
-    layer_0_both_row_0_col_0   { timeout-ms = <30>; layers = <BASE>; key-positions = <50 51>;       bindings = <&to FN_2>; };
+    layer_0_both_row_0_col_0   { timeout-ms = <30>; layers = <BASE>; key-positions = <48 49 50>;       bindings = <&to FN_2>; };
   };
 };
