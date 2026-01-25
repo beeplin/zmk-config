@@ -229,6 +229,15 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
 combos:
+- p: [49, 50, 51, 52]
+  k: {t: FN_3, h: toggle}
+  l: [BASE]
+- p: [28, 29, 40, 41]
+  k: boot loader
+  l: [FN_3]
+- p: [30, 31, 42, 43]
+  k: boot loader
+  l: [FN_3]
 - p: [16, 17]
   k: $$mdi:volume-high$$
   l: [BASE]
@@ -358,12 +367,3 @@ combos:
 - p: [51, 52]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '&lgui_lshft'}
   l: [BASE]
-- p: [49, 50, 51, 52]
-  k: {t: FN_3, h: toggle}
-  l: [BASE]
-- p: [28, 29, 40, 41]
-  k: boot loader
-  l: [FN_3]
-- p: [30, 31, 42, 43]
-  k: boot loader
-  l: [FN_3]
