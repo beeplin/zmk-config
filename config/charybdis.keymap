@@ -26,7 +26,7 @@
   };
   behaviors {
     sq: sq { compatible = "zmk,behavior-sticky-key"; #binding-cells = <1>; release-after-ms = <3000>; quick-release; lazy; ignore-modifiers; bindings = <&kp>; };
-    kp__cw:  kp__cw  { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&kp>, <&caps_word>; };
+    kp__cw: kp__cw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&kp>, <&caps_word>; };
     mo1_kp__sq:     mo1_kp__sq     { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&mo1_kp>, <&sq>; quick-tap-ms = <200>; };
     lgui_lctrl__to: lgui_lctrl__to { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lgui_lctrl>, <&to>; quick-tap-ms = <200>; };
     lgui_lshft__sq: lgui_lshft__sq { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&lgui_lshft>, <&sq>; quick-tap-ms = <200>; };
@@ -62,6 +62,10 @@
                                                                         &trans            &trans            &trans >; };
   };
   combos { compatible = "zmk,combos";
+    layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
+    layer_3_left_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
+    layer_3_rght_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
+
     layer_0_left_row_3_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp C_VOL_UP>; };
     layer_0_left_row_3_col_12  { timeout-ms = <30>; layers = <BASE>; key-positions = <15 16>; bindings = <&kp INS>; };
     layer_0_left_row_3_col_23  { timeout-ms = <30>; layers = <BASE>; key-positions = <14 15>; bindings = <&kp TAB>; };
@@ -109,9 +113,5 @@
     layer_0_left_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50>; bindings = <&mo1_kp__sq LCTRL LSHFT>; };
     layer_0_both_row_0_col_0   { timeout-ms = <30>; layers = <BASE>; key-positions = <50 51>; bindings = <&lgui_lctrl__to 0 FN_2>; };
     layer_0_rght_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <51 52>; bindings = <&lgui_lshft__sq 0 RALT>; };
-
-    layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
-    layer_3_left_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
-    layer_3_rght_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
   };
 };
