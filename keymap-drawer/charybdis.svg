@@ -715,12 +715,12 @@ rect.held, rect.combo.held {
 <g class="combo combopos-25">
 <rect rx="6" ry="6" x="280" y="258" width="28" height="26" class="combo"/>
 <use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="285" y="262" height="18" width="18.0" class="combo tap glyph mdi:microsoft-windows"/>
-<text x="294" y="282" class="combo hold"><tspan style="font-size: 60%">&amp;mo1_kp L…</tspan></text>
+<text x="294" y="282" class="combo hold"><tspan style="font-size: 60%">&amp;mo_1_kp …</tspan></text>
 </g>
 <g class="combo combopos-26">
 <rect rx="6" ry="6" x="328" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="333" y="290" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
-<text x="342" y="310" class="combo hold"><tspan style="font-size: 60%">&amp;mo1_kp L…</tspan></text>
+<text x="342" y="310" class="combo hold"><tspan style="font-size: 60%">&amp;mo_1_kp …</tspan></text>
 </g>
 <g class="combo combopos-27">
 <path d="M448,313 l-63,0" class="combo"/>
@@ -728,12 +728,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="434" y="300" width="28" height="26" class="combo"/>
 <a href="#FN_2">
 <text x="448" y="313" class="combo tap layer-activator">FN_2</text>
-</a><text x="448" y="324" class="combo hold"><tspan style="font-size: 60%">&amp;lgui_lct…</tspan></text>
+</a><text x="448" y="324" class="combo hold"><tspan style="font-size: 60%">&amp;lgui_kp …</tspan></text>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="540" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="545" y="290" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-<text x="554" y="310" class="combo hold"><tspan style="font-size: 60%">&amp;lgui_lsh…</tspan></text>
+<text x="554" y="310" class="combo hold"><tspan style="font-size: 60%">&amp;lgui_kp …</tspan></text>
 </g>
 </g>
 </g>
