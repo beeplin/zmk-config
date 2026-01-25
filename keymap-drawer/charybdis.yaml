@@ -347,13 +347,17 @@ combos:
   k: PAUSE BREAK
   l: [FN_1]
 - p: [48, 49]
-  k: {t: '$$mdi:microsoft-windows$$', h: '&lm1 LALT'}
+  k: {t: '$$mdi:microsoft-windows$$', h: '&mo1_kp LALT'}
   l: [BASE]
 - p: [49, 50]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '&mo1_kp LCTRL'}
+  l: [BASE]
+- p: [50, 51]
+  k: {t: FN_2, h: '&lgui_lctrl'}
   l: [BASE]
 - p: [51, 52]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: '&rgs'}
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '&lgui_lshft'}
+  l: [BASE]
 - p: [49, 50, 51, 52]
   k: {t: FN_3, h: toggle}
   l: [BASE]
@@ -363,6 +367,3 @@ combos:
 - p: [30, 31, 42, 43]
   k: boot loader
   l: [FN_3]
-- p: [48, 49, 50]
-  k: {t: FN_2, h: toggle}
-  l: [BASE]
