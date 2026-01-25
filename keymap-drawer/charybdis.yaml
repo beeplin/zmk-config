@@ -51,8 +51,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-shift$$
@@ -109,7 +109,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: APP, h: '$$mdi:microsoft-windows$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -166,7 +166,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: BASE, h: toggle}
-  - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: KP NUM, h: '$$mdi:microsoft-windows$$'}
   - {t: KP 0, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -216,7 +216,7 @@ layers:
   - RGB SPD
   - $$mdi:keyboard-tab$$
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:keyboard-space$$
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - F4
   - {t: ' 0 ', h: '$$mdi:microsoft-windows$$', s: )}
@@ -224,7 +224,7 @@ layers:
   - RGB TOG
   - {t: BASE, h: toggle}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F11, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -363,6 +363,6 @@ combos:
 - p: [30, 31, 42, 43]
   k: boot loader
   l: [FN_3]
-- p: [50, 51]
+- p: [48, 49, 50]
   k: {t: FN_2, h: toggle}
   l: [BASE]
