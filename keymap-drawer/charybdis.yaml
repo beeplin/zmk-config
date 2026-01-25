@@ -353,7 +353,7 @@ combos:
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&lm1 LCTRL'}
   l: [BASE]
 - p: [51, 52]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: '&rcs'}
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '&rgs'}
 - p: [49, 50, 51, 52]
   k: {t: FN_3, h: toggle}
   l: [BASE]
