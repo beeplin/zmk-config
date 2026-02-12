@@ -362,8 +362,8 @@ combos:
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '&mo_1_kp LCTRL'}
   l: [BASE]
 - p: [50, 51]
-  k: {t: FN_2, h: '&lgui_kp LCTRL'}
+  k: {t: FN_2, h: '&rgui_kp LCTRL'}
   l: [BASE]
 - p: [51, 52]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: '&lgui_kp LSHFT'}
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '&rgui_kp RSHFT'}
   l: [BASE]

@@ -728,12 +728,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="434" y="300" width="28" height="26" class="combo"/>
 <a href="#FN_2">
 <text x="448" y="313" class="combo tap layer-activator">FN_2</text>
-</a><text x="448" y="324" class="combo hold"><tspan style="font-size: 60%">&amp;lgui_kp …</tspan></text>
+</a><text x="448" y="324" class="combo hold"><tspan style="font-size: 60%">&amp;rgui_kp …</tspan></text>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="540" y="286" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="545" y="290" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
-<text x="554" y="310" class="combo hold"><tspan style="font-size: 60%">&amp;lgui_kp …</tspan></text>
+<text x="554" y="310" class="combo hold"><tspan style="font-size: 60%">&amp;rgui_kp …</tspan></text>
 </g>
 </g>
 </g>
