@@ -54,12 +54,12 @@
                                                       &trans            &trans            &to BASE          &mt LGUI KP_NUM   &mt LSHFT KP_N0
                                                                         &trans            &trans            &trans >; };
     FN_3 { label = "FN_3"; bindings = <
-&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp CAPS          &kp HOME          &kp INS           &kp END           &kp BSPC          &kp N1
-&bt BT_NXT        &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp ESC           &kp PG_UP         &kp UP            &kp PG_DN         &kp DEL           &kp EQUAL
-&rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp L             &kp LEFT          &kp DOWN          &kp RIGHT         &kp ENTER         &kp MINUS
-&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp TAB           &mkp LCLK         &mkp MCLK         &mkp RCLK         &kp F4            &mt RGUI N0
-                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to BASE          &mt RCTRL F       &mt LSHFT SPACE
-                                                                        &trans            &trans            &trans >; };
+&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp INS           &kp HOME          &kp C             &kp END           &kp CAPS          &kp N1
+&bt BT_NXT        &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &kp TAB           &kp DEL           &kp UP            &kp BSPC          &kp PG_UP         &kp EQUAL
+&rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   &kp ESC           &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &kp MINUS
+&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   &kp ENTER         &mkp LCLK         &mkp MCLK         &mkp RCLK         &kp F4            &mt RGUI N0
+                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to BASE          &mt LCTRL C       &mt LSHFT SPACE
+                                                                        &trans            &trans            &mt LALT F11 >; };
   };
   combos { compatible = "zmk,combos";
     layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
