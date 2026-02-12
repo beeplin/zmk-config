@@ -178,11 +178,11 @@ layers:
   - BT DISC2
   - BT DISC3
   - BT DISC4
-  - $$mdi:apple-keyboard-caps$$
-  - HOME
   - INS
+  - HOME
+  - C
   - END
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-caps$$
   - {t: ' 1 ', s: '!'}
   - BT NXT
   - BT SEL0
@@ -190,11 +190,11 @@ layers:
   - BT SEL2
   - BT SEL3
   - BT SEL4
-  - $$mdi:keyboard-esc$$
-  - PGUP
-  - $$mdi:arrow-up-bold$$
-  - PGDN
+  - $$mdi:keyboard-tab$$
   - $$mdi:backspace-reverse-outline$$
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - PGUP
   - {t: '=', s: +}
   - RGB ON
   - RGB EFR
@@ -202,11 +202,11 @@ layers:
   - RGB SAI
   - RGB BRI
   - RGB SPI
-  - L
+  - $$mdi:keyboard-esc$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - PGDN
   - {t: '-', s: _}
   - RGB OFF
   - RGB EFF
@@ -214,7 +214,7 @@ layers:
   - RGB SAD
   - RGB BRD
   - RGB SPD
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -223,11 +223,11 @@ layers:
   - BT CLR
   - RGB TOG
   - {t: BASE, h: toggle}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: F11, h: '$$mdi:apple-keyboard-option$$'}
 combos:
 - p: [49, 50, 51, 52]
   k: {t: FN_3, h: toggle}
