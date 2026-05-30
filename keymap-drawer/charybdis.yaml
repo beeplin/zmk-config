@@ -238,6 +238,69 @@ combos:
 - p: [30, 31, 42, 43]
   k: boot loader
   l: [FN_3]
+- p: [5, 17]
+  k: F6
+  l: [BASE]
+- p: [4, 16]
+  k: F7
+  l: [BASE]
+- p: [3, 15]
+  k: F8
+  l: [BASE]
+- p: [2, 14]
+  k: F9
+  l: [BASE]
+- p: [1, 13]
+  k: F10
+  l: [BASE]
+- p: [0, 12]
+  k: F11
+  l: [BASE]
+- p: [17, 29]
+  k: F5
+  l: [BASE]
+- p: [16, 28]
+  k: F4
+  l: [BASE]
+- p: [15, 27]
+  k: F3
+  l: [BASE]
+- p: [14, 26]
+  k: F2
+  l: [BASE]
+- p: [13, 25]
+  k: F1
+  l: [BASE]
+- p: [12, 24]
+  k: F12
+  l: [BASE]
+- p: [29, 41]
+  k: MB5
+  l: [BASE]
+- p: [28, 40]
+  k: LCLK
+  l: [BASE]
+- p: [27, 39]
+  k: MCLK
+  l: [BASE]
+- p: [26, 38]
+  k: RCLK
+  l: [BASE]
+- p: [25, 37]
+  k: MB4
+  l: [BASE]
+- p: [16, 17]
+  k: $$mdi:keyboard-space$$
+  l: [BASE]
+- p: [16, 17]
+  k: $$mdi:skip-next$$
+  l: [BASE]
+- p: [16, 17]
+  k: $$mdi:play-pause$$
+  l: [BASE]
+- p: [16, 17]
+  k: $$mdi:skip-previous$$
+  l: [BASE]
 - p: [16, 17]
   k: $$mdi:volume-high$$
   l: [BASE]
@@ -274,9 +337,6 @@ combos:
 - p: [37, 38]
   k: $$mdi:mouse-right-click-outline$$
   l: [BASE]
-- p: [18, 19]
-  k: $$mdi:skip-previous$$
-  l: [BASE]
 - p: [19, 20]
   k: MB4
   l: [BASE]
@@ -286,9 +346,6 @@ combos:
 - p: [21, 22]
   k: MB5
   l: [BASE]
-- p: [30, 31]
-  k: $$mdi:skip-next$$
-  l: [BASE]
 - p: [31, 32]
   k: $$mdi:pan-left$$
   l: [BASE]
@@ -297,9 +354,6 @@ combos:
   l: [BASE]
 - p: [33, 34]
   k: $$mdi:pan-right$$
-  l: [BASE]
-- p: [42, 43]
-  k: $$mdi:play-pause$$
   l: [BASE]
 - p: [43, 44]
   k: $$mdi:mouse-left-click-outline$$
