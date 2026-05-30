@@ -46,13 +46,13 @@
 &kp SPACE         &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp K_APP         &kp INS           &kp LBRC          &kp RBRC          &kp BSLH          &kp RBKT
 &mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GT            &kp LPAR          &kp MINUS         &kp EQUAL         &kp RPAR          &kp GRAVE
 &mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp__cw RSHFT 0
-                                                      &trans            &trans            &mo FN_2 LALT     &mt RCTRL K_APP   &mt RSHFT DOT
+                                                      &trans            &trans            &mo FN_2 LALT     &trans            &trans
                                                                         &trans            &trans            &trans >; };
     FN_2 { label = "FN_2"; bindings = <
-&bootloader       &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bt BT_DISC 4     &bt BT_DISC 3     &bt BT_DISC 2     &bt BT_DISC 1     &bt BT_DISC 0     &bootloader 
-&kp C_PREV        &kp F12           &kp F9            &kp F8            &kp F7            &kp C_VOL_UP      &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp PAUSE_BREAK
-&mt LCTRL C_NEXT  &kp F11           &kp F6            &kp F5            &kp F4            &kp C_VOL_DN      &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &kp SLCK
-&mt LSHFT C_PP    &kp F10           &kp F3            &kp F2            &kp F1            &kp C_MUTE        &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &mt RSHFT PSCRN
+&bootloader       &kp C_MUTE        &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DN      &kp C_BRI_UP      &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bootloader 
+&kp C_PREV        &kp F10           &kp F9            &kp F8            &kp F7            &kp F6            &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp PAUSE_BREAK
+&mt LCTRL C_NEXT  &kp F11           &kp F12           &mkp RCLK         &mkp LCLK         &mkp MCLK         &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &kp SLCK
+&mt LSHFT C_PP    &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &mt RSHFT PSCRN
                                                       &trans            &kp LALT          &trans            &mt RCTRL KP_NUM  &mt RSHIFT KP_N0
                                                                         &trans            &trans            &trans >; };
     FN_3 { label = "FN_3"; bindings = <
