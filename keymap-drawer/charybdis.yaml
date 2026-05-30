@@ -48,7 +48,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -70,7 +70,7 @@ layers:
   - KP MINUS
   - KP PLUS
   - KP ENTER
-  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:keyboard-space$$
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -94,7 +94,7 @@ layers:
   - {t: '=', s: +}
   - {t: '''', s: '"'}
   - )
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
   - {t: ' 3 ', s: '#'}
@@ -289,11 +289,8 @@ combos:
 - p: [25, 37]
   k: MB4
   l: [BASE]
-- p: [24, 36]
-  k: $$mdi:apple-keyboard-caps$$
-  l: [BASE]
 - p: [4, 5]
-  k: $$mdi:keyboard-space$$
+  k: APP
   l: [BASE]
 - p: [3, 4]
   k: PAUSE BREAK
@@ -321,6 +318,9 @@ combos:
   l: [BASE]
 - p: [40, 41]
   k: $$mdi:volume-off$$
+  l: [BASE]
+- p: [38, 39]
+  k: $$mdi:mouse-scroll-wheel$$
   l: [BASE]
 - p: [48, 49]
   k: {t: '$$mdi:microsoft-windows$$', h: '&mo_1_kp LALT'}
