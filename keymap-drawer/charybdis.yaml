@@ -278,13 +278,13 @@ combos:
   k: MB5
   l: [BASE]
 - p: [28, 40]
-  k: LCLK
+  k: $$mdi:mouse-left-click-outline$$
   l: [BASE]
 - p: [27, 39]
-  k: MCLK
+  k: $$mdi:mouse-scroll-wheel$$
   l: [BASE]
 - p: [26, 38]
-  k: RCLK
+  k: $$mdi:mouse-right-click-outline$$
   l: [BASE]
 - p: [25, 37]
   k: MB4
