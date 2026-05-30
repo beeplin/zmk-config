@@ -29,9 +29,9 @@
   behaviors {
     sq: sq { compatible = "zmk,behavior-sticky-key"; #binding-cells = <1>; release-after-ms = <3000>; quick-release; lazy; ignore-modifiers; bindings = <&kp>; };
     kp__cw: kp__cw { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&kp>, <&caps_word>; };
-    mo_1_kp__sq: mo_1_kp__sq { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&mo_1_kp>, <&sq>; quick-tap-ms = <200>; };
-    rgui_kp__to: rgui_kp__to { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&rgui_kp>, <&to>; quick-tap-ms = <200>; };
-    rgui_kp__sq: rgui_kp__sq { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&rgui_kp>, <&sq>; quick-tap-ms = <200>; };
+    // mo_1_kp__sq: mo_1_kp__sq { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&mo_1_kp>, <&sq>; quick-tap-ms = <200>; };
+    // rgui_kp__to: rgui_kp__to { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&rgui_kp>, <&to>; quick-tap-ms = <200>; };
+    // rgui_kp__sq: rgui_kp__sq { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <200>; bindings = <&rgui_kp>, <&sq>; quick-tap-ms = <200>; };
   };
   keymap { compatible = "zmk,keymap";
     BASE { label = "BASE"; bindings = <
