@@ -289,16 +289,16 @@ combos:
 - p: [25, 37]
   k: MB4
   l: [BASE]
-- p: [16, 17]
+- p: [4, 5]
   k: $$mdi:keyboard-space$$
   l: [BASE]
-- p: [16, 17]
+- p: [3, 4]
   k: $$mdi:skip-next$$
   l: [BASE]
-- p: [16, 17]
+- p: [2, 3]
   k: $$mdi:play-pause$$
   l: [BASE]
-- p: [16, 17]
+- p: [1, 2]
   k: $$mdi:skip-previous$$
   l: [BASE]
 - p: [16, 17]
