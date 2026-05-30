@@ -84,10 +84,10 @@
     layer_0_left_row_12_col_3  { timeout-ms = <50>; layers = <BASE>; key-positions = <26 38>; bindings = <&mkp RCLK>; };
     layer_0_left_row_12_col_4  { timeout-ms = <50>; layers = <BASE>; key-positions = <25 37>; bindings = <&mkp MB4>; };
 
-    layer_0_left_row_4_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp SPACE>; };
-    layer_0_left_row_4_col_12  { timeout-ms = <30>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp C_NEXT>; };
-    layer_0_left_row_4_col_23  { timeout-ms = <30>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp C_PP>; };
-    layer_0_left_row_4_col_34  { timeout-ms = <30>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp C_PREV>; };
+    layer_0_left_row_4_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <4 5>; bindings = <&kp SPACE>; };
+    layer_0_left_row_4_col_12  { timeout-ms = <30>; layers = <BASE>; key-positions = <3 4>; bindings = <&kp C_NEXT>; };
+    layer_0_left_row_4_col_23  { timeout-ms = <30>; layers = <BASE>; key-positions = <2 3>; bindings = <&kp C_PP>; };
+    layer_0_left_row_4_col_34  { timeout-ms = <30>; layers = <BASE>; key-positions = <1 2>; bindings = <&kp C_PREV>; };
     layer_0_left_row_3_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp C_VOL_UP>; };
     layer_0_left_row_3_col_12  { timeout-ms = <30>; layers = <BASE>; key-positions = <15 16>; bindings = <&kp INS>; };
     layer_0_left_row_3_col_23  { timeout-ms = <30>; layers = <BASE>; key-positions = <14 15>; bindings = <&kp TAB>; };
