@@ -99,7 +99,7 @@
     // layer_0_left_row_2_col_34  { timeout-ms = <10>; layers = <BASE>; key-positions = <25 26>; bindings = <&kp CAPS>; };
     layer_0_left_row_1_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <40 41>; bindings = <&kp C_MUTE>; };
     // layer_0_left_row_1_col_12  { timeout-ms = <20>; layers = <BASE>; key-positions = <39 40>; bindings = <&mkp LCLK>; };
-    layer_0_left_row_1_col_23  { timeout-ms = <30>; layers = <BASE>; key-positions = <38 39>; bindings = <&mkp MCLK>; };
+    layer_0_left_row_1_col_23  { timeout-ms = <30>; layers = <BASE>; key-positions = <38 39>; bindings = <&kp INS>; };
     // layer_0_left_row_1_col_34  { timeout-ms = <30>; layers = <BASE>; key-positions = <37 38>; bindings = <&mkp RCLK>; };
 
     // layer_0_rght_row_3_col_12  { timeout-ms = <30>; layers = <BASE>; key-positions = <19 20>; bindings = <&mkp MB4>; };
