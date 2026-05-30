@@ -53,34 +53,34 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:keyboard-return$$', h: FN_2}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   FN_1:
-  - KP PLUS
+  - INS
   - {t: ' 0 ', s: )}
   - {t: ' 9 ', s: (}
   - {t: ' 8 ', s: '*'}
   - {t: ' 7 ', s: '&'}
   - {t: ' 6 ', s: ^}
-  - KP NUM
-  - KP DIVIDE
-  - KP MULTIPLY
-  - KP MINUS
-  - KP DOT
-  - KP ENTER
+  - '%'
+  - '&'
+  - '*'
+  - '!'
+  - '@'
+  - '#'
   - $$mdi:keyboard-space$$
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - HOME
-  - APP
-  - INS
+  - {t: '`', s: '~'}
+  - {t: \, s: '|'}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: \, s: '|'}
+  - '|'
   - {t: ']', s: '}'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - PGDN
@@ -88,12 +88,12 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - END
-  - '>'
-  - (
+  - +
   - '{'
-  - '}'
+  - (
   - )
-  - {t: '`', s: '~'}
+  - '}'
+  - '~'
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -109,8 +109,8 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - '&mo 2 LALT'
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '>', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
