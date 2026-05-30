@@ -39,21 +39,21 @@
 &kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp LBKT
 &mt LCTRL ESC     &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp SQT
 &kp LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &sq RSHFT
-                                                      &kp LALT          &lt FN_1 SPACE    &mo FN_2          &kp RCTRL         &kp RSHFT
-                                                                        &kp LGUI          &to FN_3          &kp RALT >; };
+                                                      &kp LALT          &lt FN_1 SPACE    &lt FN_2 ENTER    &kp RCTRL         &kp RSHFT
+                                                                        &kp LGUI          &kp LSHFT         &kp RALT >; };
     FN_1 { label = "FN_1"; bindings = <
-&kp KP_PLUS       &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp KP_NUM        &kp KP_DIVIDE     &kp KP_MULTIPLY   &kp KP_MINUS      &kp KP_PLUS       &kp KP_ENTER
-&kp SPACE         &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp K_APP         &kp DOT           &kp UNDER         &kp PLUS          &kp PIPE          &kp TILDE
-&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp INS           &kp GT            &kp MINUS         &kp EQUAL         &kp BSLH          &kp GRAVE
+&kp KP_PLUS       &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp KP_NUM        &kp KP_DIVIDE     &kp KP_MULTIPLY   &kp KP_MINUS      &kp KP_DOT        &kp KP_ENTER
+&kp SPACE         &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp K_APP         &kp INS           &kp LBRC          &kp RBRC          &kp BSLH          &kp RBKT
+&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GT            &kp LPAR          &kp MINUS         &kp EQUAL         &kp RPAR          &kp GRAVE
 &mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp__cw RSHFT 0
-                                                      &trans            &trans            &mo FN_2 LALT     &trans   &trans
+                                                      &trans            &trans            &mo FN_2 LALT     &mt RCTRL K_APP   &mt RSHFT DOT
                                                                         &trans            &trans            &trans >; };
     FN_2 { label = "FN_2"; bindings = <
 &bootloader       &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bt BT_DISC 4     &bt BT_DISC 3     &bt BT_DISC 2     &bt BT_DISC 1     &bt BT_DISC 0     &bootloader 
 &kp C_PREV        &kp F12           &kp F9            &kp F8            &kp F7            &kp C_VOL_UP      &kp KP_MINUS      &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_PLUS       &kp PAUSE_BREAK
 &mt LCTRL C_NEXT  &kp F11           &kp F6            &kp F5            &kp F4            &kp C_VOL_DN      &kp KP_MULTIPLY   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_ENTER      &kp SLCK
 &mt LSHFT C_PP    &kp F10           &kp F3            &kp F2            &kp F1            &kp C_MUTE        &kp KP_DIVIDE     &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_DOT        &mt RSHFT PSCRN
-                                                      &trans            &kp LALT          &trans            &mt RCTRL KP_NUM  &kp KP_N0
+                                                      &trans            &kp LALT          &trans            &mt RCTRL KP_NUM  &mt RSHIFT KP_N0
                                                                         &trans            &trans            &trans >; };
     FN_3 { label = "FN_3"; bindings = <
 &bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &kp CAPS          &kp HOME          &kp F4            &kp END           &kp INS           &kp N1
@@ -64,7 +64,7 @@
                                                                         &trans            &trans            &mt RALT C >; };
   };
   combos { compatible = "zmk,combos";
-    // layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
+    layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
     // layer_3_left_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
     // layer_3_rght_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
 
