@@ -320,7 +320,7 @@ combos:
   k: $$mdi:volume-off$$
   l: [BASE]
 - p: [38, 39]
-  k: $$mdi:mouse-scroll-wheel$$
+  k: INS
   l: [BASE]
 - p: [48, 49]
   k: {t: '$$mdi:microsoft-windows$$', h: '&mo_1_kp LALT'}

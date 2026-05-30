@@ -711,7 +711,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="154" y="183" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="159" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<text x="168" y="196" class="combo tap">INS</text>
 </g>
 <g class="combo combopos-29">
 <rect rx="6" ry="6" x="280" y="258" width="28" height="26" class="combo"/>
