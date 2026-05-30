@@ -78,11 +78,11 @@
     layer_0_left_row_23_col_3  { timeout-ms = <50>; layers = <BASE>; key-positions = <14 26>; bindings = <&kp F2>; };
     layer_0_left_row_23_col_4  { timeout-ms = <50>; layers = <BASE>; key-positions = <13 25>; bindings = <&kp F1>; };
     layer_0_left_row_23_col_5  { timeout-ms = <50>; layers = <BASE>; key-positions = <12 24>; bindings = <&kp F12>; };
-    layer_0_left_row_12_col_0  { timeout-ms = <50>; layers = <BASE>; key-positions = <29 41>; bindings = <&kp MB5>; };
-    layer_0_left_row_12_col_1  { timeout-ms = <50>; layers = <BASE>; key-positions = <28 40>; bindings = <&kp LCLK>; };
-    layer_0_left_row_12_col_2  { timeout-ms = <50>; layers = <BASE>; key-positions = <27 39>; bindings = <&kp MCLK>; };
-    layer_0_left_row_12_col_3  { timeout-ms = <50>; layers = <BASE>; key-positions = <26 38>; bindings = <&kp RCLK>; };
-    layer_0_left_row_12_col_4  { timeout-ms = <50>; layers = <BASE>; key-positions = <25 37>; bindings = <&kp MB4>; };
+    layer_0_left_row_12_col_0  { timeout-ms = <50>; layers = <BASE>; key-positions = <29 41>; bindings = <&mkp MB5>; };
+    layer_0_left_row_12_col_1  { timeout-ms = <50>; layers = <BASE>; key-positions = <28 40>; bindings = <&mkp LCLK>; };
+    layer_0_left_row_12_col_2  { timeout-ms = <50>; layers = <BASE>; key-positions = <27 39>; bindings = <&mkp MCLK>; };
+    layer_0_left_row_12_col_3  { timeout-ms = <50>; layers = <BASE>; key-positions = <26 38>; bindings = <&mkp RCLK>; };
+    layer_0_left_row_12_col_4  { timeout-ms = <50>; layers = <BASE>; key-positions = <25 37>; bindings = <&mkp MB4>; };
 
     layer_0_left_row_4_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp SPACE>; };
     layer_0_left_row_4_col_12  { timeout-ms = <30>; layers = <BASE>; key-positions = <16 17>; bindings = <&kp C_NEXT>; };
