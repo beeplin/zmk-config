@@ -109,30 +109,30 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - '&mo 2 LALT'
-  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: '>'}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   FN_2:
   - boot loader
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:brightness-4$$
+  - $$mdi:brightness-5$$
   - BT SEL0
   - BT SEL1
   - BT SEL2
   - BT SEL3
   - BT SEL4
-  - BT DISC4
-  - BT DISC3
-  - BT DISC2
-  - BT DISC1
-  - BT DISC0
   - boot loader
   - $$mdi:skip-previous$$
-  - F12
+  - F10
   - F9
   - F8
   - F7
-  - $$mdi:volume-high$$
+  - F6
   - KP MINUS
   - KP 7
   - KP 8
@@ -141,10 +141,10 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - F11
-  - F6
-  - F5
-  - F4
-  - $$mdi:volume-low$$
+  - F12
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
   - KP MULTIPLY
   - KP 4
   - KP 5
@@ -152,11 +152,11 @@ layers:
   - KP ENTER
   - SLCK
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - F10
-  - F3
-  - F2
   - F1
-  - $$mdi:volume-off$$
+  - F2
+  - F3
+  - F4
+  - F5
   - KP DIVIDE
   - KP 1
   - KP 2
