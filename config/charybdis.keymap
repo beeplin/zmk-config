@@ -43,8 +43,8 @@
                                                                         &kp LGUI          &kp LSHFT         &kp RALT >; };
     FN_1 { label = "FN_1"; bindings = <
 &kp KP_PLUS       &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp KP_NUM        &kp KP_DIVIDE     &kp KP_MULTIPLY   &kp KP_MINUS      &kp KP_DOT        &kp KP_ENTER
-&kp SPACE         &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp K_APP         &kp INS           &kp LBRC          &kp RBRC          &kp BSLH          &kp RBKT
-&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GT            &kp LPAR          &kp MINUS         &kp EQUAL         &kp RPAR          &kp GRAVE
+&kp SPACE         &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp K_APP         &kp INS           &kp MINUS         &kp EQUAL         &kp BSLH          &kp RBKT
+&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GT            &kp LPAR          &kp LBRC          &kp RBRC          &kp RPAR          &kp GRAVE
 &mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp__cw RSHFT 0
                                                       &trans            &trans            &mo FN_2 LALT     &trans            &trans
                                                                         &trans            &trans            &trans >; };
