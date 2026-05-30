@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
   - C
@@ -48,15 +48,15 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:keyboard-return$$', h: FN_2}
-  - $$mdi:apple-keyboard-control$$
-  - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
   - $$mdi:microsoft-windows$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: \, h: '$$mdi:apple-keyboard-option$$', s: '|'}
   FN_1:
   - INS
   - {t: ' 0 ', s: )}
@@ -105,7 +105,7 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: '>'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - '&lm 2 LALT'
