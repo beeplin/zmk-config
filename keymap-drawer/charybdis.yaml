@@ -289,126 +289,39 @@ combos:
 - p: [25, 37]
   k: MB4
   l: [BASE]
+- p: [24, 36]
+  k: $$mdi:apple-keyboard-caps$$
+  l: [BASE]
 - p: [4, 5]
   k: $$mdi:keyboard-space$$
   l: [BASE]
 - p: [3, 4]
-  k: $$mdi:skip-next$$
+  k: PAUSE BREAK
   l: [BASE]
 - p: [2, 3]
-  k: $$mdi:play-pause$$
+  k: SLCK
   l: [BASE]
 - p: [1, 2]
-  k: $$mdi:skip-previous$$
+  k: $$mdi:printer-outline$$
   l: [BASE]
 - p: [16, 17]
   k: $$mdi:volume-high$$
   l: [BASE]
 - p: [15, 16]
-  k: INS
+  k: $$mdi:skip-next$$
   l: [BASE]
 - p: [14, 15]
-  k: $$mdi:keyboard-tab$$
+  k: $$mdi:play-pause$$
   l: [BASE]
 - p: [13, 14]
-  k: APP
+  k: $$mdi:skip-previous$$
   l: [BASE]
 - p: [28, 29]
   k: $$mdi:volume-low$$
   l: [BASE]
-- p: [27, 28]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [BASE]
-- p: [26, 27]
-  k: $$mdi:keyboard-esc$$
-  l: [BASE]
-- p: [25, 26]
-  k: $$mdi:apple-keyboard-caps$$
-  l: [BASE]
 - p: [40, 41]
   k: $$mdi:volume-off$$
   l: [BASE]
-- p: [39, 40]
-  k: $$mdi:mouse-left-click-outline$$
-  l: [BASE]
-- p: [38, 39]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: [BASE]
-- p: [37, 38]
-  k: $$mdi:mouse-right-click-outline$$
-  l: [BASE]
-- p: [19, 20]
-  k: MB4
-  l: [BASE]
-- p: [20, 21]
-  k: $$mdi:pan-up$$
-  l: [BASE]
-- p: [21, 22]
-  k: MB5
-  l: [BASE]
-- p: [31, 32]
-  k: $$mdi:pan-left$$
-  l: [BASE]
-- p: [32, 33]
-  k: $$mdi:pan-down$$
-  l: [BASE]
-- p: [33, 34]
-  k: $$mdi:pan-right$$
-  l: [BASE]
-- p: [43, 44]
-  k: $$mdi:mouse-left-click-outline$$
-  l: [BASE]
-- p: [44, 45]
-  k: $$mdi:mouse-scroll-wheel$$
-  l: [BASE]
-- p: [45, 46]
-  k: $$mdi:mouse-right-click-outline$$
-  l: [BASE]
-- p: [16, 17]
-  k: F12
-  l: [FN_1]
-- p: [15, 16]
-  k: F7
-  l: [FN_1]
-- p: [14, 15]
-  k: F8
-  l: [FN_1]
-- p: [13, 14]
-  k: F9
-  l: [FN_1]
-- p: [28, 29]
-  k: F11
-  l: [FN_1]
-- p: [27, 28]
-  k: F4
-  l: [FN_1]
-- p: [26, 27]
-  k: F5
-  l: [FN_1]
-- p: [25, 26]
-  k: F6
-  l: [FN_1]
-- p: [40, 41]
-  k: F10
-  l: [FN_1]
-- p: [39, 40]
-  k: F1
-  l: [FN_1]
-- p: [38, 39]
-  k: F2
-  l: [FN_1]
-- p: [37, 38]
-  k: F3
-  l: [FN_1]
-- p: [18, 19]
-  k: $$mdi:printer-outline$$
-  l: [FN_1]
-- p: [30, 31]
-  k: SLCK
-  l: [FN_1]
-- p: [42, 43]
-  k: PAUSE BREAK
-  l: [FN_1]
 - p: [48, 49]
   k: {t: '$$mdi:microsoft-windows$$', h: '&mo_1_kp LALT'}
   l: [BASE]
