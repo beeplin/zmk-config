@@ -78,8 +78,8 @@ layers:
   - HOME
   - APP
   - INS
-  - '{'
-  - '}'
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - {t: \, s: '|'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -90,8 +90,8 @@ layers:
   - END
   - '>'
   - (
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - '{'
+  - '}'
   - )
   - {t: '`', s: '~'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
