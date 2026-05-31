@@ -52,11 +52,11 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:keyboard-return$$', h: FN_2}
-  - {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
-  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
+  - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
+  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - $$mdi:microsoft-windows$$
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: INS, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:microsoft-windows$$'}
   FN_1:
   - key repeat
   - {t: ' 0 ', s: )}
@@ -64,13 +64,13 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 7 ', s: '&'}
   - {t: ' 6 ', s: ^}
-  - '%'
-  - '&'
-  - '*'
-  - '!'
-  - '@'
-  - '#'
-  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
+  - F13
+  - F14
+  - F15
+  - F16
+  - F17
+  - F18
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -94,7 +94,7 @@ layers:
   - {t: '=', s: +}
   - {t: \, s: '|'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
   - {t: ' 3 ', s: '#'}
@@ -109,11 +109,11 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - '&lm 2 LALT'
-  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:microsoft-windows$$
   FN_2:
   - boot loader
   - $$mdi:volume-off$$
@@ -133,11 +133,11 @@ layers:
   - F8
   - F7
   - F6
-  - KP MINUS
+  - KP MULTIPLY
   - KP 7
   - KP 8
   - KP 9
-  - KP PLUS
+  - KP MINUS
   - PAUSE BREAK
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - F11
@@ -145,11 +145,11 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  - KP MULTIPLY
+  - KP DIVIDE
   - KP 4
   - KP 5
   - KP 6
-  - KP ENTER
+  - KP PLUS
   - SLCK
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
   - F1
@@ -157,20 +157,20 @@ layers:
   - F3
   - F4
   - F5
-  - KP DIVIDE
+  - KP NUM
   - KP 1
   - KP 2
   - KP 3
-  - KP DOT
+  - KP ENTER
   - {t: '$$mdi:printer-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {type: held}
-  - {t: KP NUM, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: KP 0, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: KP DOT, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: KP 0, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: APP, h: '$$mdi:microsoft-windows$$'}
   FN_3:
   - BT PRV
   - BT DISC0
@@ -218,16 +218,16 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:microsoft-windows$$
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - BT CLR
   - RGB TOG
   - {t: BASE, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: INS, h: '$$mdi:microsoft-windows$$'}
 combos:
 - p: [49, 50, 51, 52]
   k: {t: FN_3, h: toggle}
