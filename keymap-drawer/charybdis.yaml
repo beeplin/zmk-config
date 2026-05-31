@@ -178,12 +178,12 @@ layers:
   - BT DISC2
   - BT DISC3
   - BT DISC4
-  - $$mdi:apple-keyboard-caps$$
-  - HOME
-  - F4
-  - END
-  - INS
-  - {t: ' 1 ', s: '!'}
+  - L
+  - V
+  - C
+  - X
+  - Z
+  - F
   - BT NXT
   - BT SEL0
   - BT SEL1
