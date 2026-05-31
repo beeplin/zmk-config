@@ -214,11 +214,11 @@ layers:
   - {t: ',', s: <}
   - H
   - K
-  - F4
-  - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - APP
+  - F4
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
