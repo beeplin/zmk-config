@@ -625,18 +625,6 @@ rect.held, rect.combo.held {
 <use href="#mdi:microsoft-windows" xlink:href="#mdi:microsoft-windows" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:microsoft-windows"/>
 <text x="0" y="-24" class="key shifted">|</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="155" width="28" height="26" class="combo"/>
-<text x="280" y="168" class="combo tap">
-<tspan x="280" dy="-0.6em">boot</tspan><tspan x="280" dy="1.2em">loader</tspan>
-</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="602" y="155" width="28" height="26" class="combo"/>
-<text x="616" y="168" class="combo tap">
-<tspan x="616" dy="-0.6em">boot</tspan><tspan x="616" dy="1.2em">loader</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 456)" class="layer-FN_1">
@@ -1607,6 +1595,18 @@ rect.held, rect.combo.held {
 <a href="#FN_3">
 <text x="0" y="-4" class="key tap layer-activator">FN_3</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="266" y="155" width="28" height="26" class="combo"/>
+<text x="280" y="168" class="combo tap">
+<tspan x="280" dy="-0.6em">boot</tspan><tspan x="280" dy="1.2em">loader</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="602" y="155" width="28" height="26" class="combo"/>
+<text x="616" y="168" class="combo tap">
+<tspan x="616" dy="-0.6em">boot</tspan><tspan x="616" dy="1.2em">loader</tspan>
+</text>
 </g>
 </g>
 </g>

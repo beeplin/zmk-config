@@ -231,7 +231,7 @@ layers:
 combos:
 - p: [28, 29, 40, 41]
   k: boot loader
-  l: [BASE]
+  l: [FN_3]
 - p: [30, 31, 42, 43]
   k: boot loader
-  l: [BASE]
+  l: [FN_3]
