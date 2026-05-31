@@ -13,7 +13,7 @@ layers:
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
   - {t: ']', s: '}'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - Q
   - W
   - F
@@ -48,17 +48,17 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:keyboard-return$$', h: FN_2}
   - {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
   - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
   - $$mdi:microsoft-windows$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: \, h: '$$mdi:apple-keyboard-option$$', s: '|'}
+  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-option$$'}
   FN_1:
-  - INS
+  - key repeat
   - {t: ' 0 ', s: )}
   - {t: ' 9 ', s: (}
   - {t: ' 8 ', s: '*'}
@@ -70,31 +70,31 @@ layers:
   - '!'
   - '@'
   - '#'
-  - $$mdi:keyboard-space$$
+  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - HOME
-  - {t: '`', s: '~'}
-  - {t: \, s: '|'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - '|'
   - {t: ']', s: '}'}
+  - '}'
+  - )
+  - (
+  - '{'
+  - {t: '[', s: '{'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - PGDN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - END
-  - +
-  - '{'
-  - (
-  - )
-  - '}'
-  - '~'
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '`', s: '~'}
+  - '>'
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - {t: \, s: '|'}
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
   - {t: ' 3 ', s: '#'}
@@ -110,7 +110,7 @@ layers:
   - {type: held}
   - '&lm 2 LALT'
   - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '>', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
@@ -127,7 +127,7 @@ layers:
   - BT SEL3
   - BT SEL4
   - boot loader
-  - $$mdi:skip-previous$$
+  - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-option$$'}
   - F10
   - F9
   - F8
@@ -190,44 +190,44 @@ layers:
   - BT SEL2
   - BT SEL3
   - BT SEL4
-  - $$mdi:keyboard-tab$$
-  - PGUP
+  - HOME
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-up-bold$$
-  - PGDN
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '=', s: +}
+  - PGUP
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - RGB ON
   - RGB EFR
   - RGB HUI
   - RGB SAI
   - RGB BRI
   - RGB SPI
-  - $$mdi:keyboard-esc$$
+  - END
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '-', s: _}
+  - PGDN
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - RGB OFF
   - RGB EFF
   - RGB HUD
   - RGB SAD
   - RGB BRD
   - RGB SPD
-  - $$mdi:keyboard-space$$
+  - F4
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:backspace-reverse-outline$$
-  - {t: ' 0 ', h: '$$mdi:microsoft-windows$$', s: )}
+  - $$mdi:microsoft-windows$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - BT CLR
   - RGB TOG
   - {t: BASE, h: toggle}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: C, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: INS, h: '$$mdi:apple-keyboard-option$$'}
 combos:
 - p: [49, 50, 51, 52]
   k: {t: FN_3, h: toggle}
