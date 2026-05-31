@@ -53,7 +53,7 @@
 &kp RBKT          &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp L             &kp V             &kp C             &kp X             &kp Z             &kp F
 &mt LALT LBKT     &kp SEMI          &kp Y             &kp U             &kp L             &kp J             &kp HOME          &kp DEL           &kp UP            &kp BSPC          &kp PG_UP         &mt LALT TAB
 &mt LCTRL SQT     &kp O             &kp I             &kp E             &kp N             &kp M             &kp END           &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &mt LCTRL ESC
-&mt LSHFT BSLH    &kp FSLH          &kp DOT           &kp COMMA         &kp H             &kp K             &kp F4            &mkp LCLK         &mkp MCLK         &mkp RCLK         &kp K_APP    &mt LSHFT CAPS
+&mt LSHFT BSLH    &kp FSLH          &kp DOT           &kp COMMA         &kp H             &kp K             &mkp MCLK         &mkp LCLK         &mkp RCLK         &kp K_APP         &kp F4            &mt LSHFT CAPS
                                                       &trans            &mt RCTRL MINUS   &mt RALT EQUAL    &mt RALT ENTER    &mt RCTRL SPACE
                                                                         &trans            &tog FN_3         &mt RGUI INS >; };
   };
