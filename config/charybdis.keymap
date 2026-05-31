@@ -65,8 +65,8 @@
   };
   combos { compatible = "zmk,combos";
     // layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
-    layer_3_left_row_12_col_01 { timeout-ms = <30>; layers = <BASE>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
-    layer_3_rght_row_12_col_01 { timeout-ms = <30>; layers = <BASE>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
+    layer_3_left_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
+    layer_3_rght_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
 
     // layer_0_left_row_34_col_0  { timeout-ms = <50>; layers = <BASE>; key-positions = <5 17>; bindings = <&kp F6>; };
     // layer_0_left_row_34_col_1  { timeout-ms = <50>; layers = <BASE>; key-positions = <4 16>; bindings = <&kp F7>; };
@@ -136,4 +136,4 @@
     // // layer_0_both_row_0_col_0   { timeout-ms = <30>; layers = <BASE>; key-positions = <50 51>; bindings = <&rgui_kp__to LCTRL FN_2>; };
     // // layer_0_rght_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <51 52>; bindings = <&rgui_kp__sq RSHFT RALT>; };
   };
-}; 
+};
