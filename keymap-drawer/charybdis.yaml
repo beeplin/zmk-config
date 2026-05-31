@@ -48,28 +48,28 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:keyboard-return$$', h: FN_2}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - $$mdi:microsoft-windows$$
-  - {t: INS, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:microsoft-windows$$'}
+  - {t: FN_3, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: \, h: '$$mdi:microsoft-windows$$', s: '|'}
   FN_1:
-  - key repeat
+  - {t: ., s: '>'}
   - {t: ' 0 ', s: )}
   - {t: ' 9 ', s: (}
   - {t: ' 8 ', s: '*'}
   - {t: ' 7 ', s: '&'}
   - {t: ' 6 ', s: ^}
-  - F13
-  - F14
-  - F15
-  - F16
-  - F17
-  - F18
+  - BT DISC0
+  - BT DISC1
+  - BT DISC2
+  - BT DISC3
+  - BT DISC4
+  - BT CLR
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -105,64 +105,64 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
-  - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: '>'}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
   - '&lm 2 LALT'
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - $$mdi:microsoft-windows$$
+  - {t: INS, h: '$$mdi:microsoft-windows$$'}
   FN_2:
-  - boot loader
+  - key repeat
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
-  - BT SEL0
-  - BT SEL1
-  - BT SEL2
-  - BT SEL3
-  - BT SEL4
-  - boot loader
+  - $$mdi:printer-outline$$
+  - KP NUM
+  - KP DIVIDE
+  - KP MULTIPLY
+  - SLCK
+  - PAUSE BREAK
   - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-option$$'}
   - F10
   - F9
   - F8
   - F7
   - F6
-  - KP MULTIPLY
+  - $$mdi:pan-left$$
   - KP 7
   - KP 8
   - KP 9
   - KP MINUS
-  - PAUSE BREAK
+  - $$mdi:pan-up$$
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - F11
   - F12
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  - KP DIVIDE
+  - $$mdi:pan-right$$
   - KP 4
   - KP 5
   - KP 6
   - KP PLUS
-  - SLCK
+  - $$mdi:pan-down$$
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - KP NUM
+  - MB4
   - KP 1
   - KP 2
   - KP 3
   - KP ENTER
-  - {t: '$$mdi:printer-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - MB5
   - {t: '$$mdi:menu-down$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {type: held}
@@ -172,63 +172,66 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: APP, h: '$$mdi:microsoft-windows$$'}
   FN_3:
-  - BT PRV
-  - BT DISC0
-  - BT DISC1
-  - BT DISC2
-  - BT DISC3
-  - BT DISC4
+  - {t: ']', s: '}'}
+  - {t: ' 0 ', s: )}
+  - {t: ' 9 ', s: (}
+  - {t: ' 8 ', s: '*'}
+  - {t: ' 7 ', s: '&'}
+  - {t: ' 6 ', s: ^}
   - L
   - V
   - C
   - X
   - Z
   - F
-  - BT NXT
-  - BT SEL0
-  - BT SEL1
-  - BT SEL2
-  - BT SEL3
-  - BT SEL4
+  - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
+  - {t: ;, s: ':'}
+  - Y
+  - U
+  - L
+  - J
   - HOME
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - PGUP
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
-  - RGB ON
-  - RGB EFR
-  - RGB HUI
-  - RGB SAI
-  - RGB BRI
-  - RGB SPI
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
+  - O
+  - I
+  - E
+  - N
+  - M
   - END
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PGDN
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - RGB OFF
-  - RGB EFF
-  - RGB HUD
-  - RGB SAD
-  - RGB BRD
-  - RGB SPD
+  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
+  - {t: /, s: '?'}
+  - {t: ., s: '>'}
+  - {t: ',', s: <}
+  - H
+  - K
   - F4
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - BT CLR
-  - RGB TOG
-  - {t: BASE, h: toggle}
+  - {t: APP, h: '$$mdi:microsoft-windows$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
+  - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: INS, h: '$$mdi:microsoft-windows$$'}
+  - {t: FN_3, h: toggle, type: held}
+  - {t: FN_3, h: toggle}
 combos:
-- p: [49, 50, 51, 52]
-  k: {t: FN_3, h: toggle}
+- p: [28, 29, 40, 41]
+  k: boot loader
+  l: [BASE]
+- p: [30, 31, 42, 43]
+  k: boot loader
   l: [BASE]
