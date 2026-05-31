@@ -42,17 +42,17 @@
                                                       &mt LALT BSPC     &lt FN_1 SPACE    &lt FN_2 ENTER    &mt RALT EQUAL    &mt RCTRL MINUS
                                                                         &kp LGUI          &sl FN_3          &mt RGUI BSLH >; };
     FN_1 { label = "FN_1"; bindings = <
-&kp DOT           &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp F13           &kp F14           &kp F15           &kp F16           &kp F17           &kp F18
+&kp DOT           &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &bt BT_CLR
 &mt LALT SPACE    &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp RBKT          &kp RBRC          &kp RPAR          &kp LPAR          &kp LBRC          &kp LBKT
 &mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GRAVE         &kp GT            &kp MINUS         &kp EQUAL         &kp BSLH          &kp SQT
 &mc LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp RSHFT
                                                       &trans            &trans            &lm FN_2 LALT     &mt RALT DOT      &mt RCTRL SPACE
                                                                         &trans            &trans            &mt RGUI INS>; };
     FN_2 { label = "FN_2"; bindings = <
-&key_repeat       &kp C_MUTE        &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DN      &kp C_BRI_UP      &kp F19           &kp F20           &kp F21           &kp F22           &kp F23           &kp F24
-&mt LALT C_PREV   &kp F10           &kp F9            &kp F8            &kp F7            &kp F6            &kp KP_MULTIPLY   &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp PAUSE_BREAK
-&mt LCTRL C_NEXT  &kp F11           &kp F12           &mkp RCLK         &mkp LCLK         &mkp MCLK         &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp SLCK
-&mt LSHFT C_PP    &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp KP_NUM        &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &mt RSHFT PSCRN
+&key_repeat       &kp C_MUTE        &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DN      &kp C_BRI_UP      &kp PSCRN         &kp KP_NUM        &kp KP_DIVIDE     &kp KP_MULTIPLY   &kp SLCK          &kp PAUSE_BREAK
+&mt LALT C_PREV   &kp F10           &kp F9            &kp F8            &kp F7            &kp F6            &msc SCRL_LEFT    &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &msc SCRL_UP
+&mt LCTRL C_NEXT  &kp F11           &kp F12           &mkp RCLK         &mkp LCLK         &mkp MCLK         &msc SCRL_RIGHT   &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &msc SCRL_DOWN
+&mt LSHFT C_PP    &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &mkp MB4          &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &mkp MB5
                                                       &trans            &kp LALT          &trans            &mt RALT KP_DOT   &mt RCTRL KP_N0
                                                                         &trans            &trans            &mt RGUI K_APP >; };
     FN_3 { label = "FN_3"; bindings = <
@@ -62,18 +62,11 @@
 &mt LSHFT BSLH    &kp FSLH          &kp DOT           &kp COMMA         &kp H             &kp K             &kp F4            &mkp LCLK         &mkp MCLK         &mkp RCLK         &mt LGUI K_APP    &mt LSHFT CAPS
                                                       &trans            &mt RCTRL MINUS   &mt RALT EQUAL    &mt RALT ENTER    &mt RCTRL SPACE
                                                                         &trans            &tog FN_3         &to FN_3 >; };
-    FN_3 { label = "FN_3"; bindings = <
-&bt BT_PRV        &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     
-&bt BT_NXT        &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      
-&rgb_ug RGB_ON    &rgb_ug RGB_EFR   &rgb_ug RGB_HUI   &rgb_ug RGB_SAI   &rgb_ug RGB_BRI   &rgb_ug RGB_SPI   
-&rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_HUD   &rgb_ug RGB_SAD   &rgb_ug RGB_BRD   &rgb_ug RGB_SPD   
-                                                      &bt BT_CLR        &rgb_ug RGB_TOG   &to BASE          
-                                                                        &trans            &trans            
   };
   combos { compatible = "zmk,combos";
-    layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
-    // // layer_3_left_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
-    // // layer_3_rght_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
+    // layer_0_both_row_0_col_01  { timeout-ms = <30>; layers = <BASE>; key-positions = <49 50 51 52>; bindings = <&to FN_3>; };
+    layer_3_left_row_12_col_01 { timeout-ms = <30>; layers = <BASE>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
+    layer_3_rght_row_12_col_01 { timeout-ms = <30>; layers = <BASE>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
 
     // layer_0_left_row_34_col_0  { timeout-ms = <50>; layers = <BASE>; key-positions = <5 17>; bindings = <&kp F6>; };
     // layer_0_left_row_34_col_1  { timeout-ms = <50>; layers = <BASE>; key-positions = <4 16>; bindings = <&kp F7>; };
