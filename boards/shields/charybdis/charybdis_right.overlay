@@ -47,7 +47,7 @@
 
         // automouse-layer = <AUTOMSE>;
         scroll-layers = <FN_1>;
-        // snipe-layers = <FN_2>;
+        snipe-layers = <FN_2>;
 
         /* optional: ball action on specific layers */
         // arrows {
