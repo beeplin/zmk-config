@@ -49,14 +49,14 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:keyboard-return$$', h: FN_2}
   - {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
   - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
   - $$mdi:microsoft-windows$$
-  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-option$$'}
   FN_1:
   - key repeat
   - {t: ' 0 ', s: )}
