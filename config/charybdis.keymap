@@ -40,7 +40,7 @@
     FN_1 { label = "FN_1"; bindings = <
 &kp DOT           &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp A             &kp V             &kp C             &kp X             &kp Z             &kp F4
 &kp TAB           &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp RBRC          &kp RPAR          &kp LPAR          &kp LBRC          &kp LBKT          &kp RBKT
-&kp LCTRL         &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GRAVE         &kp GT            &kp MINUS         &kp EQUAL         &kp BSLH          &kp SQT
+&kp LCTRL         &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GRAVE         &kp GT            &kp MINUS         &kp EQUAL         &kp PIPE          &kp BSLH
 &kp LSHFT         &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &mc RSHFT 0
                                                       &mt LALT ESC      &kp SPACE         &kp ENTER         &mt RALT DOT      &mt RCTRL SPACE
                                                                         &sk LGUI          &lt FN_3 CAPS     &mt RGUI FSLH >; };
