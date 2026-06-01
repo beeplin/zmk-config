@@ -169,7 +169,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - '&lm 3 LALT'
   - {t: INS, h: '$$mdi:microsoft-windows$$'}
   FN_3:
   - {t: BASE, h: toggle}
@@ -231,7 +231,4 @@ layers:
 combos:
 - p: [49, 50]
   k: '&lm 2 LALT'
-  l: [BASE]
-- p: [50, 54]
-  k: '&lm 3 LALT'
   l: [BASE]
