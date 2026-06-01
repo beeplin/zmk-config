@@ -115,18 +115,18 @@ layers:
   - {t: FN_3, h: toggle}
   - $$mdi:microsoft-windows$$
   FN_2:
+  - boot loader
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - $$mdi:printer-outline$$
-  - SLCK
-  - PAUSE BREAK
+  - $$mdi:brightness-4$$
+  - $$mdi:brightness-5$$
   - BT DISC0
   - BT DISC1
   - BT DISC2
   - BT DISC3
   - BT DISC4
-  - BT CLRALL
+  - boot loader
   - $$mdi:skip-previous$$
   - F10
   - F9
@@ -138,7 +138,7 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - $$mdi:brightness-5$$
+  - PAUSE BREAK
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - F11
   - $$mdi:mouse-right-click-outline$$
@@ -150,7 +150,7 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - $$mdi:brightness-4$$
+  - SLCK
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
   - F1
   - F2
@@ -162,7 +162,7 @@ layers:
   - KP 2
   - KP 3
   - KP ENTER
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:printer-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {type: held}
@@ -183,7 +183,7 @@ layers:
   - C
   - X
   - Z
-  - F
+  - F11
   - {t: '[', s: '{'}
   - {t: ;, s: ':'}
   - Y
@@ -228,10 +228,3 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: FN_3, h: toggle, type: held}
   - {t: '$$mdi:menu-down$$', type: trans}
-combos:
-- p: [28, 29, 40, 41]
-  k: boot loader
-  l: [FN_3]
-- p: [30, 31, 42, 43]
-  k: boot loader
-  l: [FN_3]
