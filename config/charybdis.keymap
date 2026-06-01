@@ -27,7 +27,6 @@
       <&macro_press &kp MACRO_PLACEHOLDER>, <&macro_pause_for_release>, <&macro_param_2to1>, <&macro_release &kp MACRO_PLACEHOLDER>, <&macro_param_1to1>, <&macro_release &mo MACRO_PLACEHOLDER>; };
   };
   behaviors { 
-    td_sk_LSHFT_CAPS: td_sk_LSHFT_CAPS { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; tapping-term-ms = <TAPPING_TERM_MS>; bindings = <&sk LSHFT>, <&kp CAPS>; };
     mc: mc { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <TAPPING_TERM_MS>; bindings = <&kp>, <&caps_word>; };
   };
   keymap { compatible = "zmk,keymap";
@@ -46,22 +45,18 @@
                                                       &kp LALT          &kp SPACE         &lm FN_2 LALT     &kp RALT          &mt RCTRL SPACE
                                                                         &kp LGUI          &tog FN_3         &kp RGUI >; };
     FN_2 { label = "FN_2"; bindings = <
-&kp C_MUTE        &kp C_VOL_DN      &kp C_VOL_UP      &kp PSCRN         &kp SLCK          &kp PAUSE_BREAK   &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &bt BT_CLR_ALL
-&kp C_PREV        &kp F10           &kp F9            &kp F8            &kp F7            &kp F6            &kp KP_MULTIPLY   &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp C_BRI_UP
-&mt LCTRL C_NEXT  &kp F11           &mkp RCLK         &mkp MCLK         &mkp LCLK         &kp F12           &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp C_BRI_DN
-&mt LSHFT C_PP    &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp KP_NUM        &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &kp RSHFT
+&bootloader       &kp C_MUTE        &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DN      &kp C_BRI_UP      &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &bootloader
+&kp C_PREV        &kp F10           &kp F9            &kp F8            &kp F7            &kp F6            &kp KP_MULTIPLY   &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp PAUSE_BREAK
+&mt LCTRL C_NEXT  &kp F11           &mkp RCLK         &mkp MCLK         &mkp LCLK         &kp F12           &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp SLCK
+&mt LSHFT C_PP    &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp KP_NUM        &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &mt RSHFT PSCRN
                                                       &trans            &kp LALT          &trans            &mt RALT KP_DOT   &mt RCTRL KP_N0
                                                                         &trans            &trans            &trans >; };
     FN_3 { label = "FN_3"; bindings = <
-&kp RBKT          &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp L             &kp V             &kp C             &kp X             &kp Z             &kp F
+&kp RBKT          &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp L             &kp V             &kp C             &kp X             &kp Z             &kp F11
 &kp LBKT          &kp SEMI          &kp Y             &kp U             &kp L             &kp J             &kp HOME          &kp DEL           &kp UP            &kp BSPC          &kp PG_UP         &kp TAB
 &mt LCTRL SQT     &kp O             &kp I             &kp E             &kp N             &kp M             &kp END           &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &mt LCTRL ENTER
 &mt LSHFT BSLH    &kp FSLH          &kp DOT           &kp COMMA         &kp H             &kp K             &kp INS           &mkp LCLK         &mkp MCLK         &mkp RCLK         &kp F4            &mt LSHFT CAPS
                                                       &trans            &mt RCTRL MINUS   &mt RALT EQUAL    &mt RALT ESC      &mt RCTRL SPACE
                                                                         &trans            &tog FN_3         &trans >; };
-  };
-  combos { compatible = "zmk,combos";
-    layer_3_left_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <28 29 40 41>; bindings = <&bootloader>; };
-    layer_3_rght_row_12_col_01 { timeout-ms = <30>; layers = <FN_3>; key-positions = <30 31 42 43>; bindings = <&bootloader>; };
   };
 };
