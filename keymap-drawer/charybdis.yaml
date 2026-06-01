@@ -115,55 +115,55 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   FN_2:
-  - KP MULTIPLY
+  - {t: ']', s: '}'}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
   - KP PLUS
   - KP MINUS
-  - $$mdi:printer-outline$$
-  - SLCK
-  - PAUSE BREAK
+  - KP MULTIPLY
   - A
   - V
   - C
   - X
   - Z
   - F4
-  - $$mdi:skip-previous$$
-  - F12
-  - F9
-  - F8
-  - F7
-  - $$mdi:volume-high$$
+  - {t: '[', s: '{'}
+  - {t: ;, s: ':'}
+  - Y
+  - U
+  - L
+  - J
   - HOME
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - PGUP
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
-  - F11
-  - F6
-  - F5
-  - F4
-  - $$mdi:volume-low$$
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
+  - O
+  - I
+  - E
+  - N
+  - M
   - END
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PGDN
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - F10
-  - F3
-  - F2
-  - F1
-  - $$mdi:volume-off$$
+  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
+  - {t: /, s: '?'}
+  - {t: ., s: '>'}
+  - {t: ',', s: <}
+  - H
+  - K
   - MB4
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - MB5
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - APP
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -172,48 +172,48 @@ layers:
   - '&lm 3 LALT'
   - {t: '$$mdi:menu-down$$', type: trans}
   FN_3:
-  - {t: ']', s: '}'}
-  - {t: '=', s: +}
-  - {t: '-', s: _}
-  - APP
+  - boot loader
   - {t: FN_1, h: toggle}
   - {t: FN_2, h: toggle}
+  - $$mdi:printer-outline$$
+  - SLCK
+  - PAUSE BREAK
   - BT SEL0
   - BT SEL1
   - BT SEL2
   - BT SEL3
-  - BT SEL4
   - BT CLR
-  - {t: '[', s: '{'}
-  - {t: ;, s: ':'}
-  - Y
-  - U
-  - L
-  - J
+  - boot loader
+  - $$mdi:skip-previous$$
+  - F12
+  - F9
+  - F8
+  - F7
+  - $$mdi:volume-high$$
   - KP NUM
   - KP 7
   - KP 8
   - KP 9
   - KP MINUS
-  - boot loader
-  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
-  - O
-  - I
-  - E
-  - N
-  - M
+  - $$mdi:brightness-5$$
+  - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
+  - F11
+  - F6
+  - F5
+  - F4
+  - $$mdi:volume-low$$
   - KP DIVIDE
   - KP 4
   - KP 5
   - KP 6
   - KP PLUS
-  - {t: sys reset, type: bootloader}
-  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
-  - {t: /, s: '?'}
-  - {t: ., s: '>'}
-  - {t: ',', s: <}
-  - H
-  - K
+  - $$mdi:brightness-4$$
+  - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - F10
+  - F3
+  - F2
+  - F1
+  - $$mdi:volume-off$$
   - KP MULTIPLY
   - KP 1
   - KP 2
