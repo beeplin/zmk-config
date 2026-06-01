@@ -140,11 +140,11 @@ layers:
   - KP MINUS
   - PAUSE BREAK
   - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
-  - F11
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-left-click-outline$$
-  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - KP DIVIDE
   - KP 4
   - KP 5
@@ -152,11 +152,11 @@ layers:
   - KP PLUS
   - SLCK
   - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - F11
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-left-click-outline$$
+  - F12
   - KP MULTIPLY
   - KP 1
   - KP 2
