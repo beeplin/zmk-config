@@ -220,7 +220,7 @@ layers:
   - KP 3
   - KP ENTER
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: BASE, h: toggle}
   - {t: '$$mdi:menu-down$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {t: KP DOT, h: '$$mdi:apple-keyboard-option$$'}
