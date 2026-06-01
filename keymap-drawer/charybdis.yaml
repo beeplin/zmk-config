@@ -64,7 +64,7 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 7 ', s: '&'}
   - {t: ' 6 ', s: ^}
-  - {t: FN_1, h: toggle}
+  - A
   - V
   - C
   - X
@@ -121,7 +121,7 @@ layers:
   - $$mdi:printer-outline$$
   - SLCK
   - PAUSE BREAK
-  - {t: FN_2, h: toggle}
+  - A
   - V
   - C
   - X
