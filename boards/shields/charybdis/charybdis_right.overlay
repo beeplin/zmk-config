@@ -47,11 +47,11 @@
 
         // automouse-layer = <AUTOMSE>;
         scroll-layers = <FN_1>;
-        snipe-layers = <FN_3>;
+        snipe-layers = <FN_2>;
 
         /* optional: ball action on specific layers */
         arrows {
-            layers = <FN_2>;
+            layers = <FN_3>;
             bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
             /* optional: ball action configuration */
             tick = <20>;
