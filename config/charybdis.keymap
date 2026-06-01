@@ -47,7 +47,7 @@
 &mt LCTRL SQT     &kp O             &kp I             &kp E             &kp N             &kp M             &kp END           &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &mt LCTRL ESC
 &mt LSHFT K_APP   &kp FSLH          &kp DOT           &kp COMMA         &kp H             &kp K             &mkp MB4          &mkp LCLK         &mkp MCLK         &mkp RCLK         &mkp MB5          &mt LSHFT CAPS
                                                       &kp BSLH          &kp LALT          &trans            &mt RALT ENTER    &mt RCTRL SPACE
-                                                                        &trans            &trans            &mt RGUI INS >; };
+                                                                        &trans            &lm FN_3 LALT     &mt RGUI INS >; };
     FN_3 { label = "FN_3"; bindings = <
 &to BASE          &to FN_1          &to FN_2          &kp PSCRN         &kp SLCK          &kp PAUSE_BREAK   &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bt BT_CLR
 &kp C_PREV        &kp F12           &kp F9            &kp F8            &kp F7            &kp C_VOL_UP      &kp KP_NUM        &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp C_BRI_UP
@@ -58,7 +58,7 @@
   };
  combos { compatible = "zmk,combos";
     cb_lm_2_LALT { timeout-ms = <50>; layers = <BASE>; key-positions = <49 50>; bindings = <&lm FN_2 LALT>; };
-    cb_lm_3_LALT { timeout-ms = <50>; layers = <BASE>; key-positions = <50 54>; bindings = <&lm FN_3 LALT>; };
+    // cb_lm_3_LALT { timeout-ms = <50>; layers = <BASE>; key-positions = <50 54>; bindings = <&lm FN_3 LALT>; };
  };
 };
  
