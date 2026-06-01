@@ -33,22 +33,22 @@
     BASE { label = "BASE"; bindings = <
 &kp GRAVE         &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp RBKT
 &kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp LBKT
-&sk LCTRL         &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp SQT
-&sk LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &mt RSHFT BSLH
-                                                      &sk LALT          &lt FN_1 SPACE    &lt FN_2 ESC      &mt RALT EQUAL    &mt RCTRL MINUS
-                                                                        &sk LGUI          &lt FN_3 INS      &mt RGUI K_APP >; };
+&kp LCTRL         &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp SQT
+&kp LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &mt RSHFT BSLH
+                                                      &mt LALT ESC      &lt FN_1 SPACE    &lt FN_2 ENTER    &mt RALT EQUAL    &mt RCTRL MINUS
+                                                                        &mt LGUI INS      &lt FN_3 CAPS     &mt RGUI K_APP >; };
     FN_1 { label = "FN_1"; bindings = <
 &tog FN_1         &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bt BT_CLR
 &key_repeat       &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp RBKT          &kp RBRC          &kp RPAR          &kp LPAR          &kp LBRC          &kp LBKT
-&mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GRAVE         &kp GT            &kp MINUS         &kp EQUAL         &kp BSLH          &kp SQT
-&mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &mc RSHFT CAPS
-                                                      &kp LALT          &kp SPACE         &lm FN_2 LALT     &kp RALT          &mt RCTRL SPACE
-                                                                        &kp LGUI          &tog FN_3         &kp RGUI >; };
+&trans            &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GRAVE         &kp GT            &kp MINUS         &kp EQUAL         &kp BSLH          &kp SQT
+&trans            &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &mc RSHFT CAPS
+                                                      &trans            &kp SPACE         &lm FN_2 LALT     &kp RALT          &mt RCTRL SPACE
+                                                                        &trans            &tog FN_3         &trans >; };
     FN_2 { label = "FN_2"; bindings = <
 &bootloader       &kp C_MUTE        &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DN      &kp C_BRI_UP      &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &bootloader
-&kp C_PREV        &kp F10           &kp F9            &kp F8            &kp F7            &kp F6            &kp KP_MULTIPLY   &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp PAUSE_BREAK
+&kp C_PREV        &kp F10           &kp F9            &kp F8            &kp F7            &kp F6            &kp KP_NUM        &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp PAUSE_BREAK
 &mt LCTRL C_NEXT  &kp F11           &mkp RCLK         &mkp MCLK         &mkp LCLK         &kp F12           &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp SLCK
-&mt LSHFT C_PP    &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp KP_NUM        &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &mt RSHFT PSCRN
+&mt LSHFT C_PP    &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp KP_MULTIPLY   &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &mt RSHFT PSCRN
                                                       &trans            &kp LALT          &trans            &mt RALT KP_DOT   &mt RCTRL KP_N0
                                                                         &trans            &trans            &trans >; };
     FN_3 { label = "FN_3"; bindings = <
