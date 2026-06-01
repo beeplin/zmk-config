@@ -173,17 +173,17 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   FN_3:
   - {t: ']', s: '}'}
-  - {t: '=', s: +}
-  - {t: '-', s: _}
-  - {t: FN_1, h: toggle}
-  - {t: FN_2, h: toggle}
-  - {t: FN_3, h: toggle}
   - BT SEL0
   - BT SEL1
   - BT SEL2
   - BT SEL3
-  - BT SEL4
   - BT CLR
+  - {t: BASE, h: toggle}
+  - {t: FN_1, h: toggle}
+  - {t: FN_2, h: toggle}
+  - {type: none}
+  - {type: none}
+  - boot loader
   - {t: '[', s: '{'}
   - {t: ;, s: ':'}
   - Y
@@ -195,7 +195,7 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - boot loader
+  - {type: none}
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - O
   - I
@@ -207,7 +207,7 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - studio unlock
+  - {type: none}
   - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
   - {t: /, s: '?'}
   - {t: ., s: '>'}
@@ -220,8 +220,8 @@ layers:
   - KP 3
   - KP ENTER
   - $$mdi:apple-keyboard-shift$$
-  - APP
-  - {t: BASE, h: toggle}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-option$$
   - {t: KP DOT, h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP 0, h: '$$mdi:apple-keyboard-control$$'}
