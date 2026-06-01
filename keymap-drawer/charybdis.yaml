@@ -76,12 +76,12 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - HOME
-  - {t: ']', s: '}'}
   - '}'
   - )
   - (
   - '{'
   - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-control$$
   - PGDN
   - $$mdi:arrow-left-bold$$
