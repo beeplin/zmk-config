@@ -48,15 +48,15 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:keyboard-return$$', h: FN_2}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
-  - {t: INS, h: '$$mdi:microsoft-windows$$'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: FN_3}
-  - {t: APP, h: '$$mdi:microsoft-windows$$'}
+  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: INS, h: FN_3}
+  - {t: \, h: '$$mdi:microsoft-windows$$', s: '|'}
   FN_1:
   - {t: ., s: '>'}
   - {t: ' 0 ', s: )}
@@ -82,7 +82,7 @@ layers:
   - (
   - '{'
   - {t: '[', s: '{'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - PGDN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -150,8 +150,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PGDN
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: APP, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: /, s: '?'}
   - {t: ., s: '>'}
   - {t: ',', s: <}
@@ -163,14 +163,14 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - MB5
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - APP
+  - {t: \, s: '|'}
   - $$mdi:apple-keyboard-option$$
   - {type: held}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - '&lm 3 LALT'
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {t: INS, h: '$$mdi:microsoft-windows$$'}
   FN_3:
   - boot loader
   - $$mdi:printer-outline$$
