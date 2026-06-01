@@ -112,7 +112,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - INS
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: /, h: '$$mdi:microsoft-windows$$', s: '?'}
   FN_2:
   - {t: ']', s: '}'}
