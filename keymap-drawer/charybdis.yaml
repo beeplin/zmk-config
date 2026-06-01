@@ -64,11 +64,11 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 7 ', s: '&'}
   - {t: ' 6 ', s: ^}
-  - BT DISC0
-  - BT DISC1
-  - BT DISC2
-  - BT DISC3
-  - BT DISC4
+  - BT SEL0
+  - BT SEL1
+  - BT SEL2
+  - BT SEL3
+  - BT SEL4
   - BT CLR
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - PGUP
