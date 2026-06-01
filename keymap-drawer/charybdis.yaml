@@ -58,42 +58,42 @@ layers:
   - {t: '$$mdi:apple-keyboard-caps$$', h: FN_3}
   - {t: \, h: '$$mdi:microsoft-windows$$', s: '|'}
   FN_1:
-  - {t: ., s: '>'}
+  - '~'
   - {t: ' 0 ', s: )}
   - {t: ' 9 ', s: (}
   - {t: ' 8 ', s: '*'}
   - {t: ' 7 ', s: '&'}
   - {t: ' 6 ', s: ^}
-  - A
-  - V
-  - C
-  - X
-  - Z
-  - F4
+  - '%'
+  - $
+  - '#'
+  - '@'
+  - '!'
+  - '}'
   - $$mdi:keyboard-tab$$
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:backspace-reverse-outline$$
   - HOME
-  - '}'
-  - )
+  - ^
+  - '&'
+  - '*'
   - (
+  - )
   - '{'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-control$$
   - PGDN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - END
-  - {t: '`', s: '~'}
+  - <
   - '>'
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - '|'
-  - {t: \, s: '|'}
+  - ':'
+  - '"'
   - $$mdi:apple-keyboard-shift$$
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
@@ -105,15 +105,15 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
-  - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '?', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: +, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: _, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: FN_3}
-  - {t: /, h: '$$mdi:microsoft-windows$$', s: '?'}
+  - {t: '|', h: '$$mdi:microsoft-windows$$'}
   FN_2:
   - {t: '''', s: '"'}
   - {t: '[', s: '{'}
