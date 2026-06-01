@@ -25,7 +25,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '[', s: '{'}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-control$$
   - A
   - R
   - S
@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - {t: '''', s: '"'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -49,13 +49,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
-  - {t: '$$mdi:keyboard-esc$$', h: FN_2}
+  - {t: '$$mdi:keyboard-return$$', h: FN_2}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
-  - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: INS, h: FN_3}
+  - {t: INS, h: '$$mdi:microsoft-windows$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: FN_3}
   - {t: APP, h: '$$mdi:microsoft-windows$$'}
   FN_1:
   - {t: FN_1, h: toggle}
@@ -82,7 +82,7 @@ layers:
   - (
   - '{'
   - {t: '[', s: '{'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:menu-down$$', type: trans}
   - PGDN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -94,7 +94,7 @@ layers:
   - {t: '=', s: +}
   - {t: \, s: '|'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
   - {t: ' 3 ', s: '#'}
@@ -106,14 +106,14 @@ layers:
   - {t: ' 9 ', s: (}
   - {t: ' 0 ', s: )}
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
   - '&lm 2 LALT'
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:microsoft-windows$$
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: FN_3, h: toggle}
-  - $$mdi:microsoft-windows$$
+  - {t: '$$mdi:menu-down$$', type: trans}
   FN_2:
   - boot loader
   - $$mdi:volume-off$$
@@ -133,7 +133,7 @@ layers:
   - F8
   - F7
   - F6
-  - KP MULTIPLY
+  - KP NUM
   - KP 7
   - KP 8
   - KP 9
@@ -157,7 +157,7 @@ layers:
   - F3
   - F4
   - F5
-  - KP NUM
+  - KP MULTIPLY
   - KP 1
   - KP 2
   - KP 3
