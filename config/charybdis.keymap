@@ -46,7 +46,7 @@
                                                                         &sk LGUI          &lt FN_3 INS      &mt RGUI FSLH >; };
     FN_2 { label = "FN_2"; bindings = <
 &kp SQT           &kp LBKT          &kp EQUAL         &kp MINUS         &kp RBKT          &kp BSLH          &kp A             &kp V             &kp C             &kp X             &kp Z             &kp F4
-&mt LALT KP_PLUS  &kp SEMI          &kp Y             &kp U             &kp L             &kp J             &kp HOME          &kp DEL           &kp UP            &kp BSPC          &kp PG_UP         &kp RALT TAB
+&mt LALT KP_PLUS  &kp SEMI          &kp Y             &kp U             &kp L             &kp J             &kp HOME          &kp DEL           &kp UP            &kp BSPC          &kp PG_UP         &mt RALT TAB
 &mt LCTRL KP_MIN  &kp O             &kp I             &kp E             &kp N             &kp M             &kp END           &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &mt RCTRL ESC
 &mt LSHFT KP_MUL  &kp FSLH          &kp DOT           &kp COMMA         &kp H             &kp K             &mkp MB4          &mkp LCLK         &mkp MCLK         &mkp RCLK         &mkp MB5          &mt RSHFT CAPS
                                                       &kp K_APP         &kp LALT          &none             &mt RALT ENTER    &mt RCTRL SPACE
