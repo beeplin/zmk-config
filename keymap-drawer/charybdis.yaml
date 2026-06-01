@@ -173,11 +173,11 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   FN_3:
   - boot loader
-  - {t: FN_1, h: toggle}
-  - {t: FN_2, h: toggle}
   - $$mdi:printer-outline$$
   - SLCK
   - PAUSE BREAK
+  - {t: FN_1, h: toggle}
+  - {t: FN_2, h: toggle}
   - BT SEL0
   - BT SEL1
   - BT SEL2
