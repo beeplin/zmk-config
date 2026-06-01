@@ -51,11 +51,11 @@ layers:
   - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
-  - {t: '$$mdi:keyboard-return$$', h: FN_3}
+  - {t: '$$mdi:keyboard-return$$', h: FN_2}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: INS, h: '$$mdi:microsoft-windows$$'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: FN_2}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: FN_3}
   - {t: APP, h: '$$mdi:microsoft-windows$$'}
   FN_1:
   - {t: ., s: '>'}
@@ -108,123 +108,123 @@ layers:
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - '&lm 3 LALT'
+  - '&lm 2 LALT'
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:menu-down$$', type: trans}
   FN_2:
-  - {t: ']', s: '}'}
-  - {t: ' 0 ', s: )}
-  - {t: ' 9 ', s: (}
-  - {t: ' 8 ', s: '*'}
-  - {t: ' 7 ', s: '&'}
-  - {t: ' 6 ', s: ^}
-  - L
+  - KP MULTIPLY
+  - KP PLUS
+  - KP MINUS
+  - $$mdi:printer-outline$$
+  - SLCK
+  - PAUSE BREAK
+  - INS
   - V
   - C
   - X
   - Z
-  - F11
-  - {t: '[', s: '{'}
-  - {t: ;, s: ':'}
-  - Y
-  - U
-  - L
-  - J
+  - F4
+  - $$mdi:skip-previous$$
+  - F12
+  - F9
+  - F8
+  - F7
+  - $$mdi:volume-high$$
   - HOME
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - PGUP
   - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
+  - F11
+  - F6
+  - F5
+  - F4
+  - $$mdi:volume-low$$
+  - END
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - PGDN
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - F10
+  - F3
+  - F2
+  - F1
+  - $$mdi:volume-off$$
+  - MB4
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - MB5
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - {type: held}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:menu-down$$', type: trans}
+  - '&lm 3 LALT'
+  - {t: '$$mdi:menu-down$$', type: trans}
+  FN_3:
+  - {t: ']', s: '}'}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
+  - {t: FN_1, h: toggle}
+  - {t: FN_2, h: toggle}
+  - {t: FN_3, h: toggle}
+  - BT SEL0
+  - BT SEL1
+  - BT SEL2
+  - BT SEL3
+  - BT SEL4
+  - BT CLR
+  - {t: '[', s: '{'}
+  - {t: ;, s: ':'}
+  - Y
+  - U
+  - L
+  - J
+  - KP NUM
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - boot loader
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - O
   - I
   - E
   - N
   - M
-  - END
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - PGDN
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - KP DIVIDE
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - studio unlock
   - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
   - {t: /, s: '?'}
   - {t: ., s: '>'}
   - {t: ',', s: <}
   - H
   - K
-  - INS
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - F4
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
-  - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  FN_3:
-  - boot loader
-  - $$mdi:volume-off$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:brightness-4$$
-  - $$mdi:brightness-5$$
-  - {t: BASE, h: toggle}
-  - {t: FN_1, h: toggle}
-  - {t: FN_2, h: toggle}
-  - {t: FN_3, h: toggle}
-  - studio unlock
-  - boot loader
-  - $$mdi:skip-previous$$
-  - F10
-  - F9
-  - F8
-  - F7
-  - F6
-  - KP NUM
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - PAUSE BREAK
-  - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - KP DIVIDE
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - SLCK
-  - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - F11
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-left-click-outline$$
-  - F12
   - KP MULTIPLY
   - KP 1
   - KP 2
   - KP 3
   - KP ENTER
-  - {t: '$$mdi:printer-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - APP
+  - {t: BASE, h: toggle}
   - $$mdi:apple-keyboard-option$$
-  - {type: held}
   - {t: KP DOT, h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP 0, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:menu-down$$', type: trans}
