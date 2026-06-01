@@ -138,7 +138,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - PGUP
-  - RALT TAB
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP MINUS, h: '$$mdi:apple-keyboard-control$$'}
   - O
   - I
