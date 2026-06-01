@@ -55,7 +55,7 @@ layers:
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: FN_3, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: FN_3}
   - {t: \, h: '$$mdi:microsoft-windows$$', s: '|'}
   FN_1:
   - {t: ., s: '>'}
@@ -70,7 +70,7 @@ layers:
   - X
   - Z
   - F4
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:keyboard-tab$$
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -82,7 +82,7 @@ layers:
   - (
   - '{'
   - {t: '[', s: '{'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-control$$
   - PGDN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -94,7 +94,7 @@ layers:
   - {t: '=', s: +}
   - {t: \, s: '|'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - {t: ' 1 ', s: '!'}
   - {t: ' 2 ', s: '@'}
   - {t: ' 3 ', s: '#'}
@@ -112,7 +112,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: FN_3, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: FN_3}
   - {t: /, h: '$$mdi:microsoft-windows$$', s: '?'}
   FN_2:
   - {t: '''', s: '"'}
