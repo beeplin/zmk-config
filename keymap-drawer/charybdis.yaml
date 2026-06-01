@@ -108,12 +108,12 @@ layers:
   - {t: '$$mdi:alpha-w-box$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - '&lm 2 LALT'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - INS
+  - {t: /, h: '$$mdi:microsoft-windows$$', s: '?'}
   FN_2:
   - {t: ']', s: '}'}
   - {t: '=', s: +}
@@ -169,21 +169,21 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
-  - '&lm 3 LALT'
+  - {t: '$$mdi:menu-down$$', type: trans}
   - {t: INS, h: '$$mdi:microsoft-windows$$'}
   FN_3:
-  - boot loader
+  - {t: BASE, h: toggle}
+  - {t: FN_1, h: toggle}
+  - {t: FN_2, h: toggle}
   - $$mdi:printer-outline$$
   - SLCK
   - PAUSE BREAK
-  - {t: FN_1, h: toggle}
-  - {t: FN_2, h: toggle}
   - BT SEL0
   - BT SEL1
   - BT SEL2
   - BT SEL3
+  - BT SEL4
   - BT CLR
-  - boot loader
   - $$mdi:skip-previous$$
   - F12
   - F9
@@ -220,11 +220,18 @@ layers:
   - KP 3
   - KP ENTER
   - $$mdi:apple-keyboard-shift$$
-  - {t: BASE, h: toggle}
   - {t: '$$mdi:menu-down$$', type: trans}
+  - boot loader
   - $$mdi:apple-keyboard-option$$
   - {t: KP DOT, h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP 0, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:menu-down$$', type: trans}
+  - boot loader
+combos:
+- p: [49, 50]
+  k: '&lm 2 LALT'
+  l: [BASE]
+- p: [50, 54]
+  k: '&lm 3 LALT'
+  l: [BASE]
