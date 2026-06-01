@@ -35,14 +35,14 @@
                                                       &mt LALT ESC      &lt FN_1 SPACE    &lt FN_2 ENTER    &mt RALT EQUAL    &mt RCTRL MINUS
                                                                         &mt LGUI INS      &lt FN_3 CAPS     &mt RGUI K_APP >; };
     FN_1 { label = "FN_1"; bindings = <
-&kp DOT           &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &tog FN_1         &kp V             &kp C             &kp X             &kp Z             &kp F4
+&kp DOT           &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp A             &kp V             &kp C             &kp X             &kp Z             &kp F4
 &kp TAB           &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp RBKT          &kp RBRC          &kp RPAR          &kp LPAR          &kp LBRC          &kp LBKT
 &mt LCTRL ENTER   &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GRAVE         &kp GT            &kp MINUS         &kp EQUAL         &kp BSLH          &kp SQT
 &mt LSHFT CAPS    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &mc RSHFT CAPS
                                                       &trans            &kp SPACE         &lm FN_2 LALT     &mt RALT DOT      &mt RCTRL SPACE
                                                                         &trans            &trans            &trans >; };
     FN_2 { label = "FN_2"; bindings = <
-&kp KP_MULTIPLY   &kp KP_PLUS       &kp KP_MINUS      &kp PSCRN         &kp SLCK          &kp PAUSE_BREAK   &tog FN_2         &kp V             &kp C             &kp X             &kp Z             &kp F4
+&kp KP_MULTIPLY   &kp KP_PLUS       &kp KP_MINUS      &kp PSCRN         &kp SLCK          &kp PAUSE_BREAK   &kp A             &kp V             &kp C             &kp X             &kp Z             &kp F4
 &kp C_PREV        &kp F12           &kp F9            &kp F8            &kp F7            &kp C_VOL_UP      &kp HOME          &kp DEL           &kp UP            &kp BSPC          &kp PG_UP         &kp TAB
 &mt LCTRL C_NEXT  &kp F11           &kp F6            &kp F5            &kp F4            &kp C_VOL_DN      &kp END           &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &mt LCTRL ENTER
 &mt LSHFT C_PP    &kp F10           &kp F3            &kp F2            &kp F1            &kp C_MUTE        &mkp MB4          &mkp LCLK         &mkp MCLK         &mkp RCLK         &mkp MB5          &mt LSHFT CAPS
