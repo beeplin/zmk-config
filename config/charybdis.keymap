@@ -6,7 +6,7 @@
 #define FN_2 2
 #define FN_3 3
 
-#define TAPPING_TERM_MS 180
+#define TAPPING_TERM_MS 150
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
@@ -38,12 +38,12 @@
                                                       &mt LALT ESC      &lt FN_1 SPACE    &lt FN_2 ENTER    &mt RALT EQUAL    &mt RCTRL MINUS
                                                                         &mt LGUI INS      &lt FN_3 CAPS     &mt RGUI K_APP >; };
     FN_1 { label = "FN_1"; bindings = <
-&tog FN_1         &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bt BT_CLR
+&kp DOT           &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bt BT_CLR
 &key_repeat       &kp PG_UP         &kp BSPC          &kp UP            &kp DEL           &kp HOME          &kp RBKT          &kp RBRC          &kp RPAR          &kp LPAR          &kp LBRC          &kp LBKT
 &trans            &kp PG_DN         &kp LEFT          &kp DOWN          &kp RIGHT         &kp END           &kp GRAVE         &kp GT            &kp MINUS         &kp EQUAL         &kp BSLH          &kp SQT
 &trans            &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &mc RSHFT CAPS
                                                       &trans            &kp SPACE         &lm FN_2 LALT     &mt RALT DOT      &mt RCTRL SPACE
-                                                                        &trans            &tog FN_3         &trans >; };
+                                                                        &trans            &trans            &trans >; };
     FN_2 { label = "FN_2"; bindings = <
 &bootloader       &kp C_MUTE        &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DN      &kp C_BRI_UP      &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &bootloader
 &kp C_PREV        &kp F10           &kp F9            &kp F8            &kp F7            &kp F6            &kp KP_NUM        &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp PAUSE_BREAK
@@ -52,11 +52,11 @@
                                                       &trans            &kp LALT          &trans            &mt RALT KP_DOT   &mt RCTRL KP_N0
                                                                         &trans            &trans            &trans >; };
     FN_3 { label = "FN_3"; bindings = <
-&kp RBKT          &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &kp F11           &kp V             &kp C             &kp X             &kp Z             &kp F4
+&kp RBKT          &kp N0            &kp N9            &kp N8            &kp N7            &kp N6            &tog FN_1         &kp V             &kp C             &kp X             &kp Z             &to FN_3
 &kp LBKT          &kp SEMI          &kp Y             &kp U             &kp L             &kp J             &kp HOME          &kp DEL           &kp UP            &kp BSPC          &kp PG_UP         &kp TAB
 &mt LCTRL SQT     &kp O             &kp I             &kp E             &kp N             &kp M             &kp END           &kp LEFT          &kp DOWN          &kp RIGHT         &kp PG_DN         &mt LCTRL ENTER
-&mt LSHFT BSLH    &kp FSLH          &kp DOT           &kp COMMA         &kp H             &kp K             &kp INS           &mkp LCLK         &mkp MCLK         &mkp RCLK         &kp ESC           &mt LSHFT CAPS
-                                                      &trans            &mt RCTRL MINUS   &mt RALT EQUAL    &kp RALT          &mt RCTRL SPACE
+&mt LSHFT BSLH    &kp FSLH          &kp DOT           &kp COMMA         &kp H             &kp K             &kp INS           &mkp LCLK         &mkp MCLK         &mkp RCLK         &kp F4            &mt LSHFT CAPS
+                                                      &trans            &mt RCTRL MINUS   &mt RALT EQUAL    &mt RALT ESC      &mt RCTRL SPACE
                                                                         &trans            &tog FN_3         &trans >; };
   };
 };
