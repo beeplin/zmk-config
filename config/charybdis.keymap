@@ -47,8 +47,8 @@
     FN_2 { label = "FN_2"; bindings = <
 &bootloader       &kp C_MUTE        &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DN      &kp C_BRI_UP      &bt BT_DISC 0     &bt BT_DISC 1     &bt BT_DISC 2     &bt BT_DISC 3     &bt BT_DISC 4     &bootloader
 &kp C_PREV        &kp F10           &kp F9            &kp F8            &kp F7            &kp F6            &kp KP_NUM        &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp PAUSE_BREAK
-&mt LCTRL C_NEXT  &kp F11           &mkp RCLK         &mkp MCLK         &mkp LCLK         &kp F12           &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp SLCK
-&mt LSHFT C_PP    &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp KP_MULTIPLY   &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &mt RSHFT PSCRN
+&mt LCTRL C_NEXT  &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp SLCK
+&mt LSHFT C_PP    &kp F11           &mkp RCLK         &mkp MCLK         &mkp LCLK         &kp F12           &kp KP_MULTIPLY   &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &mt RSHFT PSCRN
                                                       &trans            &kp LALT          &trans            &mt RALT KP_DOT   &mt RCTRL KP_N0
                                                                         &trans            &trans            &trans >; };
     FN_3 { label = "FN_3"; bindings = <
