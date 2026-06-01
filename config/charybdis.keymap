@@ -49,11 +49,11 @@
                                                       &kp K_APP         &kp LALT          &none             &mt RALT ESC      &mt RCTRL SPACE
                                                                         &trans            &lm FN_3 LALT     &trans >; };
     FN_3 { label = "FN_3"; bindings = <
-&bootloader       &tog FN_1         &tog FN_2         &kp PSCRN         &kp SLCK          &kp PAUSE_BREAK   &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_CLR        &bootloader
+&bootloader       &to FN_1          &to FN_2          &kp PSCRN         &kp SLCK          &kp PAUSE_BREAK   &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_CLR        &bootloader
 &kp C_PREV        &kp F12           &kp F9            &kp F8            &kp F7            &kp C_VOL_UP      &kp KP_NUM        &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp C_BRI_UP
 &mt LCTRL C_NEXT  &kp F11           &kp F6            &kp F5            &kp F4            &kp C_VOL_DN      &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp C_BRI_DN
 &mt LSHFT C_PP    &kp F10           &kp F3            &kp F2            &kp F1            &kp C_MUTE        &kp KP_MULTIPLY   &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &kp RSHFT
-                                                      &trans            &trans            &kp LALT          &mt RALT KP_DOT   &mt RCTRL KP_N0
+                                                      &to BASE          &trans            &kp LALT          &mt RALT KP_DOT   &mt RCTRL KP_N0
                                                                         &trans            &none             &trans >; };
   };
 };
