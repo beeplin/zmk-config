@@ -70,7 +70,7 @@ layers:
   - X
   - Z
   - F4
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - PGUP
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -127,7 +127,7 @@ layers:
   - X
   - Z
   - F4
-  - KP PLUS
+  - {t: KP PLUS, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, s: ':'}
   - Y
   - U
@@ -138,7 +138,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - PGUP
-  - $$mdi:keyboard-tab$$
+  - RALT TAB
   - {t: KP MINUS, h: '$$mdi:apple-keyboard-control$$'}
   - O
   - I
@@ -184,7 +184,7 @@ layers:
   - BT SEL3
   - BT SEL4
   - BT CLR
-  - $$mdi:skip-previous$$
+  - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-option$$'}
   - F12
   - F9
   - F8
