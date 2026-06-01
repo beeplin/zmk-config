@@ -109,7 +109,7 @@ layers:
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
   - '&lm 2 LALT'
-  - $$mdi:apple-keyboard-option$$
+  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: FN_3, h: toggle}
@@ -178,12 +178,12 @@ layers:
   - {t: ' 8 ', s: '*'}
   - {t: ' 7 ', s: '&'}
   - {t: ' 6 ', s: ^}
-  - L
+  - F11
   - V
   - C
   - X
   - Z
-  - F11
+  - F4
   - {t: '[', s: '{'}
   - {t: ;, s: ':'}
   - Y
@@ -218,12 +218,12 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - F4
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-down$$', type: trans}
   - {t: FN_3, h: toggle, type: held}
