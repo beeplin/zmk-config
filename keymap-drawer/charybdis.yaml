@@ -172,12 +172,12 @@ layers:
   - '&lm 3 LALT'
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:microsoft-windows$$'}
   FN_3:
-  - $$mdi:printer-outline$$
-  - SLCK
-  - PAUSE BREAK
   - {t: BASE, h: toggle}
   - {t: FN_1, h: toggle}
   - {t: FN_2, h: toggle}
+  - $$mdi:printer-outline$$
+  - SLCK
+  - PAUSE BREAK
   - BT SEL0
   - BT SEL1
   - BT SEL2
