@@ -221,14 +221,20 @@ layers:
   - KP ENTER
   - $$mdi:apple-keyboard-shift$$
   - APP
-  - {t: boot loader, type: held alternate}
+  - {t: key repeat, type: held alternate}
   - $$mdi:apple-keyboard-option$$
   - {t: KP DOT, h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP 0, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {type: held}
-  - boot loader
+  - $$mdi:alpha-w-box$$
 combos:
 - p: [49, 50]
   k: '&lm 2 LALT'
   l: [BASE]
+- p: [28, 29, 40, 41]
+  k: boot loader
+  l: [FN_3]
+- p: [30, 31, 42, 43]
+  k: boot loader
+  l: [FN_3]
