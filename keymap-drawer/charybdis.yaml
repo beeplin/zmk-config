@@ -220,8 +220,8 @@ layers:
   - KP 3
   - KP ENTER
   - $$mdi:apple-keyboard-shift$$
-  - APP
-  - {t: key repeat, type: held alternate}
+  - AL CALC
+  - {t: AL EMAIL, type: held alternate}
   - $$mdi:apple-keyboard-option$$
   - {t: KP DOT, h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP 0, h: '$$mdi:apple-keyboard-control$$'}
