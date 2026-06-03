@@ -56,7 +56,7 @@
 &mt LALT C_PREV   &kp F12           &kp F9            &kp F8            &kp F7            &kp C_VOL_UP      &kp KP_NUM        &kp KP_N7         &kp KP_N8         &kp KP_N9         &kp KP_MINUS      &kp C_BRI_UP
 &mt LCTRL C_NEXT  &kp F11           &kp F6            &kp F5            &kp F4            &kp C_VOL_DN      &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp C_BRI_DN
 &mt LSHFT C_PP    &kp F10           &kp F3            &kp F2            &kp F1            &kp C_MUTE        &kp KP_MULTIPLY   &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &kp RSHFT
-                                                      &kp K_APP         &key_repeat       &kp LALT          &mt RALT KP_DOT   &mt RCTRL KP_N0
+                                                      &kp C_AL_CALC     &kp C_AL_EMAIL    &kp LALT          &mt RALT KP_DOT   &mt RCTRL KP_N0
                                                                         &sk LGUI          &none             &caps_word >; };
   };
  combos { compatible = "zmk,combos";
