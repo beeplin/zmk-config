@@ -48,14 +48,14 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - '&td_RSHFT_CAPS'
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: FN_1}
   - {t: '$$mdi:keyboard-return$$', h: FN_2}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: FN_3}
+  - {t: INS, h: FN_3}
   - {t: \, h: '$$mdi:microsoft-windows$$', s: '|'}
   FN_1:
   - '~'
@@ -112,7 +112,7 @@ layers:
   - {t: +, h: '$$mdi:apple-keyboard-option$$'}
   - {t: _, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: FN_3}
+  - {t: INS, h: FN_3}
   - {t: '|', h: '$$mdi:microsoft-windows$$'}
   FN_2:
   - {t: '''', s: '"'}
@@ -163,14 +163,14 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - MB5
   - {t: APP, h: '$$mdi:apple-keyboard-shift$$'}
-  - INS
+  - APP
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - '&lm 3 LALT'
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:microsoft-windows$$'}
+  - {t: INS, h: '$$mdi:microsoft-windows$$'}
   FN_3:
   - {t: BASE, h: toggle}
   - {t: FN_1, h: toggle}
