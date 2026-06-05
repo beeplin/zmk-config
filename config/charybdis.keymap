@@ -19,7 +19,7 @@
 
 &lt { tapping-term-ms = <TAPPING_TERM_MS>; flavor = "hold-preferred"; };
 &mt { tapping-term-ms = <TAPPING_TERM_MS>; };
-&sk { quick-release; };
+&sk { quick-release; lazy; };
 
 / {
   macros {
