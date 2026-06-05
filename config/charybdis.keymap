@@ -28,14 +28,14 @@
   };
   behaviors { 
     mc: mc { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "hold-preferred"; tapping-term-ms = <TAPPING_TERM_MS>; bindings = <&kp>, <&caps_word>; };
-    td_RSHFT_CAPS: td_sk_RSHFT_caps_word_kp_CAPS { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; tapping-term-ms = <TAPPING_TERM_MS>; bindings = <&sk RSHFT>, <&caps_word>, <&kp CAPS>; };
+    td_RSHFT_CW: td_sk_RSHFT_caps_word { compatible = "zmk,behavior-tap-dance"; #binding-cells = <0>; tapping-term-ms = <TAPPING_TERM_MS>; bindings = <&sk RSHFT>, <&caps_word>; };
   };
   keymap { compatible = "zmk,keymap";
     BASE { label = "BASE"; bindings = <
 &kp GRAVE         &kp N1            &kp N2            &kp N3            &kp N4            &kp N5            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &kp RBKT
 &kp TAB           &kp Q             &kp W             &kp F             &kp P             &kp B             &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp LBKT
 &kp LCTRL         &kp A             &kp R             &kp S             &kp T             &kp G             &kp M             &kp N             &kp E             &kp I             &kp O             &kp SQT
-&kp LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &td_RSHFT_CAPS
+&kp LSHFT         &kp Z             &kp X             &kp C             &kp D             &kp V             &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &td_RSHFT_CW
                                                       &mt LALT ESC      &lt FN_1 SPACE    &lt FN_2 ENTER    &mt RALT EQUAL    &mt RCTRL MINUS
                                                                         &sk LGUI          &lt FN_3 INS      &mt RGUI BSLH >; };
     FN_1 { label = "FN_1"; bindings = <
@@ -58,7 +58,7 @@
 &mt LCTRL C_NEXT  &kp F11           &kp F6            &kp F5            &kp F4            &kp C_VOL_DN      &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp C_BRI_DN
 &mt LSHFT C_PP    &kp F10           &kp F3            &kp F2            &kp F1            &kp C_MUTE        &kp KP_MULTIPLY   &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &kp RSHFT
                                                       &kp C_AL_CALC     &kp C_AL_EMAIL    &kp LALT          &mt RALT KP_DOT   &mt RCTRL KP_N0
-                                                                        &sk LGUI          &none             &key_repeat >; };
+                                                                        &sk LGUI          &none             &kp CAPS >; };
   };
  combos { compatible = "zmk,combos";
     cb_lm_2_LALT { timeout-ms = <50>; layers = <BASE>; key-positions = <49 50>; bindings = <&lm FN_2 LALT>; };
