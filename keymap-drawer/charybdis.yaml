@@ -227,7 +227,7 @@ layers:
   - {t: KP 0, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:microsoft-windows$$', h: '$$mdi:gesture-tap-hold$$'}
   - {type: held}
-  - $$mdi:alpha-w-box$$
+  - key repeat
 combos:
 - p: [49, 50]
   k: '&lm 2 LALT'
