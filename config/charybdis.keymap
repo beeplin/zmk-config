@@ -58,7 +58,7 @@
 &mt LCTRL C_NEXT  &kp F11           &kp F6            &kp F5            &kp F4            &kp C_VOL_DN      &kp KP_DIVIDE     &kp KP_N4         &kp KP_N5         &kp KP_N6         &kp KP_PLUS       &kp C_BRI_DN
 &mt LSHFT C_PP    &kp F10           &kp F3            &kp F2            &kp F1            &kp C_MUTE        &kp KP_MULTIPLY   &kp KP_N1         &kp KP_N2         &kp KP_N3         &kp KP_ENTER      &kp RSHFT
                                                       &kp C_AL_CALC     &kp C_AL_EMAIL    &kp LALT          &mt RALT KP_DOT   &mt RCTRL KP_N0
-                                                                        &sk LGUI          &none             &caps_word >; };
+                                                                        &sk LGUI          &none             &key_repeat >; };
   };
  combos { compatible = "zmk,combos";
     cb_lm_2_LALT { timeout-ms = <50>; layers = <BASE>; key-positions = <49 50>; bindings = <&lm FN_2 LALT>; };
